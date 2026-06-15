@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "services": "Services",
+    "fleet": "Fleet",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "inquiry": "Get Quote",
+    "servicesSubmenu": {
+      "transport": "Transport Services",
+      "warehouse": "Warehouse Services",
+      "relocations": "Relocations",
+      "loading": "Loading & Unloading"
+    }
+  },
+  "hero": {
+    "tagline": "We lead the way, You win the day",
+    "titleLine1Pre": "Reliable\u00a0",
+    "titleLine1Main": "logistics",
+    "titleAccent": "for every need",
+    "subtitle": "Transport, warehousing, relocations and loading. National and international coverage.",
+    "ctaPrimary": "Get a Quote",
+    "ctaSecondary": "Our Services"
+  },
+  "trust": {
+    "yearsExperience": "years of experience",
+    "warehouseArea": "warehouse area",
+    "palletSpaces": "pallet positions",
+    "certification": "certification",
+    "coverage": "coverage",
+    "national": "National & International"
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "Everything you need for your logistics",
+    "subtitle": "We offer integrated solutions tailored to the scale and needs of your business."
+  },
+  "about": {
+    "label": "About Us",
+    "titleText": "A proven partner in\u00a0",
+    "titleAccent": "logistics",
+    "p1": "At Atlant \u2013 Logistics & Relocations we manage the movement of machinery, equipment and goods with precision and predictability. We have a fleet, lifting equipment and a warehouse base with over 10,000 pallet positions.",
+    "p2": "We carry out industrial relocations, assembly and disassembly, as well as domestic and international transport with full control and traceability.",
+    "certsTitle": "Certificates & Memberships",
+    "cert1": "ISO 9001 \u2013 certified quality management system",
+    "cert2": "FEDEMAC (European Federation of Removal Associations)",
+    "cert3": "Bulgarian Association of Removals (BAP)",
+    "cta": "Contact Us"
+  },
+  "why": {
+    "label": "Why Choose Atlant",
+    "title": "Coordination at every step",
+    "subtitle": "Our values and the way we work make the difference.",
+    "benefit1Title": "Efficiency",
+    "benefit1Text": "Professional and coordinated action of our teams ensures quality and speed.",
+    "benefit2Title": "Support",
+    "benefit2Text": "Our call managers are ready to keep you informed about ongoing services.",
+    "benefit3Title": "Security",
+    "benefit3Text": "We guarantee reliable storage and safe delivery of cargo.",
+    "benefit4Title": "Affordable Prices",
+    "benefit4Text": "With flexible pricing, we create opportunities for mutually beneficial cooperation."
+  },
+  "faq": {
+    "label": "For Clients",
+    "title": "Frequently Asked Questions"
+  },
+  "cta": {
+    "intro": "Do you need",
+    "titleAccent": "transport, warehouse or relocation?",
+    "subtitle": "Contact us and you will receive a personalized offer tailored to your needs and budget.",
+    "ctaPrimary": "Request a Quote"
+  },
+  "footer": {
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "contactsTitle": "Contacts",
+    "tagline": "We lead the way, You win the day!",
+    "description": "Reliable logistics partner since 2006 with national and international coverage.",
+    "rights": "All rights reserved.",
+    "transport": "Transport",
+    "warehousing": "Warehousing",
+    "relocations": "Relocations",
+    "loading": "Loading",
+    "advantages": "Advantages",
+    "faq": "FAQ",
+    "whatsapp": "Message us on WhatsApp",
+    "about": "About Us",
+    "advantages": "Advantages",
+    "contacts": "Contacts",
+    "ctaIntro": "Need",
+    "ctaTitle": "transport, warehouse or relocation?",
+    "ctaSubtitle": "Contact us and receive a personalized offer tailored to your needs and budget.",
+    "ctaPrimary": "Request a Quote"
+  },
+  "inquiry": {
+    "label": "Inquiry",
+    "step1Title": "Select a service",
+    "step1Desc": "Please indicate which service you would like a quote for.",
+    "step2Title": "Your details",
+    "step2Desc": "Fill in the information below.",
+    "selectedService": "Selected service",
+    "desiredDate": "Desired date",
+    "city": "City",
+    "cityPlaceholder": "e.g. Plovdiv",
+    "names": "Name",
+    "phone": "Phone",
+    "message": "Additional message",
+    "messagePlaceholder": "Briefly describe your need...",
+    "submit": "Send inquiry",
+    "back": "Back",
+    "close": "Close",
+    "successTitle": "Sent!",
+    "successMessage": "We will get back to you shortly.",
+    "close2": "Close"
+  },
+  "meta": {
+    "homeTitle": "Atlant Logistics \u2013 Transport, Warehousing & Relocations",
+    "homeDescription": "Reliable logistics partner from Plovdiv. Transport, warehousing, relocations and loading & unloading services. National and international coverage. ISO 9001 certified."
+  }
+}
