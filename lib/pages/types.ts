@@ -32,6 +32,13 @@ export type PageSection =
       items: { title: string; text: string }[];
     }
   | {
+      type: "partners";
+      heading: string;
+      viewLabel?: string;
+      preset?: "about-us-references";
+      items?: { name: string; logo: string; document: string }[];
+    }
+  | {
       type: "article";
       label?: string;
       heading: string;
@@ -66,6 +73,11 @@ export type PageSection =
       type: "related-services";
       heading: string;
       items: { title: string; href: string }[];
+    }
+  | {
+      type: "photo-gallery";
+      preset: "about-us";
+      heading?: string;
     };
 
 export interface PageContent {

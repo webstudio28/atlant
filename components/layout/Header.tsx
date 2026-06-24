@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import MobileMenu from "./MobileMenu";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { NAV_SERVICE_LINKS } from "@/lib/pages/registry";
+import { getServiceIcon } from "@/lib/pages/service-icons";
 
 const NAV_GROUPS = [
   { groupKey: "transport" as const, ...NAV_SERVICE_LINKS.transport },
@@ -84,18 +85,38 @@ export default function Header({ locale, phone }: { locale: string; phone: strin
                       aria-label={t(`servicesSubmenu.${group.groupKey}`)}
                     >
                       <ul className="nav-dropdown-subs">
-                        {group.items.map((item) => (
-                          <li key={item.href.join("/")}>
-                            <Link href={hrefFor(item.href)}>
-                              {isBg ? item.bg : item.en}
-                            </Link>
-                          </li>
-                        ))}
+                        {group.items.map((item) => {
+                          const itemPath = `/${item.href.join("/")}`;
+                          const iconSrc = getServiceIcon(itemPath);
+
+                          return (
+                            <li key={item.href.join("/")}>
+                              <Link href={hrefFor(item.href)}>
+                                {iconSrc && (
+                                  <Image
+                                    src={iconSrc}
+                                    alt=""
+                                    width={28}
+                                    height={28}
+                                    className="nav-dropdown-sub-icon"
+                                    aria-hidden
+                                  />
+                                )}
+                                <span>{isBg ? item.bg : item.en}</span>
+                              </Link>
+                            </li>
+                          );
+                        })}
+                        <li>
+                          <Link href={hrefFor(group.main)}>
+                            {t("seeAll")}
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
                 ))}
-                <Link href={`/${locale}/for-us`} className="nav-link">
+                <Link href={`/${locale}/about-us`} className="nav-link">
                   {t("about")}
                 </Link>
                 <Link href={`/${locale}/contacts`} className="nav-link">

@@ -1,0 +1,21 @@
+/** Work photos for the About Us page gallery strip */
+export const ABOUT_US_GALLERY_PHOTOS = [
+  "1",
+  "2",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "22",
+  "23",
+  "sklad1",
+  "sklad2",
+  "sklad3",
+  "sklad4",
+  "sklad5",
+].map((name) => `/images/gallery/about-us/${name}.jpg`);

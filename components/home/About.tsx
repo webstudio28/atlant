@@ -1,7 +1,9 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
+  const locale = useLocale();
   const t = useTranslations("about");
 
   return (
@@ -66,13 +68,9 @@ export default function About() {
               </div>
 
               <div className="about-cta-wrap">
-                <button
-                  type="button"
-                  className="btn-primary js-inquiry-trigger"
-                  data-inquiry
-                >
+                <Link href={`/${locale}/about-us`} className="btn-primary">
                   {t("cta")}
-                </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,118 @@
+{
+  "bg": {
+    "meta": {
+      "title": "За нас | Atlant Logistics",
+      "description": "„Атлант ЛТ“ е създадена през 2006 г. в град Пловдив като компания, специализирана в професионални премествания и товаро-разтоварни услуги. В следващите години „"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "За нас",
+      "subtitle": "Доказан партньор в логистиката от 2006 г."
+    },
+    "sections": [
+      {
+        "type": "intro-accent",
+        "heading": "Доказан партньор в логистиката от 2006 г.",
+        "paragraphs": [
+          "„Атлант ЛТ“ е създадена през 2006 г. в град Пловдив като компания, специализирана в професионални премествания и товаро-разтоварни услуги. В следващите години „Атлант“ развива собствен автопарк, придобива лиценз за международен превоз на товари и разширява дейността си в посока транспорт и спедиция, включително обслужване на големи концертни и културни събития от световен мащаб – концерти на групи като Deep Purple, международни фестивали и участия в подготовката на мащабни проекти като „Пловдив – Европейска столица на културата 2019“. Сред знаковите задачи е и преместването на цялостното  обзавеждане на гръцко консулство от Пловдив до Атина, както и реализирането на национални турнета на местни звезди и големи кампанийни заявки за водещи брандове.",
+          "Паралелно с това компанията надгражда с цялостен набор от складови услуги с капацитет до 5000 кв. м, както и с корпоративно и индустриално релокиране – машини, оборудване, офиси, архиви и специализирана техника. Сред дългосрочните партньорства е и работата с международни мебелни компании като IKEA."
+        ]
+      },
+      {
+        "type": "partners",
+        "heading": "Наши партньори са:",
+        "viewLabel": "Виж документа",
+        "preset": "about-us-references"
+      },
+      {
+        "type": "feature-grid",
+        "label": "Стандарти",
+        "heading": "Сертификати и членства",
+        "items": [
+          {
+            "title": "ISO 9001",
+            "text": "сертифицирана система за управление на качеството"
+          },
+          {
+            "title": "FEDEMAC",
+            "text": "Европейската федерация на асоциациите за преместване"
+          },
+          {
+            "title": "БАП",
+            "text": "Българска асоциация по премествания"
+          }
+        ]
+      },
+      {
+        "type": "intro-accent",
+        "heading": "Нашата история",
+        "paragraphs": [
+          "Днес „Atlant Logistics & Relocations“ предлага пълна гама логистични решения и релокейшън услуги „от врата до врата“, сертифицирани по ISO 9001, работи на територията на цялата страна, включително чрез собствен офис в София, и предоставя всички свои услуги и в международен план. „Атлант“ е член на БАП (Българска асоциация по премествания) и на FEDEMAC, което потвърждава високите професионални стандарти и надеждност."
+        ]
+      },
+      {
+        "type": "photo-gallery",
+        "preset": "about-us",
+        "heading": "Нашата работа в кадри"
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "About Us | Atlant Logistics",
+      "description": "Trusted logistics partner since 2006."
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "About Us",
+      "subtitle": "A proven logistics partner since 2006."
+    },
+    "sections": [
+      {
+        "type": "intro-accent",
+        "heading": "A proven logistics partner since 2006.",
+        "paragraphs": [
+          "Atlant LT was founded in 2006 in Plovdiv, specialized in professional relocations and loading services. The company developed its own fleet, obtained an international freight license, and expanded into transport and forwarding.",
+          "The company built warehouse services up to 5,000 sq.m and corporate and industrial relocation capabilities, including partnerships with companies like IKEA."
+        ]
+      },
+      {
+        "type": "partners",
+        "heading": "Our partners include:",
+        "viewLabel": "View document",
+        "preset": "about-us-references"
+      },
+      {
+        "type": "feature-grid",
+        "label": "Standards",
+        "heading": "Certifications & memberships",
+        "items": [
+          {
+            "title": "ISO 9001",
+            "text": "certified quality management"
+          },
+          {
+            "title": "FEDEMAC",
+            "text": "European Federation of Removals Associations"
+          },
+          {
+            "title": "BAP",
+            "text": "Bulgarian Association for Relocations"
+          }
+        ]
+      },
+      {
+        "type": "intro-accent",
+        "heading": "Today",
+        "paragraphs": [
+          "Atlant Logistics & Relocations offers full logistics and door-to-door relocation services, ISO 9001 certified, nationwide and internationally."
+        ]
+      },
+      {
+        "type": "photo-gallery",
+        "preset": "about-us",
+        "heading": "Our work in pictures"
+      }
+    ]
+  }
+}

@@ -122,7 +122,7 @@ export default function Footer({
               </div>
               <ul className="list-none p-0 m-0 flex flex-col gap-2.5">
                 {[
-                  { labelKey: "about", href: "/for-us" },
+                  { labelKey: "about", href: "/about-us" },
                   { labelKey: "contacts", href: "/contacts" },
                 ].map(({ labelKey, href }) => (
                   <li key={href}>

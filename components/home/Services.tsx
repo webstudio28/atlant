@@ -1,5 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
+import { NAV_SERVICE_LINKS } from "@/lib/pages/registry";
 
 interface ServiceItem {
   id: number;
@@ -30,6 +32,7 @@ export default function Services({
   locale: string;
 }) {
   const t = useTranslations("services");
+  const tNav = useTranslations("nav");
   const isBg = locale === "bg";
 
   return (
@@ -47,6 +50,8 @@ export default function Services({
               const title = isBg ? service.titleBg : service.titleEn;
               const description = isBg ? service.descriptionBg : service.descriptionEn;
               const imageAlt = isBg ? service.imageAltBg : service.imageAltEn;
+              const navGroup = NAV_SERVICE_LINKS[service.slug as keyof typeof NAV_SERVICE_LINKS];
+              const mainHref = navGroup ? `/${locale}/${navGroup.main.join("/")}` : null;
 
               return (
                 <article
@@ -75,6 +80,11 @@ export default function Services({
                         </li>
                       ))}
                     </ul>
+                    {mainHref && (
+                      <Link href={mainHref} className="service-card-see-all">
+                        {tNav("seeAll")}
+                      </Link>
+                    )}
                   </div>
                 </article>
               );

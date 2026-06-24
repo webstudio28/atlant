@@ -11,6 +11,7 @@ import Services from "@/components/home/Services";
 import About from "@/components/home/About";
 import WhyUs from "@/components/home/WhyUs";
 import Faq from "@/components/home/Faq";
+import PartnerLogoStrip from "@/components/home/PartnerLogoStrip";
 import InquiryModal from "@/components/InquiryModal";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 
@@ -130,6 +131,7 @@ export default async function HomePage({
           <About />
           <WhyUs />
           <Faq items={faqData} locale={locale} />
+          <PartnerLogoStrip locale={locale} />
         </div>
       </main>
 

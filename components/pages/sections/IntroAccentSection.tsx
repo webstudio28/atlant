@@ -27,9 +27,9 @@ export function IntroAccentSection({
 
         {image ? (
           <div className="grid grid-cols-1 items-stretch gap-10 lg:grid-cols-2 lg:gap-14">
-            <div className="relative h-full rounded-xl border border-[rgba(82,89,93,0.1)] bg-[#F4F4F2] p-8 lg:order-1">
-              <span className="absolute top-6 bottom-6 left-0 w-1 rounded-r bg-[#F26A21]" />
-              <div className="flex flex-col gap-6 pl-5">
+            <div className="relative h-full rounded-xl border border-[rgba(82,89,93,0.1)] bg-[#F4F4F2] p-4 md:p-8 lg:order-1">
+              <span className="absolute top-4 bottom-4 left-0 w-1 rounded-r bg-[#F26A21] md:top-6 md:bottom-6" />
+              <div className="flex flex-col gap-4 pl-3 md:gap-6 md:pl-5">
                 {paragraphs.map((p, i) => (
                   <p
                     key={i}
@@ -53,9 +53,9 @@ export function IntroAccentSection({
             </div>
           </div>
         ) : (
-          <div className="relative w-full rounded-xl border border-[rgba(82,89,93,0.1)] bg-[#F4F4F2] p-8">
-            <span className="absolute top-6 bottom-6 left-0 w-1 rounded-r bg-[#F26A21]" />
-            <div className="flex flex-col gap-6 pl-5">
+          <div className="relative w-full rounded-xl border border-[rgba(82,89,93,0.1)] bg-[#F4F4F2] p-4 md:p-8">
+            <span className="absolute top-4 bottom-4 left-0 w-1 rounded-r bg-[#F26A21] md:top-6 md:bottom-6" />
+            <div className="flex flex-col gap-4 pl-3 md:gap-6 md:pl-5">
               {paragraphs.map((p, i) => (
                 <p
                   key={i}

@@ -370,7 +370,7 @@ for (const sp of SUB_PAGES) {
 
 const aboutBg = OLD_BG.AboutUs ?? {};
 fs.writeFileSync(
-  OUT + "/for-us.json",
+  OUT + "/about-us.json",
   JSON.stringify(
     {
       bg: {

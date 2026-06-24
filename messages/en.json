@@ -5,6 +5,7 @@
     "about": "About Us",
     "contacts": "Contacts",
     "inquiry": "Get Quote",
+    "seeAll": "See all",
     "servicesSubmenu": {
       "transport": "Transport Services",
       "warehouse": "Warehouse Services",
@@ -45,7 +46,7 @@
     "cert1": "ISO 9001 \u2013 certified quality management system",
     "cert2": "FEDEMAC (European Federation of Removal Associations)",
     "cert3": "Bulgarian Association of Removals (BAP)",
-    "cta": "Contact Us"
+    "cta": "More about us"
   },
   "why": {
     "label": "Why Choose Atlant",
@@ -63,6 +64,9 @@
   "faq": {
     "label": "For Clients",
     "title": "Frequently Asked Questions"
+  },
+  "partnersStrip": {
+    "heading": "Our partners"
   },
   "cta": {
     "intro": "Do you need",

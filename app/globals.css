@@ -313,9 +313,9 @@ body {
 
 .nav-dropdown-panel {
   position: absolute;
-  top: 100%;
+  top: calc(100% - 14px);
   left: 50%;
-  transform: translateX(-50%) translateY(6px);
+  transform: translateX(-50%);
   width: max-content;
   min-width: 210px;
   max-width: 280px;
@@ -337,7 +337,7 @@ body {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%);
 }
 
 .nav-dropdown:hover .nav-dropdown-chevron,
@@ -359,7 +359,9 @@ body {
 }
 
 .nav-dropdown-subs a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: 'Sofia Sans', system-ui, -apple-system, sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -376,6 +378,13 @@ body {
 .nav-dropdown-subs a:hover {
   color: #F26A21;
   background: rgba(242, 106, 33, 0.06);
+}
+
+.nav-dropdown-sub-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: contain;
 }
 
 .header-phone-link {

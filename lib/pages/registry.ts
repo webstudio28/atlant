@@ -25,7 +25,7 @@ export const PAGE_REGISTRY: PageDefinition[] = [
   { id: "hamalski-uslugi", slug: ["hamalski-uslugi"], kind: "content", parentGroup: "loading", navLabelBg: "Хамалски услуги", navLabelEn: "Porter Services" },
   { id: "tovaro-raztovarni-pomoshten", slug: ["tovaro-raztovarni-uslugi", "pomoshten"], kind: "content", parentGroup: "loading", navLabelBg: "Помощен персонал", navLabelEn: "Support Staff" },
   // Company
-  { id: "for-us", slug: ["for-us"], kind: "content", navLabelBg: "За нас", navLabelEn: "About Us" },
+  { id: "about-us", slug: ["about-us"], kind: "content", navLabelBg: "За нас", navLabelEn: "About Us" },
   { id: "contacts", slug: ["contacts"], kind: "contact", navLabelBg: "Контакти", navLabelEn: "Contacts" },
   { id: "faq", slug: ["faq"], kind: "faq", navLabelBg: "ЧЗВ", navLabelEn: "FAQ" },
   { id: "gallery-photo", slug: ["galery", "photo"], kind: "gallery-photo" },
@@ -47,6 +47,11 @@ export function resolvePage(slugParts: string[]): PageDefinition | undefined {
 
 export function pageHref(slug: string[]): string {
   return `/${slug.join("/")}`;
+}
+
+/** Sub-service pages and selected content pages use the shorter hero. */
+export function usesCompactHero(page: PageDefinition): boolean {
+  return !!page.parentGroup || page.id === "about-us";
 }
 
 /** Nav structure for header — maps to real page URLs */
@@ -106,7 +111,7 @@ export const HERO_IMAGES: Record<string, string> = {
   "tovaro-raztovarni-uslugi": "/images/pages/headers/tovaro_rastovarni_uslugi.png",
   "hamalski-uslugi": "/images/pages/headers/tovaro_rastovarni_uslugi.png",
   "tovaro-raztovarni-pomoshten": "/images/pages/headers/tovaro_rastovarni_uslugi.png",
-  "for-us": "/images/about-us.webp",
+  "about-us": "/images/about.png",
   contacts: "/images/pages/contact.webp",
   faq: "/images/pages/contact.webp",
 };

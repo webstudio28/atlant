@@ -9,6 +9,15 @@ const nextConfig: NextConfig = {
     unoptimized: process.env.NODE_ENV === "development",
     formats: ["image/webp"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/:locale(bg|en)/for-us",
+        destination: "/:locale/about-us",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

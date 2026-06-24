@@ -120,7 +120,7 @@ export default function MobileMenu({ open, onClose, locale, phone, navGroups }: 
             </div>
           </div>
 
-          <Link href={`/${locale}/for-us`} className="block w-full max-w-[320px] py-4 border-b border-[rgba(82,89,93,0.12)] font-['Sofia_Sans_Condensed',sans-serif] text-[25px] font-[600] tracking-[0.08em] uppercase text-[#1a1e21] no-underline text-center" onClick={handleClose}>
+          <Link href={`/${locale}/about-us`} className="block w-full max-w-[320px] py-4 border-b border-[rgba(82,89,93,0.12)] font-['Sofia_Sans_Condensed',sans-serif] text-[25px] font-[600] tracking-[0.08em] uppercase text-[#1a1e21] no-underline text-center" onClick={handleClose}>
             {t("about")}
           </Link>
           <Link href={`/${locale}/contacts`} className="block w-full max-w-[320px] py-4 border-b border-[rgba(82,89,93,0.12)] font-['Sofia_Sans_Condensed',sans-serif] text-[25px] font-[600] tracking-[0.08em] uppercase text-[#1a1e21] no-underline text-center" onClick={handleClose}>

@@ -28,7 +28,7 @@ const pageOrder = [
   ["Товарене", "tovaro-raztovarni-uslugi", "/tovaro-raztovarni-uslugi"],
   ["Товарене", "hamalski-uslugi", "/hamalski-uslugi"],
   ["Товарене", "tovaro-raztovarni-pomoshten", "/tovaro-raztovarni-uslugi/pomoshten"],
-  ["Компания", "for-us", "/for-us"],
+  ["Компания", "about-us", "/about-us"],
   ["Частни клиенти", "private-client-transportation", "/private-client-transportation"],
   ["Частни клиенти", "private-client-moving", "/private-client-transportation/moving"],
   ["Частни клиенти", "private-client-specialized", "/private-client-transportation/specialized-moving"],

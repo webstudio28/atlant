@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" role="img" aria-label="Municipality of Plovdiv">
+  <circle cx="18" cy="24" r="14" fill="none" stroke="#8B1E1E" stroke-width="2"/>
+  <path fill="#8B1E1E" d="M18 14l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z"/>
+  <text x="38" y="20" fill="#52595D" font-family="Arial, sans-serif" font-size="11" font-weight="700">)</text>
+  <text x="38" y="34" fill="#52595D" font-family="Arial, sans-serif" font-size="13" font-weight="700"></text>
+</svg>

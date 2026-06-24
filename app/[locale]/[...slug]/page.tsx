@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getLocalizedContent } from "@/lib/pages/content";
-import { HERO_IMAGES, getAllPageSlugs, resolvePage } from "@/lib/pages/registry";
+import { HERO_IMAGES, getAllPageSlugs, resolvePage, usesCompactHero } from "@/lib/pages/registry";
 import PageShell from "@/components/pages/PageShell";
 import PageHero from "@/components/pages/PageHero";
 import PageRenderer from "@/components/pages/PageRenderer";
@@ -108,7 +108,7 @@ export default async function DynamicPage({
       inner = (
         <>
           <PageHero
-            compact={!!page.parentGroup}
+            compact={usesCompactHero(page)}
             label={content.hero.label}
             title={content.hero.title}
             subtitle={content.hero.subtitle}

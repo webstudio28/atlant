@@ -11,6 +11,9 @@ import {
   RelatedServicesSection,
 } from "./sections/PageSections";
 import { IntroAccentSection } from "./sections/IntroAccentSection";
+import { PARTNER_REFERENCES } from "@/lib/pages/partner-references";
+import { PartnersSection } from "./sections/PartnersSection";
+import { PhotoGallerySection } from "./sections/PhotoGallerySection";
 import { ServiceTopicsSection } from "./sections/ServiceTopicsSection";
 import { SubServicesSection } from "./sections/SubServicesSection";
 
@@ -55,6 +58,27 @@ function renderSection(
           variant={section.variant}
         />
       );
+    case "partners": {
+      const items =
+        section.preset === "about-us-references"
+          ? PARTNER_REFERENCES.map((partner) => ({
+              name: locale === "bg" ? partner.nameBg : partner.nameEn,
+              logo: partner.logo,
+              document: partner.document,
+            }))
+          : (section.items ?? []);
+
+      return (
+        <PartnersSection
+          key={index}
+          heading={section.heading}
+          items={items}
+          viewLabel={section.viewLabel ?? (locale === "bg" ? "Виж документа" : "View document")}
+          expandLabel={locale === "bg" ? "Виж всички партньори" : "View all partners"}
+          collapseLabel={locale === "bg" ? "Покажи по-малко" : "Show fewer"}
+        />
+      );
+    }
     case "feature-grid":
       return <FeatureGridSection key={index} label={section.label} heading={section.heading} subtitle={section.subtitle} items={section.items} />;
     case "article":
@@ -74,6 +98,15 @@ function renderSection(
       );
     case "related-services":
       return <RelatedServicesSection key={index} locale={locale} heading={section.heading} items={section.items} />;
+    case "photo-gallery":
+      return (
+        <PhotoGallerySection
+          key={index}
+          preset={section.preset}
+          heading={section.heading}
+          locale={locale}
+        />
+      );
     default:
       return null;
   }
