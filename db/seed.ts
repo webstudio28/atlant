@@ -35,8 +35,10 @@ async function seed() {
     }
   }
 
+  await db.delete(faqItems);
+
   for (const faq of data.faqs) {
-    await db.insert(faqItems).values(faq).onConflictDoNothing();
+    await db.insert(faqItems).values(faq);
   }
 
   for (const s of data.settings) {

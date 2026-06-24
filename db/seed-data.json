@@ -71,46 +71,60 @@
   },
   "faqs": [
     {
-      "questionBg": "\u041a\u0430\u043a \u043c\u043e\u0433\u0430 \u0434\u0430 \u043f\u043e\u043b\u0443\u0447\u0430 \u043e\u0444\u0435\u0440\u0442\u0430 \u0437\u0430 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0430 \u0443\u0441\u043b\u0443\u0433\u0430?",
-      "questionEn": "How can I get a quote for a transport service?",
-      "answerBg": "\u041c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u043f\u043e\u0434\u0430\u0434\u0435\u0442\u0435 \u0437\u0430\u043f\u0438\u0442\u0432\u0430\u043d\u0435 \u0447\u0440\u0435\u0437 \u0431\u0443\u0442\u043e\u043d\u0430 \u201e\u0417\u0430\u043f\u0438\u0442\u0432\u0430\u043d\u0435 \u0437\u0430 \u0446\u0435\u043d\u0430\u201c \u043d\u0430 \u0441\u0430\u0439\u0442\u0430 \u0438\u043b\u0438 \u0434\u0430 \u0441\u0435 \u0441\u0432\u044a\u0440\u0436\u0435\u0442\u0435 \u0441 \u043d\u0430\u0441 \u043f\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d. \u0429\u0435 \u0432\u0438 \u043e\u0442\u0433\u043e\u0432\u043e\u0440\u0438\u043c \u0432 \u0440\u0430\u043c\u043a\u0438\u0442\u0435 \u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u043d\u0438\u044f \u0434\u0435\u043d.",
-      "answerEn": "You can submit a request via the 'Price Inquiry' button on the site or contact us by phone at +359 899 107 525. We will respond within the working day.",
+      "questionBg": "Как мога да получа оферта?",
+      "questionEn": "How can I get a quote?",
+      "answerBg": "Свържете се с нас по телефон, имейл или чрез формата за запитване. Ще изготвим индивидуална оферта според вашите изисквания.",
+      "answerEn": "Contact us by phone, email or via the inquiry form. We will prepare a tailored quote based on your requirements.",
       "displayOrder": 1
     },
     {
-      "questionBg": "\u0418\u0437\u0432\u044a\u0440\u0448\u0432\u0430\u0442\u0435 \u043b\u0438 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0438 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0438?",
-      "questionEn": "Do you carry out international transports?",
-      "answerBg": "\u0414\u0430, \u0440\u0430\u0437\u043f\u043e\u043b\u0430\u0433\u0430\u043c\u0435 \u0441 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u043d\u043e \u0438 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e \u043f\u043e\u043a\u0440\u0438\u0442\u0438\u0435. \u0418\u0437\u0432\u044a\u0440\u0448\u0432\u0430\u043c\u0435 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0434\u043e \u0438 \u043e\u0442 \u0441\u0442\u0440\u0430\u043d\u0438 \u0432 \u0415\u0421 \u0438 \u0438\u0437\u0432\u044a\u043d \u043d\u0435\u0433\u043e.",
-      "answerEn": "Yes, we have national and international coverage. We provide transport to and from countries in the EU and beyond.",
+      "questionBg": "Предлагате ли международен транспорт?",
+      "questionEn": "Do you offer international transport?",
+      "answerBg": "Да. Организираме международни превози по суша, въздух, море и железопътен транспорт.",
+      "answerEn": "Yes. We organize international shipments by road, air, sea and rail.",
       "displayOrder": 2
     },
     {
-      "questionBg": "\u041a\u0430\u043a\u0432\u0430 \u0435 \u0441\u043a\u043b\u0430\u0434\u043e\u0432\u0430\u0442\u0430 \u0432\u0438 \u043a\u0430\u043f\u0430\u0446\u0438\u0442\u0435\u0442?",
-      "questionEn": "What is your warehouse capacity?",
-      "answerBg": "\u0420\u0430\u0437\u043f\u043e\u043b\u0430\u0433\u0430\u043c\u0435 \u0441 \u043d\u0430\u0434 5\u00a0000\u00a0\u043c\u00b2 \u0441\u043a\u043b\u0430\u0434\u043e\u0432\u0430 \u043f\u043b\u043e\u0449 \u0441 \u043d\u0430\u0434 10\u00a0000 \u043f\u0430\u043b\u0435\u0442\u043e\u043c\u0435\u0441\u0442\u0430. \u0421\u043a\u043b\u0430\u0434\u043e\u0432\u0435\u0442\u0435 \u043d\u0438 \u0441\u0430 \u043e\u0431\u043e\u0440\u0443\u0434\u0432\u0430\u043d\u0438 \u0441 WMS \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0437\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435.",
-      "answerEn": "We have over 5,000 m\u00b2 of warehouse space with over 10,000 pallet positions. Our warehouses are equipped with a WMS management system.",
+      "questionBg": "Мога ли да наема складово пространство за кратък период?",
+      "questionEn": "Can I rent warehouse space for a short period?",
+      "answerBg": "Да. Предлагаме краткосрочни и дългосрочни складови решения според нуждите на клиента.",
+      "answerEn": "Yes. We offer short-term and long-term warehouse solutions according to client needs.",
       "displayOrder": 3
     },
     {
-      "questionBg": "\u041f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0442\u0435 \u043b\u0438 \u0437\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0435 \u043d\u0430 \u0442\u043e\u0432\u0430\u0440\u0438\u0442\u0435?",
-      "questionEn": "Do you offer cargo insurance?",
-      "answerBg": "\u0414\u0430, \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u043c\u0435 \u0437\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u043d\u043e \u043f\u043e\u043a\u0440\u0438\u0442\u0438\u0435 \u0437\u0430 \u0441\u044a\u0445\u0440\u0430\u043d\u044f\u0432\u0430\u043d\u0438 \u0441\u0442\u043e\u043a\u0438 \u0432 \u043d\u0430\u0448\u0438\u0442\u0435 \u0441\u043a\u043b\u0430\u0434\u043e\u0432\u0435.",
-      "answerEn": "Yes, we offer insurance coverage for goods stored in our warehouses. For transport, we can assist in arranging cargo insurance.",
+      "questionBg": "Предлагате ли офис и корпоративни премествания?",
+      "questionEn": "Do you offer office and corporate relocations?",
+      "answerBg": "Да. Организираме цялостни офис релокации с минимално прекъсване на работния процес.",
+      "answerEn": "Yes. We organize complete office relocations with minimal disruption to business operations.",
       "displayOrder": 4
     },
     {
-      "questionBg": "\u041a\u043e\u043b\u043a\u043e \u0441\u0442\u0440\u0443\u0432\u0430 \u0435\u0434\u043d\u043e \u043f\u0440\u0435\u043c\u0435\u0441\u0442\u0432\u0430\u043d\u0435 \u043d\u0430 \u0434\u043e\u043c?",
-      "questionEn": "How much does a home relocation cost?",
-      "answerBg": "\u0426\u0435\u043d\u0430\u0442\u0430 \u0437\u0430\u0432\u0438\u0441\u0438 \u043e\u0442 \u043e\u0431\u0435\u043c\u0430 \u043d\u0430 \u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e\u0442\u043e, \u0440\u0430\u0437\u0441\u0442\u043e\u044f\u043d\u0438\u0435\u0442\u043e \u0438 \u0434\u043e\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u043d\u0438\u0442\u0435 \u0443\u0441\u043b\u0443\u0433\u0438. \u0421\u0432\u044a\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043d\u0430\u0441 \u0437\u0430 \u0431\u0435\u0437\u043f\u043b\u0430\u0442\u043d\u0430 \u043e\u0446\u0435\u043d\u043a\u0430.",
-      "answerEn": "The price depends on the volume of belongings, distance and additional services. Contact us for a free assessment.",
+      "questionBg": "Имате ли възможност за преместване на тежко оборудване и машини?",
+      "questionEn": "Can you relocate heavy equipment and machinery?",
+      "answerBg": "Да. Разполагаме със специализирана техника и екипи за индустриални премествания и монтажни дейности.",
+      "answerEn": "Yes. We have specialized equipment and teams for industrial relocations and installation work.",
       "displayOrder": 5
     },
     {
-      "questionBg": "\u0420\u0430\u0431\u043e\u0442\u0438\u0442\u0435 \u043b\u0438 \u0441 \u0431\u0438\u0437\u043d\u0435\u0441 \u043a\u043b\u0438\u0435\u043d\u0442\u0438?",
-      "questionEn": "Do you work with business clients?",
-      "answerBg": "\u0414\u0430, \u0440\u0430\u0431\u043e\u0442\u0438\u043c \u0430\u043a\u0442\u0438\u0432\u043d\u043e \u0441 \u0444\u0438\u0440\u043c\u0438 \u043e\u0442 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0441\u0435\u043a\u0442\u043e\u0440\u0438. \u041f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u043c\u0435 \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u0430 \u043b\u043e\u0433\u0438\u0441\u0442\u0438\u043a\u0430, \u0441\u043a\u043b\u0430\u0434\u0438\u0440\u0430\u043d\u0435 \u0438 \u0440\u0435\u0434\u043e\u0432\u043d\u0438 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u044f.",
-      "answerEn": "Yes, we actively work with companies from various sectors. We offer corporate logistics, warehousing, and regular transport solutions.",
+      "questionBg": "Застраховани ли са стоките и товарите?",
+      "questionEn": "Are goods and cargo insured?",
+      "answerBg": "Да. Предлагаме решения със застрахователно покритие за допълнителна сигурност.",
+      "answerEn": "Yes. We offer solutions with insurance coverage for additional security.",
       "displayOrder": 6
+    },
+    {
+      "questionBg": "В кои градове работите?",
+      "questionEn": "Which cities do you operate in?",
+      "answerBg": "Извършваме услуги на територията на цялата страна и организираме международни операции.",
+      "answerEn": "We provide services nationwide and organize international operations.",
+      "displayOrder": 7
+    },
+    {
+      "questionBg": "Предлагате ли товаро-разтоварни услуги без транспорт?",
+      "questionEn": "Do you offer loading and unloading services without transport?",
+      "answerBg": "Да. Можете да заявите самостоятелно хамалски и товаро-разтоварни услуги според нуждите си.",
+      "answerEn": "Yes. You can request porter and loading/unloading services independently as needed.",
+      "displayOrder": 8
     }
   ],
   "settings": [

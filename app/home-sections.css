@@ -580,7 +580,6 @@
   flex-direction: column;
   gap: 16px;
   width: 100%;
-  max-width: 900px;
 }
 
 .faq-item {
@@ -651,8 +650,13 @@
 }
 
 .faq-answer-panel {
+  height: 0;
   overflow: hidden;
-  transition: max-height 0.45s cubic-bezier(0.33, 1, 0.68, 1);
+  transition: height 0.45s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.faq-answer-inner {
+  overflow: hidden;
 }
 
 .faq-answer {
