@@ -60,46 +60,41 @@ export default function Header({ locale, phone }: { locale: string; phone: strin
 
             <div className="header-end">
               <nav className="desktop-nav" aria-label="Main navigation">
-                <div className="nav-dropdown">
-                  <Link href={`/${locale}#services`} className="nav-link nav-dropdown-trigger">
-                    {t("services")}
-                    <svg
-                      className="nav-dropdown-chevron"
-                      width="14"
-                      height="14"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="#F26A21"
-                      strokeWidth="2.5"
-                      aria-hidden="true"
+                {NAV_GROUPS.map((group) => (
+                  <div key={group.groupKey} className="nav-dropdown">
+                    <Link href={hrefFor(group.main)} className="nav-link nav-dropdown-trigger">
+                      {t(`servicesSubmenu.${group.groupKey}`)}
+                      <svg
+                        className="nav-dropdown-chevron"
+                        width="12"
+                        height="12"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="#F26A21"
+                        strokeWidth="2.5"
+                        aria-hidden="true"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
+                      </svg>
+                    </Link>
+
+                    <div
+                      className="nav-dropdown-panel"
+                      role="navigation"
+                      aria-label={t(`servicesSubmenu.${group.groupKey}`)}
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
-                    </svg>
-                  </Link>
-
-                  <div className="nav-dropdown-panel" role="navigation" aria-label={t("services")}>
-                    {NAV_GROUPS.map((group) => (
-                      <div key={group.groupKey} className="nav-dropdown-group">
-                        <Link href={hrefFor(group.main)} className="nav-dropdown-group-title">
-                          {t(`servicesSubmenu.${group.groupKey}`)}
-                        </Link>
-                        <ul className="nav-dropdown-subs">
-                          {group.items.map((item) => (
-                            <li key={item.href.join("/")}>
-                              <Link href={hrefFor(item.href)}>
-                                {isBg ? item.bg : item.en}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
+                      <ul className="nav-dropdown-subs">
+                        {group.items.map((item) => (
+                          <li key={item.href.join("/")}>
+                            <Link href={hrefFor(item.href)}>
+                              {isBg ? item.bg : item.en}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
-                </div>
-
-                <Link href={`/${locale}/galery/photo`} className="nav-link">
-                  {t("fleet")}
-                </Link>
+                ))}
                 <Link href={`/${locale}/for-us`} className="nav-link">
                   {t("about")}
                 </Link>

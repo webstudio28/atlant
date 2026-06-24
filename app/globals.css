@@ -210,7 +210,7 @@ body {
 .desktop-nav {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 16px;
 }
 
 .header-mobile-actions {
@@ -261,11 +261,12 @@ body {
 .nav-link {
   color: rgba(255, 255, 255, 0.82);
   font-family: 'Sofia Sans Condensed', system-ui, -apple-system, sans-serif;
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
@@ -275,7 +276,7 @@ body {
 .nav-dropdown-trigger {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
 }
 
 .nav-dropdown-chevron {
@@ -310,55 +311,25 @@ body {
   margin-bottom: -28px;
 }
 
-.nav-dropdown::after {
-  content: '';
-  position: fixed;
-  top: calc(var(--site-header-h) - 8px);
-  left: 0;
-  width: 100%;
-  height: calc(12px + 32px);
-  z-index: 119;
-  pointer-events: none;
-}
-
-.nav-dropdown:hover::after,
-.nav-dropdown:focus-within::after {
-  pointer-events: auto;
-}
-
 .nav-dropdown-panel {
-  position: fixed;
-  top: calc(var(--site-header-h) + 12px);
+  position: absolute;
+  top: 100%;
   left: 50%;
-  transform: translateX(-50%);
-  width: min(94vw, 1180px);
-  max-width: 1180px;
-  padding: 0;
+  transform: translateX(-50%) translateY(6px);
+  width: max-content;
+  min-width: 210px;
+  max-width: 280px;
+  padding: 10px 0;
   background: #fff;
   border: 1px solid rgba(82, 89, 93, 0.14);
-  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.14);
-  border-radius: 12px;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
   z-index: 120;
-}
-
-.nav-dropdown-panel::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(94vw, 1180px);
-  max-width: 1180px;
-  top: -28px;
-  height: 28px;
-  pointer-events: auto;
 }
 
 .nav-dropdown:hover .nav-dropdown-panel,
@@ -366,7 +337,7 @@ body {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(0);
 }
 
 .nav-dropdown:hover .nav-dropdown-chevron,
@@ -378,64 +349,39 @@ body {
   display: none;
 }
 
-.nav-dropdown-group {
-  min-width: 0;
-  padding: 28px 24px;
-  border-left: 1px solid rgba(82, 89, 93, 0.12);
-}
-
-.nav-dropdown-group:first-child {
-  border-left: none;
-}
-
-.nav-dropdown-group-title {
-  display: block;
-  font-family: 'Sofia Sans Condensed', system-ui, -apple-system, sans-serif;
-  font-size: 17px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #52595D;
-  margin: 0 0 16px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #F26A21;
-  text-decoration: none;
-  line-height: 1.25;
-}
-
-.nav-dropdown-group-title:hover {
-  color: #F26A21;
-}
-
 .nav-dropdown-subs {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 14px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 .nav-dropdown-subs a {
+  display: block;
   font-family: 'Sofia Sans', system-ui, -apple-system, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
-  line-height: 1.45;
+  line-height: 1.4;
   letter-spacing: 0;
   color: #52595D;
   text-decoration: none;
   text-transform: none;
-  transition: color 0.15s ease;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: color 0.15s ease, background 0.15s ease;
 }
 
 .nav-dropdown-subs a:hover {
   color: #F26A21;
+  background: rgba(242, 106, 33, 0.06);
 }
 
 .header-phone-link {
   color: rgba(255, 255, 255, 0.65);
   font-family: 'Sofia Sans', system-ui, -apple-system, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   display: flex;
@@ -473,8 +419,9 @@ body {
 }
 
 .header-inquiry-btn {
-  font-size: 16px;
-  padding: 10px 24px;
+  font-size: 13px;
+  padding: 8px 18px;
+  letter-spacing: 0.06em;
 }
 
 #site-header.scrolled .nav-link,

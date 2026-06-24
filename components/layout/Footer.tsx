@@ -123,8 +123,6 @@ export default function Footer({
               <ul className="list-none p-0 m-0 flex flex-col gap-2.5">
                 {[
                   { labelKey: "about", href: "/for-us" },
-                  { labelKey: "advantages", href: "/#why" },
-                  { labelKey: "faq", href: "/faq" },
                   { labelKey: "contacts", href: "/contacts" },
                 ].map(({ labelKey, href }) => (
                   <li key={href}>
@@ -139,9 +137,6 @@ export default function Footer({
 
             {/* Contacts */}
             <div>
-              <div className="font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.14em] uppercase text-white/88 mb-5 pb-2.5 border-b-2 border-[#F26A21] inline-block">
-                {t("contactsTitle")}
-              </div>
               <ul className="list-none p-0 m-0 flex flex-col gap-3.5">
                 {settings.phone_display && (
                   <li className="flex gap-3 items-start">

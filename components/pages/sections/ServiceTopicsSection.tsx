@@ -117,7 +117,15 @@ export function ServiceTopicsSection({
   heading: string;
   topics: ServiceTopic[];
 }) {
-  const [open, setOpen] = useState(-1);
+  const [openTopics, setOpenTopics] = useState<number[]>([]);
+
+  const toggleTopic = (index: number) => {
+    setOpenTopics((current) =>
+      current.includes(index)
+        ? current.filter((item) => item !== index)
+        : [...current, index],
+    );
+  };
 
   return (
     <section className="bg-[#F4F4F2] py-20">
@@ -132,8 +140,8 @@ export function ServiceTopicsSection({
             <TopicAccordionItem
               key={topic.title}
               topic={topic}
-              isOpen={open === i}
-              onToggle={() => setOpen(open === i ? -1 : i)}
+              isOpen={openTopics.includes(i)}
+              onToggle={() => toggleTopic(i)}
             />
           ))}
         </div>
