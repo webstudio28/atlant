@@ -133,7 +133,7 @@ export default async function HomePage({
         </div>
       </main>
 
-      <Footer locale={locale} settings={settings} />
+      <Footer locale={locale} settings={settings} showCta />
 
       <WhatsAppFloat whatsapp={settings.whatsapp ?? "359899107525"} />
 

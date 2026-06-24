@@ -1,19 +1,19 @@
 {
   "bg": {
     "meta": {
-      "title": "Складови услуги | Atlant Logistics",
-      "description": "Atlant Logistics & Relocations предлага високонадеждни складови услуги в съвременно оборудвани логистични бази, проектирани да отговарят на различни товарни про"
+      "title": "Складови услуги и съхранение | Atlant Logistics",
+      "description": "Atlant Logistics & Relocations предлага високонадеждни складови услуги в съвременно оборудвани логистични бази, проектирани да отговарят на различни товарни профили и специфични изисквания на бизнеса."
     },
     "hero": {
       "label": "Atlant Logistics",
-      "title": "Складови услуги",
-      "subtitle": "Atlant Logistics & Relocations предлага високонадеждни складови услуги в съвременно оборудвани логистични бази, проектирани да отговарят на различни товарни профили и специфични изисквания на бизнеса. Складовите площи са организирани според вида на стоките, техните характеристики и необходимото ниво на достъп и контрол."
+      "title": "Складови услуги и съхранение",
+      "subtitle": "Atlant Logistics & Relocations предлага високонадеждни складови услуги в съвременно оборудвани логистични бази, проектирани да отговарят на различни товарни профили и специфични изисквания на бизнеса."
     },
     "sections": [
       {
         "type": "intro-split",
         "paragraphs": [
-          "Atlant Logistics & Relocations предлага високонадеждни складови услуги в съвременно оборудвани логистични бази, проектирани да отговарят на различни товарни профили и специфични изисквания на бизнеса. Складовите площи са организирани според вида на стоките, техните характеристики и необходимото ниво на достъп и контрол.",
+          "Складовите площи са организирани според вида на стоките, техните характеристики и необходимото ниво на достъп и контрол.",
           "Оперативните процеси се управляват чрез интегрирана WMS система, която осигурява пълна проследимост, точна отчетност и ефективна логистика във всеки етап от съхранението."
         ],
         "image": "/images/pages/warehouse.webp"
@@ -127,19 +127,19 @@
   },
   "en": {
     "meta": {
-      "title": "Warehouse Services | Atlant Logistics",
-      "description": "Atlant Logistics & Relocations offers highly reliable warehousing services in modernly equipped logistic bases, designed to meet different cargo profiles and sp"
+      "title": "Warehousing Services & Storage | Atlant Logistics",
+      "description": "Atlant Logistics & Relocations offers highly reliable warehousing services in modernly equipped logistic bases, designed to meet different cargo profiles and specific business requirements."
     },
     "hero": {
       "label": "Atlant Logistics",
-      "title": "Warehouse Services",
-      "subtitle": "Atlant Logistics & Relocations offers highly reliable warehousing services in modernly equipped logistic bases, designed to meet different cargo profiles and specific business requirements. Warehouse areas are organized according to the type of goods, their characteristics, and the required level of access and control."
+      "title": "Warehousing Services & Storage",
+      "subtitle": "Atlant Logistics & Relocations offers highly reliable warehousing services in modernly equipped logistic bases, designed to meet different cargo profiles and specific business requirements."
     },
     "sections": [
       {
         "type": "intro-split",
         "paragraphs": [
-          "Atlant Logistics & Relocations offers highly reliable warehousing services in modernly equipped logistic bases, designed to meet different cargo profiles and specific business requirements. Warehouse areas are organized according to the type of goods, their characteristics, and the required level of access and control.",
+          "Warehouse areas are organized according to the type of goods, their characteristics, and the required level of access and control.",
           "Operational processes are managed through an integrated WMS system, providing full traceability, accurate reporting, and efficient logistics at every stage of storage."
         ],
         "image": "/images/pages/warehouse.webp"

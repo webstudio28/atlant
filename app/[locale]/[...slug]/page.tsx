@@ -108,6 +108,7 @@ export default async function DynamicPage({
       inner = (
         <>
           <PageHero
+            compact={!!page.parentGroup}
             label={content.hero.label}
             title={content.hero.title}
             subtitle={content.hero.subtitle}

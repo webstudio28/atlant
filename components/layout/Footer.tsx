@@ -13,9 +13,11 @@ interface SiteSettings {
 export default function Footer({
   locale,
   settings,
+  showCta = false,
 }: {
   locale: string;
   settings: SiteSettings;
+  showCta?: boolean;
 }) {
   const t = useTranslations("footer");
   const tCta = useTranslations("cta");
@@ -23,53 +25,54 @@ export default function Footer({
 
   return (
     <footer>
-      {/* CTA section */}
-      <section
-        id="cta"
-        className="cta-section"
-        style={{
-          background:
-            "linear-gradient(90deg,#2a2f33 0%,#353a3e 16%,#3a4044 30%,#353a3e 52%,#2a2f33 72%,#23282b 86%,#1a1e21 100%)",
-        }}
-      >
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{ background: "radial-gradient(ellipse 65% 100% at 100% 50%, rgba(0,0,0,0.26) 0%, transparent 50%)" }}
-        />
-        <div className="footer-cta-inner">
-          <div className="inline-flex items-center gap-2.5 font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.18em] uppercase text-[#F26A21] mb-4">
-            <span className="block w-5 h-px bg-[#F26A21]" />
-            Atlant Logistics
-          </div>
-          <h2
-            className="font-['Sofia_Sans_Condensed',sans-serif] text-[clamp(34px,5.5vw,60px)] font-[800] leading-[1.08] tracking-[0.02em] text-white mb-5"
-          >
-            <span className="text-[#F26A21]">{tCta("intro")}</span>{" "}
-            <span className="text-white">{tCta("titleAccent")}</span>
-          </h2>
-          <span className="block w-20 h-0.5 mb-6" style={{ background: "linear-gradient(to right, #F26A21 0%, transparent 100%)" }} />
-          <p className="text-[20px] text-white/85 max-w-[520px] mb-10 leading-[1.6]">
-            {tCta("subtitle")}
-          </p>
-          <div className="footer-cta-actions">
-            <button
-              type="button"
-              className="btn-primary js-inquiry-trigger"
-              data-inquiry
+      {showCta && (
+        <section
+          id="cta"
+          className="cta-section"
+          style={{
+            background:
+              "linear-gradient(90deg,#2a2f33 0%,#353a3e 16%,#3a4044 30%,#353a3e 52%,#2a2f33 72%,#23282b 86%,#1a1e21 100%)",
+          }}
+        >
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: "radial-gradient(ellipse 65% 100% at 100% 50%, rgba(0,0,0,0.26) 0%, transparent 50%)" }}
+          />
+          <div className="footer-cta-inner">
+            <div className="inline-flex items-center gap-2.5 font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.18em] uppercase text-[#F26A21] mb-4">
+              <span className="block w-5 h-px bg-[#F26A21]" />
+              Atlant Logistics
+            </div>
+            <h2
+              className="font-['Sofia_Sans_Condensed',sans-serif] text-[clamp(34px,5.5vw,60px)] font-[800] leading-[1.08] tracking-[0.02em] text-white mb-5"
             >
-              {tCta("ctaPrimary")}
-            </button>
-            {settings.phone_display && (
-              <a
-                href={`tel:${settings.phone_display?.replace(/[\s\/]/g, "")}`}
-                className="cta-phone-btn inline-flex items-center gap-2 bg-white/12 text-white font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.06em] px-6 py-3 rounded-xl border-2 border-white/28 no-underline transition-all hover:bg-white/20 hover:-translate-y-0.5"
+              <span className="text-[#F26A21]">{tCta("intro")}</span>{" "}
+              <span className="text-white">{tCta("titleAccent")}</span>
+            </h2>
+            <span className="block w-20 h-0.5 mb-6" style={{ background: "linear-gradient(to right, #F26A21 0%, transparent 100%)" }} />
+            <p className="text-[20px] text-white/85 max-w-[520px] mb-10 leading-[1.6]">
+              {tCta("subtitle")}
+            </p>
+            <div className="footer-cta-actions">
+              <button
+                type="button"
+                className="btn-primary js-inquiry-trigger"
+                data-inquiry
               >
-                {settings.phone_display}
-              </a>
-            )}
+                {tCta("ctaPrimary")}
+              </button>
+              {settings.phone_display && (
+                <a
+                  href={`tel:${settings.phone_display?.replace(/[\s\/]/g, "")}`}
+                  className="cta-phone-btn inline-flex items-center gap-2 bg-white/12 text-white font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.06em] px-6 py-3 rounded-xl border-2 border-white/28 no-underline transition-all hover:bg-white/20 hover:-translate-y-0.5"
+                >
+                  {settings.phone_display}
+                </a>
+              )}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Footer main */}
       <div className="footer-main">
@@ -77,17 +80,17 @@ export default function Footer({
           {/* Grid */}
           <div className="footer-grid">
             {/* Brand column */}
-            <div>
-              <div className="mb-5">
+            <div className="footer-brand">
+              <div className="mb-5 flex justify-center md:justify-start">
                 <Image src="/images/footer-logo.webp" alt="Atlant Logistics" width={180} height={54} className="h-12 w-auto object-contain" />
               </div>
-              <p className="text-[16px] text-white/50 leading-[1.7] max-w-[280px] mb-6">
+              <p className="text-[16px] text-white/50 leading-[1.7] max-w-[280px] mb-6 mx-auto md:mx-0">
                 {t("description")}
               </p>
               <div className="font-['Sofia_Sans_Condensed',sans-serif] text-[13px] tracking-[0.12em] uppercase text-[#F26A21] mb-2">
                 {t("tagline")}
               </div>
-              <span className="fade-line w-[120px] block h-px" />
+              <span className="fade-line w-[120px] block h-px mx-auto md:mx-0" />
             </div>
 
             {/* Services */}

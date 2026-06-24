@@ -21,7 +21,7 @@ export default async function ContactPageContent({
     <>
       <PageHero label={t("label")} title={t("title")} subtitle={t("subtitle")} image="/images/pages/contact.webp" />
       <section className="py-20 bg-white">
-        <div className="max-w-[1280px] mx-auto px-8">
+        <div className="section-wrap">
           <SectionLabel>{t("infoTitle")}</SectionLabel>
           <SectionTitle>{locale === "bg" ? "Как да ни намерите" : "How to reach us"}</SectionTitle>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 mb-12">

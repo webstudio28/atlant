@@ -9,6 +9,7 @@
   --brand-grey: #52595D;
   --brand-deep: #1a1e21;
   --brand-bg: #F4F4F2;
+  --site-header-h: 72px;
 
   --radius: 0.75rem;
   --background: oklch(0.97 0 0);
@@ -742,6 +743,10 @@ body {
 }
 
 @media (max-width: 899px) {
+  :root {
+    --site-header-h: 64px;
+  }
+
   .header-bar-wrap {
     padding: 0 16px;
   }

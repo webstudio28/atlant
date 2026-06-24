@@ -2,7 +2,7 @@
   "bg": {
     "meta": {
       "title": "Товаро-разтоварни услуги | Atlant Logistics",
-      "description": "Когато камионът е на рампата, а минути се броят, ние превръщаме „чаакането“ в движение. Поемаме организирано товаро-разтоварване за бизнес и частни клиенти — пр"
+      "description": "Когато камионът е на рампата, а минути се броят, ние превръщаме „чаакането“ в движение. Поемаме организирано товаро-разтоварване за бизнес и частни клиенти — прием и експедиция на стоки, вътрешни премествания, доставки „до врата“. Идваме с екип, базова техника и ясен план, за да има ред по линията: от рампата до стелажа, от тротоара до входа."
     },
     "hero": {
       "label": "Atlant Logistics",
@@ -13,7 +13,6 @@
       {
         "type": "intro-split",
         "paragraphs": [
-          "Когато камионът е на рампата, а минути се броят, ние превръщаме „чаакането“ в движение. Поемаме организирано товаро-разтоварване за бизнес и частни клиенти — прием и експедиция на стоки, вътрешни премествания, доставки „до врата“. Идваме с екип, базова техника и ясен план, за да има ред по линията: от рампата до стелажа, от тротоара до входа.",
           "Работим по вашия график (вкл. вечер/уикенд), пазим обекта и общите части, и предаваме чисто и отчетливо."
         ],
         "image": "/images/pages/loading.webp"
@@ -56,19 +55,18 @@
   },
   "en": {
     "meta": {
-      "title": "Loading & Unloading | Atlant Logistics",
-      "description": "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – recei"
+      "title": "Loading & Unloading Services | Atlant Logistics",
+      "description": "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – receiving and shipping goods, internal moves, door-to-door deliveries. We arrive with a team, basic equipment, and a clear plan to maintain order along the line: from ramp to shelf, from sidewalk to entrance."
     },
     "hero": {
       "label": "Atlant Logistics",
-      "title": "Loading & Unloading",
+      "title": "Loading & Unloading Services",
       "subtitle": "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – receiving and shipping goods, internal moves, door-to-door deliveries. We arrive with a team, basic equipment, and a clear plan to maintain order along the line: from ramp to shelf, from sidewalk to entrance."
     },
     "sections": [
       {
         "type": "intro-split",
         "paragraphs": [
-          "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – receiving and shipping goods, internal moves, door-to-door deliveries. We arrive with a team, basic equipment, and a clear plan to maintain order along the line: from ramp to shelf, from sidewalk to entrance.",
           "We work according to your schedule (including evening/weekend), protect the site and common areas, and hand over clean and clearly."
         ],
         "image": "/images/pages/loading.webp"

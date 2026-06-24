@@ -5,7 +5,20 @@ export type PageSection =
       image?: string;
     }
   | {
+      type: "intro-accent";
+      label?: string;
+      heading: string;
+      paragraphs: string[];
+      image?: string;
+    }
+  | {
       type: "direction-cards";
+      label?: string;
+      heading: string;
+      items: { title: string; lines: string[]; href?: string }[];
+    }
+  | {
+      type: "sub-services";
       label?: string;
       heading: string;
       items: { title: string; lines: string[]; href?: string }[];
@@ -36,6 +49,17 @@ export type PageSection =
       type: "highlight-box";
       heading: string;
       items: string[];
+    }
+  | {
+      type: "transport-topics";
+      label?: string;
+      heading: string;
+      topics: {
+        title: string;
+        intro?: string;
+        points: { title: string; text: string }[];
+        footer?: string[];
+      }[];
     }
   | {
       type: "related-services";

@@ -71,7 +71,7 @@ export function IntroSplitSection({
 
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         {lead && (
           <div className="mb-12 max-w-[800px]">
             <SectionIntro>{lead}</SectionIntro>
@@ -113,7 +113,7 @@ export function DirectionCardsSection({
 }) {
   return (
     <section className="py-20 bg-[#F4F4F2]">
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         <div className="mb-12">
           {label && <SectionLabel>{label}</SectionLabel>}
           <SectionTitle>{heading}</SectionTitle>
@@ -170,7 +170,7 @@ export function FeatureGridSection({
 }) {
   return (
     <section className="py-20 bg-[#F4F4F2]">
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         <div className="mb-12">
           {label && <SectionLabel>{label}</SectionLabel>}
           <SectionTitle>{heading}</SectionTitle>
@@ -219,7 +219,7 @@ export function ArticleSection({
 
   return (
     <section className={`py-20 ${bg}`}>
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         <div className="mb-10">
           {label && <SectionLabel>{label}</SectionLabel>}
           <SectionTitle>{heading}</SectionTitle>
@@ -314,7 +314,7 @@ export function ChecklistPanelSection({
   const bg = variant === "muted" ? "bg-[#F4F4F2]" : "bg-white";
   return (
     <section className={`py-20 ${bg}`}>
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         <div className="mb-10">
           <SectionTitle>{heading}</SectionTitle>
           {intro && <SectionIntro>{intro}</SectionIntro>}
@@ -337,7 +337,7 @@ export function ChecklistPanelSection({
 export function HighlightBoxSection({ heading, items }: { heading: string; items: string[] }) {
   return (
     <section className="py-20 bg-[#F4F4F2]">
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         <div className="mb-10">
           <SectionTitle>{heading}</SectionTitle>
         </div>
@@ -367,7 +367,7 @@ export function RelatedServicesSection({
 }) {
   return (
     <section className="py-16 bg-white border-t border-[rgba(82,89,93,0.1)]">
-      <div className="max-w-[1280px] mx-auto px-8">
+      <div className="section-wrap">
         <SectionLabel>{heading}</SectionLabel>
         <div className="flex flex-wrap gap-3 mt-4">
           {items.map((item) => (
@@ -394,22 +394,31 @@ export function PageCtaSection({ locale }: { locale: string }) {
         background: "linear-gradient(90deg,#2a2f33 0%,#353a3e 30%,#3a4044 50%,#2a2f33 100%)",
       }}
     >
-      <div className="max-w-[1280px] mx-auto px-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <div className="section-wrap flex flex-col items-center text-center md:flex-row md:items-center md:justify-between md:text-left gap-6">
         <div>
           <p className="font-['Sofia_Sans_Condensed',sans-serif] text-[clamp(24px,3vw,32px)] font-[800] text-white m-0 leading-[1.2]">
-            {isBg ? "Готови за " : "Ready for "}
+            {isBg ? "Готови сте за " : "Ready for "}
             <span className="text-[#F26A21]">{isBg ? "персонална оферта?" : "a personalized quote?"}</span>
           </p>
-          <p className="text-white/70 text-[17px] mt-2 mb-0 max-w-[480px]">
-            {isBg ? "Свържете се с нас и ще отговорим в рамките на работния ден." : "Contact us and we will respond within the working day."}
+          <p className="text-white/70 text-[17px] mt-2 mb-0 max-w-[480px] mx-auto md:mx-0">
+            {isBg ? "Свържете се с нас за консултация или оферта." : "Contact us and we will respond within the working day."}
           </p>
         </div>
-        <button
-          className="bg-[#F26A21] text-white font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.08em] uppercase px-8 py-3.5 rounded-xl border-2 border-[#F26A21] transition-all hover:bg-[#d45a18] cursor-pointer js-inquiry-trigger flex-shrink-0"
-          data-inquiry
-        >
-          {isBg ? "Запитване за цена" : "Get a quote"}
-        </button>
+        <div className="flex flex-wrap items-center justify-center md:justify-start gap-2.5 shrink-0">
+          <button
+            type="button"
+            className="bg-[#F26A21] text-white font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-bold tracking-[0.06em] uppercase px-5 py-2.5 rounded-lg border-2 border-[#F26A21] transition-all hover:bg-[#d45a18] hover:border-[#d45a18] cursor-pointer js-inquiry-trigger"
+            data-inquiry
+          >
+            {isBg ? "Поискай оферта" : "Request a Quote"}
+          </button>
+          <Link
+            href={`/${locale}/contacts`}
+            className="inline-flex items-center bg-white/12 text-white font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-bold tracking-[0.06em] uppercase px-5 py-2.5 rounded-lg border-2 border-white/28 no-underline transition-all hover:bg-white/20"
+          >
+            {isBg ? "Контакти" : "Contacts"}
+          </Link>
+        </div>
       </div>
     </section>
   );

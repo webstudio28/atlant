@@ -9,7 +9,7 @@ export default async function GalleryVideoContent({ locale }: { locale: string }
     <>
       <PageHero label={t("label")} title={t("videoTitle")} subtitle={t("videoSubtitle")} />
       <section className="py-20 bg-[#F4F4F2]">
-        <div className="max-w-[1280px] mx-auto px-8 text-center">
+        <div className="section-wrap text-center">
           <SectionLabel>{t("label")}</SectionLabel>
           <SectionTitle>{t("videoTitle")}</SectionTitle>
           <div className="mt-10 bg-white rounded-xl border border-[rgba(82,89,93,0.1)] p-12 md:p-16 card-lift max-w-[640px] mx-auto">

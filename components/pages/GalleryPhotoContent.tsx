@@ -11,7 +11,7 @@ export default async function GalleryPhotoContent({ locale }: { locale: string }
     <>
       <PageHero label={t("label")} title={t("photoTitle")} subtitle={t("photoSubtitle")} />
       <section className="py-20 bg-[#F4F4F2]">
-        <div className="max-w-[1280px] mx-auto px-8">
+        <div className="section-wrap">
           <SectionLabel>{t("label")}</SectionLabel>
           <SectionTitle>{locale === "bg" ? "Нашата работа в кадри" : "Our work in pictures"}</SectionTitle>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
