@@ -18,16 +18,14 @@
           {
             "title": "Корпоративно",
             "lines": [
-              "Складът е ясен -",
-              "- бизнесът е класен"
+              "Складът е ясен - бизнесът е класен"
             ],
             "href": "/skladovi-uslugi/korporativno"
           },
           {
             "title": "Индивидуално",
             "lines": [
-              "Излишното при нас -",
-              "- комфортът остава у вас"
+              "Излишното при нас - комфортът остава у вас"
             ],
             "href": "/skladovi-uslugi/individualno"
           }
@@ -135,16 +133,14 @@
           {
             "title": "Corporate",
             "lines": [
-              "The warehouse is clear -",
-              "- the business is class"
+              "The warehouse is clear - the business is class"
             ],
             "href": "/skladovi-uslugi/korporativno"
           },
           {
             "title": "Personal",
             "lines": [
-              "What’s unnecessary for us -",
-              "- comfort remains with you"
+              "What's unnecessary for us - comfort remains with you"
             ],
             "href": "/skladovi-uslugi/individualno"
           }

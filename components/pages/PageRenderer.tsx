@@ -1,5 +1,5 @@
 import type { PageContent, PageSection } from "@/lib/pages/types";
-import { getSiblingSubServicesSection } from "@/lib/pages/sibling-nav";
+import { getSiblingSubServicesSection, isServiceSubPage } from "@/lib/pages/sibling-nav";
 import {
   ArticleSection,
   ChecklistPanelSection,
@@ -14,7 +14,21 @@ import { IntroAccentSection } from "./sections/IntroAccentSection";
 import { ServiceTopicsSection } from "./sections/ServiceTopicsSection";
 import { SubServicesSection } from "./sections/SubServicesSection";
 
-function renderSection(section: PageSection, locale: string, index: number) {
+function serviceTopicsHeading(content: PageContent, locale: string, pageId?: string, fallback?: string) {
+  if (!pageId || !isServiceSubPage(pageId)) return fallback ?? "";
+  const name = content.hero.title;
+  return locale === "en"
+    ? `Everything you need to know about ${name}`
+    : `Всичко, което трябва да знаете за ${name}`;
+}
+
+function renderSection(
+  section: PageSection,
+  locale: string,
+  index: number,
+  pageId: string | undefined,
+  content: PageContent,
+) {
   switch (section.type) {
     case "intro-split":
       return <IntroSplitSection key={index} paragraphs={section.paragraphs} image={section.image} reverse={index % 2 === 1} />;
@@ -25,13 +39,22 @@ function renderSection(section: PageSection, locale: string, index: number) {
           label={section.label}
           heading={section.heading}
           paragraphs={section.paragraphs}
-          image={section.image}
+          image={pageId && isServiceSubPage(pageId) ? undefined : section.image}
         />
       );
     case "direction-cards":
       return <DirectionCardsSection key={index} locale={locale} label={section.label} heading={section.heading} items={section.items} />;
     case "sub-services":
-      return <SubServicesSection key={index} locale={locale} label={section.label} heading={section.heading} items={section.items} />;
+      return (
+        <SubServicesSection
+          key={index}
+          locale={locale}
+          label={section.label}
+          heading={section.heading}
+          items={section.items}
+          variant={section.variant}
+        />
+      );
     case "feature-grid":
       return <FeatureGridSection key={index} label={section.label} heading={section.heading} subtitle={section.subtitle} items={section.items} />;
     case "article":
@@ -45,7 +68,7 @@ function renderSection(section: PageSection, locale: string, index: number) {
         <ServiceTopicsSection
           key={index}
           label={section.label}
-          heading={section.heading}
+          heading={serviceTopicsHeading(content, locale, pageId, section.heading)}
           topics={section.topics}
         />
       );
@@ -70,7 +93,7 @@ export default function PageRenderer({
 
   return (
     <>
-      {sections.map((section, i) => renderSection(section, locale, i))}
+      {sections.map((section, i) => renderSection(section, locale, i, pageId, content))}
       <PageCtaSection locale={locale} />
     </>
   );

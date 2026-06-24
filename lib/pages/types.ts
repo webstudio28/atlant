@@ -22,6 +22,7 @@ export type PageSection =
       label?: string;
       heading: string;
       items: { title: string; lines: string[]; href?: string }[];
+      variant?: "rows" | "minimal";
     }
   | {
       type: "feature-grid";

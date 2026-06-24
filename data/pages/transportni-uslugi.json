@@ -18,40 +18,35 @@
           {
             "title": "Автомобилен",
             "lines": [
-              "Пътят е ясен.",
-              "Клиентът спокоен"
+              "Пътят е ясен - клиентът спокоен"
             ],
             "href": "/avtomobilen-transport"
           },
           {
             "title": "Въздушен",
             "lines": [
-              "Спешен пакет -",
-              "- въздушен билет"
+              "Спешен пакет - въздушен билет"
             ],
             "href": "/vazdushen-transport"
           },
           {
             "title": "Морски",
             "lines": [
-              "Повече стока -",
-              "- морска посока"
+              "Повече стока - морска посока"
             ],
             "href": "/morski-transport"
           },
           {
             "title": "Железопътен",
             "lines": [
-              "Ритъм и ред -",
-              "- по релси напред"
+              "Ритъм и ред - по релси напред"
             ],
             "href": "/zhelezopaten-transport"
           },
           {
             "title": "Специализиран",
             "lines": [
-              "- Нестандартен курс -",
-              "- инженерeн ресурс"
+              "Нестандартен курс - инженерен ресурс"
             ],
             "href": "/specilalizirano-premestvane-i-transport"
           }
@@ -162,40 +157,35 @@
           {
             "title": "Road",
             "lines": [
-              "The road is clear.",
-              "The client is relaxed"
+              "The road is clear - the client is relaxed"
             ],
             "href": "/avtomobilen-transport"
           },
           {
             "title": "Air",
             "lines": [
-              "Urgent package -",
-              "- by air"
+              "Urgent package - by air"
             ],
             "href": "/vazdushen-transport"
           },
           {
             "title": "Sea",
             "lines": [
-              "More cargo -",
-              "- by sea"
+              "More cargo - by sea"
             ],
             "href": "/morski-transport"
           },
           {
             "title": "Rail",
             "lines": [
-              "Rhythm and order -",
-              "- forward on rails"
+              "Rhythm and order - forward on rails"
             ],
             "href": "/zhelezopaten-transport"
           },
           {
             "title": "Specialized",
             "lines": [
-              "- Non-standard route -",
-              "- engineering resources"
+              "Non-standard route - engineering resources"
             ],
             "href": "/specilalizirano-premestvane-i-transport"
           }

@@ -90,7 +90,6 @@ function transformLocale(localeContent) {
       type: "intro-accent",
       heading: localeContent.hero.subtitle ?? localeContent.hero.title,
       paragraphs: introSplit.paragraphs,
-      ...(introSplit.image ? { image: introSplit.image } : {}),
     });
   }
 

@@ -41,6 +41,12 @@ function currentHref(pageId: string): string {
   return def ? `/${def.slug.join("/")}` : "";
 }
 
+/** True for child service pages (not the four main hubs). */
+export function isServiceSubPage(pageId: string): boolean {
+  const page = PAGE_REGISTRY.find((p) => p.id === pageId);
+  return !!(page?.parentGroup && !HUB_IDS.has(pageId));
+}
+
 /** Sub-service row links from the parent hub, excluding the current page. */
 export function getSiblingSubServicesSection(pageId: string, locale: string): PageSection | null {
   const page = PAGE_REGISTRY.find((p) => p.id === pageId);
@@ -59,6 +65,7 @@ export function getSiblingSubServicesSection(pageId: string, locale: string): Pa
   const headings = SIBLING_HEADINGS[group][locale === "en" ? "en" : "bg"];
   return {
     type: "sub-services",
+    variant: "minimal",
     label: headings.label,
     heading: headings.heading,
     items,

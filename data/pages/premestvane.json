@@ -18,40 +18,35 @@
           {
             "title": "На дома",
             "lines": [
-              "От ключ до килим -",
-              "- плавен режим"
+              "От ключ до килим - плавен режим"
             ],
             "href": "/premestvane/na-doma"
           },
           {
             "title": "На офиса",
             "lines": [
-              "Договор и стол -",
-              "- всичко под контрол"
+              "Договор и стол - всичко под контрол"
             ],
             "href": "/premestvane/na-ofis"
           },
           {
             "title": "Международно",
             "lines": [
-              "Адрес глобален,",
-              "процес нормален"
+              "Адрес глобален - процес нормален"
             ],
             "href": "/premestvane/mezhdunarodno"
           },
           {
             "title": "Специализирано",
             "lines": [
-              "Нестандартен казус -",
-              "- нашият фокус"
+              "Нестандартен казус - нашият фокус"
             ],
             "href": "/specializirano-premestvane"
           },
           {
             "title": "Индустриално",
             "lines": [
-              "Машини тежки -",
-              "- движения леки"
+              "Машини тежки - движения леки"
             ],
             "href": "/premestvane/industrialno"
           }
@@ -242,40 +237,35 @@
           {
             "title": "Home",
             "lines": [
-              "From key to carpet -",
-              "- smooth process"
+              "From key to carpet - smooth process"
             ],
             "href": "/premestvane/na-doma"
           },
           {
             "title": "Office",
             "lines": [
-              "Contract and desk -",
-              "- everything under control"
+              "Contract and desk - everything under control"
             ],
             "href": "/premestvane/na-ofis"
           },
           {
             "title": "International",
             "lines": [
-              "Global address,",
-              "normal process"
+              "Global address - normal process"
             ],
             "href": "/premestvane/mezhdunarodno"
           },
           {
             "title": "Specialized",
             "lines": [
-              "Non-standard case -",
-              "- our focus"
+              "Non-standard case - our focus"
             ],
             "href": "/specializirano-premestvane"
           },
           {
             "title": "Industrial",
             "lines": [
-              "Heavy machines -",
-              "- light movements"
+              "Heavy machines - light movements"
             ],
             "href": "/premestvane/industrialno"
           }
