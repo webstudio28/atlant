@@ -11,7 +11,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "За товари, които не търпят компромис",
         "paragraphs": [
           "Atlant Logistics & Relocations предлага индивидуални решения за преместване на машини, производствено оборудване и извънгабаритни товари. Разполагаме с камиони с кран, бусове с падащ борд, самосвали, автовишки и екипи от обучени носачи за ръчно позициониране и прецизно разпределение на тежестта.",
           "Планираме и координираме всеки етап – от демонтаж и укрепване до доставка и позициониране. Когато стандартният транспорт не е достатъчен – ние сме вашият надежден партньор."
@@ -19,74 +20,72 @@
         "image": "/images/pages/transport.webp"
       },
       {
-        "type": "article",
-        "heading": "Дори перфектно организираният транспорт обаче може да „увисне“ на последните метри, ако обектът не е подготвен:",
-        "paragraphs": [
-          "Проверка на подходни улици – радиуси на завои, наклони, окабеляване, дървета.",
-          "Оценка на товароносимост на подове и рампи – могат ли реално да поемат техниката и тежестта на съоръженията.",
-          "Осигуряване на работно пространство за кран, мотокари и такелажни екипи.",
-          "Atlant може да извърши предварителен оглед и да изготви план, за да не се окаже, че машината е „дошла“, но няма как да влезе или да бъде безопасно позиционирана.",
-          "При много проекти клиентът вижда само камиона с кран или ниското ремарке. Зад него обаче стои сериозна административна и инженерна подготовка – особено при извънгабаритни товари (над норми за размери или тегло)."
-        ],
-        "bullets": [
-          "Разрешителни и съгласуване – невидимата половина на специализирания и извънгабаритен превоз"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Обичайно са нужни:",
-        "paragraphs": [
-          "Разрешителни от пътни и общински власти за движение по конкретен маршрут, при определени условия и период.",
-          "Съгласуване с полиция, електроразпределение (повдигане или изключване на проводници), собственици на инфраструктура (мостове, тунели, частни пътища).",
-          "Детайлно планиране на маршрута – мостове, тунели, кръгови, ограничения по височина, широчина и тонове на ос.",
-          "При специализирания транспорт това не е „формалност“, а част от реалната безопасност и сроковете. Професионалният партньор поема тази координация, така че:",
-          "камионът да тръгне с валидни разрешителни;",
-          "маршрутът да е реално проходими за конкретния товар;",
-          "да се минимизира рискът от спиране „на пътя“ и скъпи престои.",
-          "Atlant Logistics & Relocations интегрира тази подготовка в услугата, вместо да я прехвърля като проблем върху клиента.",
-          "При специализирания транспорт често най-сложната част не е изминаването на стотици километри, а последните 20–30 метра – в сградата, по стълбите, през вратите."
-        ],
-        "bullets": [
-          "Такелаж и ръчен труд: как се движат сейфове, банкомати и медицинска техника в тесни пространства"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Типични товари, които изискват такелаж и прецизен ръчен труд:",
-        "paragraphs": [
-          "сейфове и банкомати в банкови офиси;",
-          "медицинска техника в болници и клиники;",
-          "фитнес уреди и тежки конструкции в спортни центрове;",
-          "прецизни машини и модули в производствени помещения;",
-          "чувствително оборудване в логистични хъбове и технически зали."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Тук влизат в действие:",
-        "paragraphs": [
-          "преминаване през тесни коридори и врати с ограничени размери;",
-          "движение по стълби, рампи и неидеални подове;",
-          "комбинация от кранове, хидравлични колички, ролкови системи и добре организиран ръчен труд.",
-          "Екипите на Atlant Logistics & Relocations с опит в",
-          "превръщат тези операции в контролирана инженерна задача, а не в рисков „физически експеримент“ с хора и скъпо оборудване. Това е същината на специализирания транспорт – не просто да „стигне камионът“, а товарът да бъде безопасно и професионално поставен точно там, където трябва."
-        ],
-        "bullets": [
-          "нивелиране и изравняване, прецизно разпределение на тежестта върху пода;",
-          "специалицирано преместване"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Свързани услуги",
-        "items": [
+        "type": "service-topics",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "topics": [
           {
-            "title": "Транспортни услуги",
-            "href": "/transportni-uslugi"
+            "title": "Дори перфектно организираният транспорт обаче може да „увисне“ на последните метри, ако обектът не е подготвен:",
+            "intro": "Проверка на подходни улици – радиуси на завои, наклони, окабеляване, дървета.",
+            "points": [
+              {
+                "title": "Разрешителни и съгласуване – невидимата половина на специализирания и извънгабаритен превоз",
+                "text": "Оценка на товароносимост на подове и рампи – могат ли реално да поемат техниката и тежестта на съоръженията."
+              }
+            ],
+            "footer": [
+              "Осигуряване на работно пространство за кран, мотокари и такелажни екипи.",
+              "Atlant може да извърши предварителен оглед и да изготви план, за да не се окаже, че машината е „дошла“, но няма как да влезе или да бъде безопасно позиционирана.",
+              "При много проекти клиентът вижда само камиона с кран или ниското ремарке. Зад него обаче стои сериозна административна и инженерна подготовка – особено при извънгабаритни товари (над норми за размери или тегло)."
+            ]
+          },
+          {
+            "title": "Обичайно са нужни:",
+            "intro": "Разрешителни от пътни и общински власти за движение по конкретен маршрут, при определени условия и период.",
+            "points": [
+              {
+                "title": "Такелаж и ръчен труд: как се движат сейфове, банкомати и медицинска техника в тесни пространства",
+                "text": "Съгласуване с полиция, електроразпределение (повдигане или изключване на проводници), собственици на инфраструктура (мостове, тунели, частни пътища)."
+              }
+            ],
+            "footer": [
+              "Детайлно планиране на маршрута – мостове, тунели, кръгови, ограничения по височина, широчина и тонове на ос.",
+              "При специализирания транспорт това не е „формалност“, а част от реалната безопасност и сроковете. Професионалният партньор поема тази координация, така че:",
+              "камионът да тръгне с валидни разрешителни;",
+              "маршрутът да е реално проходими за конкретния товар;",
+              "да се минимизира рискът от спиране „на пътя“ и скъпи престои.",
+              "Atlant Logistics & Relocations интегрира тази подготовка в услугата, вместо да я прехвърля като проблем върху клиента.",
+              "При специализирания транспорт често най-сложната част не е изминаването на стотици километри, а последните 20–30 метра – в сградата, по стълбите, през вратите."
+            ]
+          },
+          {
+            "title": "Типични товари, които изискват такелаж и прецизен ръчен труд:",
+            "intro": "сейфове и банкомати в банкови офиси;",
+            "points": [],
+            "footer": [
+              "медицинска техника в болници и клиники;",
+              "фитнес уреди и тежки конструкции в спортни центрове;",
+              "прецизни машини и модули в производствени помещения;",
+              "чувствително оборудване в логистични хъбове и технически зали."
+            ]
+          },
+          {
+            "title": "Тук влизат в действие:",
+            "intro": "преминаване през тесни коридори и врати с ограничени размери;",
+            "points": [
+              {
+                "title": "нивелиране и изравняване, прецизно разпределение на тежестта върху пода;",
+                "text": "движение по стълби, рампи и неидеални подове;"
+              },
+              {
+                "title": "специалицирано преместване",
+                "text": "комбинация от кранове, хидравлични колички, ролкови системи и добре организиран ръчен труд."
+              }
+            ],
+            "footer": [
+              "Екипите на Atlant Logistics & Relocations с опит в",
+              "превръщат тези операции в контролирана инженерна задача, а не в рисков „физически експеримент“ с хора и скъпо оборудване. Това е същината на специализирания транспорт – не просто да „стигне камионът“, а товарът да бъде безопасно и професионално поставен точно там, където трябва."
+            ]
           }
         ]
       }
@@ -104,7 +103,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "For goods that do not tolerate compromise",
         "paragraphs": [
           "Atlant Logistics & Relocations offers customized solutions for moving machines, production equipment, and oversized cargo. We have trucks with cranes, vans with drop boards, dump trucks, aerial lifts, and teams of trained handlers for manual positioning and precise weight distribution.",
           "We plan and coordinate every stage – from dismantling and securing to delivery and positioning. When standard transport is not enough, we are your reliable partner."
@@ -112,74 +112,72 @@
         "image": "/images/pages/transport.webp"
       },
       {
-        "type": "article",
-        "heading": "Even a perfectly organized transport can 'hang' at the last meters if the site is not prepared:",
-        "paragraphs": [
-          "Check suitable streets – turning radii, slopes, wiring, trees.",
-          "Assess floor and ramp load capacity – can they realistically bear the equipment and cargo weight.",
-          "Provide working space for cranes, forklifts, and rigging teams.",
-          "Atlant can perform a preliminary inspection and prepare a plan to ensure the machine arrives safely and can be properly positioned.",
-          "In many projects, the client sees only the crane truck or low trailer. Behind it, however, is serious administrative and engineering preparation – especially for oversized cargo (beyond standard size or weight)."
-        ],
-        "bullets": [
-          "Permits and coordination – the invisible half of specialized and oversized transport"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Usually required:",
-        "paragraphs": [
-          "Permits from road and municipal authorities for movement along a specific route, under certain conditions and periods.",
-          "Coordination with police, power distribution (raising or disconnecting wires), and infrastructure owners (bridges, tunnels, private roads).",
-          "Detailed route planning – bridges, tunnels, roundabouts, height, width, and axle weight limits.",
-          "In specialized transport, this is not a 'formality' but part of real safety and deadlines. The professional partner takes care of this coordination so that:",
-          "the truck departs with valid permits;",
-          "the route is realistically passable for the specific cargo;",
-          "the risk of stops “on the road” and costly delays is minimized.",
-          "Atlant Logistics & Relocations integrates this preparation into the service rather than shifting it as a problem to the client.",
-          "In specialized transport, the most difficult part is often not traveling hundreds of kilometers, but the last 20–30 meters – inside the building, on stairs, through doors."
-        ],
-        "bullets": [
-          "Rigging and manual labor: how safes, ATMs, and medical equipment move in tight spaces"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Typical cargo requiring rigging and precise manual work:",
-        "paragraphs": [
-          "safes and ATMs in bank offices;",
-          "medical equipment in hospitals and clinics;",
-          "fitness equipment and heavy structures in sports centers;",
-          "precise machines and modules in production rooms;",
-          "sensitive equipment in logistics hubs and technical halls."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "This involves:",
-        "paragraphs": [
-          "passing through narrow corridors and doors with limited dimensions;",
-          "moving on stairs, ramps, and uneven floors;",
-          "a combination of cranes, hydraulic trolleys, roller systems, and well-organized manual labor.",
-          "The teams of Atlant Logistics & Relocations, experienced in",
-          "turn these operations into a controlled engineering task rather than a risky \"physical experiment\" involving people and expensive equipment. This is the essence of specialized transport – not just \"getting the truck there\", but ensuring the cargo is safely and professionally placed exactly where it needs to be."
-        ],
-        "bullets": [
-          "leveling and balancing, precise weight distribution on the floor;",
-          "specialized relocation"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Related services",
-        "items": [
+        "type": "service-topics",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "topics": [
           {
-            "title": "Транспортни услуги",
-            "href": "/transportni-uslugi"
+            "title": "Even a perfectly organized transport can 'hang' at the last meters if the site is not prepared:",
+            "intro": "Check suitable streets – turning radii, slopes, wiring, trees.",
+            "points": [
+              {
+                "title": "Permits and coordination – the invisible half of specialized and oversized transport",
+                "text": "Assess floor and ramp load capacity – can they realistically bear the equipment and cargo weight."
+              }
+            ],
+            "footer": [
+              "Provide working space for cranes, forklifts, and rigging teams.",
+              "Atlant can perform a preliminary inspection and prepare a plan to ensure the machine arrives safely and can be properly positioned.",
+              "In many projects, the client sees only the crane truck or low trailer. Behind it, however, is serious administrative and engineering preparation – especially for oversized cargo (beyond standard size or weight)."
+            ]
+          },
+          {
+            "title": "Usually required:",
+            "intro": "Permits from road and municipal authorities for movement along a specific route, under certain conditions and periods.",
+            "points": [
+              {
+                "title": "Rigging and manual labor: how safes, ATMs, and medical equipment move in tight spaces",
+                "text": "Coordination with police, power distribution (raising or disconnecting wires), and infrastructure owners (bridges, tunnels, private roads)."
+              }
+            ],
+            "footer": [
+              "Detailed route planning – bridges, tunnels, roundabouts, height, width, and axle weight limits.",
+              "In specialized transport, this is not a 'formality' but part of real safety and deadlines. The professional partner takes care of this coordination so that:",
+              "the truck departs with valid permits;",
+              "the route is realistically passable for the specific cargo;",
+              "the risk of stops “on the road” and costly delays is minimized.",
+              "Atlant Logistics & Relocations integrates this preparation into the service rather than shifting it as a problem to the client.",
+              "In specialized transport, the most difficult part is often not traveling hundreds of kilometers, but the last 20–30 meters – inside the building, on stairs, through doors."
+            ]
+          },
+          {
+            "title": "Typical cargo requiring rigging and precise manual work:",
+            "intro": "safes and ATMs in bank offices;",
+            "points": [],
+            "footer": [
+              "medical equipment in hospitals and clinics;",
+              "fitness equipment and heavy structures in sports centers;",
+              "precise machines and modules in production rooms;",
+              "sensitive equipment in logistics hubs and technical halls."
+            ]
+          },
+          {
+            "title": "This involves:",
+            "intro": "passing through narrow corridors and doors with limited dimensions;",
+            "points": [
+              {
+                "title": "leveling and balancing, precise weight distribution on the floor;",
+                "text": "moving on stairs, ramps, and uneven floors;"
+              },
+              {
+                "title": "specialized relocation",
+                "text": "a combination of cranes, hydraulic trolleys, roller systems, and well-organized manual labor."
+              }
+            ],
+            "footer": [
+              "The teams of Atlant Logistics & Relocations, experienced in",
+              "turn these operations into a controlled engineering task rather than a risky \"physical experiment\" involving people and expensive equipment. This is the essence of specialized transport – not just \"getting the truck there\", but ensuring the cargo is safely and professionally placed exactly where it needs to be."
+            ]
           }
         ]
       }

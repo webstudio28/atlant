@@ -11,7 +11,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Контролирано движение на хора, техника и документи",
         "paragraphs": [
           "Преместването на бизнес среда влияе директно върху екипа, клиентите и приходите. Затова работим по план, по етапи и без излишни паузи – в града, страната и при нужда международно.",
           "Затова работим по план, по етапи и без излишни паузи – в града, страната и при нужда международно.",
@@ -21,88 +22,76 @@
         "image": "/images/pages/relocation.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Полезни съвети по темата",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Как да го направите просто:",
-        "paragraphs": [
-          "Изпратете кратки съобщения с важните дати: „След седмица“, „След три дни“, „Утре“, „Днес“.",
-          "Дайте един ясен контакт за въпроси и промени.",
-          "Споделете карта на новия етаж/офис и инструкции „какво да опаковате сами“.",
-          "Уведомете клиенти и партньори за новия адрес и възможни кратки забавяния.",
-          "Назначете по един човек във всеки отдел, който събира въпроси и проверява готовността.",
-          "Резултат: по-малко объркване, по-малко импровизации, по-тих първи ден.",
-          "Преместване на техниката: прост план в три стъпки",
-          "Идеята е всичко да тръгне от първия ден — без излишни нерви."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Преди преместването:",
-        "paragraphs": [
-          "Направете списък на компютри, монитори и телефони и им сложете етикети.",
-          "Запазете важните файлове (резервно копие).",
-          "Проверете дали на новото място има готови контакти, интернет и място за принтери."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "В деня:",
-        "paragraphs": [
-          "Снимайте как са свързани кабелите, за да ги върнете същите.",
-          "Приберете техниката в затворени кашони/контейнери.",
-          "Подредете по план: кое бюро какво получава."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "След преместването:",
-        "paragraphs": [
-          "Проверете дали има интернет, печат и достъп до общите папки.",
-          "Осигурете човек „на линия“ за първите дребни проблеми през 1–2 дни.",
-          "Резултат: работните места са готови бързо, без да се търсят кабели и настройки.",
-          "Застраховката не е бюрокрация, а „въздушна възглавница“ за техниката, документите и мебелирането ви по време на преместването.",
-          "Имате скъпа ИТ техника или чувствителни устройства (сървъри, специализирани принтери).",
-          "Преместването е по етажи/тесни стълби или през дълъг маршрут/международно.",
-          "Работите с критични документи или конфиденциални носители.",
-          "Сградата изисква задължителна полица за дейности в общите части.",
-          "Какво обикновено покрива",
-          "Щети по имущество при товарене, транспорт и разтоварване.",
-          "Кражба/загуба при ясно описан инцидент.",
-          "Отговорност към трети лица (повредени общи части, чуждо имущество).",
-          "Вариант за временен склад (ако държите вещи при нас).",
-          "Съвет: потърсете лимит „на артикул“ + общ лимит и покритие в двете локации (стар и нов адрес).",
-          "Как да я ползвате правилно",
-          "Опис и снимки „преди“ на ценните активи + етикети по отдел/служител.",
-          "Професионална опаковка (критично условие за много полици).",
-          "При инцидент: снимки „след“, кратък опис, час/място, уведомяване в рамките на посочения срок (често 24–72 ч.).",
-          "Как да изберете правилната полица",
-          "Попитайте за самоучастие и срок за рекламация.",
-          "Уточнете кой е в застрахователния договор: вашата фирма, изпълнителят или и двете.",
-          "Потвърдете дали покрива демонтаж/монтаж и пренос през общи части."
-        ],
-        "bullets": [
-          "Застраховка при преместване на офис: кога и как да я използвате",
-          "Кога има смисъл"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "related-services",
-        "heading": "Свързани услуги",
-        "items": [
+        "topics": [
           {
-            "title": "Премествания",
-            "href": "/premestvane"
+            "title": "Как да го направите просто:",
+            "intro": "Изпратете кратки съобщения с важните дати: „След седмица“, „След три дни“, „Утре“, „Днес“.",
+            "points": [],
+            "footer": [
+              "Дайте един ясен контакт за въпроси и промени.",
+              "Споделете карта на новия етаж/офис и инструкции „какво да опаковате сами“.",
+              "Уведомете клиенти и партньори за новия адрес и възможни кратки забавяния.",
+              "Назначете по един човек във всеки отдел, който събира въпроси и проверява готовността.",
+              "Резултат: по-малко объркване, по-малко импровизации, по-тих първи ден.",
+              "Преместване на техниката: прост план в три стъпки",
+              "Идеята е всичко да тръгне от първия ден — без излишни нерви."
+            ]
+          },
+          {
+            "title": "Преди преместването:",
+            "intro": "Направете списък на компютри, монитори и телефони и им сложете етикети.",
+            "points": [],
+            "footer": [
+              "Запазете важните файлове (резервно копие).",
+              "Проверете дали на новото място има готови контакти, интернет и място за принтери."
+            ]
+          },
+          {
+            "title": "В деня:",
+            "intro": "Снимайте как са свързани кабелите, за да ги върнете същите.",
+            "points": [],
+            "footer": [
+              "Приберете техниката в затворени кашони/контейнери.",
+              "Подредете по план: кое бюро какво получава."
+            ]
+          },
+          {
+            "title": "След преместването:",
+            "intro": "Проверете дали има интернет, печат и достъп до общите папки.",
+            "points": [
+              {
+                "title": "Застраховка при преместване на офис: кога и как да я използвате",
+                "text": "Осигурете човек „на линия“ за първите дребни проблеми през 1–2 дни."
+              },
+              {
+                "title": "Кога има смисъл",
+                "text": "Резултат: работните места са готови бързо, без да се търсят кабели и настройки."
+              }
+            ],
+            "footer": [
+              "Застраховката не е бюрокрация, а „въздушна възглавница“ за техниката, документите и мебелирането ви по време на преместването.",
+              "Имате скъпа ИТ техника или чувствителни устройства (сървъри, специализирани принтери).",
+              "Преместването е по етажи/тесни стълби или през дълъг маршрут/международно.",
+              "Работите с критични документи или конфиденциални носители.",
+              "Сградата изисква задължителна полица за дейности в общите части.",
+              "Какво обикновено покрива",
+              "Щети по имущество при товарене, транспорт и разтоварване.",
+              "Кражба/загуба при ясно описан инцидент.",
+              "Отговорност към трети лица (повредени общи части, чуждо имущество).",
+              "Вариант за временен склад (ако държите вещи при нас).",
+              "Съвет: потърсете лимит „на артикул“ + общ лимит и покритие в двете локации (стар и нов адрес).",
+              "Как да я ползвате правилно",
+              "Опис и снимки „преди“ на ценните активи + етикети по отдел/служител.",
+              "Професионална опаковка (критично условие за много полици).",
+              "При инцидент: снимки „след“, кратък опис, час/място, уведомяване в рамките на посочения срок (често 24–72 ч.).",
+              "Как да изберете правилната полица",
+              "Попитайте за самоучастие и срок за рекламация.",
+              "Уточнете кой е в застрахователния договор: вашата фирма, изпълнителят или и двете.",
+              "Потвърдете дали покрива демонтаж/монтаж и пренос през общи части."
+            ]
           }
         ]
       }
@@ -120,7 +109,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Controlled movement of people, equipment, and documents",
         "paragraphs": [
           "Relocating a business environment directly affects your team, clients, and revenue. That’s why we work according to a plan, in stages, and without unnecessary downtime — within the city, the country, and internationally when needed.",
           "That’s why we work according to a plan, in stages, and without unnecessary downtime — within the city, the country, and internationally when needed.",
@@ -130,90 +120,81 @@
         "image": "/images/pages/relocation.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Useful tips on the topic",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "How to do it simply:",
-        "paragraphs": [
-          "Send short messages with key dates: “In one week”, “In three days”, “Tomorrow”, “Today”.",
-          "Provide one clear contact for questions and changes.",
-          "Share a map of the new floor/office and instructions on “what to pack yourself”.",
-          "Notify clients and partners about the new address and possible short delays.",
-          "Assign one person in each department to collect questions and check readiness.",
-          "Result: less confusion, fewer improvisations, a quieter first day.",
-          "The idea is for everything to be up and running from day one — without unnecessary stress."
-        ],
-        "bullets": [
-          "Relocating equipment: a simple three-step plan"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Before the relocation:",
-        "paragraphs": [
-          "Create a list of computers, monitors, and phones and label them.",
-          "Back up important files.",
-          "Check that the new location has ready power outlets, internet, and space for printers."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "On the day:",
-        "paragraphs": [
-          "Take photos of cable connections so you can restore them the same way.",
-          "Pack equipment in closed boxes/containers.",
-          "Arrange according to the plan: which desk gets what."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "After the relocation:",
-        "paragraphs": [
-          "Check internet, printing, and access to shared folders.",
-          "Ensure someone is “on call” for minor issues during the first 1–2 days.",
-          "Result: workstations are ready quickly, without searching for cables and settings.",
-          "Insurance is not bureaucracy, but an “airbag” for your equipment, documents, and furnishings during relocation.",
-          "You have expensive IT equipment or sensitive devices (servers, specialized printers).",
-          "The relocation involves multiple floors/narrow staircases or a long route/international move.",
-          "You work with critical documents or confidential media.",
-          "The building requires mandatory insurance for activities in common areas.",
-          "What it usually covers",
-          "Damage to property during loading, transport, and unloading.",
-          "Theft/loss in a clearly documented incident.",
-          "Liability to third parties (damaged common areas, third-party property).",
-          "Option for temporary storage (if items are kept with us).",
-          "Tip: look for a per-item limit + total limit and coverage at both locations (old and new address).",
-          "Inventory and “before” photos of valuable assets + labels by department/employee.",
-          "Professional packing (a critical requirement for many policies).",
-          "In case of an incident: “after” photos, brief description, time/location, notification within the specified timeframe (often 24–72 hours).",
-          "How to choose the right policy",
-          "Ask about deductibles and claim deadlines.",
-          "Clarify who is named in the insurance contract: your company, the contractor, or both.",
-          "Confirm whether it covers disassembly/assembly and transport through common areas."
-        ],
-        "bullets": [
-          "Insurance when relocating an office: when and how to use it",
-          "When it makes sense",
-          "How to use it correctly"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "related-services",
-        "heading": "Related services",
-        "items": [
+        "topics": [
           {
-            "title": "Премествания",
-            "href": "/premestvane"
+            "title": "How to do it simply:",
+            "intro": "Send short messages with key dates: “In one week”, “In three days”, “Tomorrow”, “Today”.",
+            "points": [
+              {
+                "title": "Relocating equipment: a simple three-step plan",
+                "text": "Provide one clear contact for questions and changes."
+              }
+            ],
+            "footer": [
+              "Share a map of the new floor/office and instructions on “what to pack yourself”.",
+              "Notify clients and partners about the new address and possible short delays.",
+              "Assign one person in each department to collect questions and check readiness.",
+              "Result: less confusion, fewer improvisations, a quieter first day.",
+              "The idea is for everything to be up and running from day one — without unnecessary stress."
+            ]
+          },
+          {
+            "title": "Before the relocation:",
+            "intro": "Create a list of computers, monitors, and phones and label them.",
+            "points": [],
+            "footer": [
+              "Back up important files.",
+              "Check that the new location has ready power outlets, internet, and space for printers."
+            ]
+          },
+          {
+            "title": "On the day:",
+            "intro": "Take photos of cable connections so you can restore them the same way.",
+            "points": [],
+            "footer": [
+              "Pack equipment in closed boxes/containers.",
+              "Arrange according to the plan: which desk gets what."
+            ]
+          },
+          {
+            "title": "After the relocation:",
+            "intro": "Check internet, printing, and access to shared folders.",
+            "points": [
+              {
+                "title": "Insurance when relocating an office: when and how to use it",
+                "text": "Ensure someone is “on call” for minor issues during the first 1–2 days."
+              },
+              {
+                "title": "When it makes sense",
+                "text": "Result: workstations are ready quickly, without searching for cables and settings."
+              },
+              {
+                "title": "How to use it correctly",
+                "text": "Insurance is not bureaucracy, but an “airbag” for your equipment, documents, and furnishings during relocation."
+              }
+            ],
+            "footer": [
+              "You have expensive IT equipment or sensitive devices (servers, specialized printers).",
+              "The relocation involves multiple floors/narrow staircases or a long route/international move.",
+              "You work with critical documents or confidential media.",
+              "The building requires mandatory insurance for activities in common areas.",
+              "What it usually covers",
+              "Damage to property during loading, transport, and unloading.",
+              "Theft/loss in a clearly documented incident.",
+              "Liability to third parties (damaged common areas, third-party property).",
+              "Option for temporary storage (if items are kept with us).",
+              "Tip: look for a per-item limit + total limit and coverage at both locations (old and new address).",
+              "Inventory and “before” photos of valuable assets + labels by department/employee.",
+              "Professional packing (a critical requirement for many policies).",
+              "In case of an incident: “after” photos, brief description, time/location, notification within the specified timeframe (often 24–72 hours).",
+              "How to choose the right policy",
+              "Ask about deductibles and claim deadlines.",
+              "Clarify who is named in the insurance contract: your company, the contractor, or both.",
+              "Confirm whether it covers disassembly/assembly and transport through common areas."
+            ]
           }
         ]
       }

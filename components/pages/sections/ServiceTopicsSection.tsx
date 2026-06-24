@@ -41,7 +41,7 @@ function TopicBody({ topic }: { topic: ServiceTopic }) {
   return (
     <>
       <TopicIntro text={topic.intro} />
-      <PointGrid points={topic.points} />
+      {topic.points.length > 0 && <PointGrid points={topic.points} />}
       <TopicFooter lines={topic.footer} />
     </>
   );

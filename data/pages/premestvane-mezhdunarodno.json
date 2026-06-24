@@ -11,7 +11,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Координирано преместване отвъд граници и часови зони",
         "paragraphs": [
           "Смяната на държава е голямо решение, но не бива да е голям стрес. Ние движим процеса door-to-door – от първия видео/на място оглед до последната подредена кутия – в Европа и отвъд.",
           "Какво включва услугата",
@@ -21,52 +22,59 @@
         "image": "/images/pages/relocation.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Полезни съвети по темата",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Подгответе една или няколко кутии, които да останат до вас през целия транспорт (или да пристигнат първи):",
-        "paragraphs": [
-          "Основни дрехи, лична хигиена, зарядни, мултипреходници",
-          "Базови кухненски неща (2–3 чаши, прибори, малка тенджера/тиган)",
-          "Лекарства, важни документи, малко кеш в местна валута",
-          "Минимум документи под ръка",
-          "Договори за работа/обучение, наем или покупка на жилище",
-          "Удостоверения за семейно положение и деца, ако предстои регистрация в местни институции",
-          "Практични стъпки след пристигане",
-          "Проучване на най-близките ключови точки: болница/клиника, аптека, голям супермаркет, обществен транспорт",
-          "Комуникация и време",
-          "При възможност фиксирайте „час за контакт“ с координатора по преместването – така всички въпроси минават канализирано, без разпиляване",
-          "Съвместимост на уреди и стандарти: дребното, което спестява големи ядове",
-          "Чисти консумативи „за първа седмица“: филтри, накрайници, батерии, предпазители — леки са, но спасяват време.",
-          "Полза: избягвате „пристигна, но не работи“ и започвате нормален живот още същата седмица"
-        ],
-        "bullets": [
-          "Здравно осигуряване/полица, европейска здравна карта, ако е приложимо",
-          "Регистрация по адрес и местни изисквания (ако се изисква в първите дни)",
-          "Откриване на банкова сметка и мобилен номер – без тях много други процеси се бавят",
-          "Разликите в часовите зони влияят на работа, училище, контакти с България",
-          "Планирайте часовете за комуникация с институции и партньори в две държави едновременно",
-          "Новата държава може да има други стандарти за уреди и размери",
-          "Волтаж и щепсели: проверете съвместимостта (напр. 230V/50Hz, типове щепсели); предвидете адаптери/трансформатор при нужда",
-          "Размери на мебели/матраци: стандартите се различават (EU/UK/US) — измерете преди да превозите",
-          "Интернет и рутери: често е по-бързо да вземете локален рутер/SIM; пазете кабели и монтажни части отделно",
-          "Осветителни тела и крушки: различни фасунги/ватажи — дреболия, която спира влизането в ритъм"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Свързани услуги",
-        "items": [
+        "topics": [
           {
-            "title": "Премествания",
-            "href": "/premestvane"
+            "title": "Подгответе една или няколко кутии, които да останат до вас през целия транспорт (или да пристигнат първи):",
+            "intro": "Основни дрехи, лична хигиена, зарядни, мултипреходници",
+            "points": [
+              {
+                "title": "Здравно осигуряване/полица, европейска здравна карта, ако е приложимо",
+                "text": "Базови кухненски неща (2–3 чаши, прибори, малка тенджера/тиган)"
+              },
+              {
+                "title": "Регистрация по адрес и местни изисквания (ако се изисква в първите дни)",
+                "text": "Лекарства, важни документи, малко кеш в местна валута"
+              },
+              {
+                "title": "Откриване на банкова сметка и мобилен номер – без тях много други процеси се бавят",
+                "text": "Минимум документи под ръка"
+              },
+              {
+                "title": "Разликите в часовите зони влияят на работа, училище, контакти с България",
+                "text": "Договори за работа/обучение, наем или покупка на жилище"
+              },
+              {
+                "title": "Планирайте часовете за комуникация с институции и партньори в две държави едновременно",
+                "text": "Удостоверения за семейно положение и деца, ако предстои регистрация в местни институции"
+              },
+              {
+                "title": "Новата държава може да има други стандарти за уреди и размери",
+                "text": "Практични стъпки след пристигане"
+              },
+              {
+                "title": "Волтаж и щепсели: проверете съвместимостта (напр. 230V/50Hz, типове щепсели); предвидете адаптери/трансформатор при нужда",
+                "text": "Проучване на най-близките ключови точки: болница/клиника, аптека, голям супермаркет, обществен транспорт"
+              },
+              {
+                "title": "Размери на мебели/матраци: стандартите се различават (EU/UK/US) — измерете преди да превозите",
+                "text": "Комуникация и време"
+              },
+              {
+                "title": "Интернет и рутери: често е по-бързо да вземете локален рутер/SIM; пазете кабели и монтажни части отделно",
+                "text": "При възможност фиксирайте „час за контакт“ с координатора по преместването – така всички въпроси минават канализирано, без разпиляване"
+              },
+              {
+                "title": "Осветителни тела и крушки: различни фасунги/ватажи — дреболия, която спира влизането в ритъм",
+                "text": "Съвместимост на уреди и стандарти: дребното, което спестява големи ядове"
+              }
+            ],
+            "footer": [
+              "Чисти консумативи „за първа седмица“: филтри, накрайници, батерии, предпазители — леки са, но спасяват време.",
+              "Полза: избягвате „пристигна, но не работи“ и започвате нормален живот още същата седмица"
+            ]
           }
         ]
       }
@@ -84,7 +92,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Coordinated relocation across borders and time zones",
         "paragraphs": [
           "Changing countries is a big decision, but it shouldn't be a huge stress. We manage the process door-to-door – from the first video/on-site inspection to the last packed box – in Europe and beyond.",
           "What the service includes",
@@ -94,52 +103,59 @@
         "image": "/images/pages/relocation.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Useful tips on the topic",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Prepare one or several boxes to stay with you during the entire transport (or to arrive first):",
-        "paragraphs": [
-          "Basic clothes, personal hygiene items, chargers, power adapters",
-          "Basic kitchen items (2–3 cups, utensils, small pot/pan)",
-          "Medications, important documents, some cash in local currency",
-          "Minimum documents at hand",
-          "Work/study contracts, rental or property purchase documents",
-          "Certificates of marital status and children, if registration in local institutions is required",
-          "Check the nearest key points: hospital/clinic, pharmacy, large supermarket, public transport",
-          "Communication and time",
-          "If possible, schedule a “contact hour” with the relocation coordinator – this way all questions are handled in an organized manner without scattering",
-          "Compatibility of appliances and standards: small things that save big headaches",
-          "Voltage and plugs: check compatibility (e.g., 230V/50Hz, plug types); use adapters/transformers if needed",
-          "Clean 'first week' supplies: filters, tips, batteries, fuses — they're lightweight but save time.",
-          "Benefit: you avoid 'arrived but doesn't work' and start a normal life the same week"
-        ],
-        "bullets": [
-          "Health insurance/policy, European health card if applicable",
-          "Practical steps after arrival",
-          "Register at the address and fulfill local requirements (if needed in the first days)",
-          "Open a bank account and mobile number – without them, many other processes are delayed",
-          "Time zone differences affect work, school, and contacts with Bulgaria",
-          "Plan hours for communication with institutions and partners in both countries simultaneously",
-          "The new country may have different standards for appliances and sizes",
-          "Furniture/mattress sizes: standards vary (EU/UK/US) – measure before shipping",
-          "Internet and routers: often faster to get a local router/SIM; keep cables and installation parts separate",
-          "Lighting fixtures and bulbs: different sockets/wattage – a small detail that can disrupt settling in"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Related services",
-        "items": [
+        "topics": [
           {
-            "title": "Премествания",
-            "href": "/premestvane"
+            "title": "Prepare one or several boxes to stay with you during the entire transport (or to arrive first):",
+            "intro": "Basic clothes, personal hygiene items, chargers, power adapters",
+            "points": [
+              {
+                "title": "Health insurance/policy, European health card if applicable",
+                "text": "Basic kitchen items (2–3 cups, utensils, small pot/pan)"
+              },
+              {
+                "title": "Practical steps after arrival",
+                "text": "Medications, important documents, some cash in local currency"
+              },
+              {
+                "title": "Register at the address and fulfill local requirements (if needed in the first days)",
+                "text": "Minimum documents at hand"
+              },
+              {
+                "title": "Open a bank account and mobile number – without them, many other processes are delayed",
+                "text": "Work/study contracts, rental or property purchase documents"
+              },
+              {
+                "title": "Time zone differences affect work, school, and contacts with Bulgaria",
+                "text": "Certificates of marital status and children, if registration in local institutions is required"
+              },
+              {
+                "title": "Plan hours for communication with institutions and partners in both countries simultaneously",
+                "text": "Check the nearest key points: hospital/clinic, pharmacy, large supermarket, public transport"
+              },
+              {
+                "title": "The new country may have different standards for appliances and sizes",
+                "text": "Communication and time"
+              },
+              {
+                "title": "Furniture/mattress sizes: standards vary (EU/UK/US) – measure before shipping",
+                "text": "If possible, schedule a “contact hour” with the relocation coordinator – this way all questions are handled in an organized manner without scattering"
+              },
+              {
+                "title": "Internet and routers: often faster to get a local router/SIM; keep cables and installation parts separate",
+                "text": "Compatibility of appliances and standards: small things that save big headaches"
+              },
+              {
+                "title": "Lighting fixtures and bulbs: different sockets/wattage – a small detail that can disrupt settling in",
+                "text": "Voltage and plugs: check compatibility (e.g., 230V/50Hz, plug types); use adapters/transformers if needed"
+              }
+            ],
+            "footer": [
+              "Clean 'first week' supplies: filters, tips, batteries, fuses — they're lightweight but save time.",
+              "Benefit: you avoid 'arrived but doesn't work' and start a normal life the same week"
+            ]
           }
         ]
       }

@@ -11,7 +11,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Структуриран процес за вашия нов уют",
         "paragraphs": [
           "Смяната на адрес не трябва да е драматична. Ние поемаме всичко — от врата до врата, в града, в страната и при",
           "международно преместване.",
@@ -21,159 +22,110 @@
         "image": "/images/pages/relocation.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Полезни съвети по темата",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Как да организираме преместването на дома?",
-        "paragraphs": [
-          "Преместването на дома е процес, който изисква планиране, внимание към детайлите и правилна организация. Независимо дали се местите в ново жилище в същия град или в друг град, ключът към успешното преместване е в добрата подготовка. Стъпки за успешна организация"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Създаване на план за преместване:",
-        "paragraphs": [
-          "Определете дата и направете списък с всички задачи, които трябва да бъдат изпълнени преди, по време и след преместването."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Сортиране и опаковане:",
-        "paragraphs": [
-          "Разделете вещите си на категории – тези, които ще вземете със себе си, тези за дарение и тези, които могат да бъдат изхвърлени."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Избор на транспортна услуга:",
-        "paragraphs": [
-          "Atlant Logistics & Relocations предоставя различни варианти за превоз, включително товарни камиони и бусове, в зависимост от обема на багажа ви."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Демонтаж и монтаж на мебели:",
-        "paragraphs": [
-          "Ако имате големи мебели, нашият екип ще ги демонтира преди транспортирането и ще ги сглоби отново на новото място."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Опаковане на чупливи вещи:",
-        "paragraphs": [
-          "Стъклени предмети, огледала и електроника трябва да бъдат добре опаковани, за да се предотвратят повреди.",
-          "Как да намалите цената честно (без да падне качеството)"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Редукция на обем:",
-        "paragraphs": [
-          "предварително отделете излишното за дарение/продажба. По-малко кубици = по-ниска оферта."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Гъвкав слот:",
-        "paragraphs": [
-          "ако можете да приемете дата/час извън пик, често има по-добра ставка."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Сгрупиране на адресите:",
-        "paragraphs": [
-          "ключове, паркомясто, асансьор — подгответе ги, за да няма платено чакане."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Етикети по стаи:",
-        "paragraphs": [
-          "„Спалня/Кухня/Дневна“ – спестява време при подреждане."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Собствен „staging“ кът:",
-        "paragraphs": [
-          "2–3 м² при входа за временно струпване – линията става по-бърза."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Материали разумно:",
-        "paragraphs": [
-          "върнете годни кашони/калъфи или използвайте повторно – договорете го предварително."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Един координатор от ваша страна:",
-        "paragraphs": [
-          "бързи решения = по-малко човекочасове.",
-          "Извод: най-големите спестявания идват от по-малко престой и по-малко хаос, не от „рязане“ на екип.",
-          "Вашият 48-часов таймлайн: от последната вечер до първото кафе"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "T–24 часа (предния ден):",
-        "paragraphs": [
-          "Приберете ценности/документи/лекарства в отделна „лична“ чанта.",
-          "Източете уреди (пералня/миялна), размразете фризера, подсушете.",
-          "Съберете кабели/зарядни в прозрачни пликове с етикет.",
-          "Снимайте как са вързани кабелите на ТВ/рутер – после се сглобява за минути."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Денят на преместването:",
-        "paragraphs": [
-          "Осигурете паркомясто/разрешителни; задръжте асансьора за първия час.",
-          "Оставете свободен коридор от входа до „staging“ зоната.",
-          "Дръжте под ръка „първа кутия“: чаши, нож, сапун, тоалетна хартия, кърпи, зарядни.",
-          "Подписвайте етапно протоколите – виждате прогреса и запазвате контрол."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "T+24 часа (първият ден в новия дом):",
-        "paragraphs": [
-          "Първо кухнята и банята (минимален комфорт), после спалнята.",
-          "Проверете уредите за транспортни блокировки/винтове.",
-          "Снимайте евентуални щети и сигнализирайте навреме (ако има застраховка)."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "related-services",
-        "heading": "Свързани услуги",
-        "items": [
+        "topics": [
           {
-            "title": "Премествания",
-            "href": "/premestvane"
+            "title": "Как да организираме преместването на дома?",
+            "intro": "Преместването на дома е процес, който изисква планиране, внимание към детайлите и правилна организация. Независимо дали се местите в ново жилище в същия град или в друг град, ключът към успешното преместване е в добрата подготовка. Стъпки за успешна организация",
+            "points": []
+          },
+          {
+            "title": "Създаване на план за преместване:",
+            "intro": "Определете дата и направете списък с всички задачи, които трябва да бъдат изпълнени преди, по време и след преместването.",
+            "points": []
+          },
+          {
+            "title": "Сортиране и опаковане:",
+            "intro": "Разделете вещите си на категории – тези, които ще вземете със себе си, тези за дарение и тези, които могат да бъдат изхвърлени.",
+            "points": []
+          },
+          {
+            "title": "Избор на транспортна услуга:",
+            "intro": "Atlant Logistics & Relocations предоставя различни варианти за превоз, включително товарни камиони и бусове, в зависимост от обема на багажа ви.",
+            "points": []
+          },
+          {
+            "title": "Демонтаж и монтаж на мебели:",
+            "intro": "Ако имате големи мебели, нашият екип ще ги демонтира преди транспортирането и ще ги сглоби отново на новото място.",
+            "points": []
+          },
+          {
+            "title": "Опаковане на чупливи вещи:",
+            "intro": "Стъклени предмети, огледала и електроника трябва да бъдат добре опаковани, за да се предотвратят повреди.",
+            "points": [],
+            "footer": [
+              "Как да намалите цената честно (без да падне качеството)"
+            ]
+          },
+          {
+            "title": "Редукция на обем:",
+            "intro": "предварително отделете излишното за дарение/продажба. По-малко кубици = по-ниска оферта.",
+            "points": []
+          },
+          {
+            "title": "Гъвкав слот:",
+            "intro": "ако можете да приемете дата/час извън пик, често има по-добра ставка.",
+            "points": []
+          },
+          {
+            "title": "Сгрупиране на адресите:",
+            "intro": "ключове, паркомясто, асансьор — подгответе ги, за да няма платено чакане.",
+            "points": []
+          },
+          {
+            "title": "Етикети по стаи:",
+            "intro": "„Спалня/Кухня/Дневна“ – спестява време при подреждане.",
+            "points": []
+          },
+          {
+            "title": "Собствен „staging“ кът:",
+            "intro": "2–3 м² при входа за временно струпване – линията става по-бърза.",
+            "points": []
+          },
+          {
+            "title": "Материали разумно:",
+            "intro": "върнете годни кашони/калъфи или използвайте повторно – договорете го предварително.",
+            "points": []
+          },
+          {
+            "title": "Един координатор от ваша страна:",
+            "intro": "бързи решения = по-малко човекочасове.",
+            "points": [],
+            "footer": [
+              "Извод: най-големите спестявания идват от по-малко престой и по-малко хаос, не от „рязане“ на екип.",
+              "Вашият 48-часов таймлайн: от последната вечер до първото кафе"
+            ]
+          },
+          {
+            "title": "T–24 часа (предния ден):",
+            "intro": "Приберете ценности/документи/лекарства в отделна „лична“ чанта.",
+            "points": [],
+            "footer": [
+              "Източете уреди (пералня/миялна), размразете фризера, подсушете.",
+              "Съберете кабели/зарядни в прозрачни пликове с етикет.",
+              "Снимайте как са вързани кабелите на ТВ/рутер – после се сглобява за минути."
+            ]
+          },
+          {
+            "title": "Денят на преместването:",
+            "intro": "Осигурете паркомясто/разрешителни; задръжте асансьора за първия час.",
+            "points": [],
+            "footer": [
+              "Оставете свободен коридор от входа до „staging“ зоната.",
+              "Дръжте под ръка „първа кутия“: чаши, нож, сапун, тоалетна хартия, кърпи, зарядни.",
+              "Подписвайте етапно протоколите – виждате прогреса и запазвате контрол."
+            ]
+          },
+          {
+            "title": "T+24 часа (първият ден в новия дом):",
+            "intro": "Първо кухнята и банята (минимален комфорт), после спалнята.",
+            "points": [],
+            "footer": [
+              "Проверете уредите за транспортни блокировки/винтове.",
+              "Снимайте евентуални щети и сигнализирайте навреме (ако има застраховка)."
+            ]
           }
         ]
       }
@@ -191,7 +143,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "A structured process for your new comfort",
         "paragraphs": [
           "Changing your address doesn’t have to be dramatic. We take care of everything — door to door, within the city, across the country, and for",
           "international relocation.",
@@ -201,159 +154,110 @@
         "image": "/images/pages/relocation.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Useful tips on the topic",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "How to organize a home relocation?",
-        "paragraphs": [
-          "Home relocation is a process that requires planning, attention to detail, and proper organization. Whether you’re moving to a new home in the same city or another city, the key to success is good preparation. Steps for successful organization"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Creating a relocation plan:",
-        "paragraphs": [
-          "Set a date and create a list of all tasks that must be completed before, during, and after the move."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Sorting and packing:",
-        "paragraphs": [
-          "Divide your belongings into categories — items to take with you, items for donation, and items that can be discarded."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Choosing a transport service:",
-        "paragraphs": [
-          "Atlant Logistics & Relocations provides various transport options, including trucks and vans, depending on the volume of your belongings."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Furniture disassembly and assembly:",
-        "paragraphs": [
-          "If you have large furniture, our team will disassemble it before transport and reassemble it at the new location."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Packing fragile items:",
-        "paragraphs": [
-          "Glass items, mirrors, and electronics must be well packed to prevent damage.",
-          "How to reduce the price honestly (without sacrificing quality)"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Volume reduction:",
-        "paragraphs": [
-          "separate unnecessary items in advance for donation/sale. Fewer cubic meters = lower quote."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Flexible time slot:",
-        "paragraphs": [
-          "if you can accept an off-peak date/time, there is often a better rate."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Address grouping:",
-        "paragraphs": [
-          "keys, parking, elevator — prepare them to avoid paid waiting time."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Room labels:",
-        "paragraphs": [
-          "“Bedroom/Kitchen/Living Room” — saves time during arrangement."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Personal staging area:",
-        "paragraphs": [
-          "2–3 m² near the entrance for temporary stacking — speeds up the workflow."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Materials used wisely:",
-        "paragraphs": [
-          "return usable boxes/covers or reuse them — arrange this in advance."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "One coordinator on your side:",
-        "paragraphs": [
-          "quick decisions = fewer man-hours.",
-          "Conclusion: the biggest savings come from less idle time and less chaos, not from “cutting” the team.",
-          "Your 48-hour timeline: from the last evening to the first coffee"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "T–24 hours (the day before):",
-        "paragraphs": [
-          "Pack valuables/documents/medications in a separate “personal” bag.",
-          "Drain appliances (washing machine/dishwasher), defrost the freezer, dry everything.",
-          "Collect cables/chargers in transparent bags with labels.",
-          "Take photos of how TV/router cables are connected — reassembly takes minutes later."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Moving day:",
-        "paragraphs": [
-          "Secure parking/permits; reserve the elevator for the first hour.",
-          "Keep a clear corridor from the entrance to the staging area.",
-          "Keep a “first box” handy: cups, knife, soap, toilet paper, towels, chargers.",
-          "Sign protocols step by step — you see progress and keep control."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "T+24 hours (first day in the new home):",
-        "paragraphs": [
-          "Start with the kitchen and bathroom (minimum comfort), then the bedroom.",
-          "Check appliances for transport locks/screws.",
-          "Photograph any potential damage and report it in time (if insurance applies)."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "related-services",
-        "heading": "Related services",
-        "items": [
+        "topics": [
           {
-            "title": "Премествания",
-            "href": "/premestvane"
+            "title": "How to organize a home relocation?",
+            "intro": "Home relocation is a process that requires planning, attention to detail, and proper organization. Whether you’re moving to a new home in the same city or another city, the key to success is good preparation. Steps for successful organization",
+            "points": []
+          },
+          {
+            "title": "Creating a relocation plan:",
+            "intro": "Set a date and create a list of all tasks that must be completed before, during, and after the move.",
+            "points": []
+          },
+          {
+            "title": "Sorting and packing:",
+            "intro": "Divide your belongings into categories — items to take with you, items for donation, and items that can be discarded.",
+            "points": []
+          },
+          {
+            "title": "Choosing a transport service:",
+            "intro": "Atlant Logistics & Relocations provides various transport options, including trucks and vans, depending on the volume of your belongings.",
+            "points": []
+          },
+          {
+            "title": "Furniture disassembly and assembly:",
+            "intro": "If you have large furniture, our team will disassemble it before transport and reassemble it at the new location.",
+            "points": []
+          },
+          {
+            "title": "Packing fragile items:",
+            "intro": "Glass items, mirrors, and electronics must be well packed to prevent damage.",
+            "points": [],
+            "footer": [
+              "How to reduce the price honestly (without sacrificing quality)"
+            ]
+          },
+          {
+            "title": "Volume reduction:",
+            "intro": "separate unnecessary items in advance for donation/sale. Fewer cubic meters = lower quote.",
+            "points": []
+          },
+          {
+            "title": "Flexible time slot:",
+            "intro": "if you can accept an off-peak date/time, there is often a better rate.",
+            "points": []
+          },
+          {
+            "title": "Address grouping:",
+            "intro": "keys, parking, elevator — prepare them to avoid paid waiting time.",
+            "points": []
+          },
+          {
+            "title": "Room labels:",
+            "intro": "“Bedroom/Kitchen/Living Room” — saves time during arrangement.",
+            "points": []
+          },
+          {
+            "title": "Personal staging area:",
+            "intro": "2–3 m² near the entrance for temporary stacking — speeds up the workflow.",
+            "points": []
+          },
+          {
+            "title": "Materials used wisely:",
+            "intro": "return usable boxes/covers or reuse them — arrange this in advance.",
+            "points": []
+          },
+          {
+            "title": "One coordinator on your side:",
+            "intro": "quick decisions = fewer man-hours.",
+            "points": [],
+            "footer": [
+              "Conclusion: the biggest savings come from less idle time and less chaos, not from “cutting” the team.",
+              "Your 48-hour timeline: from the last evening to the first coffee"
+            ]
+          },
+          {
+            "title": "T–24 hours (the day before):",
+            "intro": "Pack valuables/documents/medications in a separate “personal” bag.",
+            "points": [],
+            "footer": [
+              "Drain appliances (washing machine/dishwasher), defrost the freezer, dry everything.",
+              "Collect cables/chargers in transparent bags with labels.",
+              "Take photos of how TV/router cables are connected — reassembly takes minutes later."
+            ]
+          },
+          {
+            "title": "Moving day:",
+            "intro": "Secure parking/permits; reserve the elevator for the first hour.",
+            "points": [],
+            "footer": [
+              "Keep a clear corridor from the entrance to the staging area.",
+              "Keep a “first box” handy: cups, knife, soap, toilet paper, towels, chargers.",
+              "Sign protocols step by step — you see progress and keep control."
+            ]
+          },
+          {
+            "title": "T+24 hours (first day in the new home):",
+            "intro": "Start with the kitchen and bathroom (minimum comfort), then the bedroom.",
+            "points": [],
+            "footer": [
+              "Check appliances for transport locks/screws.",
+              "Photograph any potential damage and report it in time (if insurance applies)."
+            ]
           }
         ]
       }

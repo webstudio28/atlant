@@ -11,7 +11,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Най-гъвкавото логистично решение",
         "paragraphs": [
           "Автомобилният транспорт е основен двигател на регионалната и международната търговия. Той осигурява гъвкавост, прецизна доставка от врата до врата и покритие на всякакви дестинации – от индустриални зони до търговски обекти и частни адреси.",
           "Atlant Logistics & Relocations разполага с богат автопарк – от бусове до тежкотоварни композиции – пригодени за превоз на цели и групажни пратки. Извършваме превози в цяла Европа, както и до Турция, Грузия и Армения. Работим с международен лиценз, планираме прецизно и осигуряваме проследяване в реално време. Гарантираме навременност, сигурност и висока адаптивност спрямо нуждите на клиента."
@@ -19,61 +20,50 @@
         "image": "/images/pages/transport.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Полезни съвети по темата",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Цял камион или групаж – кое кога е по-изгодно?",
-        "paragraphs": [
-          "Често дилемата не е „има ли камион“, а дали да е FTL (цял камион) или групаж.",
-          "Подходящ при големи обеми, спешни доставки или чувствителни стоки, при които не искате да се смесват товари. Плащате за целия камион, но печелите директен маршрут и по-малко манипулации.",
-          "Идеален за по-малки количества, регулярни, но неголеми пратки или стартиращи пазари. Товарите на различни клиенти се комбинират в един камион, а вие плащате за реално заетия обем/тегло.",
-          "Atlant може да предложи хибриден подход – групаж в даден етап, комбиниран с локални дистрибуции или с цял камион при пикове и кампании.",
-          "Как да подготвите палетите си за сигурен автомобилен превоз"
-        ],
-        "bullets": [
-          "FTL (Full Truck Load)",
-          "Групажен транспорт"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Добрата подготовка на палета намалява риска от щети и забавяния:",
-        "paragraphs": [
-          "Използвайте здрави палети, без счупени дъски и нестабилни краища.",
-          "Подреждайте товара компактно, без „кули“ и надвеси – центърът на тежестта трябва да е стабилен.",
-          "Стегнете с стреч фолио и при нужда с чембер лента; защитете ъглите и чупливите зони.",
-          "Маркирайте ясно „чупливо“, „тежко“, „не обръщай“ и поставете етикети с данни за получателя от поне две страни.",
-          "Така камионът не се превръща в „пъзел“, а в контролирано пространство, където стоките могат да се защитят и подредят оптимално.",
-          "Какво най-често забавя камионите – и как да го предвидите"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Не всяко закъснение е „по вина на превозвача“. Често причините са по веригата:",
-        "paragraphs": [
-          "Неясни часове за товарене/разтоварване – чака се да „дойде някой с ключа“ или да се освободи рампа.",
-          "Труден достъп до адреса – тесни улици, забрани за тежки МПС, липса на информация за нужното оборудване.",
-          "Гранични и митнически процедури – непълни документи, грешни данни, липсващи разрешителни.",
-          "Недооценено време за ръчен товар/разтоварване – особено при обекти без техника.",
-          "Добре описан адрес, предварителна информация за условията на място и коректни документи намаляват риска камионът да стои, докато часовникът тиктака."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Свързани услуги",
-        "items": [
+        "topics": [
           {
-            "title": "Транспортни услуги",
-            "href": "/transportni-uslugi"
+            "title": "Цял камион или групаж – кое кога е по-изгодно?",
+            "intro": "Често дилемата не е „има ли камион“, а дали да е FTL (цял камион) или групаж.",
+            "points": [
+              {
+                "title": "FTL (Full Truck Load)",
+                "text": "Подходящ при големи обеми, спешни доставки или чувствителни стоки, при които не искате да се смесват товари. Плащате за целия камион, но печелите директен маршрут и по-малко манипулации."
+              },
+              {
+                "title": "Групажен транспорт",
+                "text": "Идеален за по-малки количества, регулярни, но неголеми пратки или стартиращи пазари. Товарите на различни клиенти се комбинират в един камион, а вие плащате за реално заетия обем/тегло."
+              }
+            ],
+            "footer": [
+              "Atlant може да предложи хибриден подход – групаж в даден етап, комбиниран с локални дистрибуции или с цял камион при пикове и кампании.",
+              "Как да подготвите палетите си за сигурен автомобилен превоз"
+            ]
+          },
+          {
+            "title": "Добрата подготовка на палета намалява риска от щети и забавяния:",
+            "intro": "Използвайте здрави палети, без счупени дъски и нестабилни краища.",
+            "points": [],
+            "footer": [
+              "Подреждайте товара компактно, без „кули“ и надвеси – центърът на тежестта трябва да е стабилен.",
+              "Стегнете с стреч фолио и при нужда с чембер лента; защитете ъглите и чупливите зони.",
+              "Маркирайте ясно „чупливо“, „тежко“, „не обръщай“ и поставете етикети с данни за получателя от поне две страни.",
+              "Така камионът не се превръща в „пъзел“, а в контролирано пространство, където стоките могат да се защитят и подредят оптимално.",
+              "Какво най-често забавя камионите – и как да го предвидите"
+            ]
+          },
+          {
+            "title": "Не всяко закъснение е „по вина на превозвача“. Често причините са по веригата:",
+            "intro": "Неясни часове за товарене/разтоварване – чака се да „дойде някой с ключа“ или да се освободи рампа.",
+            "points": [],
+            "footer": [
+              "Труден достъп до адреса – тесни улици, забрани за тежки МПС, липса на информация за нужното оборудване.",
+              "Гранични и митнически процедури – непълни документи, грешни данни, липсващи разрешителни.",
+              "Недооценено време за ръчен товар/разтоварване – особено при обекти без техника.",
+              "Добре описан адрес, предварителна информация за условията на място и коректни документи намаляват риска камионът да стои, докато часовникът тиктака."
+            ]
           }
         ]
       }
@@ -91,7 +81,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "The most flexible logistics solution",
         "paragraphs": [
           "Road transport is a key driver of regional and international trade. It provides flexibility, precise door-to-door delivery, and access to all types of destinations – from industrial zones to retail locations and private addresses.",
           "Atlant Logistics & Relocations operates a diverse vehicle fleet – from vans to heavy-duty trucks – suitable for full and groupage shipments. We perform transports across Europe, as well as to Turkey, Georgia, and Armenia. We operate under an international license, plan precisely, and provide real-time tracking. We guarantee timeliness, security, and high adaptability to client needs."
@@ -99,61 +90,50 @@
         "image": "/images/pages/transport.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Useful tips on the topic",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Full truck or groupage – which is more cost-effective and when?",
-        "paragraphs": [
-          "Often the dilemma is not “is there a truck,” but whether to choose FTL (full truckload) or groupage.",
-          "Suitable for large volumes, urgent deliveries, or sensitive goods where you do not want mixed cargo. You pay for the entire truck but benefit from a direct route and fewer handling operations.",
-          "Ideal for smaller quantities, regular but low-volume shipments, or entry into new markets. Cargo from different clients is combined in one truck, and you pay only for the actual occupied volume/weight.",
-          "Atlant can offer a hybrid approach – groupage at a certain stage combined with local distribution or switching to a full truck during peaks and campaigns.",
-          "How to prepare your pallets for safe road transport"
-        ],
-        "bullets": [
-          "FTL (Full Truck Load)",
-          "Groupage transport"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Proper pallet preparation reduces the risk of damage and delays:",
-        "paragraphs": [
-          "Use sturdy pallets without broken boards or unstable edges.",
-          "Stack cargo compactly, without towers or overhangs – the center of gravity must remain stable.",
-          "Secure with stretch film and, if necessary, strapping; protect corners and fragile areas.",
-          "Clearly mark “fragile,” “heavy,” “do not turn,” and place recipient labels on at least two sides.",
-          "This way, the truck does not turn into a “puzzle,” but into a controlled space where goods are protected and optimally arranged.",
-          "What most often delays trucks – and how to anticipate it"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Not every delay is “the carrier’s fault.” Often the reasons lie along the chain:",
-        "paragraphs": [
-          "Unclear loading/unloading time windows – waiting for someone with the key or for a ramp to become available.",
-          "Difficult access to the address – narrow streets, truck restrictions, lack of information about required equipment.",
-          "Border and customs procedures – incomplete documents, incorrect data, missing permits.",
-          "Underestimated time for manual loading/unloading – especially at sites without handling equipment.",
-          "A well-described address, advance information about on-site conditions, and correct documentation reduce the risk of the truck standing idle while the clock is ticking."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Related services",
-        "items": [
+        "topics": [
           {
-            "title": "Транспортни услуги",
-            "href": "/transportni-uslugi"
+            "title": "Full truck or groupage – which is more cost-effective and when?",
+            "intro": "Often the dilemma is not “is there a truck,” but whether to choose FTL (full truckload) or groupage.",
+            "points": [
+              {
+                "title": "FTL (Full Truck Load)",
+                "text": "Suitable for large volumes, urgent deliveries, or sensitive goods where you do not want mixed cargo. You pay for the entire truck but benefit from a direct route and fewer handling operations."
+              },
+              {
+                "title": "Groupage transport",
+                "text": "Ideal for smaller quantities, regular but low-volume shipments, or entry into new markets. Cargo from different clients is combined in one truck, and you pay only for the actual occupied volume/weight."
+              }
+            ],
+            "footer": [
+              "Atlant can offer a hybrid approach – groupage at a certain stage combined with local distribution or switching to a full truck during peaks and campaigns.",
+              "How to prepare your pallets for safe road transport"
+            ]
+          },
+          {
+            "title": "Proper pallet preparation reduces the risk of damage and delays:",
+            "intro": "Use sturdy pallets without broken boards or unstable edges.",
+            "points": [],
+            "footer": [
+              "Stack cargo compactly, without towers or overhangs – the center of gravity must remain stable.",
+              "Secure with stretch film and, if necessary, strapping; protect corners and fragile areas.",
+              "Clearly mark “fragile,” “heavy,” “do not turn,” and place recipient labels on at least two sides.",
+              "This way, the truck does not turn into a “puzzle,” but into a controlled space where goods are protected and optimally arranged.",
+              "What most often delays trucks – and how to anticipate it"
+            ]
+          },
+          {
+            "title": "Not every delay is “the carrier’s fault.” Often the reasons lie along the chain:",
+            "intro": "Unclear loading/unloading time windows – waiting for someone with the key or for a ramp to become available.",
+            "points": [],
+            "footer": [
+              "Difficult access to the address – narrow streets, truck restrictions, lack of information about required equipment.",
+              "Border and customs procedures – incomplete documents, incorrect data, missing permits.",
+              "Underestimated time for manual loading/unloading – especially at sites without handling equipment.",
+              "A well-described address, advance information about on-site conditions, and correct documentation reduce the risk of the truck standing idle while the clock is ticking."
+            ]
           }
         ]
       }

@@ -114,7 +114,7 @@ export default async function DynamicPage({
             subtitle={content.hero.subtitle}
             image={heroImage}
           />
-          <PageRenderer content={content} locale={locale} />
+          <PageRenderer content={content} locale={locale} pageId={page.id} />
         </>
       );
       break;

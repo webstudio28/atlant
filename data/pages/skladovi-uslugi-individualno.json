@@ -11,7 +11,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Сигурен склад вместо претоварен таван",
         "paragraphs": [
           "Atlant Logistics & Relocations предлага надеждно и сигурно съхранение на лични или фирмени стоки, извън мащабни корпоративни логистични процеси.",
           "Услугата е подходяща за малки обеми, специфични продукти или временно складиране – както за частни лица, така и за малки бизнеси.",
@@ -21,65 +22,55 @@
         "image": "/images/pages/warehouse.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Полезни съвети по темата",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Кога индивидуалното складиране е по-доброто решение:",
-        "paragraphs": [
-          "Онлайн магазини и бутик търговия.",
-          "Съхранение на ограничени количества стока, сезонни артикули, мостри и опаковки – без да плащате за голям логистичен склад.",
-          "Архиви, рекламни материали, оборудване за събития и изложения – извън офиса, който остава за реална работа, а не за кашони.",
-          "Ски, велосипеди за под наем, декори, щандове, мобилно оборудване – държат се на склад, а не в магазина."
-        ],
-        "bullets": [
-          "Свободни професии и малки агенции",
-          "Сезонни бизнеси"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Практически ползи:",
-        "paragraphs": [
-          "Разход, който може да се планира – фиксирана такса според обем и период.",
-          "Подобрен имидж – офисът изглежда като офис, не като склад.",
-          "По-нисък риск – професионално съхранение, видеонаблюдение и контрол на достъпа.",
-          "Индивидуалното складиране с Atlant Logistics & Relocations позволява да отделите логистиката от оперативната работа – без да „израствате насила“ към големи, скъпи складове.",
-          "Ремонтът рядко върви по план, но едно нещо може да е сигурно – къде ще са ви вещите, докато майсторите „творят“."
-        ],
-        "bullets": [
-          "Индивидуално складиране при ремонт: как да не живеете в строителна площадка"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Защо да изнесете мебелите и вещите си в индивидуален склад:",
-        "paragraphs": [
-          "По-малко риск от щети. Изнесени в контролиран склад, те не „поемат“ ремонта заедно с вас.",
-          "Боя, прах, шпакловка и вибрации при къртене не са приятели на мебелите, техниката и книгите.",
-          "Изнесени в контролиран склад, те не „поемат“ ремонта заедно с вас.",
-          "Свободно пространство за работа .",
-          "Майсторите имат повече място за движение, скелета, инструменти и материали. Това ускорява процеса и намалява риска някой да „препъне“ шкаф или телевизор.",
-          "По-лесно финално подреждане .",
-          "След ремонта вещите се връщат постепенно и подредено – стая по стая, вместо хаотично „накланяне“ на шкафове и кашони от стая в стая.",
-          "Atlant Logistics & Relocations може да комбинира транспорт, опаковане и складиране – така ремонтът остава проблем основно на майсторите, а не на мебелите ви."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Свързани услуги",
-        "items": [
+        "topics": [
           {
-            "title": "Складови услуги",
-            "href": "/skladovi-uslugi"
+            "title": "Кога индивидуалното складиране е по-доброто решение:",
+            "intro": "Онлайн магазини и бутик търговия.",
+            "points": [
+              {
+                "title": "Свободни професии и малки агенции",
+                "text": "Съхранение на ограничени количества стока, сезонни артикули, мостри и опаковки – без да плащате за голям логистичен склад."
+              },
+              {
+                "title": "Сезонни бизнеси",
+                "text": "Архиви, рекламни материали, оборудване за събития и изложения – извън офиса, който остава за реална работа, а не за кашони."
+              }
+            ],
+            "footer": [
+              "Ски, велосипеди за под наем, декори, щандове, мобилно оборудване – държат се на склад, а не в магазина."
+            ]
+          },
+          {
+            "title": "Практически ползи:",
+            "intro": "Разход, който може да се планира – фиксирана такса според обем и период.",
+            "points": [
+              {
+                "title": "Индивидуално складиране при ремонт: как да не живеете в строителна площадка",
+                "text": "Подобрен имидж – офисът изглежда като офис, не като склад."
+              }
+            ],
+            "footer": [
+              "По-нисък риск – професионално съхранение, видеонаблюдение и контрол на достъпа.",
+              "Индивидуалното складиране с Atlant Logistics & Relocations позволява да отделите логистиката от оперативната работа – без да „израствате насила“ към големи, скъпи складове.",
+              "Ремонтът рядко върви по план, но едно нещо може да е сигурно – къде ще са ви вещите, докато майсторите „творят“."
+            ]
+          },
+          {
+            "title": "Защо да изнесете мебелите и вещите си в индивидуален склад:",
+            "intro": "По-малко риск от щети. Изнесени в контролиран склад, те не „поемат“ ремонта заедно с вас.",
+            "points": [],
+            "footer": [
+              "Боя, прах, шпакловка и вибрации при къртене не са приятели на мебелите, техниката и книгите.",
+              "Изнесени в контролиран склад, те не „поемат“ ремонта заедно с вас.",
+              "Свободно пространство за работа .",
+              "Майсторите имат повече място за движение, скелета, инструменти и материали. Това ускорява процеса и намалява риска някой да „препъне“ шкаф или телевизор.",
+              "По-лесно финално подреждане .",
+              "След ремонта вещите се връщат постепенно и подредено – стая по стая, вместо хаотично „накланяне“ на шкафове и кашони от стая в стая.",
+              "Atlant Logistics & Relocations може да комбинира транспорт, опаковане и складиране – така ремонтът остава проблем основно на майсторите, а не на мебелите ви."
+            ]
           }
         ]
       }
@@ -97,7 +88,8 @@
     },
     "sections": [
       {
-        "type": "intro-split",
+        "type": "intro-accent",
+        "heading": "Secure storage instead of overcrowded attic",
         "paragraphs": [
           "Atlant Logistics & Relocations offers reliable and secure storage of personal or business goods, outside large corporate logistics processes.",
           "The service is suitable for small volumes, specific products, or temporary storage – for both private individuals and small businesses.",
@@ -107,65 +99,55 @@
         "image": "/images/pages/warehouse.webp"
       },
       {
-        "type": "article",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Useful tips on the topic",
-        "paragraphs": [],
-        "bullets": [],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "When personal storage is the better solution:",
-        "paragraphs": [
-          "Online stores and boutique trade – storing limited quantities, seasonal items, samples, and packaging – without paying for a large logistics warehouse.",
-          "Storage of limited quantities of goods, seasonal items, samples, and packaging — without paying for a large logistics warehouse.",
-          "Archives, promotional materials, and equipment for events and exhibitions — kept out of the office, which remains a space for real work rather than boxes.",
-          "Skis, rental bicycles, decorations, booths, and mobile equipment — stored in a warehouse instead of occupying space in the shop."
-        ],
-        "bullets": [
-          "Freelancers and small agencies",
-          "Seasonal businesses"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Practical benefits:",
-        "paragraphs": [
-          "Cost that can be planned – fixed fee according to volume and period.",
-          "Improved image – the office looks like an office, not a warehouse.",
-          "Lower risk – professional storage, video surveillance, and access control.",
-          "Personal storage with Atlant Logistics & Relocations allows you to separate logistics from operational work – without “growing forcibly” into large, expensive warehouses.",
-          "Renovation rarely goes according to plan, but one thing is certain – where your items will be while the workers “create.”"
-        ],
-        "bullets": [
-          "Personal storage during renovation: how not to live in a construction site"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Why move your furniture and items to personal storage:",
-        "paragraphs": [
-          "Lower risk of damage.",
-          "Paint, dust, plaster, and vibrations during demolition are not friends of furniture, appliances, and books.",
-          "Stored in a controlled warehouse, they don’t have to “go through” the renovation together with you.",
-          "More free space to work.",
-          "Workers have more room to move, set up scaffolding, and place tools and materials. This speeds up the process and reduces the risk of accidentally damaging a cabinet or a TV.",
-          "Easier final arrangement.",
-          "After the renovation, items are returned gradually and in an organized way — room by room, instead of chaotic moving of cabinets and boxes from one room to another.",
-          "Atlant Logistics & Relocations can combine transport, packing, and storage – so the renovation remains mainly a problem for the workers, not your furniture."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "related-services",
-        "heading": "Related services",
-        "items": [
+        "topics": [
           {
-            "title": "Складови услуги",
-            "href": "/skladovi-uslugi"
+            "title": "When personal storage is the better solution:",
+            "intro": "Online stores and boutique trade – storing limited quantities, seasonal items, samples, and packaging – without paying for a large logistics warehouse.",
+            "points": [
+              {
+                "title": "Freelancers and small agencies",
+                "text": "Storage of limited quantities of goods, seasonal items, samples, and packaging — without paying for a large logistics warehouse."
+              },
+              {
+                "title": "Seasonal businesses",
+                "text": "Archives, promotional materials, and equipment for events and exhibitions — kept out of the office, which remains a space for real work rather than boxes."
+              }
+            ],
+            "footer": [
+              "Skis, rental bicycles, decorations, booths, and mobile equipment — stored in a warehouse instead of occupying space in the shop."
+            ]
+          },
+          {
+            "title": "Practical benefits:",
+            "intro": "Cost that can be planned – fixed fee according to volume and period.",
+            "points": [
+              {
+                "title": "Personal storage during renovation: how not to live in a construction site",
+                "text": "Improved image – the office looks like an office, not a warehouse."
+              }
+            ],
+            "footer": [
+              "Lower risk – professional storage, video surveillance, and access control.",
+              "Personal storage with Atlant Logistics & Relocations allows you to separate logistics from operational work – without “growing forcibly” into large, expensive warehouses.",
+              "Renovation rarely goes according to plan, but one thing is certain – where your items will be while the workers “create.”"
+            ]
+          },
+          {
+            "title": "Why move your furniture and items to personal storage:",
+            "intro": "Lower risk of damage.",
+            "points": [],
+            "footer": [
+              "Paint, dust, plaster, and vibrations during demolition are not friends of furniture, appliances, and books.",
+              "Stored in a controlled warehouse, they don’t have to “go through” the renovation together with you.",
+              "More free space to work.",
+              "Workers have more room to move, set up scaffolding, and place tools and materials. This speeds up the process and reduces the risk of accidentally damaging a cabinet or a TV.",
+              "Easier final arrangement.",
+              "After the renovation, items are returned gradually and in an organized way — room by room, instead of chaotic moving of cabinets and boxes from one room to another.",
+              "Atlant Logistics & Relocations can combine transport, packing, and storage – so the renovation remains mainly a problem for the workers, not your furniture."
+            ]
           }
         ]
       }

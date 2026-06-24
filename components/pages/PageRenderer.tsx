@@ -1,4 +1,5 @@
 import type { PageContent, PageSection } from "@/lib/pages/types";
+import { getSiblingSubServicesSection } from "@/lib/pages/sibling-nav";
 import {
   ArticleSection,
   ChecklistPanelSection,
@@ -55,10 +56,21 @@ function renderSection(section: PageSection, locale: string, index: number) {
   }
 }
 
-export default function PageRenderer({ content, locale }: { content: PageContent; locale: string }) {
+export default function PageRenderer({
+  content,
+  locale,
+  pageId,
+}: {
+  content: PageContent;
+  locale: string;
+  pageId?: string;
+}) {
+  const siblings = pageId ? getSiblingSubServicesSection(pageId, locale) : null;
+  const sections = siblings ? [...content.sections, siblings] : content.sections;
+
   return (
     <>
-      {content.sections.map((section, i) => renderSection(section, locale, i))}
+      {sections.map((section, i) => renderSection(section, locale, i))}
       <PageCtaSection locale={locale} />
     </>
   );
