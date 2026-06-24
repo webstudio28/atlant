@@ -124,7 +124,7 @@ export default async function HomePage({
       <main>
         <Hero />
 
-        <div className="relative" style={{ isolation: "isolate" }}>
+        <div className="relative site-main-bg">
           <TrustStrip settings={settings} />
           <Services services={servicesData} locale={locale} />
           <About />

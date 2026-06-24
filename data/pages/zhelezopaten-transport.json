@@ -1,0 +1,208 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Железопътен транспорт | Atlant Logistics",
+      "description": "Ефективност на дълги разстояния"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Железопътен транспорт",
+      "subtitle": "Ефективност на дълги разстояния"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Железопътният транспорт е един от най-надеждните и устойчиви методи за превоз на товари, особено на дълги разстояния.",
+          "Atlant Logistics & Relocations предлага международен ЖП транспорт за насипни, палетизирани и контейнерирани товари. Подходящ за големи обеми със стабилен график и оптимални разходи. Извършваме комбинирани услуги с автомобили и контейнери при нужда от междинни доставки.",
+          "Работим с надеждни европейски и международни ЖП оператори, осигурявайки проследимост, сигурност и екологично предимство."
+        ],
+        "image": "/images/pages/transport.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "ЖП транспортът има своя логика, различна от „поръчвам камион за утре“:",
+        "paragraphs": [
+          "Работи с графици и слотове, които се планират предварително.",
+          "Нуждае се от подходящо оборудване за товарене/разтоварване – рампи, кранове, силози, конвейери според типа товар.",
+          "Често включва международни оператори, чиито изисквания трябва да се синхронизират (документи, изисквания за опаковка, безопасност).",
+          "Добре планираният ЖП превоз може да донесе сериозна икономия, но изисква компетентен партньор, който познава мрежата и процедурите."
+        ],
+        "bullets": [
+          "Разходи при ЖП транспорт: къде реално се пести и къде не"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Често ЖП транспортът се възприема просто като „по-евтин от камион“. Реалността е малко по-пипкава:",
+        "paragraphs": [
+          "Къде е икономията:",
+          "При големи обеми – цели вагони или блок-влакове.",
+          "При дълги разстояния, където цената на тон/километър пада значително спрямо автомобилен превоз.",
+          "При регулярни графици, когато може да се планира натовареността и да се договорят по-добри тарифи."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Къде има скрити разходи, ако не се внимава:",
+        "paragraphs": [
+          "Товаро-разтоварни операции на терминали (ЖП → камион и обратно).",
+          "Такси за престой, ако документите не са изрядни или няма готовност за приемане на стоката.",
+          "Неоптимизирани партиди – твърде малки количества, „набутани“ насила в ЖП схема, вместо да останат на камион.",
+          "Предимства на ЖП vs. Автомобилен транспорт в таблица",
+          "Критерий",
+          "Железопътен транспорт (ЖП)",
+          "Автомобилен транспорт",
+          "Цена на превоз (на тон/км)",
+          "По-ниска при големи обеми и дълги разстояния",
+          "По-висока, особено при големи разстояния",
+          "Капацитет и обем",
+          "Подходящ за големи и тежки товари (насипни, контейнери, цистерни)",
+          "Ограничен от товароносимостта на камиона и пътната инфраструктура",
+          "Енергийна ефективност",
+          "По-ефективен и екологичен (по-нисък разход на гориво/тон-километър)",
+          "По-голям разход на гориво и емисии CO₂",
+          "Надеждност и предсказуемост",
+          "Висока при дълги разстояния и фиксирани маршрути",
+          "Зависим от трафик, пътни условия и регулации",
+          "Въздействие върху околната среда",
+          "По-ниско (по-малко шум, по-малко емисии)",
+          "Високо замърсяване и шум в градски зони",
+          "Подходящ за видове товари",
+          "Насипни, контейнери, суровини, тежки машини",
+          "Палетизирани, дребни пратки, бързоразвалящи се стоки",
+          "Международен транспорт",
+          "Отличен за транзит и големи обеми по определени коридори (TEN-T)",
+          "Гъвкав, но ограничен от митници, трафик и ограничения по пътищата",
+          "Сигурност на товара",
+          "Висока – по-малко произшествия и кражби",
+          "По-ниска – по-чести пътни инциденти и рискове при превоз"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Свързани услуги",
+        "items": [
+          {
+            "title": "Транспортни услуги",
+            "href": "/transportni-uslugi"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Rail Transport | Atlant Logistics",
+      "description": "Long-Distance Efficiency"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Rail Transport",
+      "subtitle": "Long-Distance Efficiency"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Rail transport is one of the most reliable and sustainable methods for transporting goods, especially over long distances.",
+          "Atlant Logistics & Relocations offers international rail transport for bulk, palletized, and containerized cargo. Suitable for large volumes with stable schedules and optimal costs. We provide combined services with trucks and containers for intermediate deliveries.",
+          "We work with reliable European and international rail operators, ensuring traceability, security, and ecological advantages."
+        ],
+        "image": "/images/pages/transport.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Useful tips on the topic",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Rail transport has its own logic, different from “order a truck for tomorrow”:",
+        "paragraphs": [
+          "Operates on schedules and slots that are planned in advance.",
+          "Requires suitable loading/unloading equipment – ramps, cranes, silos, conveyors depending on cargo type.",
+          "Often involves international operators whose requirements must be synchronized (documents, packaging, safety).",
+          "A well-planned rail transport can bring significant savings but requires a competent partner familiar with the network and procedures."
+        ],
+        "bullets": [
+          "Rail transport costs: where savings really happen and where they don't"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Rail transport is often perceived simply as “cheaper than a truck.” Reality is a bit more nuanced:",
+        "paragraphs": [
+          "Where the savings are:",
+          "For large volumes – entire wagons or block trains.",
+          "Over long distances, where the price per ton/km drops significantly compared to road transport.",
+          "With regular schedules, when capacity can be planned and better rates negotiated."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Where hidden costs appear if not careful:",
+        "paragraphs": [
+          "Loading/unloading operations at terminals (rail → truck and back).",
+          "Waiting fees if documents are incomplete or goods are not ready for acceptance.",
+          "Non-optimized batches – too small quantities forced into a rail schedule instead of staying on a truck.",
+          "Rail vs. Road Transport Advantages Table",
+          "Criterion",
+          "Rail Transport (Rail)",
+          "Road Transport",
+          "Transport cost (per ton/km)",
+          "Lower for large volumes and long distances",
+          "Higher, especially for long distances",
+          "Capacity and volume",
+          "Suitable for large and heavy goods (bulk, containers, tanks)",
+          "Limited by truck capacity and road infrastructure",
+          "Energy efficiency",
+          "More efficient and eco-friendly (lower fuel consumption per ton-km)",
+          "Higher fuel consumption and CO₂ emissions",
+          "Reliability and predictability",
+          "High for long distances and fixed routes",
+          "Dependent on traffic, road conditions, and regulations",
+          "Environmental impact",
+          "Lower (less noise, lower emissions)",
+          "High pollution and noise in urban areas",
+          "Suitable for cargo types",
+          "Bulk, containers, raw materials, heavy machinery",
+          "Palletized, small parcels, perishable goods",
+          "International transport",
+          "Excellent for transit and large volumes along certain corridors (TEN-T)",
+          "Flexible but limited by customs, traffic, and road restrictions",
+          "Cargo security",
+          "High – fewer accidents and thefts",
+          "Lower – more road accidents and transport risks"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Related services",
+        "items": [
+          {
+            "title": "Транспортни услуги",
+            "href": "/transportni-uslugi"
+          }
+        ]
+      }
+    ]
+  }
+}

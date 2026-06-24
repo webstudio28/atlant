@@ -1,0 +1,111 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Товаро-разтоварни услуги | Atlant Logistics",
+      "description": "Когато камионът е на рампата, а минути се броят, ние превръщаме „чаакането“ в движение. Поемаме организирано товаро-разтоварване за бизнес и частни клиенти — пр"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Товаро-разтоварни услуги",
+      "subtitle": "Когато камионът е на рампата, а минути се броят, ние превръщаме „чаакането“ в движение. Поемаме организирано товаро-разтоварване за бизнес и частни клиенти — прием и експедиция на стоки, вътрешни премествания, доставки „до врата“. Идваме с екип, базова техника и ясен план, за да има ред по линията: от рампата до стелажа, от тротоара до входа."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Когато камионът е на рампата, а минути се броят, ние превръщаме „чаакането“ в движение. Поемаме организирано товаро-разтоварване за бизнес и частни клиенти — прием и експедиция на стоки, вътрешни премествания, доставки „до врата“. Идваме с екип, базова техника и ясен план, за да има ред по линията: от рампата до стелажа, от тротоара до входа.",
+          "Работим по вашия график (вкл. вечер/уикенд), пазим обекта и общите части, и предаваме чисто и отчетливо."
+        ],
+        "image": "/images/pages/loading.webp"
+      },
+      {
+        "type": "direction-cards",
+        "heading": "Избирате формат според задачата:",
+        "items": [
+          {
+            "title": "Хамалски услуги",
+            "lines": [
+              "Случаи: товарене/разтоварване на камион, повдигане на строителни материали, разглобяване на палети, разполагане на оборудване/мебели.",
+              "Предимства: бърз старт, фокусиран екип, контролирано поетапно изпълнение.",
+              "Планиране/цена: често фиксирана на задача или за кратък почасов интервал."
+            ],
+            "href": "/hamalski-uslugi"
+          },
+          {
+            "title": "Помощен персонал",
+            "lines": [
+              "Случаи: сезонни пикове, инвентаризации, кампании, етикиране, сортиране, дълги смени.",
+              "Предимства: гъвкаво време (на час/на ден), бързо мащабиране на персонала."
+            ],
+            "href": "/tovaro-raztovarni-uslugi/pomoshten"
+          }
+        ]
+      },
+      {
+        "type": "article",
+        "heading": "Какво включват нашите товаро-разтоварни услуги?",
+        "paragraphs": [
+          "Товарене и разтоварване на строителни материали",
+          "Контейнери – видове и логистика",
+          "Хамалски услуги и общи работници",
+          "Изхвърляне на строителни отпадъци"
+        ],
+        "variant": "white"
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Loading & Unloading | Atlant Logistics",
+      "description": "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – recei"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Loading & Unloading",
+      "subtitle": "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – receiving and shipping goods, internal moves, door-to-door deliveries. We arrive with a team, basic equipment, and a clear plan to maintain order along the line: from ramp to shelf, from sidewalk to entrance."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "When the truck is at the ramp and minutes count, we turn 'waiting' into movement. We handle organized loading/unloading for business and private clients – receiving and shipping goods, internal moves, door-to-door deliveries. We arrive with a team, basic equipment, and a clear plan to maintain order along the line: from ramp to shelf, from sidewalk to entrance.",
+          "We work according to your schedule (including evening/weekend), protect the site and common areas, and hand over clean and clearly."
+        ],
+        "image": "/images/pages/loading.webp"
+      },
+      {
+        "type": "direction-cards",
+        "heading": "Choose the format according to the task:",
+        "items": [
+          {
+            "title": "Handling Crew",
+            "lines": [
+              "Use cases: truck loading/unloading, lifting construction materials, pallet disassembly, placement of equipment/furniture.",
+              "Advantages: fast start, focused team, controlled step-by-step execution."
+            ],
+            "href": "/hamalski-uslugi"
+          },
+          {
+            "title": "Temporary Crew",
+            "lines": [
+              "Use cases: seasonal peaks, inventories, campaigns, labeling, sorting, long shifts.",
+              "Advantages: flexible timing (hourly/daily), rapid workforce scaling."
+            ],
+            "href": "/tovaro-raztovarni-uslugi/pomoshten"
+          }
+        ]
+      },
+      {
+        "type": "article",
+        "heading": "What do our loading/unloading services include?",
+        "paragraphs": [
+          "Loading and unloading construction materials",
+          "Containers – types and logistics",
+          "Handling Crew and general workers",
+          "Disposal of construction waste"
+        ],
+        "variant": "white"
+      }
+    ]
+  }
+}

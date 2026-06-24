@@ -20,11 +20,18 @@ async function seed() {
   const allServices = await db.select().from(services);
   const serviceMap = Object.fromEntries(allServices.map((s) => [s.slug, s.id]));
 
+  await db.delete(serviceItems);
+
   for (const [slug, items] of Object.entries(data.serviceItems)) {
     const serviceId = serviceMap[slug];
     if (!serviceId) continue;
     for (const item of items) {
-      await db.insert(serviceItems).values({ serviceId, labelBg: item.bg, labelEn: item.en, displayOrder: item.order }).onConflictDoNothing();
+      await db.insert(serviceItems).values({
+        serviceId,
+        labelBg: item.bg,
+        labelEn: item.en,
+        displayOrder: item.order,
+      });
     }
   }
 

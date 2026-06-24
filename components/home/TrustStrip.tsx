@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { useTranslations } from "next-intl";
 
 interface SiteSettings {
@@ -9,42 +10,53 @@ interface SiteSettings {
 
 export default function TrustStrip({ settings }: { settings: SiteSettings }) {
   const t = useTranslations("trust");
-  const sinceYear = settings.company_since ? new Date().getFullYear() - parseInt(settings.company_since) : 20;
+  const sinceYear = settings.company_since
+    ? new Date().getFullYear() - parseInt(settings.company_since, 10)
+    : 20;
+
+  const stats = [
+    {
+      num: settings.warehouse_area || "5 000 м²",
+      label: t("warehouseArea"),
+    },
+    {
+      num: settings.pallet_spaces || "10 000+",
+      label: t("palletSpaces"),
+    },
+    {
+      num: settings.certifications || "ISO 9001",
+      label: t("certification"),
+    },
+    {
+      num: t("national"),
+      label: t("coverage"),
+    },
+  ];
 
   return (
-    <section
-      id="trust"
-      aria-label="Trust statistics"
-      className="border-t border-[rgba(82,89,93,0.14)] border-b border-[rgba(82,89,93,0.14)] bg-[#EBECE9]"
-    >
-      <div className="max-w-[1280px] mx-auto px-8">
-        <div className="flex flex-wrap items-center justify-between w-full gap-4 py-[22px] text-center">
-          {/* Years */}
-          <p className="flex flex-wrap items-center justify-center gap-0 m-0 font-['Sofia_Sans_Condensed',sans-serif] text-[21px] font-[600]">
-            <strong className="text-[#3a4044]">{sinceYear}&nbsp;{t("yearsExperience")}</strong>
+    <section id="trust" aria-label={t("ariaLabel")}>
+      <div className="trust-band-wrap">
+        <div className="trust-band-inner">
+          <p className="trust-band-years">
+            <span className="trust-band-strong">
+              {sinceYear} {t("yearsExperience")}
+            </span>
           </p>
 
-          {/* Stats */}
-          <p className="flex flex-wrap items-center justify-center gap-0 m-0 font-['Sofia_Sans_Condensed',sans-serif] text-[21px] font-[600] text-[#52595D]">
-            <span className="flex flex-col items-center">
-              <span className="text-[#F26A21] font-[700]">{settings.warehouse_area || "5 000 m²"}</span>
-              <span className="text-[13px] font-[400] text-[#52595D]/70">{t("warehouseArea")}</span>
-            </span>
-            <span className="text-[rgba(82,89,93,0.45)] mx-4">·</span>
-            <span className="flex flex-col items-center">
-              <span className="text-[#F26A21] font-[700]">{settings.pallet_spaces || "10 000+"}</span>
-              <span className="text-[13px] font-[400] text-[#52595D]/70">{t("palletSpaces")}</span>
-            </span>
-            <span className="text-[rgba(82,89,93,0.45)] mx-4">·</span>
-            <span className="flex flex-col items-center">
-              <span className="text-[#F26A21] font-[700]">{settings.certifications || "ISO 9001"}</span>
-              <span className="text-[13px] font-[400] text-[#52595D]/70">{t("certification")}</span>
-            </span>
-            <span className="text-[rgba(82,89,93,0.45)] mx-4">·</span>
-            <span className="flex flex-col items-center">
-              <span className="text-[#F26A21] font-[700]">{t("national")}</span>
-              <span className="text-[13px] font-[400] text-[#52595D]/70">{t("coverage")}</span>
-            </span>
+          <p className="trust-band-stats">
+            {stats.map((stat, index) => (
+              <Fragment key={stat.label}>
+                {index > 0 && (
+                  <span className="trust-band-dot" aria-hidden="true">
+                    ·
+                  </span>
+                )}
+                <span className="trust-band-stat-item">
+                  <span className="trust-band-stat-num">{stat.num}</span>
+                  <span className="trust-band-stat-label">{stat.label}</span>
+                </span>
+              </Fragment>
+            ))}
           </p>
         </div>
       </div>

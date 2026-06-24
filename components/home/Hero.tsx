@@ -5,11 +5,7 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center overflow-hidden"
-    >
-      {/* Background image */}
+    <section id="hero">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero.webp"
@@ -21,7 +17,6 @@ export default function Hero() {
         />
       </div>
 
-      {/* Dark overlay */}
       <div
         className="absolute inset-0 z-[1]"
         style={{
@@ -30,49 +25,35 @@ export default function Hero() {
         }}
       />
 
-      {/* Bottom fade */}
       <div
-        className="absolute bottom-0 left-0 right-0 h-[180px] z-[1]"
+        className="hero-bottom-fade absolute bottom-0 left-0 right-0 h-[180px] z-[1]"
         style={{ background: "linear-gradient(to top, #1a1e21 0%, transparent 100%)" }}
       />
 
-      {/* Content */}
-      <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full pt-[120px] pb-20">
-        {/* Pre-heading tagline */}
-        <div className="inline-flex items-center gap-2.5 font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-[700] tracking-[0.18em] uppercase text-[#F26A21] mb-4">
-          <span className="block w-6 h-px" style={{ background: "linear-gradient(to right, transparent 0%, #F26A21 100%)" }} />
-          <span>{t("tagline")}</span>
-          <span className="block w-6 h-px" style={{ background: "linear-gradient(to left, transparent 0%, #F26A21 100%)" }} />
+      <div className="hero-inner">
+        <div className="section-label hero-tagline">
+          <span className="hero-tagline-text">{t("tagline")}</span>
         </div>
 
-        {/* H1 */}
-        <h1
-          className="font-['Sofia_Sans_Condensed',sans-serif] text-[clamp(54px,8vw,100px)] font-[900] text-white leading-[1.0] tracking-[0.01em] max-w-[820px] mb-6 flex flex-col items-start gap-[0.1em]"
-        >
-          <span className="block sm:whitespace-nowrap">
-            <span>{t("titleLine1Pre")}</span>
-            <span>{t("titleLine1Main")}</span>
+        <h1 className="hero-title">
+          <span className="hero-title-line1">
+            <span className="hero-title-pre">{t("titleLine1Pre")}</span>
+            <span className="hero-title-main">{t("titleLine1Main")}</span>
           </span>
-          <span className="text-[#F26A21]">{t("titleAccent")}</span>
+          <span className="hero-title-accent">{t("titleAccent")}</span>
         </h1>
 
-        {/* Subtitle */}
-        <p className="font-['Sofia_Sans',sans-serif] text-[21px] font-[400] text-white/75 max-w-[520px] leading-[1.6] mb-9">
-          {t("subtitle")}
-        </p>
+        <p className="hero-subtitle">{t("subtitle")}</p>
 
-        {/* CTA buttons */}
-        <div className="flex gap-4 flex-wrap items-center">
+        <div className="hero-cta">
           <button
-            className="bg-[#F26A21] text-white font-['Sofia_Sans_Condensed',sans-serif] text-[19px] font-[700] tracking-[0.08em] uppercase px-10 py-4 rounded-xl border-2 border-[#F26A21] transition-all hover:bg-[#d45a18] hover:border-[#d45a18] hover:-translate-y-0.5 cursor-pointer js-inquiry-trigger"
+            type="button"
+            className="btn-primary js-inquiry-trigger"
             data-inquiry
           >
             {t("ctaPrimary")}
           </button>
-          <a
-            href="#services"
-            className="bg-transparent text-white font-['Sofia_Sans_Condensed',sans-serif] text-[19px] font-[700] tracking-[0.08em] uppercase px-10 py-4 rounded-xl border-2 border-white no-underline transition-all hover:bg-white/15 hover:-translate-y-0.5"
-          >
+          <a href="#services" className="btn-outline-white">
             {t("ctaSecondary")}
           </a>
         </div>

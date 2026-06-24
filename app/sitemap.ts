@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
+import { getAllPageSlugs } from "@/lib/pages/registry";
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://atlant.bg";
 const locales = ["bg", "en"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ["/"];
+  const pages = ["/", ...getAllPageSlugs().map((slug) => `/${slug.join("/")}`)];
 
   return pages.flatMap((page) =>
     locales.map((locale) => ({

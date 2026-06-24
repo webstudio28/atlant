@@ -19,56 +19,45 @@ export default function WhyUs() {
   ];
 
   return (
-    <section id="why" className="bg-[#F4F4F2] py-24">
-      <div className="max-w-[1280px] mx-auto px-8">
-        {/* Section header */}
-        <div className="mb-14">
-          <div className="inline-flex items-center gap-2.5 font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-[700] tracking-[0.18em] uppercase text-[#F26A21] mb-3">
-            {t("label")}
-          </div>
-          <h2 className="font-['Sofia_Sans_Condensed',sans-serif] text-[clamp(32px,4vw,44px)] font-[800] text-[#52595D] tracking-[0.02em] mb-3">
-            {t("title")}
-          </h2>
-          <p className="text-[19px] text-[#52595D] max-w-[500px] m-0 leading-[1.6]">
-            {t("subtitle")}
-          </p>
-          <span className="fade-line-sm mt-4" />
+    <section id="why">
+      <div className="section-wrap">
+        <div className="section-intro">
+          <div className="section-label">{t("label")}</div>
+          <h2>{t("title")}</h2>
+          <p style={{ maxWidth: 500 }}>{t("subtitle")}</p>
+          <span
+            className="fade-line-sm"
+            style={{
+              background:
+                "linear-gradient(to right, transparent 0%, #52595D 30%, #52595D 70%, transparent 100%)",
+              opacity: 0.3,
+            }}
+          />
         </div>
 
-        {/* Benefits grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="why-grid-f">
           {benefits.map((benefit, i) => (
-            <div
-              key={benefit.title}
-              className="relative bg-white rounded-xl border border-[rgba(82,89,93,0.1)] p-6 card-lift overflow-hidden"
-            >
-              {/* Number decoration */}
-              <span className="absolute top-3 right-4 font-['Sofia_Sans_Condensed',sans-serif] text-[56px] font-[900] leading-[1] text-[rgba(82,89,93,0.06)] select-none pointer-events-none">
+            <div key={benefit.title} className="why-card-f card-lift">
+              <span className="why-deco-index" aria-hidden="true">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              {/* Corner decorations */}
-              <span className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#F26A21] rounded-tl-xl" />
-              <span className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-[#F26A21] rounded-br-xl" />
-
-              <div className="relative z-10 flex flex-col gap-3">
-                {/* Icon */}
-                <div className="w-[56px] h-[56px] rounded-xl overflow-hidden bg-[#F4F4F2] flex items-center justify-center">
+              <span className="why-deco-corner why-deco-corner--tl" aria-hidden="true" />
+              <span className="why-deco-corner why-deco-corner--br" aria-hidden="true" />
+              <div className="why-card-inner">
+                <div className="icon-circle">
                   <Image
                     src={benefit.icon}
-                    alt={benefit.title}
-                    width={56}
-                    height={56}
-                    className="w-full h-full object-cover"
+                    alt=""
+                    width={40}
+                    height={40}
+                    className="why-benefit-icon"
                     loading="lazy"
+                    aria-hidden
                   />
                 </div>
                 <div>
-                  <h4 className="font-['Sofia_Sans_Condensed',sans-serif] text-[20px] font-[800] text-[#52595D] tracking-[0.04em] uppercase mb-1.5 leading-[1.2]">
-                    {benefit.title}
-                  </h4>
-                  <p className="text-[16px] text-[#52595D] leading-[1.55] m-0">
-                    {benefit.text}
-                  </p>
+                  <h4 className="why-benefit-title">{benefit.title}</h4>
+                  <p className="why-benefit-text">{benefit.text}</p>
                 </div>
               </div>
             </div>

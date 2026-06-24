@@ -22,6 +22,7 @@
     "ctaSecondary": "Our Services"
   },
   "trust": {
+    "ariaLabel": "Experience and capacity",
     "yearsExperience": "years of experience",
     "warehouseArea": "warehouse area",
     "palletSpaces": "pallet positions",
@@ -115,5 +116,46 @@
   "meta": {
     "homeTitle": "Atlant Logistics \u2013 Transport, Warehousing & Relocations",
     "homeDescription": "Reliable logistics partner from Plovdiv. Transport, warehousing, relocations and loading & unloading services. National and international coverage. ISO 9001 certified."
+  },
+  "pages": {
+    "contact": {
+      "label": "Contacts",
+      "title": "Get in touch",
+      "subtitle": "Our team is ready to answer your questions and prepare a personalized offer.",
+      "infoTitle": "Contact information",
+      "hours": "Monday \u2013 Saturday: 08:00 \u2013 18:00. Sunday \u2013 by prior appointment.",
+      "ctaTitle": "Request a quote",
+      "ctaText": "Fill in the short inquiry form and receive an offer within the working day.",
+      "ctaButton": "Send inquiry"
+    },
+    "gallery": {
+      "label": "Gallery",
+      "photoTitle": "Photo gallery",
+      "photoSubtitle": "Moments from our work \u2013 relocations, transport and logistics projects.",
+      "photoAlt": "Atlant gallery",
+      "videoTitle": "Video gallery",
+      "videoSubtitle": "Video materials from our projects.",
+      "videoEmpty": "The video gallery will be available soon."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "p1": "Atlant Logistics complies with international data protection regulations and GDPR requirements.",
+      "p2": "We collect only data necessary to process inquiries and contact you: name, phone, email, city and message.",
+      "p3": "Data is used solely to respond to inquiries, prepare offers and deliver agreed services. We do not sell personal data to third parties without legal basis.",
+      "p4": "We use cookies to improve the website experience and analyze traffic. You may refuse non-essential cookies via your browser settings.",
+      "p5": "You have the right to access, correct, delete and restrict processing of your data. Contact us via the inquiry form or the email listed on the Contacts page.",
+      "p6": "Data is retained only as long as necessary for the purposes collected or as required by law.",
+      "p7": "For privacy-related questions, contact Atlant Logistics at the address on the Contacts page."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "p1": "By using atlant.bg you accept these terms. The site provides information about Atlant Logistics & Relocations services.",
+      "p2": "Site content is informational and does not automatically create a contract. A contract is formed after written confirmation of an offer.",
+      "p3": "All text, images and trademarks are protected by copyright.",
+      "p4": "Unauthorized copying of content without written consent is not permitted.",
+      "p5": "Provide accurate and current information when submitting inquiries. Atlant is not liable for incorrect information provided by the client.",
+      "p6": "Services are performed under agreed terms, deadlines and ISO 9001 quality standards.",
+      "p7": "For questions about these terms, contact Atlant Logistics."
+    }
   }
 }

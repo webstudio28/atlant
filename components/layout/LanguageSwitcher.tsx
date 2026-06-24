@@ -1,44 +1,85 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { useTransition } from "react";
+import { Globe } from "lucide-react";
+import { useEffect, useRef, useState, useTransition } from "react";
+import { LOCALE_OPTIONS } from "@/lib/i18n/locales";
 
-export default function LanguageSwitcher({
-  locale,
-  scrolled,
-}: {
-  locale: string;
-  scrolled?: boolean;
-}) {
+export default function LanguageSwitcher({ locale }: { locale: string }) {
   const router = useRouter();
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
+  const rootRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const onPointerDown = (e: MouseEvent) => {
+      if (rootRef.current && !rootRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+
+    document.addEventListener("mousedown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, []);
 
   const switchLocale = (newLocale: string) => {
-    // Replace current locale prefix with new one
+    if (newLocale === locale) {
+      setOpen(false);
+      return;
+    }
+
     const segments = pathname.split("/");
     segments[1] = newLocale;
-    const newPath = segments.join("/");
+    const newPath = segments.join("/") || `/${newLocale}`;
+
+    setOpen(false);
     startTransition(() => {
       router.replace(newPath);
     });
   };
 
-  const otherLocale = locale === "bg" ? "en" : "bg";
-  const buttonClass = `font-['Sofia_Sans_Condensed',sans-serif] text-[13px] font-[700] tracking-[0.1em] uppercase px-2 py-1 rounded border transition-all cursor-pointer ${
-    scrolled
-      ? "text-[#52595D] border-[rgba(82,89,93,0.3)] hover:border-[#F26A21] hover:text-[#F26A21]"
-      : "text-white/70 border-white/30 hover:border-[#F26A21] hover:text-[#F26A21]"
-  } ${isPending ? "opacity-50" : ""}`;
-
   return (
-    <button
-      className={buttonClass}
-      onClick={() => switchLocale(otherLocale)}
-      disabled={isPending}
-      aria-label={`Switch to ${otherLocale.toUpperCase()}`}
+    <div
+      ref={rootRef}
+      className={`lang-switcher${open ? " open" : ""}`}
     >
-      {otherLocale.toUpperCase()}
-    </button>
+      <button
+        type="button"
+        className="lang-switcher-trigger"
+        onClick={() => setOpen((value) => !value)}
+        aria-expanded={open}
+        aria-haspopup="listbox"
+        aria-label="Select language"
+        disabled={isPending}
+      >
+        <Globe size={18} strokeWidth={2} aria-hidden="true" />
+      </button>
+
+      <div className="lang-switcher-panel" role="listbox" aria-label="Languages">
+        {LOCALE_OPTIONS.map((option) => (
+          <button
+            key={option.code}
+            type="button"
+            role="option"
+            aria-selected={option.code === locale}
+            className={`lang-switcher-option${option.code === locale ? " is-active" : ""}`}
+            onClick={() => switchLocale(option.code)}
+            disabled={isPending}
+          >
+            <span>{option.label}</span>
+            <span className="lang-switcher-code">{option.code}</span>
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }

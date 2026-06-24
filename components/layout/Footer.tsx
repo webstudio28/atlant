@@ -26,7 +26,7 @@ export default function Footer({
       {/* CTA section */}
       <section
         id="cta"
-        className="relative overflow-hidden py-20"
+        className="cta-section"
         style={{
           background:
             "linear-gradient(90deg,#2a2f33 0%,#353a3e 16%,#3a4044 30%,#353a3e 52%,#2a2f33 72%,#23282b 86%,#1a1e21 100%)",
@@ -36,7 +36,7 @@ export default function Footer({
           className="absolute inset-0 pointer-events-none"
           style={{ background: "radial-gradient(ellipse 65% 100% at 100% 50%, rgba(0,0,0,0.26) 0%, transparent 50%)" }}
         />
-        <div className="relative z-10 max-w-[1280px] mx-auto px-8 flex flex-col items-start">
+        <div className="footer-cta-inner">
           <div className="inline-flex items-center gap-2.5 font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.18em] uppercase text-[#F26A21] mb-4">
             <span className="block w-5 h-px bg-[#F26A21]" />
             Atlant Logistics
@@ -51,9 +51,10 @@ export default function Footer({
           <p className="text-[20px] text-white/85 max-w-[520px] mb-10 leading-[1.6]">
             {tCta("subtitle")}
           </p>
-          <div className="flex gap-4 flex-wrap items-center">
+          <div className="footer-cta-actions">
             <button
-              className="bg-[#F26A21] text-white font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.08em] uppercase px-7 py-3 rounded-xl border-2 border-[#F26A21] shadow-[0_3px_16px_rgba(242,106,33,0.3)] transition-all hover:bg-[#d45a18] hover:border-[#d45a18] hover:-translate-y-0.5 cursor-pointer js-inquiry-trigger"
+              type="button"
+              className="btn-primary js-inquiry-trigger"
               data-inquiry
             >
               {tCta("ctaPrimary")}
@@ -61,7 +62,7 @@ export default function Footer({
             {settings.phone_display && (
               <a
                 href={`tel:${settings.phone_display?.replace(/[\s\/]/g, "")}`}
-                className="inline-flex items-center gap-2 bg-white/12 text-white font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.06em] px-6 py-3 rounded-xl border-2 border-white/28 no-underline transition-all hover:bg-white/20 hover:-translate-y-0.5"
+                className="cta-phone-btn inline-flex items-center gap-2 bg-white/12 text-white font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.06em] px-6 py-3 rounded-xl border-2 border-white/28 no-underline transition-all hover:bg-white/20 hover:-translate-y-0.5"
               >
                 {settings.phone_display}
               </a>
@@ -71,10 +72,10 @@ export default function Footer({
       </section>
 
       {/* Footer main */}
-      <div className="bg-[#23282b] pt-16 pb-0">
-        <div className="max-w-[1280px] mx-auto px-8 w-full">
+      <div className="footer-main">
+        <div className="footer-inner">
           {/* Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1.5fr] gap-12 pb-12 border-b border-white/8">
+          <div className="footer-grid">
             {/* Brand column */}
             <div>
               <div className="mb-5">
@@ -96,13 +97,13 @@ export default function Footer({
               </div>
               <ul className="list-none p-0 m-0 flex flex-col gap-2.5">
                 {[
-                  { label: t("transport"), anchor: "#service-transport" },
-                  { label: t("warehousing"), anchor: "#service-warehouse" },
-                  { label: t("relocations"), anchor: "#service-relocations" },
-                  { label: t("loading"), anchor: "#service-loading" },
-                ].map(({ label, anchor }) => (
-                  <li key={anchor}>
-                    <Link href={`/${locale}${anchor}`} className="text-[16px] text-white/55 no-underline flex items-center gap-1.5 transition-colors hover:text-[#F26A21]">
+                  { label: t("transport"), href: "/transportni-uslugi" },
+                  { label: t("warehousing"), href: "/skladovi-uslugi" },
+                  { label: t("relocations"), href: "/premestvane" },
+                  { label: t("loading"), href: "/tovaro-raztovarni-uslugi" },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link href={`/${locale}${href}`} className="text-[16px] text-white/55 no-underline flex items-center gap-1.5 transition-colors hover:text-[#F26A21]">
                       <span className="text-[#F26A21] text-[12px]">&#9654;</span>
                       {label}
                     </Link>
@@ -118,13 +119,13 @@ export default function Footer({
               </div>
               <ul className="list-none p-0 m-0 flex flex-col gap-2.5">
                 {[
-                  { labelKey: "about", anchor: "#about" },
-                  { labelKey: "advantages", anchor: "#why" },
-                  { labelKey: "faq", anchor: "#faq" },
-                  { labelKey: "contacts", anchor: "#cta" },
-                ].map(({ labelKey, anchor }) => (
-                  <li key={anchor}>
-                    <Link href={`/${locale}${anchor}`} className="text-[16px] text-white/55 no-underline flex items-center gap-1.5 transition-colors hover:text-[#F26A21]">
+                  { labelKey: "about", href: "/for-us" },
+                  { labelKey: "advantages", href: "/#why" },
+                  { labelKey: "faq", href: "/faq" },
+                  { labelKey: "contacts", href: "/contacts" },
+                ].map(({ labelKey, href }) => (
+                  <li key={href}>
+                    <Link href={`/${locale}${href}`} className="text-[16px] text-white/55 no-underline flex items-center gap-1.5 transition-colors hover:text-[#F26A21]">
                       <span className="text-[#F26A21] text-[12px]">&#9654;</span>
                       {t(labelKey as "transport")}
                     </Link>
@@ -172,7 +173,7 @@ export default function Footer({
           </div>
 
           {/* Bottom bar */}
-          <div className="flex justify-between items-center py-5 flex-wrap gap-3">
+          <div className="footer-bottom flex justify-between items-center py-5 flex-wrap gap-3">
             <span className="text-[15px] text-white/30 font-['Sofia_Sans',sans-serif]">
               &copy; {currentYear} Atlant {t("rights")}
             </span>

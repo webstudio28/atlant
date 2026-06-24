@@ -1,0 +1,272 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Транспортни услуги | Atlant Logistics",
+      "description": "В Atlant Logistics & Relocations транспортът не е просто логистична операция – той е сърцето на добре подредената верига на доставки."
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Транспортни услуги",
+      "subtitle": "В Atlant Logistics & Relocations транспортът не е просто логистична операция – той е сърцето на добре подредената верига на доставки."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "В Atlant Logistics & Relocations транспортът не е просто логистична операция – той е сърцето на добре подредената верига на доставки.",
+          "Съчетаваме богат практически опит, специализирани екипи и модерна техника, за да предложим точния транспортен модел за всеки тип товар, маршрут или срок – както за страната, така и за международен транспорт."
+        ],
+        "image": "/images/pages/transport.webp"
+      },
+      {
+        "type": "direction-cards",
+        "label": "Направления",
+        "heading": "Предлагаме пет основни направления, които покриват цялата логистична карта:",
+        "items": [
+          {
+            "title": "Автомобилен",
+            "lines": [
+              "Пътят е ясен.",
+              "Клиентът спокоен"
+            ],
+            "href": "/avtomobilen-transport"
+          },
+          {
+            "title": "Въздушен",
+            "lines": [
+              "Спешен пакет -",
+              "- въздушен билет"
+            ],
+            "href": "/vazdushen-transport"
+          },
+          {
+            "title": "Морски",
+            "lines": [
+              "Повече стока -",
+              "- морска посока"
+            ],
+            "href": "/morski-transport"
+          },
+          {
+            "title": "Железопътен",
+            "lines": [
+              "Ритъм и ред -",
+              "- по релси напред"
+            ],
+            "href": "/zhelezopaten-transport"
+          },
+          {
+            "title": "Специализиран",
+            "lines": [
+              "- Нестандартен курс -",
+              "- инженерeн ресурс"
+            ],
+            "href": "/specilalizirano-premestvane-i-transport"
+          }
+        ]
+      },
+      {
+        "type": "article",
+        "heading": "Не всеки товар и не всяка дестинация изискват едно и също решение. Практическият избор минава през няколко въпроса:",
+        "paragraphs": [
+          "Ако забавяне от 2–3 дни не е проблем, автомобилен, ЖП или морски транспорт могат да дадат по-добра цена. При спиране на линия, спешни резервни части или договорни санкции – въздухът става оправдан разход."
+        ],
+        "bullets": [
+          "Колко е критичен срокът?"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Каква е стойността и рискът?",
+        "paragraphs": [
+          "Високостойностни или чувствителни товари често изискват по-сигурни вериги, допълнително застраховане и по-прецизен контрол. Това влияе върху избора на превозвач, тип услуга и ниво на проследяване."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Каква е регулярността?",
+        "paragraphs": [
+          "Единични пратки, сезонни кампании или постоянен поток – всяко ниво има различен оптимален модел (групаж, цели автомобили/контейнери, ЖП композиции, комбинирани решения).",
+          "Ролята на Atlant Logistics & Relocations е да превърне тези фактори в работеща схема – не просто „да се намери превоз“, а да се избере устойчив модел.",
+          "Много компании работят отделно с превозвачи, митнически агенти, складове и куриери. Това често води до разминаване на информация, загубено време и спорни отговорности."
+        ],
+        "bullets": [
+          "Спедиторът като една точка за контрол – защо има значение"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Какво печелите, когато спедицията е централизирана:",
+        "paragraphs": [
+          "Координация на автомобилен, въздушен, морски, ЖП и специализиран транспорт, плюс митници, складиране и дистрибуция – без да „жонглирате“ с пет различни контакта.",
+          "Вместо „това е работа на превозвача“ или „на агента“, имате един партньор, който следи целия поток от товарене до доставка.",
+          "Спедиторът вижда стесненията по веригата – претоварени терминали, ограничения по маршрути, сезонни пикове – и може да предложи резервни сценарии.",
+          "При такъв модел транспортът престава да е „поредица от отделни услуги“, а се превръща в управляема логистична система."
+        ],
+        "bullets": [
+          "Единен партньор за цялата верига",
+          "Ясна отговорност",
+          "По-добра предвидимост",
+          "Какво да подготвите преди заявка за транспорт"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Добрата подготовка спестява време, грешки и излишни разходи. Преди да заявите транспорт, е полезно да имате под ръка:",
+        "paragraphs": [
+          "Размери, тегло, брой палети/колети, тип опаковка, дали е чупливо, опасно, чувствително към температура.",
+          "Точни адреси, възможности за достъп (рампа, мотокар, кран, тесни улици, работно време на обекта), дали е нужна доставка „от врата до врата“ или до терминал/пристанище/летище.<",
+          "Фактури, товарителници, митнически кодове, яснота кой поема разходите и риска по веригата (продавач, купувач или трета страна).",
+          "Часови прозорци за товарене/разтоварване, предварителни известявания, специфично етикетиране или палетизация.",
+          "Atlant Logistics & Relocations може да стъпи на тази информация и да предложи реалистичен срок, цена и маршрут – без „изненади“ в последния момент."
+        ],
+        "bullets": [
+          "Точни данни за товара",
+          "Маршрут и условия на доставка",
+          "Документи и Incoterms",
+          "Специални изисквания"
+        ],
+        "variant": "white"
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Transport Services | Atlant Logistics",
+      "description": "At Atlant Logistics & Relocations, transport is not just a logistical operation – it’s the heart of a well-organized supply chain."
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Transport Services",
+      "subtitle": "At Atlant Logistics & Relocations, transport is not just a logistical operation – it’s the heart of a well-organized supply chain."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "At Atlant Logistics & Relocations, transport is not just a logistical operation – it’s the heart of a well-organized supply chain.",
+          "We combine extensive practical experience, specialized teams, and modern equipment to offer the right transport model for every type of cargo, route, or timeline – both domestically and internationally."
+        ],
+        "image": "/images/pages/transport.webp"
+      },
+      {
+        "type": "direction-cards",
+        "label": "Directions",
+        "heading": "We offer five main directions that cover the entire logistics map:",
+        "items": [
+          {
+            "title": "Road",
+            "lines": [
+              "The road is clear.",
+              "The client is relaxed"
+            ],
+            "href": "/avtomobilen-transport"
+          },
+          {
+            "title": "Air",
+            "lines": [
+              "Urgent package -",
+              "- by air"
+            ],
+            "href": "/vazdushen-transport"
+          },
+          {
+            "title": "Sea",
+            "lines": [
+              "More cargo -",
+              "- by sea"
+            ],
+            "href": "/morski-transport"
+          },
+          {
+            "title": "Rail",
+            "lines": [
+              "Rhythm and order -",
+              "- forward on rails"
+            ],
+            "href": "/zhelezopaten-transport"
+          },
+          {
+            "title": "Specialized",
+            "lines": [
+              "- Non-standard route -",
+              "- engineering resources"
+            ],
+            "href": "/specilalizirano-premestvane-i-transport"
+          }
+        ]
+      },
+      {
+        "type": "article",
+        "heading": "Not every cargo and destination requires the same solution. Practical selection involves several questions:",
+        "paragraphs": [
+          "If a 2–3 day delay is not a problem, road, rail, or sea transport may offer a better price. For line stoppages, urgent spare parts, or contractual penalties – air becomes a justified expense."
+        ],
+        "bullets": [
+          "How critical is the deadline?"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "What is the value and risk?",
+        "paragraphs": [
+          "High-value or sensitive cargo often requires more secure chains, additional insurance, and more precise control. This affects the choice of carrier, type of service, and tracking level."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "How regular is the shipment?",
+        "paragraphs": [
+          "Single shipments, seasonal campaigns, or constant flow – each level has a different optimal model (groupage, full truck/container loads, rail compositions, combined solutions).",
+          "Atlant Logistics & Relocations turns these factors into a working scheme – not just 'finding transport', but choosing a sustainable model.",
+          "Many companies work separately with carriers, customs agents, warehouses, and couriers. This often leads to information mismatches, lost time, and disputed responsibilities."
+        ],
+        "bullets": [
+          "The freight forwarder as a single control point – why it matters"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "What you gain when forwarding is centralized:",
+        "paragraphs": [
+          "Coordination of road, air, sea, rail, and specialized transport, plus customs, warehousing, and distribution – without juggling five different contacts.",
+          "Instead of 'that’s the carrier’s job' or 'the agent’s job', you have one partner who monitors the entire flow from loading to delivery.",
+          "The forwarder sees bottlenecks in the chain – congested terminals, route restrictions, seasonal peaks – and can propose backup scenarios.",
+          "In this model, transport stops being a 'series of separate services' and becomes a manageable logistics system."
+        ],
+        "bullets": [
+          "A single partner for the entire chain",
+          "Clear responsibility",
+          "Better predictability",
+          "What to prepare before requesting transport"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Good preparation saves time, errors, and unnecessary costs. Before requesting transport, it’s useful to have on hand:",
+        "paragraphs": [
+          "Dimensions, weight, number of pallets/parcels, packaging type, whether it’s fragile, hazardous, or temperature-sensitive.",
+          "Exact addresses, access possibilities (ramp, forklift, crane, narrow streets, working hours), whether door-to-door delivery is required or to a terminal/port/airport.",
+          "Invoices, waybills, customs codes, clarity on who bears costs and risks in the chain (seller, buyer, or third party).",
+          "Time windows for loading/unloading, prior notifications, specific labeling or palletizing.",
+          "Atlant Logistics & Relocations uses this information to offer realistic timelines, prices, and routes – without last-minute 'surprises'."
+        ],
+        "bullets": [
+          "Accurate cargo data",
+          "Route and delivery conditions",
+          "Documents and Incoterms",
+          "Special requirements"
+        ],
+        "variant": "white"
+      }
+    ]
+  }
+}

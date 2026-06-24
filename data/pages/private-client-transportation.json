@@ -1,0 +1,78 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Услуги за частни клиенти | Atlant Logistics",
+      "description": "Пълен набор от логистични и преместващи услуги за частни клиенти."
+    },
+    "hero": {
+      "label": "Частни клиенти",
+      "title": "Услуги за частни клиенти",
+      "subtitle": "Пълен набор от логистични и преместващи услуги за частни клиенти."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Пълен набор от логистични и преместващи услуги за частни клиенти."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "related-services",
+        "heading": "Услуги",
+        "items": [
+          {
+            "title": "Преместване на дома",
+            "href": "/private-client-transportation/moving"
+          },
+          {
+            "title": "Специализирано",
+            "href": "/private-client-transportation/specialized-moving"
+          },
+          {
+            "title": "Помощен персонал",
+            "href": "/private-client-transportation/support-staff"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Private Client Services | Atlant Logistics",
+      "description": "Full logistics and relocation services for private clients."
+    },
+    "hero": {
+      "label": "Private Clients",
+      "title": "Private Client Services",
+      "subtitle": "Full logistics and relocation services for private clients."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Full logistics and relocation services for private clients."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "related-services",
+        "heading": "Services",
+        "items": [
+          {
+            "title": "Home moving",
+            "href": "/private-client-transportation/moving"
+          },
+          {
+            "title": "Specialized",
+            "href": "/private-client-transportation/specialized-moving"
+          },
+          {
+            "title": "Support staff",
+            "href": "/private-client-transportation/support-staff"
+          }
+        ]
+      }
+    ]
+  }
+}

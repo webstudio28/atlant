@@ -1,0 +1,180 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Индустриално преместване | Atlant Logistics",
+      "description": "Инженерен подход към тежките релокации"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Индустриално преместване",
+      "subtitle": "Инженерен подход към тежките релокации"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Преместването на фабрики, цехове и производствени линии е чувствителна операция и инженерна задача, не просто транспорт. Всяка минута престой е разход. Ние го правим планирано, с такелаж, тежка техника и контрол на риска — от предварителния одит до подредената линия на новото място.",
+          "Какво поемаме",
+          "Машини и производствени модули, линии и конвейери, електрошкафове, складово и помощно оборудване.",
+          "Планиране на маршрути и защити по пътя (подове, ъгли, проходи)."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Важно е:",
+        "paragraphs": [
+          "да има проследимост (етикети, локации, списъци);",
+          "да не се смесват суровини с отпадни материали и стари партиди;",
+          "да е ясно кое е „работещ запас“ и кое е резерв/буфер.",
+          "Когато на място просто „няма къде да се диша“, буферът не е задължително да стои при вас.",
+          "Атлант разполага със собствени складове и логистични площи, където при нужда можем да поемем част от материалите или готовата продукция като временен буфер – с адресиране, системен контрол и достъп по договорен график.",
+          "За по-дългосрочни и структурирани решения можете да използвате и нашата услуга „Корпоративно складиране“, където буферните количества се управляват като част от цялостната ви логистична схема.",
+          "Така освобождаваме пространство за такелаж, монтаж и работа по линиите, без да блокирате собствения си обект.",
+          "Пуск в новия склад"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "При пускане на новото място:",
+        "paragraphs": [
+          "изберете логични локации и адресиране (зони, редове, нива, позиции);",
+          "осигурете обучение за персонала по новата схема, за да няма „всеки си подрежда по свой начин“.",
+          "Добре планираният склад прави така, че машините да не чакат материал, нито логистиката – документи, а преместването да мине през контролирани буфери, вместо през контролирани кризи.",
+          "Преместването на струг 8 тона или преса 15 тона не е просто „по-тежко носене“ – това е работа с реален риск за хора, сграда и оборудване.",
+          "Сериозният процес започва с оглед и риск-анализ: слабости в подовете, тесни завои, рампи, шахти, ниски греди, стари плочи. Много инциденти стават не при самото повдигане, а при маневри в тесни пространства.",
+          "Разлика има между „мотокар“ и правилния мотокар: капацитет, дължина на вилици, противотежести, височини, радиус на завой. Същото важи за кран-камиони, хидравлични колички, плъзгащи системи и такелажни аксесоари.",
+          "По време на операции с повдигане трябва да има ясни забранени зони за персонала, маркирани маршрути и човек, отговарящ за сигналите и командите. „Всички гледат, всички помагат“ е рецепта за хаос.",
+          "Документи и застраховка"
+        ],
+        "bullets": [
+          "синхронизирайте складовия софтуер / ERP с новия lay-out;",
+          "Безопасност и риск при преместване на тежки машини: какво не бива да се подценява",
+          "Оценка на риска преди първия болт",
+          "Правилната техника за правилната задача",
+          "Зоните за безопасност не са формалност"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "При тежки и скъпи машини е разумно да има:",
+        "paragraphs": [
+          "застраховка по време на транспорт и манипулации;",
+          "протоколи за предаване-приемане със снимков материал;",
+          "ясно описание на състоянието „преди“ и „след“.",
+          "Добрата новина е, че контролираният риск е управляем – стига да се подхожда инженерно, а не „по усещане“."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Свързани услуги",
+        "items": [
+          {
+            "title": "Премествания",
+            "href": "/premestvane"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Industrial Relocation | Atlant Logistics",
+      "description": "Engineering approach to heavy relocations"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Industrial Relocation",
+      "subtitle": "Engineering approach to heavy relocations"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Moving factories, workshops, and production lines is a sensitive operation and an engineering task, not just transportation. Every minute of downtime is a cost. We do it in a planned way, with rigging, heavy equipment, and risk control — from preliminary audit to the organized line at the new location.",
+          "What we handle",
+          "Machines and production modules, lines and conveyors, electrical cabinets, warehouse and auxiliary equipment.",
+          "Route planning and protections along the way (floors, corners, passages)."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Useful tips on the topic",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "It is important:",
+        "paragraphs": [
+          "to have traceability (labels, locations, lists);",
+          "not to mix raw materials with waste materials and old batches;",
+          "to be clear what is 'working stock' and what is reserve/buffer.",
+          "When there simply 'is no room to breathe' on-site, the buffer does not necessarily have to stay with you.",
+          "Atlant has its own warehouses and logistics areas, where if needed we can take part of the materials or finished products as a temporary buffer — with addressing, systematic control, and access by agreed schedule.",
+          "For longer-term and structured solutions, you can also use our service 'Corporate Warehousing', where buffer quantities are managed as part of your overall logistics scheme.",
+          "This frees up space for rigging, assembly, and line work without blocking your own facility.",
+          "Start in the new warehouse"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "When starting at the new location:",
+        "paragraphs": [
+          "choose logical locations and addressing (zones, rows, levels, positions);",
+          "provide training for staff on the new scheme so that 'everyone arranges in their own way' does not happen.",
+          "A well-planned warehouse ensures that machines do not wait for material or logistics — documents — and the move passes through controlled buffers rather than controlled crises.",
+          "Moving an 8-ton lathe or a 15-ton press is not just 'heavier lifting' — it is work with real risk for people, building, and equipment.",
+          "The serious process starts with inspection and risk analysis: floor weaknesses, tight turns, ramps, pits, low beams, old plates. Many incidents happen not during lifting, but during maneuvers in tight spaces.",
+          "There is a difference between a 'forklift' and the correct forklift: capacity, fork length, counterweights, heights, turning radius. The same applies to crane trucks, hydraulic carts, sliding systems, and rigging accessories.",
+          "During lifting operations, there must be clear prohibited zones for staff, marked routes, and a person responsible for signals and commands. 'Everyone watches, everyone helps' is a recipe for chaos.",
+          "Documents and insurance"
+        ],
+        "bullets": [
+          "synchronize warehouse software / ERP with the new layout;",
+          "Safety and risk in moving heavy machines: what should not be underestimated",
+          "Risk assessment before the first bolt",
+          "The right equipment for the right task",
+          "Safety zones are not a formality"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "For heavy and expensive machines, it is reasonable to have:",
+        "paragraphs": [
+          "insurance during transport and handling;",
+          "handover protocols with photographic evidence;",
+          "clear description of the condition 'before' and 'after'.",
+          "The good news is that controlled risk is manageable — as long as it is approached engineering-wise, not 'by feel'."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Related services",
+        "items": [
+          {
+            "title": "Премествания",
+            "href": "/premestvane"
+          }
+        ]
+      }
+    ]
+  }
+}

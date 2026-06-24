@@ -1,0 +1,258 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Помощен персонал | Atlant Logistics",
+      "description": "Временен ресурс, професионално присъствие"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Помощен персонал",
+      "subtitle": "Временен ресурс, професионално присъствие"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Когато екипът ви е под натиск – болнични, пик, инвентаризация или събитие – ние попълваме липсващите хора бързо и организирано. Предоставяме почасово или целодневно товарачи (хамали), правоспособни мотокаристи и шофьори – с ясен график и отчетност.",
+          "Какво осигуряваме",
+          "Товарачи/хамали за товаро-разтоварни дейности, подреждане, сортиране, подготовка на поръчки.",
+          "Мотокаристи с валидни документи за правоспособност (по задание – работа на рампа, стелажни зони и др.)."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Правило за старт:",
+        "paragraphs": [
+          "Ръчен труд (кашони/леки артикули): ~ 45–60 кутии/ч. на човек при кратък маршрут и асансьор; ~ 25–35 при дълги носения/стълби.",
+          "Палети с палетна количка: ~ 8–12 палета/ч. на екип (2 души).",
+          "Мотокар + товарач: ~ 18–25 палета/ч. при ясна линия и без чакане."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Как да сметнете набързо:",
+        "paragraphs": [
+          "Определете обем: брой кутии/палети/метри рафтове.",
+          "Изберете коефициент според достъпа (къс/дълъг маршрут, стълби/асансьор).",
+          "Разделете обема на производителността → получавате човекочасове.",
+          "Разделете на желаната продължителност → получавате брой хора.",
+          "Пример: 300 кутии, дълъг маршрут → 30 кутии/ч. 300 / 30 = 10 човекочаса. За 2 часа → 10 / 2 = 5 души."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Случаи, които изкривяват сметката:",
+        "paragraphs": [
+          "Крехки/ценни предмети (бавиш темпото с 20–40%).",
+          "Тесни коридори, споделен асансьор, пик часове.",
+          "„Смесени“ задачи (сортиране + подреждане + етикетиране).",
+          "Липсващ staging (всичко става по-бавно и хаотично)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Съвет:",
+        "paragraphs": [
+          "винаги добави резерв 15–20% при непознат обект.",
+          "Как да намалите часовете (и бюджета) без да намалявате качеството",
+          "Разумно планиране = по-малко празно ходене и излишно чакане."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Практики, които работят:",
+        "paragraphs": [
+          "Слот за рампа/асансьор: фиксирайте прозорец – спестява струпване и чакане.",
+          "Зона за staging: отделете място за временно подреждане – движението става линейно.",
+          "Етикети и групиране: маркирайте по адрес/отдел/етаж; няма „къде беше тази кутия?“.",
+          "Подготвени документи: товарителници, списъци, достъп – без търсене „в последния момент“.",
+          "Един координатор: бързи решения на място, по-малко объркване.",
+          "Ясен маршрут вътре: „от рампата → зона → рафт/позиция“; без кръстосани потоци.",
+          "Синхрон с техника: мотокаристът идва, когато има какво да мести – не по-рано.",
+          "Реалистични килограми: точните данни за тегло и габарит пазят от „двойна работа“.",
+          "Снимков контрол: бързо потвърждение на етапите, без допълнителни огледи.",
+          "Ефект: по-малко човекочасове, предвидим финал и чиста отчетност.",
+          "Безопасност и отговорности: кой какво осигурява на обекта",
+          "Безопасността не е спирачка, а гаранция, че работата свършва навреме и без щети."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "От страна на клиента:",
+        "paragraphs": [
+          "Достъп и правила: инструкции за вход, ЛПС, пожарни изходи, забранени зони.",
+          "Сигурна среда: осветление, проходи без препятствия, без опасни течове/кабели.",
+          "Указания за „деликатни“ стоки: крехки/ценни/с поверителност – ясно маркирани.",
+          "Разрешителни и отговорни лица: кой подписва, кой отключва, кой приема."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "От страна на изпълнителя (екипа):",
+        "paragraphs": [
+          "Инструктаж на място и ЛПС: каски, ръкавици, обувки, жилетки – според обекта.",
+          "Дисциплина и отчетност: бригадир/супервайзър, списък с хора/часове, протоколи.",
+          "Правоспособности: валидни документи за мотокар/кран; работа само по задание.",
+          "Техника и инструменти: осигурени при заявка; проверени преди работа.",
+          "Граници на услугата: без дейности със специален допуск (височини, ел. работи и др.) без предварителни условия и писмено задание.",
+          "Процедура при инцидент: незабавен доклад, снимка, опис, уведомяване на координатор/застраховател."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Извод:",
+        "paragraphs": [
+          "Пример",
+          "ясни роли и условия в началото = безопасна работа и нулеви „изненади“ в края."
+        ],
+        "variant": "white"
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Support Staff | Atlant Logistics",
+      "description": "Temporary Resource, Professional Presence"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Support Staff",
+      "subtitle": "Temporary Resource, Professional Presence"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "When your team is under pressure – sick leaves, peak periods, inventory, or events – we quickly and efficiently fill in the missing staff. We provide hourly or full-day loaders, certified forklift operators, and drivers – all with clear schedules and accountability.",
+          "What We Provide",
+          "Loaders for loading/unloading tasks, organizing, sorting, and order preparation.",
+          "Forklift operators with valid certification (as assigned – ramp work, shelving areas, etc.)."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Useful tips on the topic",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Starting Rule:",
+        "paragraphs": [
+          "Manual labor (boxes/light items): ~45–60 boxes/hour per person on a short route with elevator; ~25–35 on long carries/stairs.",
+          "Pallets with pallet jack: ~8–12 pallets/hour per team (2 people).",
+          "Forklift + loader: ~18–25 pallets/hour with a clear line and no waiting."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Quick Calculation Method:",
+        "paragraphs": [
+          "Determine volume: number of boxes/pallets/shelf meters.",
+          "Choose a coefficient based on access (short/long route, stairs/elevator).",
+          "Divide volume by productivity → get person-hours.",
+          "Divide by desired duration → get number of people.",
+          "Example: 300 boxes, long route → 30 boxes/hour. 300 / 30 = 10 person-hours. For 2 hours → 10 / 2 = 5 people."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Factors That Skew Estimates:",
+        "paragraphs": [
+          "Fragile/valuable items (slows pace by 20–40%).",
+          "Narrow corridors, shared elevator, peak hours.",
+          "Mixed tasks (sorting + organizing + labeling).",
+          "Missing staging (everything becomes slower and chaotic)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Tip:",
+        "paragraphs": [
+          "always add 15–20% buffer for unfamiliar sites.",
+          "How to Reduce Hours (and Budget) Without Reducing Quality",
+          "Smart planning = less unnecessary movement and waiting."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Effective Practices:",
+        "paragraphs": [
+          "Ramp/elevator slot: fix a time window – avoids crowding and waiting.",
+          "Staging area: allocate space for temporary arrangement – movement becomes linear.",
+          "Labeling and grouping: mark by address/department/floor; no “where was this box?”.",
+          "Prepared documents: waybills, lists, access – no last-minute searching.",
+          "One coordinator: fast on-site decisions, less confusion.",
+          "Clear internal route: “ramp → zone → shelf/position”; no cross-traffic.",
+          "Sync with equipment: forklift comes when needed – not earlier.",
+          "Accurate weight: exact weight and dimensions prevent double work.",
+          "Photo control: quick confirmation of steps, no additional inspections.",
+          "Effect: fewer person-hours, predictable outcome, and clear accountability.",
+          "Safety is not a brake, but a guarantee that work is done on time and without damage."
+        ],
+        "bullets": [
+          "Safety and Responsibilities: Who Provides What on Site"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "From the Client Side:",
+        "paragraphs": [
+          "Access and rules: entrance instructions, PPE, fire exits, restricted zones.",
+          "Safe environment: lighting, clear passageways, no dangerous leaks/cables.",
+          "Instructions for sensitive goods: fragile/valuable/confidential – clearly marked.",
+          "Permissions and responsible persons: who signs, who unlocks, who receives."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "From the Contractor Side (Team):",
+        "paragraphs": [
+          "On-site briefing and PPE: helmets, gloves, shoes, vests – according to the site.",
+          "Discipline and accountability: supervisor, list of people/hours, reports.",
+          "Certifications: valid forklift/crane documents; work only as assigned.",
+          "Equipment and tools: provided on request; checked before work.",
+          "Service boundaries: no tasks requiring special permits (heights, electrical work, etc.) without prior conditions and written assignment.",
+          "Incident procedure: immediate report, photo, description, notify coordinator/insurer."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Conclusion:",
+        "paragraphs": [
+          "clear the roles and conditions at the beginning = safe work and zero “from the inside” to the edge."
+        ],
+        "bullets": [
+          "Example"
+        ],
+        "variant": "white"
+      }
+    ]
+  }
+}

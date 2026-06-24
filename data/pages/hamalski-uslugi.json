@@ -1,0 +1,264 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Хамалски услуги | Atlant Logistics",
+      "description": "Физическата работа, изпълнена с логистично мислене"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Хамалски услуги",
+      "subtitle": "Физическата работа, изпълнена с логистично мислене"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Осигуряваме професионални екипи за ръчен товаро-разтоварен труд – бързо, безопасно и по график. Работим с правилни техники на носене и защитни материали, за да избегнем повреди и забавяния.",
+          "Какво включва",
+          "Товарене/разтоварване на камиони, контейнери и вагони (насипни и опаковани товари).",
+          "Носене по етажи, трудни подходи и тесни пространства."
+        ],
+        "image": "/images/pages/loading.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Кога е по-добре почасово:",
+        "paragraphs": [
+          "Имате променлив обем или неясни детайли по място/достъп.",
+          "Очаквате вътрешни промени по време на работа (размествания, допълнителни задачи).",
+          "Нужен е екип „на разположение“ през деня."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Кога е по-добре „по задание“ (фиксирано):",
+        "paragraphs": [
+          "Обемът е ясно измерим: брой палети/кубик, конкретен контейнер, определен списък операции.",
+          "Имате краен срок/прозорец и искате предвидима крайна цена.",
+          "Дейността е стандартизирана (напр. разтоварване на камион + вътрешно позициониране)."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Как да решите бързо:",
+        "paragraphs": [
+          "Ако можете да преброите задачата (палети/етажи/позиции) → фиксирано.",
+          "Ако не можете да предвидите темпото/обема → почасово.",
+          "При смесени случаи → комбиниран модел (фиксиран „гръбнак“ + часове за непредвидено).",
+          "Какво носи екипът и какво е добре да осигурите вие",
+          "Работим с логистично мислене и идващата към него екипировка."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Ние осигуряваме (по задача):",
+        "paragraphs": [
+          "Защитни и пренасящи средства: ремъци, колички, ъглозащити, одеяла, стреч/аеропласт.",
+          "При нужда и ако обектът позволява: палетни колички и мотокар с правоспособен оператор.",
+          "Супервайзър на място, който разпределя ролите и води отчетността."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Добре е вие да предвидите:",
+        "paragraphs": [
+          "Ясни точки за позициониране (къде точно да се подрежда по етаж/зона).",
+          "Дребни консумативи, ако са специфични за вашия стандарт (етикети, пломби, цветни маркери).",
+          "Достъп до ток/осветление и информация за ограничения (ниски врати, узки завои, нестандартни отвори)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Граници на услугата:",
+        "paragraphs": [
+          "Не поемаме опасни вещества, азбест, биологични/токсични отпадъци.",
+          "По-мащабни демонтажи се изпълняват само по отделно задание и с нужните разрешителни.",
+          "Отпадъци и чисто предаване: как да спестите време и глоби",
+          "Чистото предаване е видимият завършек на добре свършената работа."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Какво можем да поемем:",
+        "paragraphs": [
+          "Изнасяне на опаковки и строителни отпадъци.",
+          "Организация на извозване до лицензирано депо (по заявка) и придружителни документи."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Как да намалите разхода и риска:",
+        "paragraphs": [
+          "Разделете потоците отпадък предварително: опаковки отделно от строителни материали.",
+          "Посочете точка за временно струпване (вътрешен „буфер“) – извозването става по-бързо.",
+          "Уточнете нуждата от контейнер навреме, за да избегнете престой и санкции от общината/сградата."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Какво получавате на финал:",
+        "paragraphs": [
+          "Обект, предаден чисто и документирано, без неясноти за следващи етапи (монтаж, експлоатация, инспекции)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Свързани услуги",
+        "items": [
+          {
+            "title": "Товаро-разтоварни",
+            "href": "/tovaro-raztovarni-uslugi"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Porter Services | Atlant Logistics",
+      "description": "Physical work, executed with logistical thinking"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Porter Services",
+      "subtitle": "Physical work, executed with logistical thinking"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "We provide professional teams for manual loading and unloading – fast, safe and on schedule. We work with proper carrying techniques and protective materials to avoid damage and delays.",
+          "What it includes",
+          "Loading/unloading trucks, containers and wagons (bulk and packaged goods).",
+          "Carrying on floors, difficult approaches and narrow spaces."
+        ],
+        "image": "/images/pages/loading.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Useful tips on the topic",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "When hourly is better:",
+        "paragraphs": [
+          "You have variable volume or unclear site/access details.",
+          "You expect internal changes during work (rearrangements, additional tasks).",
+          "You need a 'standby' team during the day."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "When fixed-task is better:",
+        "paragraphs": [
+          "The volume is clearly measurable: number of pallets/cubic, specific container, defined list of operations.",
+          "You have a deadline/window and want a predictable final price.",
+          "The activity is standardized (e.g., unloading a truck + internal positioning)."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "How to decide quickly:",
+        "paragraphs": [
+          "If you can count the task (pallets/floors/positions) → fixed.",
+          "If you cannot predict the pace/volume → hourly.",
+          "In mixed cases → combined model (fixed 'backbone' + hours for unforeseen).",
+          "What the team provides and what you should provide",
+          "We work with logistical thinking and incoming equipment."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "We provide (per task):",
+        "paragraphs": [
+          "Protective and carrying means: straps, trolleys, corner protectors, blankets, stretch/aeroplast.",
+          "If needed and if the site allows: pallet trucks and forklift with licensed operator.",
+          "On-site supervisor, who distributes roles and keeps accountability."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "You should provide:",
+        "paragraphs": [
+          "Clear points for positioning (exactly where to place per floor/zone).",
+          "Small consumables if specific to your standard (labels, seals, colored markers).",
+          "Access to electricity/lighting and information about restrictions (low doors, narrow turns, non-standard openings)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Service boundaries:",
+        "paragraphs": [
+          "We do not handle hazardous substances, asbestos, biological/toxic waste.",
+          "Larger demolitions are carried out only by separate task with required permits.",
+          "Waste and clean handover: how to save time and fines",
+          "Clean handover is the visible completion of a well-done job."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "What we can handle:",
+        "paragraphs": [
+          "Removal of packaging and construction waste.",
+          "Organization of transport to a licensed depot (on request) with accompanying documents."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "How to reduce cost and risk:",
+        "paragraphs": [
+          "Separate waste streams in advance: packaging separate from construction materials.",
+          "Specify temporary accumulation point (internal 'buffer') – transport becomes faster.",
+          "Specify container needs in time to avoid delays and fines from municipality/building."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "What you get at the end:",
+        "paragraphs": [
+          "Site delivered cleanly and documented, with no ambiguities for next stages (assembly, operation, inspections)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Related services",
+        "items": [
+          {
+            "title": "Товаро-разтоварни",
+            "href": "/tovaro-raztovarni-uslugi"
+          }
+        ]
+      }
+    ]
+  }
+}

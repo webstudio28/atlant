@@ -1,0 +1,242 @@
+{
+  "bg": {
+    "meta": {
+      "title": "Морски транспорт | Atlant Logistics",
+      "description": "Cтабилност, обем и глобален обхват"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Морски транспорт",
+      "subtitle": "Cтабилност, обем и глобален обхват"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Морският транспорт остава най-надеждното решение при превоз на големи количества стоки на дълги разстояния. Atlant Logistics & Relocations организира пълни и групажни морски пратки в стандартни и специализирани контейнери – включително хладилни и насипни товари.",
+          "Работим с водещи корабни линии и глобална мрежа от агенти, което ни позволява да осигурим прецизна логистика, митническо обслужване и конкурентни срокове за внос и износ по всички основни морски маршрути."
+        ],
+        "image": "/images/pages/transport.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Полезни съвети по темата",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "При морския транспорт ключовият избор често е как да ползвате контейнера:",
+        "paragraphs": [
+          "FCL (Full Container Load) – цял контейнер за един клиент. Подходящ при достатъчен обем, висока стойност или чувствителни стоки. По-малко манипулации, по-добър контрол и по-нисък риск от повреди.",
+          "LCL (Less than Container Load) – групаж, при който споделяте контейнер с други товари. Отлично решение за по-малки количества, тестови пратки и стъпване на нови пазари.",
+          "И двата варианта са част от контейнерния транспорт – най-универсалната форма на морски превоз, осигуряваща защита на стоката и улеснение при товаро-разтоварните дейности по веригата (пристанище – ЖП – автомобилен транспорт)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Къде са другите видове морски транспорт?",
+        "paragraphs": [
+          "Освен контейнерния, в логистиката се използват още:",
+          "насипен транспорт – за зърно, въглища, минерали;",
+          "Ro-Ro транспорт – за превозни средства, които се качват и слизат на собствен ход.",
+          "В практиката на Atlant Logistics & Relocations за повечето търговски и индустриални стоки решението е именно в контейнерите – въпросът е кога има смисъл да минете от LCL към FCL. С правилен анализ на обем, честота и дестинации спедиторът може да ви спести както излишен „въздух“, така и скъпи групажни такси.",
+          "Морето е по-бавно от въздуха, но при добра организация е една от най-предвидимите и стабилни опции в международната логистика."
+        ],
+        "bullets": [
+          "танкерен транспорт – за течности: нефт, газ, химикали;",
+          "Морските срокове: защо „по-бавно“ не значи „по-несигурно“"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Какво стои зад тази предвидимост:",
+        "paragraphs": [
+          "Фиксирани графици на корабните линии и относително устойчиви транзитни времена.",
+          "Възможност да планирате производство, продажби и промоции с хоризонт седмици и месеци напред.",
+          "Стабилни цени при дългосрочни договори и регулярни потоци – особено при големи обеми."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Тук изпъкват и основните предимства на морския транспорт:",
+        "paragraphs": [
+          "Икономичност – превоз на големи обеми на сравнително ниска цена на тон/километър.",
+          "Глобален обхват – свързва пристанища по целия свят и дава достъп до отдалечени пазари.",
+          "Гъвкавост – работи с разнообразни видове товари: от малки LCL пратки до извънгабаритни и тежки товари с Ro-Ro или специализирани кораби.",
+          "Екологичност – по-нисък въглероден отпечатък на тон/километър спрямо въздушен и чист автомобилен транспорт."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Критичното е да се изгради реалистичен график „заден ход“ – от желаната дата на доставка назад към:",
+        "paragraphs": [
+          "товарене → консолидиране/LCL или FCL → митници → производствена готовност.",
+          "При морския транспорт документите не са „хартийки за архива“, а инструмент за контрол върху стоката. Това важи и за контейнерни пратки, и за насипни, танкерни или Ro-Ro превози."
+        ],
+        "bullets": [
+          "Документите при морски транспорт – защо са толкова важни при различните видове превоз"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Основни документи:",
+        "paragraphs": [
+          "Коносамент (Bill of Lading) – основният документ, доказващ право върху товара. При контейнерния транспорт често има и различни форми (оригинален, sea waybill и др.), които влияят върху освобождаването на стоката.",
+          "Търговска фактура и пак лист – база за митнически процедури, такси и контрол.",
+          "Специфични сертификати – за произход, качество, санитарни, фитосанитарни и др. – особено важни при храни, суровини, химикали.",
+          "При насипен и танкерен транспорт често има допълнителни изисквания за анализи и сертификати за качество/състав, а при Ro-Ro – документи за превозни средства, номера на рами, регистрационни документи и т.н."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "Грешка или неточност в тези документи може:",
+        "paragraphs": [
+          "да блокира контейнер или корабна партида в пристанище;",
+          "да генерира допълнителни такси за престой и съхранение;",
+          "да забави освобождаването и дистрибуцията към клиентите.",
+          "Затова е важно да работите с спедитор като Atlant Logistics & Relocations, който проверява детайлите още преди товаренето – така морето остава предвидим логистичен коридор, а не източник на скъпи изненади."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Свързани услуги",
+        "items": [
+          {
+            "title": "Транспортни услуги",
+            "href": "/transportni-uslugi"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "meta": {
+      "title": "Sea Transport | Atlant Logistics",
+      "description": "Stability, volume, and global reach"
+    },
+    "hero": {
+      "label": "Atlant Logistics",
+      "title": "Sea Transport",
+      "subtitle": "Stability, volume, and global reach"
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Sea transport remains the most reliable solution for moving large quantities of goods over long distances. Atlant Logistics & Relocations organizes full and groupage sea shipments in standard and specialized containers – including refrigerated and bulk cargo.",
+          "We work with leading shipping lines and a global agent network, allowing us to provide precise logistics, customs services, and competitive transit times for import and export on all major sea routes."
+        ],
+        "image": "/images/pages/transport.webp"
+      },
+      {
+        "type": "article",
+        "label": "Полезни съвети",
+        "heading": "Useful tips on the topic",
+        "paragraphs": [],
+        "bullets": [],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "In sea transport, the key decision is often how to use the container:",
+        "paragraphs": [
+          "FCL (Full Container Load) – one container for one client. Suitable for sufficient volume, high-value, or sensitive goods. Fewer handling operations, better control, and lower risk of damage.",
+          "LCL (Less than Container Load) – groupage, where you share a container with other cargo. An excellent solution for smaller quantities, test shipments, and entering new markets.",
+          "Both options are part of container transport – the most universal form of sea freight, ensuring cargo protection and easier handling throughout the chain (port – rail – road transport)."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Where are the other types of sea transport?",
+        "paragraphs": [
+          "Besides container transport, logistics also uses:",
+          "Bulk transport – for grain, coal, minerals;",
+          "Tanker transport – for liquids: oil, gas, chemicals;",
+          "Ro-Ro transport – for vehicles that drive on and off under their own power.",
+          "In Atlant Logistics & Relocations practice, for most commercial and industrial goods, the solution lies in containers – the question is when it makes sense to switch from LCL to FCL. With proper analysis of volume, frequency, and destinations, a forwarder can save you both unnecessary “air” and expensive groupage fees.",
+          "Sea transport is slower than air, but with good organization, it is one of the most predictable and stable options in international logistics."
+        ],
+        "bullets": [
+          "Sea transit times: why “slower” does not mean “less reliable”"
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "What stands behind this predictability:",
+        "paragraphs": [
+          "Fixed schedules of shipping lines and relatively stable transit times.",
+          "The ability to plan production, sales, and promotions weeks or months ahead.",
+          "Stable pricing with long-term contracts and regular flows – especially for large volumes."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "The main advantages of sea transport stand out here:",
+        "paragraphs": [
+          "Cost efficiency – transporting large volumes at a relatively low cost per ton/kilometer.",
+          "Global reach – connecting ports worldwide and providing access to remote markets.",
+          "Flexibility – handling a wide range of cargo types: from small LCL shipments to oversized and heavy cargo via Ro-Ro or specialized vessels.",
+          "Environmental efficiency – lower carbon footprint per ton/kilometer compared to air and pure road transport."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "The critical part is building a realistic backward schedule – from the desired delivery date back to:",
+        "paragraphs": [
+          "loading → consolidation/LCL or FCL → customs → production readiness.",
+          "In sea transport, documents are not just “paper for the archive,” but a control tool over the cargo. This applies to container shipments as well as bulk, tanker, or Ro-Ro transport."
+        ],
+        "bullets": [
+          "Documents in sea transport – why they are so important across different transport types"
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "article",
+        "heading": "Key documents:",
+        "paragraphs": [
+          "Bill of Lading – the main document proving ownership of the cargo. In container transport, there are often different forms (original, sea waybill, etc.) that affect cargo release.",
+          "Commercial invoice and packing list – the basis for customs procedures, duties, and control.",
+          "Specific certificates – origin, quality, sanitary, phytosanitary, etc. – especially important for food, raw materials, and chemicals.",
+          "For bulk and tanker transport, there are often additional requirements for analyses and quality/composition certificates, while for Ro-Ro – vehicle documents, VIN numbers, registration papers, and more."
+        ],
+        "variant": "white"
+      },
+      {
+        "type": "article",
+        "heading": "An error or inaccuracy in these documents can:",
+        "paragraphs": [
+          "block a container or vessel batch at the port;",
+          "generate additional demurrage and storage charges;",
+          "delay release and distribution to customers.",
+          "That is why it is important to work with a forwarder like Atlant Logistics & Relocations, who checks details before loading – ensuring the sea remains a predictable logistics corridor, not a source of costly surprises."
+        ],
+        "variant": "muted"
+      },
+      {
+        "type": "related-services",
+        "heading": "Related services",
+        "items": [
+          {
+            "title": "Транспортни услуги",
+            "href": "/transportni-uslugi"
+          }
+        ]
+      }
+    ]
+  }
+}
