@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getTransportServiceIcon } from "@/lib/pages/service-icons";
+import { getServiceIcon } from "@/lib/pages/service-icons";
 import { SectionLabel, SectionTitle } from "./PageSections";
 
 export type SubServiceItem = {
@@ -14,7 +14,7 @@ function localeHref(locale: string, href?: string) {
 }
 
 function ServiceIcon({ href, size = 72 }: { href?: string; size?: number }) {
-  const src = getTransportServiceIcon(href);
+  const src = getServiceIcon(href);
   if (!src) return null;
   return <Image src={src} alt="" width={size} height={size} className="object-contain" />;
 }

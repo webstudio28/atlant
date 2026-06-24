@@ -24,14 +24,16 @@ export function IntroAccentSection({
 
         <div className="grid grid-cols-1 items-stretch gap-10 lg:grid-cols-2 lg:gap-14">
           {image && (
-            <div className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)] lg:order-2 lg:aspect-auto lg:h-full lg:min-h-0">
-              <Image
-                src={image}
-                alt=""
-                fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover object-center lg:object-bottom"
-              />
+            <div className="flex h-full min-h-0 items-center justify-center lg:order-2">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)] lg:aspect-square lg:max-h-full lg:w-full">
+                <Image
+                  src={image}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 40vw, 100vw"
+                  className="object-cover object-center"
+                />
+              </div>
             </div>
           )}
           <div className={`relative h-full rounded-xl border border-[rgba(82,89,93,0.1)] bg-[#F4F4F2] p-8 ${image ? "lg:order-1" : "lg:col-span-2"}`}>

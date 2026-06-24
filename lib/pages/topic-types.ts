@@ -1,8 +1,9 @@
-export type TopicPoint = { title: string; text: string };
-
-export type TransportTopic = {
+export type ServiceTopic = {
   title: string;
   intro?: string;
-  points: TopicPoint[];
+  points: { title: string; text: string }[];
   footer?: string[];
 };
+
+/** @deprecated Use ServiceTopic */
+export type TransportTopic = ServiceTopic;

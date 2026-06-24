@@ -10,7 +10,7 @@ import {
   RelatedServicesSection,
 } from "./sections/PageSections";
 import { IntroAccentSection } from "./sections/IntroAccentSection";
-import { TransportTopicsSection } from "./sections/TransportTopicsSection";
+import { ServiceTopicsSection } from "./sections/ServiceTopicsSection";
 import { SubServicesSection } from "./sections/SubServicesSection";
 
 function renderSection(section: PageSection, locale: string, index: number) {
@@ -39,9 +39,9 @@ function renderSection(section: PageSection, locale: string, index: number) {
       return <ChecklistPanelSection key={index} heading={section.heading} intro={section.intro} items={section.items} variant={section.variant} />;
     case "highlight-box":
       return <HighlightBoxSection key={index} heading={section.heading} items={section.items} />;
-    case "transport-topics":
+    case "service-topics":
       return (
-        <TransportTopicsSection
+        <ServiceTopicsSection
           key={index}
           label={section.label}
           heading={section.heading}

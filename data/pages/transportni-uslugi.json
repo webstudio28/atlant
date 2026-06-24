@@ -67,7 +67,7 @@
         "image": "/images/pages/transport-v2.webp"
       },
       {
-        "type": "transport-topics",
+        "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Всичко, което трябва да знаете при избора на транспорт",
         "topics": [
@@ -211,7 +211,7 @@
         "image": "/images/pages/transport-v2.webp"
       },
       {
-        "type": "transport-topics",
+        "type": "service-topics",
         "label": "Useful tips",
         "heading": "Everything you need to know when choosing transport",
         "topics": [

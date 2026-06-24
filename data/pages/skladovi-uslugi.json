@@ -11,26 +11,9 @@
     },
     "sections": [
       {
-        "type": "intro-split",
-        "paragraphs": [
-          "Складовите площи са организирани според вида на стоките, техните характеристики и необходимото ниво на достъп и контрол.",
-          "Оперативните процеси се управляват чрез интегрирана WMS система, която осигурява пълна проследимост, точна отчетност и ефективна логистика във всеки етап от съхранението."
-        ],
-        "image": "/images/pages/warehouse.webp"
-      },
-      {
-        "type": "checklist-panel",
-        "heading": "Високото ниво на сигурност и контрол се гарантира чрез:",
-        "items": [
-          "система за видеонаблюдение, СОТ и пожарно известяване;",
-          "стриктна програма за дератизация и превенция срещу вредители;",
-          "пълно застрахователно покритие на съхраняваните стоки."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "direction-cards",
-        "heading": "Типове складиране",
+        "type": "sub-services",
+        "label": "Направления",
+        "heading": "Два модела. Една надеждна логистична база.",
         "items": [
           {
             "title": "Корпоративно",
@@ -51,77 +34,85 @@
         ]
       },
       {
-        "type": "article",
-        "heading": "Основни компоненти на една сериозна складова сигурност:",
+        "type": "intro-accent",
+        "label": "Нашият подход",
+        "heading": "Складирането като контролирана част от веригата ви",
         "paragraphs": [
-          "Видеонаблюдение, СОТ и пожарно известяване са базата. Важни са и процедурите – кой има достъп, как се регистрира движение на стоки, как се реагира при инцидент.",
-          "Стриктна дератизация и превенция срещу вредители предпазват стоки, опаковки и палети от щети, които често се виждат твърде късно. Това е критично за храни, хартия, текстил и козметика.",
-          "Пълната застраховка на съхраняваните стоки дава буфер при извънредни ситуации. За клиента това означава, че рискът не е прехвърлен тихомълком единствено върху него.",
-          "Дори най-добрата техника не компенсира липса на дисциплина: ясно разписани процеси, обучени екипи и регулярни проверки правят разликата между „формална сигурност“ и реално защитена стока.",
-          "В този смисъл „складови услуги и съхранение“ при Atlant Logistics & Relocations включват невидим, но критичен слой защита, който пази не само товарите, но и репутацията и непрекъсваемостта на бизнеса.",
-          "Не всяка стока има нужда от едно и също ниво на контрол и инфраструктура. Добре подбраният тип складиране оптимизира и разходите, и риска."
+          "Складовите площи са организирани според вида на стоките, техните характеристики и необходимото ниво на достъп и контрол. Оперативните процеси се управляват чрез интегрирана WMS система, която осигурява пълна проследимост, точна отчетност и ефективна логистика във всеки етап от съхранението."
         ],
-        "bullets": [
-          "Техническа защита",
-          "Хигиена и контрол на средата",
-          "Застрахователно покритие",
-          "Процедури и обучение",
-          "Как да изберете подходящо складово решение за вашия товар"
-        ],
-        "variant": "white"
+        "image": "/images/pages/warehouse.webp"
       },
       {
-        "type": "article",
-        "heading": "Основни въпроси, които да си зададете:",
-        "paragraphs": [
-          "Какъв е профилът на стоката?"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Чуплива, обемиста, с висок риск, със срок на годност, с по-висока стойност?",
-        "paragraphs": [
-          "– Чувствителните товари изискват по-прецизно подреждане, защита и контрол.",
-          "– Обемистите товари (кабели, конструкции, машини) често са по-подходящи за открити или специално зонирани площи."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Колко често имате нужда от достъп?",
-        "paragraphs": [
-          "– Стоки с ежедневен оборот се позиционират така, че да се обслужват бързо и безопасно.",
-          "– Резерви и дългосрочни наличности могат да бъдат отдалечени от „горещите“ зони на склада."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Какво ниво на проследимост ви е нужно?",
-        "paragraphs": [
-          "При някои бизнеси е критично да знаят не само „колко“, но и „коя партида, кога, къде“. Тук интегрираната WMS система и правилното адресиране на склада са ключови.",
-          "Atlant Logistics & Relocations помага тези решения да не се взимат интуитивно, а на база реални процеси, риск и планиран растеж.",
-          "Комбинация от стандартно и специализирано съхранение: хибриден подход за реалния бизнес"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Малко бизнеси имат само „еднотипна“ стока. Обикновено има микс:",
-        "paragraphs": [
-          "Защо хибридният модел на съхранение работи добре:",
-          "Стоките, които нямат нужда от специален режим, могат да се съхраняват в стандартни зони, докато чувствителните или обемните заемат специализирани площи. Плащате „правилната цена за правилния товар“, а не премиум навсякъде.",
-          "Стандартните и специалните зони имат различна логика на достъп, техника и контрол. Когато те са структурирани, целият поток (приемане, съхранение, подготовка за изход) се ускорява.",
-          "Ако добавите нови продукти – с по-висока стойност, по-различни размери или изисквания – професионалният склад вече има рамката да ги поеме без да се налага преизграждане от нулата.",
-          "Atlant Logistics & Relocations проектира складовите услуги именно с такава гъвкавост – така че един и същ логистичен партньор да може да поеме както стандартно палетно съхранение, така и по-специални товарни профили, без компромис с контрола и сигурността."
-        ],
-        "bullets": [
-          "Оптимизация на разходите",
-          "По-добра организация на операциите",
-          "Готовност за промяна в портфолиото"
-        ],
-        "variant": "muted"
+        "type": "service-topics",
+        "label": "Полезни съвети",
+        "heading": "Всичко, което трябва да знаете при избора на складово решение",
+        "topics": [
+          {
+            "title": "Основни компоненти на една сериозна складова сигурност",
+            "intro": "Сериозната складова сигурност не е само техника – тя е комбинация от системи, процедури и дисциплина:",
+            "points": [
+              {
+                "title": "Техническа защита",
+                "text": "Видеонаблюдение, СОТ и пожарно известяване са базата. Важни са и процедурите – кой има достъп, как се регистрира движение на стоки, как се реагира при инцидент."
+              },
+              {
+                "title": "Хигиена и контрол на средата",
+                "text": "Стриктна дератизация и превенция срещу вредители предпазват стоки, опаковки и палети от щети, които често се виждат твърде късно. Това е критично за храни, хартия, текстил и козметика."
+              },
+              {
+                "title": "Застрахователно покритие",
+                "text": "Пълната застраховка на съхраняваните стоки дава буфер при извънредни ситуации. За клиента това означава, че рискът не е прехвърлен тихомълком единствено върху него."
+              }
+            ],
+            "footer": [
+              "Дори най-добрата техника не компенсира липса на дисциплина: ясно разписани процеси, обучени екипи и регулярни проверки правят разликата между „формална сигурност“ и реално защитена стока.",
+              "В този смисъл „складови услуги и съхранение“ при Atlant Logistics & Relocations включват невидим, но критичен слой защита, който пази не само товарите, но и репутацията и непрекъсваемостта на бизнеса.",
+              "Не всяка стока има нужда от едно и също ниво на контрол и инфраструктура. Добре подбраният тип складиране оптимизира и разходите, и риска."
+            ]
+          },
+          {
+            "title": "Как да изберете подходящо складово решение за вашия товар",
+            "intro": "Какъв е профилът на стоката?",
+            "points": [
+              {
+                "title": "Профил на стоката",
+                "text": "Чуплива, обемиста, с висок риск, със срок на годност, с по-висока стойност? – Чувствителните товари изискват по-прецизно подреждане, защита и контрол. – Обемистите товари (кабели, конструкции, машини) често са по-подходящи за открити или специално зонирани площи."
+              },
+              {
+                "title": "Честота на достъп",
+                "text": "– Стоки с ежедневен оборот се позиционират така, че да се обслужват бързо и безопасно. – Резерви и дългосрочни наличности могат да бъдат отдалечени от „горещите“ зони на склада."
+              },
+              {
+                "title": "Ниво на проследимост",
+                "text": "При някои бизнеси е критично да знаят не само „колко“, но и „коя партида, кога, къде“. Тук интегрираната WMS система и правилното адресиране на склада са ключови. Atlant Logistics & Relocations помага тези решения да не се взимат интуитивно, а на база реални процеси, риск и планиран растеж."
+              }
+            ],
+            "footer": [
+              "Комбинация от стандартно и специализирано съхранение: хибриден подход за реалния бизнес"
+            ]
+          },
+          {
+            "title": "Защо хибридният модел на съхранение работи за реалния бизнес",
+            "intro": "Малко бизнеси имат само „еднотипна“ стока – обикновено има микс от стандартни и специални изисквания.",
+            "points": [
+              {
+                "title": "Оптимизация на разходите",
+                "text": "Стоките, които нямат нужда от специален режим, могат да се съхраняват в стандартни зони, докато чувствителните или обемните заемат специализирани площи. Плащате „правилната цена за правилния товар“, а не премиум навсякъде."
+              },
+              {
+                "title": "По-добра организация на операциите",
+                "text": "Стандартните и специалните зони имат различна логика на достъп, техника и контрол. Когато те са структурирани, целият поток (приемане, съхранение, подготовка за изход) се ускорява."
+              },
+              {
+                "title": "Готовност за промяна в портфолиото",
+                "text": "Ако добавите нови продукти – с по-висока стойност, по-различни размери или изисквания – професионалният склад вече има рамката да ги поеме без да се налага преизграждане от нулата."
+              }
+            ],
+            "footer": [
+              "Atlant Logistics & Relocations проектира складовите услуги именно с такава гъвкавост – така че един и същ логистичен партньор да може да поеме както стандартно палетно съхранение, така и по-специални товарни профили, без компромис с контрола и сигурността."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -137,26 +128,9 @@
     },
     "sections": [
       {
-        "type": "intro-split",
-        "paragraphs": [
-          "Warehouse areas are organized according to the type of goods, their characteristics, and the required level of access and control.",
-          "Operational processes are managed through an integrated WMS system, providing full traceability, accurate reporting, and efficient logistics at every stage of storage."
-        ],
-        "image": "/images/pages/warehouse.webp"
-      },
-      {
-        "type": "checklist-panel",
-        "heading": "High security and control are ensured through:",
-        "items": [
-          "Video surveillance, alarm system, and fire notifications;",
-          "Strict pest control and prevention program;",
-          "Full insurance coverage of stored goods."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "direction-cards",
-        "heading": "Storage types",
+        "type": "sub-services",
+        "label": "Directions",
+        "heading": "Two models. One reliable logistics base.",
         "items": [
           {
             "title": "Corporate",
@@ -177,77 +151,85 @@
         ]
       },
       {
-        "type": "article",
-        "heading": "Key components of serious warehouse security:",
+        "type": "intro-accent",
+        "label": "Our approach",
+        "heading": "Warehousing as a controlled part of your chain",
         "paragraphs": [
-          "Video surveillance, alarm system, and fire notifications are the foundation. Procedures are also important – who has access, how goods movement is logged, and incident response.",
-          "Strict pest control and prevention protect goods, packaging, and pallets from damage often noticed too late. Critical for food, paper, textiles, and cosmetics.",
-          "Full insurance of stored goods provides a buffer in emergencies. For the client, the risk is not silently shifted entirely onto them.",
-          "Even the best equipment does not replace discipline: clear processes, trained teams, and regular checks make the difference between 'formal security' and truly protected goods.",
-          "Thus, 'warehousing and storage' at Atlant Logistics & Relocations includes an invisible but critical layer of protection, safeguarding not only goods but also reputation and business continuity.",
-          "Not all goods require the same level of control and infrastructure. The right type of storage optimizes both costs and risks."
+          "Warehouse areas are organized according to the type of goods, their characteristics, and the required level of access and control. Operational processes are managed through an integrated WMS system, providing full traceability, accurate reporting, and efficient logistics at every stage of storage."
         ],
-        "bullets": [
-          "Technical protection",
-          "Hygiene and environment control",
-          "Insurance coverage",
-          "Procedures and training",
-          "How to choose the right storage solution for your cargo"
-        ],
-        "variant": "white"
+        "image": "/images/pages/warehouse.webp"
       },
       {
-        "type": "article",
-        "heading": "Key questions to ask yourself:",
-        "paragraphs": [
-          "What is the cargo profile?"
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "Fragile, bulky, high-risk, perishable, high-value?",
-        "paragraphs": [
-          "– Sensitive goods require precise arrangement, protection, and control.",
-          "– Bulky goods (cables, constructions, machines) often fit better in open or specially zoned areas."
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "How often do you need access?",
-        "paragraphs": [
-          "– Daily-turnover goods are positioned for quick and safe handling.",
-          "– Reserves and long-term stocks can be placed away from the 'hot' zones of the warehouse."
-        ],
-        "variant": "muted"
-      },
-      {
-        "type": "article",
-        "heading": "What level of traceability do you need?",
-        "paragraphs": [
-          "Some businesses need to know not just 'how much' but 'which batch, when, where'. Integrated WMS systems and proper warehouse addressing are key.",
-          "Atlant Logistics & Relocations helps make these decisions based on real processes, risk, and planned growth.",
-          "Combination of standard and specialized storage: hybrid approach for real business"
-        ],
-        "variant": "white"
-      },
-      {
-        "type": "article",
-        "heading": "Few businesses have only 'one type' of goods. Usually there’s a mix:",
-        "paragraphs": [
-          "Why the hybrid storage model works well:",
-          "Goods that do not require special treatment can be stored in standard zones, while sensitive or bulky ones occupy specialized areas. You pay 'the right price for the right cargo', not premium everywhere.",
-          "Standard and special zones have different logic for access, equipment, and control. When structured, the entire flow (receiving, storage, preparation for dispatch) speeds up.",
-          "If you add new products – higher value, different sizes or requirements – a professional warehouse already has the framework to handle them without rebuilding from scratch.",
-          "Atlant Logistics & Relocations designs warehouse services with such flexibility – allowing the same logistics partner to handle both standard pallet storage and special cargo profiles without compromising control and security."
-        ],
-        "bullets": [
-          "Cost optimization",
-          "Better operations organization",
-          "Readiness for portfolio changes"
-        ],
-        "variant": "muted"
+        "type": "service-topics",
+        "label": "Useful tips",
+        "heading": "Everything you need to know when choosing warehousing",
+        "topics": [
+          {
+            "title": "Key components of serious warehouse security",
+            "intro": "Serious warehouse security is not just equipment – it combines systems, procedures, and discipline:",
+            "points": [
+              {
+                "title": "Technical protection",
+                "text": "Video surveillance, alarm system, and fire notifications are the foundation. Procedures are also important – who has access, how goods movement is logged, and incident response."
+              },
+              {
+                "title": "Hygiene and environment control",
+                "text": "Strict pest control and prevention protect goods, packaging, and pallets from damage often noticed too late. Critical for food, paper, textiles, and cosmetics."
+              },
+              {
+                "title": "Insurance coverage",
+                "text": "Full insurance of stored goods provides a buffer in emergencies. For the client, the risk is not silently shifted entirely onto them."
+              }
+            ],
+            "footer": [
+              "Even the best equipment does not replace discipline: clear processes, trained teams, and regular checks make the difference between 'formal security' and truly protected goods.",
+              "Thus, 'warehousing and storage' at Atlant Logistics & Relocations includes an invisible but critical layer of protection, safeguarding not only goods but also reputation and business continuity.",
+              "Not all goods require the same level of control and infrastructure. The right type of storage optimizes both costs and risks."
+            ]
+          },
+          {
+            "title": "How to choose the right storage solution for your cargo",
+            "intro": "What is the cargo profile?",
+            "points": [
+              {
+                "title": "Cargo profile",
+                "text": "Fragile, bulky, high-risk, perishable, high-value? – Sensitive goods require precise arrangement, protection, and control. – Bulky goods (cables, constructions, machines) often fit better in open or specially zoned areas."
+              },
+              {
+                "title": "Access frequency",
+                "text": "– Daily-turnover goods are positioned for quick and safe handling. – Reserves and long-term stocks can be placed away from the 'hot' zones of the warehouse."
+              },
+              {
+                "title": "Traceability level",
+                "text": "Some businesses need to know not just 'how much' but 'which batch, when, where'. Integrated WMS systems and proper warehouse addressing are key. Atlant Logistics & Relocations helps make these decisions based on real processes, risk, and planned growth."
+              }
+            ],
+            "footer": [
+              "Combination of standard and specialized storage: hybrid approach for real business"
+            ]
+          },
+          {
+            "title": "Why the hybrid storage model works for real business",
+            "intro": "Few businesses have only one type of goods – usually there is a mix of standard and special requirements.",
+            "points": [
+              {
+                "title": "Cost optimization",
+                "text": "Goods that do not require special treatment can be stored in standard zones, while sensitive or bulky ones occupy specialized areas. You pay 'the right price for the right cargo', not premium everywhere."
+              },
+              {
+                "title": "Better operations organization",
+                "text": "Standard and special zones have different logic for access, equipment, and control. When structured, the entire flow (receiving, storage, preparation for dispatch) speeds up."
+              },
+              {
+                "title": "Readiness for portfolio changes",
+                "text": "If you add new products – higher value, different sizes or requirements – a professional warehouse already has the framework to handle them without rebuilding from scratch."
+              }
+            ],
+            "footer": [
+              "Atlant Logistics & Relocations designs warehouse services with such flexibility – allowing the same logistics partner to handle both standard pallet storage and special cargo profiles without compromising control and security."
+            ]
+          }
+        ]
       }
     ]
   }

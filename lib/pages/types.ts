@@ -51,7 +51,7 @@ export type PageSection =
       items: string[];
     }
   | {
-      type: "transport-topics";
+      type: "service-topics";
       label?: string;
       heading: string;
       topics: {

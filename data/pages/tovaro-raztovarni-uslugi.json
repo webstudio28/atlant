@@ -11,45 +11,107 @@
     },
     "sections": [
       {
-        "type": "intro-split",
-        "paragraphs": [
-          "Работим по вашия график (вкл. вечер/уикенд), пазим обекта и общите части, и предаваме чисто и отчетливо."
-        ],
-        "image": "/images/pages/loading.webp"
-      },
-      {
-        "type": "direction-cards",
-        "heading": "Избирате формат според задачата:",
+        "type": "sub-services",
+        "label": "Направления",
+        "heading": "Два формата. Една ясна линия на изпълнение.",
         "items": [
           {
             "title": "Хамалски услуги",
             "lines": [
-              "Случаи: товарене/разтоварване на камион, повдигане на строителни материали, разглобяване на палети, разполагане на оборудване/мебели.",
-              "Предимства: бърз старт, фокусиран екип, контролирано поетапно изпълнение.",
-              "Планиране/цена: често фиксирана на задача или за кратък почасов интервал."
+              "Камион на рампата -",
+              "- екипът в действие"
             ],
             "href": "/hamalski-uslugi"
           },
           {
             "title": "Помощен персонал",
             "lines": [
-              "Случаи: сезонни пикове, инвентаризации, кампании, етикиране, сортиране, дълги смени.",
-              "Предимства: гъвкаво време (на час/на ден), бързо мащабиране на персонала."
+              "Пикът е тук -",
+              "- хората по график"
             ],
             "href": "/tovaro-raztovarni-uslugi/pomoshten"
           }
         ]
       },
       {
-        "type": "article",
-        "heading": "Какво включват нашите товаро-разтоварни услуги?",
+        "type": "intro-accent",
+        "label": "Нашият подход",
+        "heading": "Товаро-разтоварване с ред и отчетност",
         "paragraphs": [
-          "Товарене и разтоварване на строителни материали",
-          "Контейнери – видове и логистика",
-          "Хамалски услуги и общи работници",
-          "Изхвърляне на строителни отпадъци"
+          "Работим по вашия график (вкл. вечер/уикенд), пазим обекта и общите части, и предаваме чисто и отчетливо."
         ],
-        "variant": "white"
+        "image": "/images/pages/loading.webp"
+      },
+      {
+        "type": "service-topics",
+        "label": "Полезни съвети",
+        "heading": "Всичко, което трябва да знаете при избора на товаро-разтоварна услуга",
+        "topics": [
+          {
+            "title": "Хамалски услуги – кога и как",
+            "intro": "Изборът между почасов и фиксиран модел зависи от яснотата на обема и достъпа:",
+            "points": [
+              {
+                "title": "Полезни съвети по темата",
+                "text": ""
+              },
+              {
+                "title": "Кога е по-добре почасово",
+                "text": "Имате променлив обем или неясни детайли по място/достъп. Очаквате вътрешни промени по време на работа (размествания, допълнителни задачи). Нужен е екип „на разположение“ през деня."
+              },
+              {
+                "title": "Кога е по-добре „по задание“ (фиксирано)",
+                "text": "Обемът е ясно измерим: брой палети/кубик, конкретен контейнер, определен списък операции. Имате краен срок/прозорец и искате предвидима крайна цена. Дейността е стандартизирана (напр. разтоварване на камион + вътрешно позициониране)."
+              }
+            ],
+            "footer": [
+              "Ако можете да преброите задачата (палети/етажи/позиции) → фиксирано.",
+              "Ако не можете да предвидите темпото/обема → почасово."
+            ]
+          },
+          {
+            "title": "Помощен персонал – кога и как",
+            "intro": "При пикове, инвентаризации или кампании бързото мащабиране на екипа е критично:",
+            "points": [
+              {
+                "title": "Полезни съвети по темата",
+                "text": ""
+              },
+              {
+                "title": "Правило за старт:",
+                "text": "Ръчен труд (кашони/леки артикули): ~ 45–60 кутии/ч. на човек при кратък маршрут и асансьор; ~ 25–35 при дълги носения/стълби. Палети с палетна количка: ~ 8–12 палета/ч. на екип (2 души). Мотокар + товарач: ~ 18–25 палета/ч. при ясна линия и без чакане."
+              },
+              {
+                "title": "Как да сметнете набързо:",
+                "text": "Определете обем: брой кутии/палети/метри рафтове. Изберете коефициент според достъпа (къс/дълъг маршрут, стълби/асансьор). Разделете обема на производителността → получавате човекочасове. Разделете на желаната продължителност → получавате брой хора. Пример: 300 кутии, дълъг маршрут → 30 кутии/ч. 300 / 30 = 10 човекочаса. За 2 часа → 10 / 2 = 5 души."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "Какво включват нашите товаро-разтоварни услуги",
+            "intro": "Един партньор може да покрие целия оперативен цикъл около рампата и обекта:",
+            "points": [
+              {
+                "title": "Товарене и разтоварване на строителни материали",
+                "text": "Организирано изпълнение с екип, базова техника и ясен график – без хаос по линията."
+              },
+              {
+                "title": "Контейнери – видове и логистика",
+                "text": "Организирано изпълнение с екип, базова техника и ясен график – без хаос по линията."
+              },
+              {
+                "title": "Хамалски услуги и общи работници",
+                "text": "Организирано изпълнение с екип, базова техника и ясен график – без хаос по линията."
+              },
+              {
+                "title": "Изхвърляне на строителни отпадъци",
+                "text": "Организирано изпълнение с екип, базова техника и ясен график – без хаос по линията."
+              }
+            ],
+            "footer": []
+          }
+        ]
       }
     ]
   },
@@ -65,44 +127,107 @@
     },
     "sections": [
       {
-        "type": "intro-split",
-        "paragraphs": [
-          "We work according to your schedule (including evening/weekend), protect the site and common areas, and hand over clean and clearly."
-        ],
-        "image": "/images/pages/loading.webp"
-      },
-      {
-        "type": "direction-cards",
-        "heading": "Choose the format according to the task:",
+        "type": "sub-services",
+        "label": "Directions",
+        "heading": "Two formats. One clear execution line.",
         "items": [
           {
             "title": "Handling Crew",
             "lines": [
-              "Use cases: truck loading/unloading, lifting construction materials, pallet disassembly, placement of equipment/furniture.",
-              "Advantages: fast start, focused team, controlled step-by-step execution."
+              "Truck at the ramp -",
+              "- crew in action"
             ],
             "href": "/hamalski-uslugi"
           },
           {
             "title": "Temporary Crew",
             "lines": [
-              "Use cases: seasonal peaks, inventories, campaigns, labeling, sorting, long shifts.",
-              "Advantages: flexible timing (hourly/daily), rapid workforce scaling."
+              "Peak season hits -",
+              "- people on schedule"
             ],
             "href": "/tovaro-raztovarni-uslugi/pomoshten"
           }
         ]
       },
       {
-        "type": "article",
-        "heading": "What do our loading/unloading services include?",
+        "type": "intro-accent",
+        "label": "Our approach",
+        "heading": "Loading and unloading with order and accountability",
         "paragraphs": [
-          "Loading and unloading construction materials",
-          "Containers – types and logistics",
-          "Handling Crew and general workers",
-          "Disposal of construction waste"
+          "We work according to your schedule (including evening/weekend), protect the site and common areas, and hand over clean and clearly."
         ],
-        "variant": "white"
+        "image": "/images/pages/loading.webp"
+      },
+      {
+        "type": "service-topics",
+        "label": "Useful tips",
+        "heading": "Everything you need to know when choosing loading/unloading services",
+        "topics": [
+          {
+            "title": "Handling crew – when and how",
+            "intro": "Choosing hourly vs fixed pricing depends on how clear the volume and access are:",
+            "points": [
+              {
+                "title": "Useful tips on the topic",
+                "text": ""
+              },
+              {
+                "title": "When hourly is better",
+                "text": "You have variable volume or unclear site/access details. You expect internal changes during work (rearrangements, additional tasks). You need a 'standby' team during the day."
+              },
+              {
+                "title": "When fixed-task is better",
+                "text": "The volume is clearly measurable: number of pallets/cubic, specific container, defined list of operations. You have a deadline/window and want a predictable final price. The activity is standardized (e.g., unloading a truck + internal positioning)."
+              }
+            ],
+            "footer": [
+              "If you can count the task (pallets/floors/positions) → fixed.",
+              "If you cannot predict the pace/volume → hourly."
+            ]
+          },
+          {
+            "title": "Support staff – when and how",
+            "intro": "During peaks, inventories, or campaigns, scaling the team quickly is critical:",
+            "points": [
+              {
+                "title": "Useful tips on the topic",
+                "text": ""
+              },
+              {
+                "title": "Starting Rule:",
+                "text": "Manual labor (boxes/light items): ~45–60 boxes/hour per person on a short route with elevator; ~25–35 on long carries/stairs. Pallets with pallet jack: ~8–12 pallets/hour per team (2 people). Forklift + loader: ~18–25 pallets/hour with a clear line and no waiting."
+              },
+              {
+                "title": "Quick Calculation Method:",
+                "text": "Determine volume: number of boxes/pallets/shelf meters. Choose a coefficient based on access (short/long route, stairs/elevator). Divide volume by productivity → get person-hours. Divide by desired duration → get number of people. Example: 300 boxes, long route → 30 boxes/hour. 300 / 30 = 10 person-hours. For 2 hours → 10 / 2 = 5 people."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "What our loading/unloading services include",
+            "intro": "One partner can cover the full operational cycle around the ramp and your site:",
+            "points": [
+              {
+                "title": "Loading and unloading construction materials",
+                "text": "Organized execution with a team, basic equipment, and a clear schedule – without chaos along the line."
+              },
+              {
+                "title": "Containers – types and logistics",
+                "text": "Organized execution with a team, basic equipment, and a clear schedule – without chaos along the line."
+              },
+              {
+                "title": "Handling Crew and general workers",
+                "text": "Organized execution with a team, basic equipment, and a clear schedule – without chaos along the line."
+              },
+              {
+                "title": "Disposal of construction waste",
+                "text": "Organized execution with a team, basic equipment, and a clear schedule – without chaos along the line."
+              }
+            ],
+            "footer": []
+          }
+        ]
       }
     ]
   }
