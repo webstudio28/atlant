@@ -122,10 +122,6 @@
                 "text": "Точни адреси, възможности за достъп (рампа, мотокар, кран, тесни улици, работно време на обекта), дали е нужна доставка „от врата до врата“ или до терминал/пристанище/летище."
               },
               {
-                "title": "Документи и Incoterms",
-                "text": "Фактури, товарителници, митнически кодове, яснота кой поема разходите и риска по веригата (продавач, купувач или трета страна)."
-              },
-              {
                 "title": "Специални изисквания",
                 "text": "Часови прозорци за товарене/разтоварване, предварителни известявания, специфично етикетиране или палетизация."
               }
@@ -259,10 +255,6 @@
               {
                 "title": "Route and delivery conditions",
                 "text": "Exact addresses, access possibilities (ramp, forklift, crane, narrow streets, working hours), whether door-to-door delivery is required or to a terminal/port/airport."
-              },
-              {
-                "title": "Documents and Incoterms",
-                "text": "Invoices, waybills, customs codes, clarity on who bears costs and risks in the chain (seller, buyer, or third party)."
               },
               {
                 "title": "Special requirements",

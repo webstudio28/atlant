@@ -3,6 +3,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import CookieConsentShell from "@/components/cookie/CookieConsentShell";
 import "../globals.css";
 import "../home-sections.css";
 
@@ -41,7 +42,7 @@ export default async function LocaleLayout({
         style={{ background: "#F4F4F2", color: "#2a2f33" }}
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
-          {children}
+          <CookieConsentShell locale={locale}>{children}</CookieConsentShell>
         </NextIntlClientProvider>
       </body>
     </html>

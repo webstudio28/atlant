@@ -1,3 +1,5 @@
+import type { ServiceTopicFooterItem } from "./topic-types";
+
 export type PageSection =
   | {
       type: "intro-split";
@@ -30,6 +32,14 @@ export type PageSection =
       heading: string;
       subtitle?: string;
       items: { title: string; text: string }[];
+    }
+  | {
+      type: "comparison-table";
+      label?: string;
+      heading: string;
+      subtitle?: string;
+      columns: [string, string, string];
+      rows: { criterion: string; left: string; right: string }[];
     }
   | {
       type: "partners";
@@ -66,7 +76,7 @@ export type PageSection =
         title: string;
         intro?: string;
         points: { title: string; text: string }[];
-        footer?: string[];
+        footer?: ServiceTopicFooterItem[];
       }[];
     }
   | {

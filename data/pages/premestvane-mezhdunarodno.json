@@ -30,44 +30,84 @@
             "intro": "Основни дрехи, лична хигиена, зарядни, мултипреходници",
             "points": [
               {
-                "title": "Здравно осигуряване/полица, европейска здравна карта, ако е приложимо",
+                "title": "Базови кухненски неща",
                 "text": "Базови кухненски неща (2–3 чаши, прибори, малка тенджера/тиган)"
               },
               {
-                "title": "Регистрация по адрес и местни изисквания (ако се изисква в първите дни)",
+                "title": "Лекарства и пари",
                 "text": "Лекарства, важни документи, малко кеш в местна валута"
               },
               {
-                "title": "Откриване на банкова сметка и мобилен номер – без тях много други процеси се бавят",
+                "title": "Минимум документи",
                 "text": "Минимум документи под ръка"
-              },
+              }
+            ]
+          },
+          {
+            "title": "Документи, които е добре да са под ръка",
+            "intro": "При международно преместване част от документите може да ви потрябват още преди пристигането на целия багаж.",
+            "points": [
               {
-                "title": "Разликите в часовите зони влияят на работа, училище, контакти с България",
+                "title": "Работа, обучение и жилище",
                 "text": "Договори за работа/обучение, наем или покупка на жилище"
               },
               {
-                "title": "Планирайте часовете за комуникация с институции и партньори в две държави едновременно",
+                "title": "Семейни документи",
                 "text": "Удостоверения за семейно положение и деца, ако предстои регистрация в местни институции"
+              }
+            ]
+          },
+          {
+            "title": "Практични стъпки след пристигане",
+            "intro": "Проучване на най-близките ключови точки: болница/клиника, аптека, голям супермаркет, обществен транспорт",
+            "points": [
+              {
+                "title": "Здравно осигуряване",
+                "text": "Здравно осигуряване/полица, европейска здравна карта, ако е приложимо"
               },
               {
-                "title": "Новата държава може да има други стандарти за уреди и размери",
-                "text": "Практични стъпки след пристигане"
+                "title": "Регистрация",
+                "text": "Регистрация по адрес и местни изисквания, ако се изисква в първите дни"
               },
               {
-                "title": "Волтаж и щепсели: проверете съвместимостта (напр. 230V/50Hz, типове щепсели); предвидете адаптери/трансформатор при нужда",
-                "text": "Проучване на най-близките ключови точки: болница/клиника, аптека, голям супермаркет, обществен транспорт"
+                "title": "Банка и телефон",
+                "text": "Откриване на банкова сметка и мобилен номер – без тях много други процеси се бавят"
+              }
+            ]
+          },
+          {
+            "title": "Комуникация и време",
+            "intro": "Разликите в часовите зони влияят на работа, училище, контакти с България",
+            "points": [
+              {
+                "title": "Комуникация с институции",
+                "text": "Планирайте часовете за комуникация с институции и партньори в две държави едновременно"
               },
               {
-                "title": "Размери на мебели/матраци: стандартите се различават (EU/UK/US) — измерете преди да превозите",
-                "text": "Комуникация и време"
-              },
-              {
-                "title": "Интернет и рутери: често е по-бързо да вземете локален рутер/SIM; пазете кабели и монтажни части отделно",
+                "title": "Координатор по преместването",
                 "text": "При възможност фиксирайте „час за контакт“ с координатора по преместването – така всички въпроси минават канализирано, без разпиляване"
+              }
+            ]
+          },
+          {
+            "title": "Съвместимост на уреди и стандарти: дребното, което спестява големи ядове",
+            "intro": "Новата държава може да има други стандарти за уреди и размери.",
+            "points": [
+              {
+                "title": "Волтаж и щепсели",
+                "text": "Проверете съвместимостта (напр. 230V/50Hz, типове щепсели); предвидете адаптери/трансформатор при нужда"
               },
               {
-                "title": "Осветителни тела и крушки: различни фасунги/ватажи — дреболия, която спира влизането в ритъм",
-                "text": "Съвместимост на уреди и стандарти: дребното, което спестява големи ядове"
+                "title": "Размери на мебели/матраци",
+                "text": "Стандартите се различават (EU/UK/US) — измерете преди да превозите"
+              },
+              {
+                "title": "Интернет и рутери",
+                "text": "Често е по-бързо да вземете локален рутер/SIM; пазете кабели и монтажни части отделно"
+              },
+              {
+                "title": "Осветителни тела и крушки",
+                "text": "Различни фасунги/ватажи — дреболия, която спира влизането в ритъм"
               }
             ],
             "footer": [
@@ -102,7 +142,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -110,44 +150,84 @@
             "intro": "Basic clothes, personal hygiene items, chargers, power adapters",
             "points": [
               {
-                "title": "Health insurance/policy, European health card if applicable",
+                "title": "Basic kitchen items",
                 "text": "Basic kitchen items (2–3 cups, utensils, small pot/pan)"
               },
               {
-                "title": "Practical steps after arrival",
+                "title": "Medication and cash",
                 "text": "Medications, important documents, some cash in local currency"
               },
               {
-                "title": "Register at the address and fulfill local requirements (if needed in the first days)",
+                "title": "Minimum documents",
                 "text": "Minimum documents at hand"
-              },
+              }
+            ]
+          },
+          {
+            "title": "Documents to keep at hand",
+            "intro": "For an international relocation, some documents may be needed before the rest of your belongings arrive.",
+            "points": [
               {
-                "title": "Open a bank account and mobile number – without them, many other processes are delayed",
+                "title": "Work, study, and housing",
                 "text": "Work/study contracts, rental or property purchase documents"
               },
               {
-                "title": "Time zone differences affect work, school, and contacts with Bulgaria",
+                "title": "Family documents",
                 "text": "Certificates of marital status and children, if registration in local institutions is required"
+              }
+            ]
+          },
+          {
+            "title": "Practical steps after arrival",
+            "intro": "Check the nearest key points: hospital/clinic, pharmacy, large supermarket, public transport",
+            "points": [
+              {
+                "title": "Health insurance",
+                "text": "Health insurance/policy, European health card if applicable"
               },
               {
-                "title": "Plan hours for communication with institutions and partners in both countries simultaneously",
-                "text": "Check the nearest key points: hospital/clinic, pharmacy, large supermarket, public transport"
+                "title": "Address registration",
+                "text": "Register at the address and fulfill local requirements if needed in the first days"
               },
               {
-                "title": "The new country may have different standards for appliances and sizes",
-                "text": "Communication and time"
+                "title": "Bank and mobile number",
+                "text": "Open a bank account and mobile number – without them, many other processes are delayed"
+              }
+            ]
+          },
+          {
+            "title": "Communication and time",
+            "intro": "Time zone differences affect work, school, and contacts with Bulgaria",
+            "points": [
+              {
+                "title": "Communication with institutions",
+                "text": "Plan hours for communication with institutions and partners in both countries simultaneously"
               },
               {
-                "title": "Furniture/mattress sizes: standards vary (EU/UK/US) – measure before shipping",
+                "title": "Relocation coordinator",
                 "text": "If possible, schedule a “contact hour” with the relocation coordinator – this way all questions are handled in an organized manner without scattering"
+              }
+            ]
+          },
+          {
+            "title": "Compatibility of appliances and standards: small things that save big headaches",
+            "intro": "The new country may have different standards for appliances and sizes.",
+            "points": [
+              {
+                "title": "Voltage and plugs",
+                "text": "Check compatibility (e.g., 230V/50Hz, plug types); use adapters/transformers if needed"
               },
               {
-                "title": "Internet and routers: often faster to get a local router/SIM; keep cables and installation parts separate",
-                "text": "Compatibility of appliances and standards: small things that save big headaches"
+                "title": "Furniture and mattress sizes",
+                "text": "Standards vary (EU/UK/US) – measure before shipping"
               },
               {
-                "title": "Lighting fixtures and bulbs: different sockets/wattage – a small detail that can disrupt settling in",
-                "text": "Voltage and plugs: check compatibility (e.g., 230V/50Hz, plug types); use adapters/transformers if needed"
+                "title": "Internet and routers",
+                "text": "Often faster to get a local router/SIM; keep cables and installation parts separate"
+              },
+              {
+                "title": "Lighting fixtures and bulbs",
+                "text": "Different sockets/wattage – a small detail that can disrupt settling in"
               }
             ],
             "footer": [

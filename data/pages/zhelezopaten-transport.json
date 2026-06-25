@@ -29,7 +29,7 @@
             "intro": "Работи с графици и слотове, които се планират предварително.",
             "points": [
               {
-                "title": "Разходи при ЖП транспорт: къде реално се пести и къде не",
+                "title": "Подходящо оборудване",
                 "text": "Нуждае се от подходящо оборудване за товарене/разтоварване – рампи, кранове, силози, конвейери според типа товар."
               }
             ],
@@ -54,36 +54,60 @@
             "points": [],
             "footer": [
               "Такси за престой, ако документите не са изрядни или няма готовност за приемане на стоката.",
-              "Неоптимизирани партиди – твърде малки количества, „набутани“ насила в ЖП схема, вместо да останат на камион.",
-              "Предимства на ЖП vs. Автомобилен транспорт в таблица",
-              "Критерий",
-              "Железопътен транспорт (ЖП)",
-              "Автомобилен транспорт",
-              "Цена на превоз (на тон/км)",
-              "По-ниска при големи обеми и дълги разстояния",
-              "По-висока, особено при големи разстояния",
-              "Капацитет и обем",
-              "Подходящ за големи и тежки товари (насипни, контейнери, цистерни)",
-              "Ограничен от товароносимостта на камиона и пътната инфраструктура",
-              "Енергийна ефективност",
-              "По-ефективен и екологичен (по-нисък разход на гориво/тон-километър)",
-              "По-голям разход на гориво и емисии CO₂",
-              "Надеждност и предсказуемост",
-              "Висока при дълги разстояния и фиксирани маршрути",
-              "Зависим от трафик, пътни условия и регулации",
-              "Въздействие върху околната среда",
-              "По-ниско (по-малко шум, по-малко емисии)",
-              "Високо замърсяване и шум в градски зони",
-              "Подходящ за видове товари",
-              "Насипни, контейнери, суровини, тежки машини",
-              "Палетизирани, дребни пратки, бързоразвалящи се стоки",
-              "Международен транспорт",
-              "Отличен за транзит и големи обеми по определени коридори (TEN-T)",
-              "Гъвкав, но ограничен от митници, трафик и ограничения по пътищата",
-              "Сигурност на товара",
-              "Висока – по-малко произшествия и кражби",
-              "По-ниска – по-чести пътни инциденти и рискове при превоз"
+              "Неоптимизирани партиди – твърде малки количества, „набутани“ насила в ЖП схема, вместо да останат на камион."
             ]
+          }
+        ]
+      },
+      {
+        "type": "comparison-table",
+        "label": "Сравнение",
+        "heading": "Предимства на ЖП vs. автомобилен транспорт",
+        "columns": [
+          "Критерий",
+          "Железопътен транспорт (ЖП)",
+          "Автомобилен транспорт"
+        ],
+        "rows": [
+          {
+            "criterion": "Цена на превоз",
+            "left": "По-ниска при големи обеми и дълги разстояния.",
+            "right": "По-висока, особено при големи разстояния."
+          },
+          {
+            "criterion": "Капацитет и обем",
+            "left": "Подходящ за големи и тежки товари (насипни, контейнери, цистерни).",
+            "right": "Ограничен от товароносимостта на камиона и пътната инфраструктура."
+          },
+          {
+            "criterion": "Енергийна ефективност",
+            "left": "По-ефективен и екологичен, с по-нисък разход на гориво/тон-километър.",
+            "right": "По-голям разход на гориво и емисии CO₂."
+          },
+          {
+            "criterion": "Надеждност и предсказуемост",
+            "left": "Висока при дълги разстояния и фиксирани маршрути.",
+            "right": "Зависим от трафик, пътни условия и регулации."
+          },
+          {
+            "criterion": "Въздействие върху околната среда",
+            "left": "По-ниско, с по-малко шум и емисии.",
+            "right": "По-високо замърсяване и шум в градски зони."
+          },
+          {
+            "criterion": "Подходящи товари",
+            "left": "Насипни, контейнери, суровини, тежки машини.",
+            "right": "Палетизирани, дребни пратки, бързоразвалящи се стоки."
+          },
+          {
+            "criterion": "Международен транспорт",
+            "left": "Отличен за транзит и големи обеми по определени коридори (TEN-T).",
+            "right": "Гъвкав, но ограничен от митници, трафик и ограничения по пътищата."
+          },
+          {
+            "criterion": "Сигурност на товара",
+            "left": "Висока – по-малко произшествия и кражби.",
+            "right": "По-ниска – по-чести пътни инциденти и рискове при превоз."
           }
         ]
       }
@@ -111,7 +135,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -119,7 +143,7 @@
             "intro": "Operates on schedules and slots that are planned in advance.",
             "points": [
               {
-                "title": "Rail transport costs: where savings really happen and where they don't",
+                "title": "Suitable equipment",
                 "text": "Requires suitable loading/unloading equipment – ramps, cranes, silos, conveyors depending on cargo type."
               }
             ],
@@ -144,36 +168,60 @@
             "points": [],
             "footer": [
               "Waiting fees if documents are incomplete or goods are not ready for acceptance.",
-              "Non-optimized batches – too small quantities forced into a rail schedule instead of staying on a truck.",
-              "Rail vs. Road Transport Advantages Table",
-              "Criterion",
-              "Rail Transport (Rail)",
-              "Road Transport",
-              "Transport cost (per ton/km)",
-              "Lower for large volumes and long distances",
-              "Higher, especially for long distances",
-              "Capacity and volume",
-              "Suitable for large and heavy goods (bulk, containers, tanks)",
-              "Limited by truck capacity and road infrastructure",
-              "Energy efficiency",
-              "More efficient and eco-friendly (lower fuel consumption per ton-km)",
-              "Higher fuel consumption and CO₂ emissions",
-              "Reliability and predictability",
-              "High for long distances and fixed routes",
-              "Dependent on traffic, road conditions, and regulations",
-              "Environmental impact",
-              "Lower (less noise, lower emissions)",
-              "High pollution and noise in urban areas",
-              "Suitable for cargo types",
-              "Bulk, containers, raw materials, heavy machinery",
-              "Palletized, small parcels, perishable goods",
-              "International transport",
-              "Excellent for transit and large volumes along certain corridors (TEN-T)",
-              "Flexible but limited by customs, traffic, and road restrictions",
-              "Cargo security",
-              "High – fewer accidents and thefts",
-              "Lower – more road accidents and transport risks"
+              "Non-optimized batches – too small quantities forced into a rail schedule instead of staying on a truck."
             ]
+          }
+        ]
+      },
+      {
+        "type": "comparison-table",
+        "label": "Comparison",
+        "heading": "Rail vs. road transport advantages",
+        "columns": [
+          "Criterion",
+          "Rail transport",
+          "Road transport"
+        ],
+        "rows": [
+          {
+            "criterion": "Transport cost",
+            "left": "Lower for large volumes and long distances.",
+            "right": "Higher, especially over long distances."
+          },
+          {
+            "criterion": "Capacity and volume",
+            "left": "Suitable for large and heavy goods (bulk, containers, tanks).",
+            "right": "Limited by truck capacity and road infrastructure."
+          },
+          {
+            "criterion": "Energy efficiency",
+            "left": "More efficient and eco-friendly, with lower fuel consumption per ton-kilometer.",
+            "right": "Higher fuel consumption and CO₂ emissions."
+          },
+          {
+            "criterion": "Reliability and predictability",
+            "left": "High over long distances and fixed routes.",
+            "right": "Dependent on traffic, road conditions, and regulations."
+          },
+          {
+            "criterion": "Environmental impact",
+            "left": "Lower, with less noise and fewer emissions.",
+            "right": "Higher pollution and noise in urban areas."
+          },
+          {
+            "criterion": "Suitable cargo types",
+            "left": "Bulk goods, containers, raw materials, heavy machinery.",
+            "right": "Palletized goods, small parcels, perishable goods."
+          },
+          {
+            "criterion": "International transport",
+            "left": "Excellent for transit and large volumes along certain corridors (TEN-T).",
+            "right": "Flexible but limited by customs, traffic, and road restrictions."
+          },
+          {
+            "criterion": "Cargo security",
+            "left": "High, with fewer accidents and thefts.",
+            "right": "Lower, with more road accidents and transport risks."
           }
         ]
       }

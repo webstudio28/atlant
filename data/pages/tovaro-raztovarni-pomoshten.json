@@ -139,7 +139,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -184,13 +184,9 @@
           {
             "title": "Effective Practices:",
             "intro": "Ramp/elevator slot: fix a time window – avoids crowding and waiting.",
-            "points": [
-              {
-                "title": "Safety and Responsibilities: Who Provides What on Site",
-                "text": "Staging area: allocate space for temporary arrangement – movement becomes linear."
-              }
-            ],
+            "points": [],
             "footer": [
+              "Staging area: allocate space for temporary arrangement – movement becomes linear.",
               "Labeling and grouping: mark by address/department/floor; no “where was this box?”.",
               "Prepared documents: waybills, lists, access – no last-minute searching.",
               "One coordinator: fast on-site decisions, less confusion.",
@@ -199,6 +195,7 @@
               "Accurate weight: exact weight and dimensions prevent double work.",
               "Photo control: quick confirmation of steps, no additional inspections.",
               "Effect: fewer person-hours, predictable outcome, and clear accountability.",
+              "Safety and Responsibilities: Who Provides What on Site",
               "Safety is not a brake, but a guarantee that work is done on time and without damage."
             ]
           },
@@ -226,13 +223,8 @@
           },
           {
             "title": "Conclusion:",
-            "intro": "clear the roles and conditions at the beginning = safe work and zero “from the inside” to the edge.",
-            "points": [
-              {
-                "title": "Example",
-                "text": ""
-              }
-            ]
+            "intro": "Clear roles and conditions at the beginning = safe work and zero surprises at the end.",
+            "points": []
           }
         ]
       }

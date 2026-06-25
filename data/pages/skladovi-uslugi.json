@@ -41,6 +41,16 @@
         "image": "/images/pages/warehouse.webp"
       },
       {
+        "type": "checklist-panel",
+        "heading": "Високо ниво на сигурност и контрол",
+        "intro": "Високото ниво на сигурност и контрол се гарантира чрез:",
+        "items": [
+          "Видеонаблюдение, СОТ и пожарно известяване",
+          "Дератизация",
+          "Пълно застрахователно покритие"
+        ]
+      },
+      {
         "type": "service-topics",
         "label": "Полезни съвети",
         "heading": "Всичко, което трябва да знаете при избора на складово решение",
@@ -154,6 +164,16 @@
           "Warehouse areas are organized according to the type of goods, their characteristics, and the required level of access and control. Operational processes are managed through an integrated WMS system, providing full traceability, accurate reporting, and efficient logistics at every stage of storage."
         ],
         "image": "/images/pages/warehouse.webp"
+      },
+      {
+        "type": "checklist-panel",
+        "heading": "High level of security and control",
+        "intro": "The high level of security and control is ensured through:",
+        "items": [
+          "Video surveillance, alarm system, and fire detection",
+          "Pest control",
+          "Full insurance coverage"
+        ]
       },
       {
         "type": "service-topics",

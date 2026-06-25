@@ -22,8 +22,8 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "label": "Useful tips",
+        "heading": "Useful tips on the topic",
         "topics": [
           {
             "title": "Достъп и режим на работа:",

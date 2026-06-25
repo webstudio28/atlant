@@ -28,81 +28,73 @@
             "intro": "Спиране или риск от спиране на производствена линия, ако резервната част закъснее.",
             "points": [
               {
-                "title": "Тегло срещу обем: защо при въздуха плащате „обемно тегло“ – и как се отразява при различните услуги",
+                "title": "Спешни доставки",
                 "text": "Спешни медицински, технологични или договорно обвързани доставки."
+              },
+              {
+                "title": "Високостойностни и компактни стоки",
+                "text": "Електроника, компоненти, мостови доставки и критични консумативи, при които времето е по-важно от разликата в цената."
               }
             ],
             "footer": [
-              "Високостойностни, леки и компактни стоки – електроника, компоненти, мостови доставки, критични консумативи.",
-              "В тези случаи загубите от забавяне често са по-големи от разликата в цената между въздушен и автомобилен/морски/ЖП транспорт.",
-              "При въздушния транспорт ключов фактор е обемното тегло. Лек, но обемен товар заема ценен обем в самолета и се таксува по формула, която превръща кубиците в „килограми“. Това важи както за general cargo, така и за belly cargo, но ефектът се усеща особено силно при малки, но обемни пратки."
+              "В тези случаи загубите от забавяне често са по-големи от разликата в цената между въздушен и автомобилен/морски/ЖП транспорт."
             ]
           },
           {
-            "title": "Какво да имате предвид:",
-            "intro": "При карго полети (General Cargo) често се превозват палетизирани и по-големи пратки – оптимизираната палетизация и компактното подреждане могат да спестят сериозни разходи.",
-            "points": [],
-            "footer": [
-              "При Belly Cargo обикновено говорим за по-малки, често спешни или по-деликатни пратки – тук големите, „раздути“ кашони са директно излишен разход."
-            ]
-          },
-          {
-            "title": "Практически съвети:",
-            "intro": "Опаковайте максимално компактно и намалявайте „въздуха в кашона“.",
+            "title": "Тегло срещу обем: защо при въздуха плащате „обемно тегло“",
+            "intro": "При въздушния транспорт ключов фактор е обемното тегло. Лек, но обемен товар заема ценен обем в самолета и се таксува по формула, която превръща кубиците в „килограми“.",
             "points": [
               {
-                "title": "Как изглежда една въздушна пратка „от врата до врата“ – от избора на полет до доставката",
-                "text": "Избягвайте ненужно големи кутии „за всеки случай“, особено при леки стоки."
+                "title": "General Cargo",
+                "text": "При карго полети често се превозват палетизирани и по-големи пратки – оптимизираната палетизация и компактното подреждане могат да спестят сериозни разходи."
+              },
+              {
+                "title": "Belly Cargo",
+                "text": "При Belly Cargo обикновено говорим за по-малки, често спешни или по-деликатни пратки – тук големите, „раздути“ кашони са директно излишен разход."
               }
             ],
             "footer": [
+              "Опаковайте максимално компактно и намалявайте „въздуха в кашона“.",
+              "Избягвайте ненужно големи кутии „за всеки случай“, особено при леки стоки.",
               "Използвайте качествени опаковки, които защитават товара без да увеличават излишно размера.",
               "Подайте към спедитора реалните размери и тегло – така офертата ще е близка до крайния разход, без неприятни изненади след измерване на терминала.",
-              "Atlant може да прецени заедно с вас не само дали въздухът е оправдан, а и дали конкретната пратка е по-логично да мине през карго полет или belly cargo, така че обемното тегло да не „изяде“ бюджета.",
-              "Въздушният транспорт не е просто полет от точка А до точка Б. Това е цяла логистична верига, в която Atlant Logistics & Relocations управлява всички етапи – включително избора дали да се ползва карго полет или belly cargo."
+              "Atlant може да прецени заедно с вас не само дали въздухът е оправдан, а и дали конкретната пратка е по-логично да мине през карго полет или belly cargo, така че обемното тегло да не „изяде“ бюджета."
             ]
           },
           {
-            "title": "Типичен процес „от врата до врата“:",
-            "intro": "Бус или камион взема пратката от вашия склад/офис. Още тук се проверяват опаковката, етикетите, размерите и теглото. Подготвят се товарителници и базови документи.",
+            "title": "Как изглежда една въздушна пратка „от врата до врата“",
+            "intro": "Въздушният транспорт не е просто полет от точка А до точка Б. Това е цяла логистична верига, в която Atlant Logistics & Relocations управлява всички етапи – включително избора дали да се ползва карго полет или belly cargo.",
             "points": [
               {
                 "title": "Вземане от адрес",
-                "text": ""
+                "text": "Бус или камион взема пратката от вашия склад/офис. Още тук се проверяват опаковката, етикетите, размерите и теглото. Подготвят се товарителници и базови документи."
               },
               {
                 "title": "Избор на тип въздушен превоз",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "title": "На база обем, срок и специфики на товара (фарма, техника, оборудване, мостри) се избира:",
-            "intro": "карго полет (General Cargo) – при палетизирани, по-големи или специални стоки;",
-            "points": [
-              {
-                "title": "Обработка на карго терминал",
-                "text": "Belly Cargo – при по-малки, спешни или високостойностни пратки с ограничен обем."
+                "text": "На база обем, срок и специфики на товара се избира карго полет (General Cargo) при палетизирани, по-големи или специални стоки, или Belly Cargo при по-малки, спешни или високостойностни пратки с ограничен обем."
               },
               {
-                "title": "Митническо оформяне при износ/внос",
+                "title": "Обработка на карго терминал",
                 "text": "Пратката се претегля, измерва, сканира и проверява според изискванията на авиокомпанията и сигурността. При нужда се репалира или пренарежда."
               },
               {
-                "title": "Полети и транзитни точки",
+                "title": "Митническо оформяне при износ/внос",
                 "text": "Подготовка и подаване на митнически декларации, работа с HS кодове, сертификати и специфични изисквания за стоката и дестинацията."
               },
               {
-                "title": "Приемане на дестинационното летище",
+                "title": "Полети и транзитни точки",
                 "text": "Товарът преминава през един или повече полети и летища – при карго полети често има по-ясна карго мрежа, при belly cargo – гъвкавост с редовни пътнически линии."
               },
               {
-                "title": "Финална доставка до крайния адрес",
+                "title": "Приемане на дестинационното летище",
                 "text": "Разтоварване, терминална обработка, митническо освобождаване. Проверка за щети и съответствие с документите."
+              },
+              {
+                "title": "Финална доставка до крайния адрес",
+                "text": "Наземен транспорт до склада или обекта на клиента – „от врата до врата“, без нужда вие да организирате отделно летищен агент, местен превозвач и митнически посредник."
               }
             ],
             "footer": [
-              "Наземен транспорт до склада или обекта на клиента – „от врата до врата“, без нужда вие да организирате отделно летищен агент, местен превозвач и митнически посредник.",
               "Когато всички тези стъпки се управляват от един партньор, получавате една верига, един отчет и един отговорен, независимо дали пратката лети с карго самолет или в багажното на пътнически полет."
             ]
           }
@@ -131,7 +123,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -139,75 +131,73 @@
             "intro": "Production line stoppage or risk of stoppage if a spare part is delayed.",
             "points": [
               {
-                "title": "Weight vs volume: why you pay “volumetric weight” in air freight – and how it affects different services",
+                "title": "Urgent deliveries",
                 "text": "Urgent medical, technological, or contract-bound deliveries."
+              },
+              {
+                "title": "High-value and compact goods",
+                "text": "Electronics, components, bridge shipments, and critical consumables where time matters more than the price difference."
               }
             ],
             "footer": [
-              "High-value, light, and compact goods – electronics, components, bridge shipments, critical consumables.",
-              "In such cases, losses from delays are often greater than the price difference between air and road/sea/rail transport.",
-              "In air transport, volumetric weight is a key factor. Light but bulky cargo occupies valuable aircraft space and is charged using a formula that converts cubic volume into “kilograms.” This applies to both general cargo and belly cargo, but is especially noticeable for small yet bulky shipments."
+              "In such cases, losses from delays are often greater than the price difference between air and road/sea/rail transport."
             ]
           },
           {
-            "title": "What to keep in mind:",
-            "intro": "On cargo flights (General Cargo), palletized and larger shipments are often transported – optimized palletization and compact stacking can save significant costs.",
-            "points": [],
-            "footer": [
-              "With Belly Cargo, we usually deal with smaller, often urgent or delicate shipments – here, oversized boxes are a direct unnecessary expense."
-            ]
-          },
-          {
-            "title": "Practical tips:",
-            "intro": "Pack as compactly as possible and reduce “air in the box.”",
+            "title": "Weight vs volume: why you pay “volumetric weight” in air freight",
+            "intro": "In air transport, volumetric weight is a key factor. Light but bulky cargo occupies valuable aircraft space and is charged using a formula that converts cubic volume into “kilograms.”",
             "points": [
               {
-                "title": "What a door-to-door air shipment looks like – from flight selection to final delivery",
-                "text": "Avoid unnecessarily large boxes “just in case,” especially for light goods."
+                "title": "General Cargo",
+                "text": "On cargo flights, palletized and larger shipments are often transported – optimized palletization and compact stacking can save significant costs."
+              },
+              {
+                "title": "Belly Cargo",
+                "text": "With Belly Cargo, we usually deal with smaller, often urgent or delicate shipments – here, oversized boxes are a direct unnecessary expense."
               }
             ],
             "footer": [
+              "Pack as compactly as possible and reduce “air in the box.”",
+              "Avoid unnecessarily large boxes “just in case,” especially for light goods.",
               "Use quality packaging that protects the cargo without unnecessarily increasing size.",
               "Provide the forwarder with real dimensions and weight – this ensures the offer is close to the final cost, without unpleasant surprises after terminal measurement.",
-              "Atlant can assess with you not only whether air freight is justified, but also whether the shipment should move via a cargo flight or belly cargo so that volumetric weight does not consume the budget.",
-              "Air transport is not just a flight from point A to point B. It is a complete logistics chain managed by Atlant Logistics & Relocations – including the choice between cargo flight and belly cargo."
+              "Atlant can assess with you not only whether air freight is justified, but also whether the shipment should move via a cargo flight or belly cargo so that volumetric weight does not consume the budget."
             ]
           },
           {
-            "title": "Typical door-to-door process:",
-            "intro": "A van or truck collects the shipment from your warehouse/office. Packaging, labels, dimensions, and weight are checked. Waybills and basic documents are prepared.",
+            "title": "What a door-to-door air shipment looks like",
+            "intro": "Air transport is not just a flight from point A to point B. It is a complete logistics chain managed by Atlant Logistics & Relocations – including the choice between cargo flight and belly cargo.",
             "points": [
               {
                 "title": "Pickup from address",
-                "text": "Based on the volume, deadlines, and specifics of the cargo (pharmaceuticals, electronics, equipment, samples), the following is selected:"
+                "text": "A van or truck collects the shipment from your warehouse/office. Packaging, labels, dimensions, and weight are checked. Waybills and basic documents are prepared."
               },
               {
                 "title": "Selection of air transport type",
-                "text": "Cargo flight (General Cargo) – for palletized, larger, or special goods;"
+                "text": "Based on volume, deadline, and cargo specifics, a cargo flight is selected for palletized, larger, or special goods, or Belly Cargo for smaller, urgent, or high-value shipments with limited volume."
               },
               {
                 "title": "Cargo terminal handling",
-                "text": "Belly Cargo – for smaller, urgent, or high-value shipments with limited volume."
-              },
-              {
-                "title": "Export/import customs clearance",
                 "text": "The shipment is weighed, measured, scanned, and inspected according to airline and security requirements. If necessary, it is re-palletized or rearranged."
               },
               {
-                "title": "Flights and transit points",
+                "title": "Export/import customs clearance",
                 "text": "Preparation and submission of customs declarations, HS codes, certificates, and specific requirements for the goods and destination."
               },
               {
-                "title": "Arrival at destination airport",
+                "title": "Flights and transit points",
                 "text": "The cargo passes through one or more flights and airports – cargo flights usually offer clearer cargo networks, while belly cargo offers flexibility with regular passenger routes."
               },
               {
-                "title": "Final delivery to end address",
+                "title": "Arrival at destination airport",
                 "text": "Unloading, terminal handling, customs release. Inspection for damage and document compliance."
+              },
+              {
+                "title": "Final delivery to end address",
+                "text": "Ground transport to the client’s warehouse or site – door-to-door, without the need for you to separately organize airport agents, local carriers, or customs brokers."
               }
             ],
             "footer": [
-              "Ground transport to the client’s warehouse or site – door-to-door, without the need for you to separately organize airport agents, local carriers, or customs brokers.",
               "When all these steps are managed by a single partner, you receive one chain, one report, and one responsible party – regardless of whether the shipment flies on a cargo aircraft or in the belly of a passenger plane."
             ]
           }

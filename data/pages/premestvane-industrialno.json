@@ -46,26 +46,30 @@
               {
                 "title": "синхронизирайте складовия софтуер / ERP с новия lay-out;",
                 "text": "осигурете обучение за персонала по новата схема, за да няма „всеки си подрежда по свой начин“."
-              },
-              {
-                "title": "Безопасност и риск при преместване на тежки машини: какво не бива да се подценява",
-                "text": "Добре планираният склад прави така, че машините да не чакат материал, нито логистиката – документи, а преместването да мине през контролирани буфери, вместо през контролирани кризи."
-              },
-              {
-                "title": "Оценка на риска преди първия болт",
-                "text": "Преместването на струг 8 тона или преса 15 тона не е просто „по-тежко носене“ – това е работа с реален риск за хора, сграда и оборудване."
-              },
-              {
-                "title": "Правилната техника за правилната задача",
-                "text": "Сериозният процес започва с оглед и риск-анализ: слабости в подовете, тесни завои, рампи, шахти, ниски греди, стари плочи. Много инциденти стават не при самото повдигане, а при маневри в тесни пространства."
-              },
-              {
-                "title": "Зоните за безопасност не са формалност",
-                "text": "Разлика има между „мотокар“ и правилния мотокар: капацитет, дължина на вилици, противотежести, височини, радиус на завой. Същото важи за кран-камиони, хидравлични колички, плъзгащи системи и такелажни аксесоари."
               }
             ],
             "footer": [
-              "По време на операции с повдигане трябва да има ясни забранени зони за персонала, маркирани маршрути и човек, отговарящ за сигналите и командите. „Всички гледат, всички помагат“ е рецепта за хаос.",
+              "Добре планираният склад прави така, че машините да не чакат материал, нито логистиката – документи, а преместването да мине през контролирани буфери, вместо през контролирани кризи."
+            ]
+          },
+          {
+            "title": "Безопасност и риск при преместване на тежки машини: какво не бива да се подценява",
+            "intro": "Преместването на струг 8 тона или преса 15 тона не е просто „по-тежко носене“ – това е работа с реален риск за хора, сграда и оборудване.",
+            "points": [
+              {
+                "title": "Оценка на риска преди първия болт",
+                "text": "Сериозният процес започва с оглед и риск-анализ: слабости в подовете, тесни завои, рампи, шахти, ниски греди, стари плочи. Много инциденти стават не при самото повдигане, а при маневри в тесни пространства."
+              },
+              {
+                "title": "Правилната техника за правилната задача",
+                "text": "Разлика има между „мотокар“ и правилния мотокар: капацитет, дължина на вилици, противотежести, височини, радиус на завой. Същото важи за кран-камиони, хидравлични колички, плъзгащи системи и такелажни аксесоари."
+              },
+              {
+                "title": "Зоните за безопасност не са формалност",
+                "text": "По време на операции с повдигане трябва да има ясни забранени зони за персонала, маркирани маршрути и човек, отговарящ за сигналите и командите. „Всички гледат, всички помагат“ е рецепта за хаос."
+              }
+            ],
+            "footer": [
               "Документи и застраховка"
             ]
           },
@@ -106,7 +110,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -130,26 +134,30 @@
               {
                 "title": "synchronize warehouse software / ERP with the new layout;",
                 "text": "provide training for staff on the new scheme so that 'everyone arranges in their own way' does not happen."
-              },
-              {
-                "title": "Safety and risk in moving heavy machines: what should not be underestimated",
-                "text": "A well-planned warehouse ensures that machines do not wait for material or logistics — documents — and the move passes through controlled buffers rather than controlled crises."
-              },
-              {
-                "title": "Risk assessment before the first bolt",
-                "text": "Moving an 8-ton lathe or a 15-ton press is not just 'heavier lifting' — it is work with real risk for people, building, and equipment."
-              },
-              {
-                "title": "The right equipment for the right task",
-                "text": "The serious process starts with inspection and risk analysis: floor weaknesses, tight turns, ramps, pits, low beams, old plates. Many incidents happen not during lifting, but during maneuvers in tight spaces."
-              },
-              {
-                "title": "Safety zones are not a formality",
-                "text": "There is a difference between a 'forklift' and the correct forklift: capacity, fork length, counterweights, heights, turning radius. The same applies to crane trucks, hydraulic carts, sliding systems, and rigging accessories."
               }
             ],
             "footer": [
-              "During lifting operations, there must be clear prohibited zones for staff, marked routes, and a person responsible for signals and commands. 'Everyone watches, everyone helps' is a recipe for chaos.",
+              "A well-planned warehouse ensures that machines do not wait for material, nor logistics for documents, and the move passes through controlled buffers rather than controlled crises."
+            ]
+          },
+          {
+            "title": "Safety and risk in moving heavy machines: what should not be underestimated",
+            "intro": "Moving an 8-ton lathe or a 15-ton press is not just 'heavier lifting' — it is work with real risk for people, building, and equipment.",
+            "points": [
+              {
+                "title": "Risk assessment before the first bolt",
+                "text": "The serious process starts with inspection and risk analysis: floor weaknesses, tight turns, ramps, pits, low beams, old slabs. Many incidents happen not during lifting, but during maneuvers in tight spaces."
+              },
+              {
+                "title": "The right equipment for the right task",
+                "text": "There is a difference between a 'forklift' and the correct forklift: capacity, fork length, counterweights, heights, turning radius. The same applies to crane trucks, hydraulic carts, sliding systems, and rigging accessories."
+              },
+              {
+                "title": "Safety zones are not a formality",
+                "text": "During lifting operations, there must be clear prohibited zones for staff, marked routes, and a person responsible for signals and commands. 'Everyone watches, everyone helps' is a recipe for chaos."
+              }
+            ],
+            "footer": [
               "Documents and insurance"
             ]
           },

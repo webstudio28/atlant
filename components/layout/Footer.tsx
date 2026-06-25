@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
+import CookieFooterLinks from "@/components/cookie/CookieFooterLinks";
 
 interface SiteSettings {
   phone_display?: string;
@@ -171,10 +172,13 @@ export default function Footer({
           </div>
 
           {/* Bottom bar */}
-          <div className="footer-bottom flex justify-between items-center py-5 flex-wrap gap-3">
-            <span className="text-[15px] text-white/30 font-['Sofia_Sans',sans-serif]">
-              &copy; {currentYear} Atlant {t("rights")}
-            </span>
+          <div className="footer-bottom flex flex-col gap-3 py-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-2 sm:gap-1">
+              <span className="text-[15px] text-white/30 font-['Sofia_Sans',sans-serif]">
+                &copy; {currentYear} Atlant {t("rights")}
+              </span>
+              <CookieFooterLinks locale={locale} />
+            </div>
             <span className="text-[15px] text-white/30 font-['Sofia_Sans_Condensed',sans-serif] tracking-[0.08em] uppercase">
               ISO 9001 · FEDEMAC · BAP
             </span>

@@ -30,17 +30,19 @@
             "intro": "Онлайн магазини и бутик търговия.",
             "points": [
               {
-                "title": "Свободни професии и малки агенции",
+                "title": "Онлайн магазини и бутик търговия",
                 "text": "Съхранение на ограничени количества стока, сезонни артикули, мостри и опаковки – без да плащате за голям логистичен склад."
               },
               {
-                "title": "Сезонни бизнеси",
+                "title": "Свободни професии и малки агенции",
                 "text": "Архиви, рекламни материали, оборудване за събития и изложения – извън офиса, който остава за реална работа, а не за кашони."
+              },
+              {
+                "title": "Сезонни бизнеси",
+                "text": "Ски, велосипеди за под наем, декори, щандове, мобилно оборудване – държат се на склад, а не в магазина."
               }
             ],
-            "footer": [
-              "Ски, велосипеди за под наем, декори, щандове, мобилно оборудване – държат се на склад, а не в магазина."
-            ]
+            "footer": []
           },
           {
             "title": "Практически ползи:",
@@ -98,25 +100,27 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
             "title": "When personal storage is the better solution:",
-            "intro": "Online stores and boutique trade – storing limited quantities, seasonal items, samples, and packaging – without paying for a large logistics warehouse.",
+            "intro": "Online stores and boutique trade.",
             "points": [
               {
-                "title": "Freelancers and small agencies",
+                "title": "Online stores and boutique trade",
                 "text": "Storage of limited quantities of goods, seasonal items, samples, and packaging — without paying for a large logistics warehouse."
               },
               {
-                "title": "Seasonal businesses",
+                "title": "Freelancers and small agencies",
                 "text": "Archives, promotional materials, and equipment for events and exhibitions — kept out of the office, which remains a space for real work rather than boxes."
+              },
+              {
+                "title": "Seasonal businesses",
+                "text": "Skis, rental bicycles, decorations, booths, and mobile equipment — stored in a warehouse instead of occupying space in the shop."
               }
             ],
-            "footer": [
-              "Skis, rental bicycles, decorations, booths, and mobile equipment — stored in a warehouse instead of occupying space in the shop."
-            ]
+            "footer": []
           },
           {
             "title": "Practical benefits:",

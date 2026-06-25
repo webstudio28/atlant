@@ -86,7 +86,7 @@
               }
             ],
             "footer": [
-              "Заяви Корпоративно Складиране"
+              { "type": "inquiry", "label": "Заяви Корпоративно Складиране" }
             ]
           }
         ]
@@ -116,7 +116,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -180,7 +180,7 @@
               }
             ],
             "footer": [
-              "Request Corporate Storage"
+              { "type": "inquiry", "label": "Request Corporate Storage" }
             ]
           }
         ]

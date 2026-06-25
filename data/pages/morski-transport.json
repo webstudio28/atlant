@@ -37,24 +37,28 @@
             "intro": "Освен контейнерния, в логистиката се използват още:",
             "points": [
               {
-                "title": "танкерен транспорт – за течности: нефт, газ, химикали;",
-                "text": "насипен транспорт – за зърно, въглища, минерали;"
+                "title": "Насипен транспорт",
+                "text": "За зърно, въглища, минерали."
               },
               {
-                "title": "Морските срокове: защо „по-бавно“ не значи „по-несигурно“",
-                "text": "Ro-Ro транспорт – за превозни средства, които се качват и слизат на собствен ход."
+                "title": "Танкерен транспорт",
+                "text": "За течности: нефт, газ, химикали."
+              },
+              {
+                "title": "Ro-Ro транспорт",
+                "text": "За превозни средства, които се качват и слизат на собствен ход."
               }
             ],
             "footer": [
-              "В практиката на Atlant Logistics & Relocations за повечето търговски и индустриални стоки решението е именно в контейнерите – въпросът е кога има смисъл да минете от LCL към FCL. С правилен анализ на обем, честота и дестинации спедиторът може да ви спести както излишен „въздух“, така и скъпи групажни такси.",
-              "Морето е по-бавно от въздуха, но при добра организация е една от най-предвидимите и стабилни опции в международната логистика."
+              "В практиката на Atlant Logistics & Relocations за повечето търговски и индустриални стоки решението е именно в контейнерите – въпросът е кога има смисъл да минете от LCL към FCL. С правилен анализ на обем, честота и дестинации спедиторът може да ви спести както излишен „въздух“, така и скъпи групажни такси."
             ]
           },
           {
-            "title": "Какво стои зад тази предвидимост:",
-            "intro": "Фиксирани графици на корабните линии и относително устойчиви транзитни времена.",
+            "title": "Морските срокове: защо „по-бавно“ не значи „по-несигурно“",
+            "intro": "Морето е по-бавно от въздуха, но при добра организация е една от най-предвидимите и стабилни опции в международната логистика.",
             "points": [],
             "footer": [
+              "Фиксирани графици на корабните линии и относително устойчиви транзитни времена.",
               "Възможност да планирате производство, продажби и промоции с хоризонт седмици и месеци напред.",
               "Стабилни цени при дългосрочни договори и регулярни потоци – особено при големи обеми."
             ]
@@ -124,7 +128,7 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
+        "label": "Useful tips",
         "heading": "Useful tips on the topic",
         "topics": [
           {
@@ -141,22 +145,28 @@
             "intro": "Besides container transport, logistics also uses:",
             "points": [
               {
-                "title": "Sea transit times: why “slower” does not mean “less reliable”",
-                "text": "Bulk transport – for grain, coal, minerals;"
+                "title": "Bulk transport",
+                "text": "For grain, coal, and minerals."
+              },
+              {
+                "title": "Tanker transport",
+                "text": "For liquids: oil, gas, and chemicals."
+              },
+              {
+                "title": "Ro-Ro transport",
+                "text": "For vehicles that drive on and off under their own power."
               }
             ],
             "footer": [
-              "Tanker transport – for liquids: oil, gas, chemicals;",
-              "Ro-Ro transport – for vehicles that drive on and off under their own power.",
-              "In Atlant Logistics & Relocations practice, for most commercial and industrial goods, the solution lies in containers – the question is when it makes sense to switch from LCL to FCL. With proper analysis of volume, frequency, and destinations, a forwarder can save you both unnecessary “air” and expensive groupage fees.",
-              "Sea transport is slower than air, but with good organization, it is one of the most predictable and stable options in international logistics."
+              "In Atlant Logistics & Relocations practice, for most commercial and industrial goods, the solution lies in containers – the question is when it makes sense to switch from LCL to FCL. With proper analysis of volume, frequency, and destinations, a forwarder can save you both unnecessary “air” and expensive groupage fees."
             ]
           },
           {
-            "title": "What stands behind this predictability:",
-            "intro": "Fixed schedules of shipping lines and relatively stable transit times.",
+            "title": "Sea transit times: why “slower” does not mean “less reliable”",
+            "intro": "Sea transport is slower than air, but with good organization, it is one of the most predictable and stable options in international logistics.",
             "points": [],
             "footer": [
+              "Fixed schedules of shipping lines and relatively stable transit times.",
               "The ability to plan production, sales, and promotions weeks or months ahead.",
               "Stable pricing with long-term contracts and regular flows – especially for large volumes."
             ]

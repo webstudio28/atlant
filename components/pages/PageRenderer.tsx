@@ -5,6 +5,7 @@ import {
   ChecklistPanelSection,
   DirectionCardsSection,
   FeatureGridSection,
+  ComparisonTableSection,
   HighlightBoxSection,
   IntroSplitSection,
   PageCtaSection,
@@ -81,6 +82,17 @@ function renderSection(
     }
     case "feature-grid":
       return <FeatureGridSection key={index} label={section.label} heading={section.heading} subtitle={section.subtitle} items={section.items} />;
+    case "comparison-table":
+      return (
+        <ComparisonTableSection
+          key={index}
+          label={section.label}
+          heading={section.heading}
+          subtitle={section.subtitle}
+          columns={section.columns}
+          rows={section.rows}
+        />
+      );
     case "article":
       return <ArticleSection key={index} label={section.label} heading={section.heading} paragraphs={section.paragraphs} bullets={section.bullets} variant={section.variant} />;
     case "checklist-panel":

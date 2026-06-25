@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { ServiceTopic } from "@/lib/pages/topic-types";
+import type { ServiceTopic, ServiceTopicFooterItem } from "@/lib/pages/topic-types";
 import { SectionLabel, SectionTitle } from "./PageSections";
 
 function TopicIntro({ text }: { text?: string }) {
@@ -9,15 +9,30 @@ function TopicIntro({ text }: { text?: string }) {
   return <p className="m-0 mb-6 text-[17px] leading-[1.7] text-[#52595D]/90">{text}</p>;
 }
 
-function TopicFooter({ lines }: { lines?: string[] }) {
+function TopicFooter({ lines }: { lines?: ServiceTopicFooterItem[] }) {
   if (!lines?.length) return null;
   return (
     <div className="mt-6 flex flex-col gap-3 border-t border-[rgba(82,89,93,0.12)] pt-6">
-      {lines.map((line, i) => (
-        <p key={i} className="m-0 text-[16px] leading-[1.65] text-[#52595D]/85">
-          {line}
-        </p>
-      ))}
+      {lines.map((line, i) => {
+        if (typeof line === "object" && line.type === "inquiry") {
+          return (
+            <button
+              key={i}
+              type="button"
+              className="inline-flex w-fit items-center gap-2 bg-transparent p-0 font-['Sofia_Sans_Condensed',sans-serif] text-[16px] font-[700] tracking-[0.04em] uppercase text-[#F26A21] underline underline-offset-4 transition-colors hover:text-[#d45a18] cursor-pointer"
+              data-inquiry
+            >
+              {line.label}
+            </button>
+          );
+        }
+
+        return (
+          <p key={i} className="m-0 text-[16px] leading-[1.65] text-[#52595D]/85">
+            {line}
+          </p>
+        );
+      })}
     </div>
   );
 }

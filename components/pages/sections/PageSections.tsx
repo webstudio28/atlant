@@ -198,6 +198,86 @@ export function FeatureGridSection({
   );
 }
 
+export function ComparisonTableSection({
+  label,
+  heading,
+  subtitle,
+  columns,
+  rows,
+}: {
+  label?: string;
+  heading: string;
+  subtitle?: string;
+  columns: [string, string, string];
+  rows: { criterion: string; left: string; right: string }[];
+}) {
+  const [criterionLabel, leftLabel, rightLabel] = columns;
+
+  return (
+    <section className="py-20 bg-[#F4F4F2]">
+      <div className="section-wrap">
+        <div className="mb-10">
+          {label && <SectionLabel>{label}</SectionLabel>}
+          <SectionTitle>{heading}</SectionTitle>
+          {subtitle && <SectionIntro>{subtitle}</SectionIntro>}
+        </div>
+
+        <div className="rounded-xl border border-[rgba(82,89,93,0.1)] bg-white shadow-[0_8px_32px_rgba(0,0,0,0.06)] overflow-hidden">
+          <div className="overflow-x-auto [-webkit-overflow-scrolling:touch]">
+            <table className="w-full min-w-[720px] border-collapse text-left">
+              <thead>
+                <tr className="bg-[#52595D] text-white">
+                  <th
+                    scope="col"
+                    className="px-5 py-4 font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-[800] tracking-[0.08em] uppercase min-w-[180px]"
+                  >
+                    {criterionLabel}
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-5 py-4 font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-[800] tracking-[0.08em] uppercase min-w-[240px] border-l border-white/10"
+                  >
+                    {leftLabel}
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-5 py-4 font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-[800] tracking-[0.08em] uppercase min-w-[240px] border-l border-white/10"
+                  >
+                    {rightLabel}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((row, index) => (
+                  <tr
+                    key={row.criterion}
+                    className={`border-b border-[rgba(82,89,93,0.08)] last:border-b-0 ${
+                      index % 2 === 1 ? "bg-[#F4F4F2]/50" : "bg-white"
+                    }`}
+                  >
+                    <th
+                      scope="row"
+                      className="px-5 py-4 align-top font-['Sofia_Sans_Condensed',sans-serif] text-[15px] font-[800] tracking-[0.03em] uppercase text-[#52595D] leading-[1.35]"
+                    >
+                      {row.criterion}
+                    </th>
+                    <td className="px-5 py-4 align-top text-[16px] text-[#52595D] leading-[1.65] border-l border-[rgba(82,89,93,0.08)]">
+                      {row.left}
+                    </td>
+                    <td className="px-5 py-4 align-top text-[16px] text-[#52595D]/90 leading-[1.65] border-l border-[rgba(82,89,93,0.08)]">
+                      {row.right}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function ArticleSection({
   label,
   heading,
