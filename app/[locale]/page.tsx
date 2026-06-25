@@ -97,7 +97,8 @@ function JsonLd({ settings }: { settings: Record<string, string> }) {
       addressCountry: "BG",
     },
     openingHours: "Mo-Fr 08:00-18:00",
-    sameAs: [],
+    email: settings.email,
+    sameAs: [settings.facebook, settings.instagram].filter(Boolean),
   };
 
   return (

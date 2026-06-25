@@ -15,7 +15,9 @@ export default async function ContactPageContent({
     settings.phone_display && { label: locale === "bg" ? "Телефон" : "Phone", value: settings.phone_display, href: `tel:${settings.phone_display.replace(/[\s/]/g, "")}` },
     settings.email && { label: "Email", value: settings.email, href: `mailto:${settings.email}` },
     settings.address && { label: locale === "bg" ? "Адрес" : "Address", value: settings.address },
-  ].filter(Boolean) as { label: string; value: string; href?: string }[];
+    settings.facebook && { label: "Facebook", value: locale === "bg" ? "Последвайте ни" : "Follow us", href: settings.facebook, external: true },
+    settings.instagram && { label: "Instagram", value: locale === "bg" ? "Последвайте ни" : "Follow us", href: settings.instagram, external: true },
+  ].filter(Boolean) as { label: string; value: string; href?: string; external?: boolean }[];
 
   return (
     <>
@@ -24,12 +26,18 @@ export default async function ContactPageContent({
         <div className="section-wrap">
           <SectionLabel>{t("infoTitle")}</SectionLabel>
           <SectionTitle>{locale === "bg" ? "Как да ни намерите" : "How to reach us"}</SectionTitle>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 mb-12">
             {infoCards.map((card) => (
               <div key={card.label} className="bg-[#F4F4F2] rounded-xl border border-[rgba(82,89,93,0.1)] p-6 card-lift">
                 <p className="font-['Sofia_Sans_Condensed',sans-serif] text-[13px] font-[700] tracking-[0.14em] uppercase text-[#F26A21] mb-2 m-0">{card.label}</p>
                 {card.href ? (
-                  <a href={card.href} className="text-[18px] text-[#52595D] no-underline hover:text-[#F26A21] leading-[1.5]">{card.value}</a>
+                  <a
+                    href={card.href}
+                    className="text-[18px] text-[#52595D] no-underline hover:text-[#F26A21] leading-[1.5]"
+                    {...(card.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
+                    {card.value}
+                  </a>
                 ) : (
                   <p className="text-[18px] text-[#52595D] m-0 leading-[1.5]">{card.value}</p>
                 )}

@@ -13,11 +13,25 @@
       {
         "type": "intro-accent",
         "heading": "Сигурни площи, ясен контрол и пълен отчет",
+        "image": "/images/pages/warehouse.webp",
         "paragraphs": [
           "В съвременната бизнес среда ефективното управление на складовите ресурси е ключово за устойчивостта и конкурентоспособността на всяка компания.",
           "Atlant Logistics & Relocations предлага цялостни, мащабируеми решения, съобразени с типа товари, обема на операциите и динамиката на индустриалните и търговски процеси.",
           "Видове складиране",
-          "Стелажно складиране Идеално за палетизирани товари. Гарантира добра организация и бърз достъп до всеки артикул. Поддържа се ротация по FIFO/FEFO."
+          "Стелажно складиране – Идеално за палетизирани товари. Гарантира добра организация и бърз достъп до всеки артикул. Поддържа се ротация по FIFO/FEFO.",
+          "Складиране на земя – Подходящо за нестандартни палети и стоки без нужда от директен достъп. Гъвкаво решение за специфични изисквания.",
+          "Ролково складиране – За хартия, фолио и други продукти, които изискват внимателна манипулация. Използваме мотокари с кламер (щипка).",
+          "Открито и покрито складиране – За обемисти или устойчиви товари – като строителни материали, кабели и съоръжения.",
+          "Освен складиране и съхранение в нашите бази може да заявите и следните складови услуги",
+          "Комисиониране – Точно сортиране и групиране на поръчки. Маркиране, комплектоване и подготовка според зададени критерии – част от организирана дистрибуционна верига.",
+          "Снабдяване и дистрибуция – Доставки до магазини и крайни клиенти в България и Европа. Складиране и транспорт под единен логистичен контрол.",
+          "Преработка – Етикиране, пакетиране и преподреждане – както в нашите складове, така и на обектите на клиента. Прецизна и гъвкава работа според спецификата на стоките.",
+          "Товаро-разтоварни операции – Обслужване на палетизирани, обемни и специфични товари. Включва претоварване, ръчен труд и адаптивна поддръжка.",
+          "Съхранение на хранителни стоки – Лицензирани от БАБХ за сухо складиране на пакетирани храни. Стриктен контрол на средата и условията на съхранение.",
+          "Защо да изберете Atlant?",
+          "Корпоративното складиране не е просто пространство – то е логистичен актив.",
+          "Atlant Logistics & Relocations предлага високо ниво на организация, проследимост и сигурност, комбинирано с индивидуален подход, гъвкавост и технически капацитет.",
+          "Внедрената WMS система и стандартизирани процеси гарантират надеждност, оптимизация и дългосрочна стойност за вашия бизнес."
         ]
       },
       {
@@ -26,7 +40,7 @@
         "heading": "Полезни съвети по темата",
         "topics": [
           {
-            "title": "Какво означава това на практика:",
+            "title": "Как изглежда „здравият“ корпоративен склад отвътре",
             "intro": "Всяка палета, партида или кашон има своя „история“ – откъде идва, къде е позициониран, кога влиза и кога излиза. Това позволява бърза реакция при рекламации, изтегляния на партиди или проверки.",
             "points": [
               {
@@ -40,37 +54,42 @@
               {
                 "title": "Реални данни за управлението",
                 "text": "При такъв подход корпоративното складиране не е просто място за „държане на палети“, а инструмент за управление на риска, разходите и клиентското обслужване."
-              },
-              {
-                "title": "Собствен срещу външен склад: кога е време да прехвърлите логистиката на партньор",
-                "text": "Много компании започват със собствено помещение – цех, гараж, малък склад. В един момент обаче логистиката започва да „дърпа ръчно“ целия бизнес назад. Ето няколко сигурни сигнала, че е време да обмислите корпоративно складиране с външен партньор:"
               }
             ],
-            "footer": [
-              "Ръст на грешките и рекламациите – объркани доставки, грешни артикули, липсващи количества.",
-              "Складът „изяжда“ управленско време – мениджърите се занимават с подреждане и приемо-предавателни протоколи, вместо с развитие на продажби и продукт.",
-              "Непредвидими пикове – сезонни кампании, промоции, онлайн поръчки, които блокират склада и персонала.",
-              "Инвестиции, които не се изплащат – техника, стелажи, софтуер, обучение – всичко това е капитал, който стои „заключен“ в един обект."
-            ]
+            "footer": []
           },
           {
-            "title": "Какво печелите с партньор като Atlant Logistics & Relocations:",
-            "intro": "Мащабируемост – плащате за реално използван капацитет и услуги, а не за постоянни фиксирани разходи.",
+            "title": "Собствен срещу външен склад: кога е време да прехвърлите логистиката на партньор",
+            "intro": "Много компании започват със собствено помещение – цех, гараж, малък склад. В един момент обаче логистиката започва да „дърпа ръчно“ целия бизнес назад. Ето няколко сигурни сигнала, че е време да обмислите корпоративно складиране с външен партньор:",
             "points": [
               {
-                "title": "Складът като „буфер“ в динамични вериги на доставки",
-                "text": "Интеграция със транспорт, комисиониране, дистрибуция и преработка."
+                "title": "Ръст на грешките и рекламациите",
+                "text": "Объркани доставки, грешни артикули, липсващи количества."
+              },
+              {
+                "title": "Складът „изяжда“ управленско време",
+                "text": "Мениджърите се занимават с подреждане и приемо-предавателни протоколи, вместо с развитие на продажби и продукт."
+              },
+              {
+                "title": "Непредвидими пикове",
+                "text": "Сезонни кампании, промоции, онлайн поръчки, които блокират склада и персонала."
+              },
+              {
+                "title": "Инвестиции, които не се изплащат",
+                "text": "Техника, стелажи, софтуер, обучение – всичко това е капитал, който стои „заключен“ в един обект."
               }
             ],
             "footer": [
+              "Какво печелите с партньор като Atlant Logistics & Relocations:",
+              "Мащабируемост – плащате за реално използван капацитет и услуги, а не за постоянни фиксирани разходи.",
+              "Интеграция със транспорт, комисиониране, дистрибуция и преработка.",
               "Достъп до технологии (WMS) и стандартизирани процеси, без сами да ги внедрявате и поддържате.",
-              "Така външният корпоративен склад се превръща от „чужда база“ в разширение на вашата логистика.",
-              "В реалния бизнес поръчките, доставките и производството не се движат винаги в идеален синхрон. Корпоративното складиране може да играе ролята на буфер, който „обира“ тази динамика."
+              "Така външният корпоративен склад се превръща от „чужда база“ в разширение на вашата логистика."
             ]
           },
           {
-            "title": "Къде е критично този буфер да съществува:",
-            "intro": "Когато стоката пристига на големи партиди, а излиза към клиенти на по-малки доставки. Складът поема разликата във време и обем, без да блокира пристанища, рампи или дворове.",
+            "title": "Складът като „буфер“ в динамични вериги на доставки",
+            "intro": "В реалния бизнес поръчките, доставките и производството не се движат винаги в идеален синхрон. Корпоративното складиране може да играе ролята на буфер, който „обира“ тази динамика. Когато стоката пристига на големи партиди, а излиза към клиенти на по-малки доставки, складът поема разликата във време и обем, без да блокира пристанища, рампи или дворове.",
             "points": [
               {
                 "title": "При внос и износ",
@@ -78,14 +97,15 @@
               },
               {
                 "title": "При производство с променливо натоварване",
-                "text": "Допълнителни количества се зареждат предварително в корпоративния склад, за да не се „задъха“ веригата при рязък скок на продажбите."
+                "text": "Суровини и компоненти могат да се складират предварително, за да не спира производството при забавяне на доставчици."
               },
               {
                 "title": "При сезонни пикове и промоции",
-                "text": "Когато този буфер е организиран в професионален склад с WMS и ясни процеси, компанията не живее „от камион до камион“, а управлява ритъма на своята верига на доставки."
+                "text": "Допълнителни количества се зареждат предварително в корпоративния склад, за да не се „задъха“ веригата при рязък скок на продажбите."
               }
             ],
             "footer": [
+              "Когато този буфер е организиран в професионален склад с WMS и ясни процеси, компанията не живее „от камион до камион“, а управлява ритъма на своята верига на доставки.",
               { "type": "inquiry", "label": "Заяви Корпоративно Складиране" }
             ]
           }
@@ -107,11 +127,25 @@
       {
         "type": "intro-accent",
         "heading": "Secure areas, clear control and full reporting",
+        "image": "/images/pages/warehouse.webp",
         "paragraphs": [
           "In today's business environment, effective warehouse resource management is key for the sustainability and competitiveness of any company.",
           "Atlant Logistics & Relocations offers comprehensive, scalable solutions tailored to the type of goods, the volume of operations, and the dynamics of industrial and commercial processes.",
           "Types of warehousing",
-          "Racking storage Ideal for palletized goods. Ensures good organization and quick access to each item. Rotation by FIFO/FEFO is maintained."
+          "Racking storage – Ideal for palletized goods. Ensures good organization and quick access to each item. Rotation by FIFO/FEFO is maintained.",
+          "Floor storage – Suitable for non-standard pallets and goods that do not require direct access. A flexible solution for specific requirements.",
+          "Roll storage – For paper, film, and other products that require careful handling. We use clamp forklifts.",
+          "Open and covered storage – For bulky or durable goods such as building materials, cables, and equipment.",
+          "In addition to warehousing and storage at our facilities, you can also request the following warehouse services",
+          "Order picking – Precise sorting and grouping of orders. Labeling, kitting, and preparation according to defined criteria — part of an organized distribution chain.",
+          "Supply and distribution – Deliveries to stores and end customers in Bulgaria and Europe. Warehousing and transport under unified logistics control.",
+          "Processing – Labeling, packaging, and repacking — both at our warehouses and at client sites. Precise, flexible work tailored to the nature of the goods.",
+          "Loading and unloading operations – Handling of palletized, bulky, and specific goods. Includes transshipment, manual labor, and adaptive support.",
+          "Food storage – Licensed by the Bulgarian Food Safety Agency for dry storage of packaged foods. Strict control of the environment and storage conditions.",
+          "Why choose Atlant?",
+          "Corporate warehousing is not just space — it is a logistics asset.",
+          "Atlant Logistics & Relocations offers a high level of organization, traceability, and security, combined with an individual approach, flexibility, and technical capacity.",
+          "The implemented WMS system and standardized processes guarantee reliability, optimization, and long-term value for your business."
         ]
       },
       {
@@ -120,8 +154,8 @@
         "heading": "Useful tips on the topic",
         "topics": [
           {
-            "title": "What does this mean in practice:",
-            "intro": "Each pallet, batch, or box has its own “history” – where it comes from, where it is positioned, when it enters and exits. This allows a quick response to complaints, batch recalls, or inspections.",
+            "title": "What a “healthy” corporate warehouse looks like from the inside",
+            "intro": "Each pallet, batch, or box has its own “history” — where it comes from, where it is positioned, when it enters and exits. This allows a quick response to complaints, batch recalls, or inspections.",
             "points": [
               {
                 "title": "Full traceability",
@@ -129,42 +163,47 @@
               },
               {
                 "title": "Working with expiry dates and batches (FIFO/FEFO)",
-                "text": "Warehouse reports are not just inventory – they provide information on turnover, stagnant goods, seasonal workload, and operational efficiency. This supports decisions for purchasing, marketing, and distribution."
+                "text": "Warehouse reports are not just inventory — they provide information on turnover, stagnant goods, seasonal workload, and operational efficiency. This supports decisions for purchasing, marketing, and distribution."
               },
               {
                 "title": "Real management data",
                 "text": "With this approach, corporate warehousing is not just a place to “hold pallets,” but a tool for managing risk, costs, and customer service."
-              },
-              {
-                "title": "Own vs. external warehouse: when it’s time to transfer logistics to a partner",
-                "text": "Many companies start with their own premises – workshop, garage, small warehouse. At some point, however, logistics begins to “pull manually” the entire business backward. Here are a few clear signs that it’s time to consider corporate warehousing with an external partner:"
               }
             ],
-            "footer": [
-              "Increase in errors and complaints – wrong deliveries, incorrect items, missing quantities.",
-              "The warehouse “consumes” management time – managers deal with organizing and handover protocols instead of focusing on sales and product development.",
-              "Unpredictable peaks – seasonal campaigns, promotions, online orders that block the warehouse and staff.",
-              "Investments that do not pay off – equipment, racks, software, training – all this is capital locked in a single facility."
-            ]
+            "footer": []
           },
           {
-            "title": "What you gain with a partner like Atlant Logistics & Relocations:",
-            "intro": "Scalability – you pay for actual used capacity and services, not for fixed costs.",
+            "title": "Own vs. external warehouse: when it’s time to transfer logistics to a partner",
+            "intro": "Many companies start with their own premises — workshop, garage, small warehouse. At some point, however, logistics begins to “pull manually” the entire business backward. Here are a few clear signs that it’s time to consider corporate warehousing with an external partner:",
             "points": [
               {
-                "title": "The warehouse as a “buffer” in dynamic supply chains",
-                "text": "Integration with transport, order picking, distribution, and processing."
+                "title": "Increase in errors and complaints",
+                "text": "Wrong deliveries, incorrect items, missing quantities."
+              },
+              {
+                "title": "The warehouse “consumes” management time",
+                "text": "Managers deal with organizing and handover protocols instead of focusing on sales and product development."
+              },
+              {
+                "title": "Unpredictable peaks",
+                "text": "Seasonal campaigns, promotions, online orders that block the warehouse and staff."
+              },
+              {
+                "title": "Investments that do not pay off",
+                "text": "Equipment, racks, software, training — all this is capital locked in a single facility."
               }
             ],
             "footer": [
+              "What you gain with a partner like Atlant Logistics & Relocations:",
+              "Scalability — you pay for actual used capacity and services, not for fixed costs.",
+              "Integration with transport, order picking, distribution, and processing.",
               "Access to technology (WMS) and standardized processes without having to implement and maintain them yourself.",
-              "This way, the external corporate warehouse becomes an extension of your logistics rather than a “foreign facility.”",
-              "In real business, orders, deliveries, and production do not always move in perfect sync. Corporate warehousing can act as a buffer that “absorbs” this dynamics."
+              "This way, the external corporate warehouse becomes an extension of your logistics rather than a “foreign facility.”"
             ]
           },
           {
-            "title": "Where this buffer is critical:",
-            "intro": "When goods arrive in large batches and leave to customers in smaller deliveries. The warehouse absorbs the difference in time and volume without blocking ports, ramps, or yards.",
+            "title": "The warehouse as a “buffer” in dynamic supply chains",
+            "intro": "In real business, orders, deliveries, and production do not always move in perfect sync. Corporate warehousing can act as a buffer that “absorbs” this dynamics. When goods arrive in large batches and leave to customers in smaller deliveries, the warehouse absorbs the difference in time and volume without blocking ports, ramps, or yards.",
             "points": [
               {
                 "title": "For imports and exports",
@@ -172,14 +211,15 @@
               },
               {
                 "title": "In production with variable workload",
-                "text": "Additional quantities are stocked in the corporate warehouse in advance, so the chain does not “suffocate” during a sudden sales spike."
+                "text": "Raw materials and components can be stored in advance so that production is not stopped by delayed suppliers."
               },
               {
                 "title": "During seasonal peaks and promotions",
-                "text": "When this buffer is organized in a professional warehouse with WMS and clear processes, the company does not operate “from truck to truck,” but manages the rhythm of its supply chain."
+                "text": "Additional quantities are stocked in the corporate warehouse in advance, so the chain does not “suffocate” during a sudden sales spike."
               }
             ],
             "footer": [
+              "When this buffer is organized in a professional warehouse with WMS and clear processes, the company does not operate “from truck to truck,” but manages the rhythm of its supply chain.",
               { "type": "inquiry", "label": "Request Corporate Storage" }
             ]
           }
