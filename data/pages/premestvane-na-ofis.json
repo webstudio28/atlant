@@ -38,12 +38,17 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Преместване на офиса",
         "topics": [
           {
-            "title": "Как да го направите просто:",
-            "intro": "Изпратете кратки съобщения с важните дати: „След седмица“, „След три дни“, „Утре“, „Днес“.",
-            "points": [],
+            "title": "План за общуване: всички да знаят какво, кога и къде",
+            "intro": "Колкото по-ясно информирате хората, толкова по-спокойно минава преместването.",
+            "points": [
+              {
+                "title": "Как да го направите просто",
+                "text": "Изпратете кратки съобщения с важните дати: „След седмица“, „След три дни“, „Утре“, „Днес“."
+              }
+            ],
             "footer": [
               "Дайте един ясен контакт за въпроси и промени.",
               "Споделете карта на новия етаж/офис и инструкции „какво да опаковате сами“.",
@@ -57,15 +62,15 @@
             "intro": "Идеята е всичко да тръгне от първия ден — без излишни нерви.",
             "points": [
               {
-                "title": "Преди преместването:",
+                "title": "Преди преместването",
                 "text": "Направете списък на компютри, монитори и телефони и им сложете етикети. Запазете важните файлове (резервно копие). Проверете дали на новото място има готови контакти, интернет и място за принтери."
               },
               {
-                "title": "В деня:",
+                "title": "В деня",
                 "text": "Снимайте как са свързани кабелите, за да ги върнете същите. Приберете техниката в затворени кашони/контейнери. Подредете по план: кое бюро какво получава."
               },
               {
-                "title": "След преместването:",
+                "title": "След преместването",
                 "text": "Проверете дали има интернет, печат и достъп до общите папки. Осигурете човек „на линия“ за първите дребни проблеми през 1–2 дни. Резултат: работните места са готови бързо, без да се търсят кабели и настройки."
               }
             ],
@@ -139,12 +144,17 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Office Relocation",
         "topics": [
           {
-            "title": "How to do it simply:",
-            "intro": "Send short messages with key dates: “In one week”, “In three days”, “Tomorrow”, “Today”.",
-            "points": [],
+            "title": "Communication plan: everyone knows what, when, and where",
+            "intro": "The clearer you inform people, the smoother the relocation will be.",
+            "points": [
+              {
+                "title": "How to do it simply",
+                "text": "Send short messages with key dates: “In one week”, “In three days”, “Tomorrow”, “Today”."
+              }
+            ],
             "footer": [
               "Provide one clear contact for questions and changes.",
               "Share a map of the new floor/office and instructions on “what to pack yourself”.",
@@ -158,15 +168,15 @@
             "intro": "The idea is for everything to be up and running from day one — without unnecessary stress.",
             "points": [
               {
-                "title": "Before the relocation:",
+                "title": "Before the relocation",
                 "text": "Create a list of computers, monitors, and phones and label them. Back up important files. Check that the new location has ready power outlets, internet, and space for printers."
               },
               {
-                "title": "On the day:",
+                "title": "On the day",
                 "text": "Take photos of cable connections so you can restore them the same way. Pack equipment in closed boxes/containers. Arrange according to the plan: which desk gets what."
               },
               {
-                "title": "After the relocation:",
+                "title": "After the relocation",
                 "text": "Check internet, printing, and access to shared folders. Ensure someone is “on call” for minor issues during the first 1–2 days. Result: workstations are ready quickly, without searching for cables and settings."
               }
             ],

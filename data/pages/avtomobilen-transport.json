@@ -21,7 +21,7 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Автомобилен транспорт",
         "topics": [
           {
             "title": "Цял камион или групаж – кое кога е по-изгодно?",
@@ -37,30 +37,56 @@
               }
             ],
             "footer": [
-              "Atlant може да предложи хибриден подход – групаж в даден етап, комбиниран с локални дистрибуции или с цял камион при пикове и кампании.",
-              "Как да подготвите палетите си за сигурен автомобилен превоз"
+              "Atlant може да предложи хибриден подход – групаж в даден етап, комбиниран с локални дистрибуции или с цял камион при пикове и кампании."
             ]
           },
           {
-            "title": "Добрата подготовка на палета намалява риска от щети и забавяния:",
-            "intro": "Използвайте здрави палети, без счупени дъски и нестабилни краища.",
-            "points": [],
+            "title": "Как да подготвите палетите си за сигурен автомобилен превоз",
+            "intro": "Добрата подготовка на палета намалява риска от щети и забавяния:",
+            "points": [
+              {
+                "title": "Използвайте здрави палети",
+                "text": "Използвайте здрави палети, без счупени дъски и нестабилни краища."
+              },
+              {
+                "title": "Подреждайте товара компактно",
+                "text": "Подреждайте товара компактно, без „кули“ и надвеси – центърът на тежестта трябва да е стабилен."
+              },
+              {
+                "title": "Стегнете и защитете",
+                "text": "Стегнете с стреч фолио и при нужда с чембер лента; защитете ъглите и чупливите зони."
+              },
+              {
+                "title": "Маркирайте ясно",
+                "text": "Маркирайте ясно „чупливо“, „тежко“, „не обръщай“ и поставете етикети с данни за получателя от поне две страни."
+              }
+            ],
             "footer": [
-              "Подреждайте товара компактно, без „кули“ и надвеси – центърът на тежестта трябва да е стабилен.",
-              "Стегнете с стреч фолио и при нужда с чембер лента; защитете ъглите и чупливите зони.",
-              "Маркирайте ясно „чупливо“, „тежко“, „не обръщай“ и поставете етикети с данни за получателя от поне две страни.",
-              "Така камионът не се превръща в „пъзел“, а в контролирано пространство, където стоките могат да се защитят и подредят оптимално.",
-              "Какво най-често забавя камионите – и как да го предвидите"
+              "Така камионът не се превръща в „пъзел“, а в контролирано пространство, където стоките могат да се защитят и подредят оптимално."
             ]
           },
           {
-            "title": "Не всяко закъснение е „по вина на превозвача“. Често причините са по веригата:",
-            "intro": "Неясни часове за товарене/разтоварване – чака се да „дойде някой с ключа“ или да се освободи рампа.",
-            "points": [],
+            "title": "Какво най-често забавя камионите – и как да го предвидите",
+            "intro": "Не всяко закъснение е „по вина на превозвача“. Често причините са по веригата:",
+            "points": [
+              {
+                "title": "Неясни часове",
+                "text": "Неясни часове за товарене/разтоварване – чака се да „дойде някой с ключа“ или да се освободи рампа."
+              },
+              {
+                "title": "Труден достъп",
+                "text": "Труден достъп до адреса – тесни улици, забрани за тежки МПС, липса на информация за нужното оборудване."
+              },
+              {
+                "title": "Гранични и митнически процедури",
+                "text": "Гранични и митнически процедури – непълни документи, грешни данни, липсващи разрешителни."
+              },
+              {
+                "title": "Недооценено време",
+                "text": "Недооценено време за ръчен товар/разтоварване – особено при обекти без техника."
+              }
+            ],
             "footer": [
-              "Труден достъп до адреса – тесни улици, забрани за тежки МПС, липса на информация за нужното оборудване.",
-              "Гранични и митнически процедури – непълни документи, грешни данни, липсващи разрешителни.",
-              "Недооценено време за ръчен товар/разтоварване – особено при обекти без техника.",
               "Добре описан адрес, предварителна информация за условията на място и коректни документи намаляват риска камионът да стои, докато часовникът тиктака."
             ]
           }
@@ -90,7 +116,7 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Road Transport",
         "topics": [
           {
             "title": "Full truck or groupage – which is more cost-effective and when?",
@@ -106,30 +132,56 @@
               }
             ],
             "footer": [
-              "Atlant can offer a hybrid approach – groupage at a certain stage combined with local distribution or switching to a full truck during peaks and campaigns.",
-              "How to prepare your pallets for safe road transport"
+              "Atlant can offer a hybrid approach – groupage at a certain stage combined with local distribution or switching to a full truck during peaks and campaigns."
             ]
           },
           {
-            "title": "Proper pallet preparation reduces the risk of damage and delays:",
-            "intro": "Use sturdy pallets without broken boards or unstable edges.",
-            "points": [],
+            "title": "How to prepare your pallets for safe road transport",
+            "intro": "Proper pallet preparation reduces the risk of damage and delays:",
+            "points": [
+              {
+                "title": "Use sturdy pallets",
+                "text": "Use sturdy pallets without broken boards or unstable edges."
+              },
+              {
+                "title": "Stack cargo compactly",
+                "text": "Stack cargo compactly, without towers or overhangs – the center of gravity must remain stable."
+              },
+              {
+                "title": "Secure and protect",
+                "text": "Secure with stretch film and, if necessary, strapping; protect corners and fragile areas."
+              },
+              {
+                "title": "Mark clearly",
+                "text": "Clearly mark “fragile,” “heavy,” “do not turn,” and place recipient labels on at least two sides."
+              }
+            ],
             "footer": [
-              "Stack cargo compactly, without towers or overhangs – the center of gravity must remain stable.",
-              "Secure with stretch film and, if necessary, strapping; protect corners and fragile areas.",
-              "Clearly mark “fragile,” “heavy,” “do not turn,” and place recipient labels on at least two sides.",
-              "This way, the truck does not turn into a “puzzle,” but into a controlled space where goods are protected and optimally arranged.",
-              "What most often delays trucks – and how to anticipate it"
+              "This way, the truck does not turn into a “puzzle,” but into a controlled space where goods are protected and optimally arranged."
             ]
           },
           {
-            "title": "Not every delay is “the carrier’s fault.” Often the reasons lie along the chain:",
-            "intro": "Unclear loading/unloading time windows – waiting for someone with the key or for a ramp to become available.",
-            "points": [],
+            "title": "What most often delays trucks – and how to anticipate it",
+            "intro": "Not every delay is “the carrier’s fault.” Often the reasons lie along the chain:",
+            "points": [
+              {
+                "title": "Unclear time windows",
+                "text": "Unclear loading/unloading time windows – waiting for someone with the key or for a ramp to become available."
+              },
+              {
+                "title": "Difficult access",
+                "text": "Difficult access to the address – narrow streets, truck restrictions, lack of information about required equipment."
+              },
+              {
+                "title": "Border and customs procedures",
+                "text": "Border and customs procedures – incomplete documents, incorrect data, missing permits."
+              },
+              {
+                "title": "Underestimated manual handling time",
+                "text": "Underestimated time for manual loading/unloading – especially at sites without handling equipment."
+              }
+            ],
             "footer": [
-              "Difficult access to the address – narrow streets, truck restrictions, lack of information about required equipment.",
-              "Border and customs procedures – incomplete documents, incorrect data, missing permits.",
-              "Underestimated time for manual loading/unloading – especially at sites without handling equipment.",
               "A well-described address, advance information about on-site conditions, and correct documentation reduce the risk of the truck standing idle while the clock is ticking."
             ]
           }

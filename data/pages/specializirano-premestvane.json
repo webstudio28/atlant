@@ -22,89 +22,61 @@
       },
       {
         "type": "service-topics",
-        "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "label": "Полезни съвети",
+        "heading": "Всичко, което трябва да знаете за Специализирано преместване",
         "topics": [
           {
-            "title": "Достъп и режим на работа:",
-            "intro": "Уточнете предварително часови прозорци за товарене и разтоварване – особено при болници, банки, молове, бизнес сгради.",
-            "points": [],
-            "footer": [
-              "Осигурете резервирани паркоместа за техника и камион – при липса на място често се налагат импровизирани решения.",
-              "Изяснете дали има пропускателен режим, карти за достъп, придружител – така се избягват „задръствания“ пред входа."
-            ]
-          },
-          {
-            "title": "Самият маршрут вътре:",
-            "intro": "Освободете коридори и стълби от кашони, мебели, стойки, кабели по пода.",
-            "points": [],
-            "footer": [
-              "Уточнете предварително слабите места – хлъзгава настилка, стъпала в лошо състояние, окачени тавани, ниски каси на врати.",
-              "Ако предстои работа през нощта или в затворена зона – осигурете осветление и контакт за ток, ако е нужно."
-            ]
-          },
-          {
-            "title": "Документи и отговорности:",
-            "intro": "При техника – намерете серийни номера, инструкции, схеми за монтаж/демонтаж, ако са налични.",
+            "title": "Как да подготвите обекта за преместване на тежки и скъпи вещи",
+            "intro": "Добре подготвеният обект съкращава времето на екипа, намалява риска и обикновено сваля цената на офертата. Има няколко неща, които са изцяло във ваши ръце.",
             "points": [
               {
-                "title": "Защо специализираното преместване НЕ е „носене на тежко“",
-                "text": "Изяснете кой от ваша страна ще подпише приемо-предавателните протоколи и кой ще потвърди крайното позициониране „на място“."
+                "title": "Достъп и режим на работа",
+                "text": "Уточнете предварително часови прозорци за товарене и разтоварване – особено при болници, банки, молове, бизнес сгради. Осигурете резервирани паркоместа за техника и камион – при липса на място често се налагат импровизирани решения. Изяснете дали има пропускателен режим, карти за достъп, придружител – така се избягват „задръствания“ пред входа."
+              },
+              {
+                "title": "Самият маршрут вътре",
+                "text": "Освободете коридори и стълби от кашони, мебели, стойки, кабели по пода. Уточнете предварително слабите места – хлъзгава настилка, стъпала в лошо състояние, окачени тавани, ниски каси на врати. Ако предстои работа през нощта или в затворена зона – осигурете осветление и контакт за ток, ако е нужно."
+              },
+              {
+                "title": "Документи и отговорности",
+                "text": "При техника – намерете серийни номера, инструкции, схеми за монтаж/демонтаж, ако са налични. Изяснете кой от ваша страна ще подпише приемо-предавателните протоколи и кой ще потвърди крайното позициониране „на място“. Колкото по-ясна е картината още преди огледа, толкова по-точна и сигурна ще е офертата – и толкова по-малко „изненади“ ще има в деня на преместването."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "Защо специализираното преместване НЕ е „носене на тежко“",
+            "intro": "Когато говорим за сейф, роял, ЯМР, струг или модулен сървър, думата „преместване“ подвежда. Това не е просто носене на тежко, а контролирана инженерна операция с ясна отговорност.",
+            "points": [
+              {
+                "title": "Какво всъщност купувате с услугата",
+                "text": "Инженерно мислене, а не само мускули – правилно разчитане на тегло, център на тежестта, възможни „слабости“ на сградата и маршрута. Управление на риска – какво става, ако подът не издържи, ако се скъса ремък, ако машината „увисне“ на стълбището? Професионалната фирма има сценарии и решения за това. Защита на имидж и бизнес – повреден роял или медицински апарат не е само материален риск, а и репутационен, понякога и регулаторен."
+              },
+              {
+                "title": "Кога е грешка да спестите от специализирано преместване",
+                "text": "При тегло над няколкостотин килограма в комбинация с тесни стълби, старо строителство или сложни завои. При техника с висока стойност или сложна калибрация – медицинска, лабораторна, CNC, каси със специално закрепване. При обекти с ограничен достъп – банки, лечебни заведения, производства, където една грешна стъпка спира работа за ден. Специализираното преместване струва повече от „обикновено разтоварване“, но реалната алтернатива не е по-евтина фирма, а: повредено имущество, спрян процес и много обяснения „какво се обърка“."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "Застраховка, протоколи и реална отговорност при специализирано преместване",
+            "intro": "При обикновено местене на мебели хората рядко мислят за застраховка. При сейф, струг или апарат за десетки хиляди евро това е задължителен разговор.",
+            "points": [
+              {
+                "title": "Какво да попитате доставчика",
+                "text": "Какъв тип застраховка има фирмата? – обща отговорност, професионална отговорност, транспортна застраховка. Какъв е лимитът на покритие на едно събитие? – важно е да отговаря на реалната стойност на активите. Има ли опция за индивидуална полица за конкретния актив/операция при по-висока стойност или специфичен риск."
+              },
+              {
+                "title": "Ролята на протоколите",
+                "text": "Опис и състояние преди преместване – отбелязват се видими дефекти, особености, аксесоари. Протокол за приемане на позициониран обект – подписва се, след като вещта е на новото си място и клиентът е направил визуална проверка. При по-сложни обекти – записва се дали след преместването е нужна калибрация, включване от сервиз или производител."
+              },
+              {
+                "title": "Какво НЕ покрива специализираното преместване",
+                "text": "Функционални дефекти, появили се поради стара повреда или лоша поддръжка, които просто „излизат наяве“ при включване на новото място. Ситуации, при които клиентът променя в последния момент маршрута или условията и настоява за „компромисно“ решение, което е извън предварително договорения план."
               }
             ],
             "footer": [
-              "Колкото по-ясна е картината още преди огледа, толкова по-точна и сигурна ще е офертата – и толкова по-малко „изненади“ ще има в деня на преместването.",
-              "Когато говорим за сейф, роял, ЯМР, струг или модулен сървър, думата „преместване“ подвежда. Това не е просто носене на тежко, а контролирана инженерна операция с ясна отговорност."
-            ]
-          },
-          {
-            "title": "Какво всъщност купувате с услугата:",
-            "intro": "Инженерно мислене, а не само мускули – правилно разчитане на тегло, център на тежестта, възможни „слабости“ на сградата и маршрута.",
-            "points": [],
-            "footer": [
-              "Управление на риска – какво става, ако подът не издържи, ако се скъса ремък, ако машината „увисне“ на стълбището? Професионалната фирма има сценарии и решения за това.",
-              "Защита на имидж и бизнес – повреден роял или медицински апарат не е само материален риск, а и репутационен, понякога и регулаторен."
-            ]
-          },
-          {
-            "title": "Кога е грешка да спестите от специализирано преместване:",
-            "intro": "При тегло над няколкостотин килограма в комбинация с тесни стълби, старо строителство или сложни завои.",
-            "points": [
-              {
-                "title": "Застраховка, протоколи и реална отговорност при специализирано преместване",
-                "text": "При техника с висока стойност или сложна калибрация – медицинска, лабораторна, CNC, каси със специално закрепване."
-              }
-            ],
-            "footer": [
-              "При обекти с ограничен достъп – банки, лечебни заведения, производства, където една грешна стъпка спира работа за ден.",
-              "Специализираното преместване струва повече от „обикновено разтоварване“, но реалната алтернатива не е по-евтина фирма, а: повредено имущество, спрян процес и много обяснения „какво се обърка“.",
-              "При обикновено местене на мебели хората рядко мислят за застраховка. При сейф, струг или апарат за десетки хиляди евро това е задължителен разговор."
-            ]
-          },
-          {
-            "title": "Какво да попитате доставчика:",
-            "intro": "Какъв тип застраховка има фирмата? – обща отговорност, професионална отговорност, транспортна застраховка.",
-            "points": [],
-            "footer": [
-              "Какъв е лимитът на покритие на едно събитие? – важно е да отговаря на реалната стойност на активите.",
-              "Има ли опция за индивидуална полица за конкретния актив/операция при по-висока стойност или специфичен риск."
-            ]
-          },
-          {
-            "title": "Ролята на протоколите:",
-            "intro": "Опис и състояние преди преместване – отбелязват се видими дефекти, особености, аксесоари.",
-            "points": [],
-            "footer": [
-              "Протокол за приемане на позициониран обект – подписва се, след като вещта е на новото си място и клиентът е направил визуална проверка.",
-              "При по-сложни обекти – записва се дали след преместването е нужна калибрация, включване от сервиз или производител."
-            ]
-          },
-          {
-            "title": "Какво НЕ покрива специализираното преместване:",
-            "intro": "Функционални дефекти, появили се поради стара повреда или лоша поддръжка, които просто „излизат наяве“ при включване на новото място.",
-            "points": [],
-            "footer": [
-              "Ситуации, при които клиентът променя в последния момент маршрута или условията и настоява за „компромисно“ решение, което е извън предварително договорения план.",
               "Добрата практика е проста: ясен договор, ясна застраховка, ясни протоколи. Така и вие, и екипът по преместването знаете точно кой за какво отговаря – а най-ценните ви активи сменят адреса си спокойно и документално защитено."
             ]
           }
@@ -135,89 +107,61 @@
       },
       {
         "type": "service-topics",
-        "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "label": "Useful tips",
+        "heading": "Everything you need to know about Specialized Relocation",
         "topics": [
           {
-            "title": "Access and Working Hours:",
-            "intro": "Specify in advance the loading/unloading time windows — especially for hospitals, banks, malls, and business buildings.",
-            "points": [],
-            "footer": [
-              "Ensure reserved parking spaces for equipment and trucks — improvisation is often needed when space is lacking.",
-              "Clarify if there is a permit system, access cards, or escort — this avoids 'traffic jams' at the entrance."
-            ]
-          },
-          {
-            "title": "The route inside:",
-            "intro": "Clear corridors and stairs of boxes, furniture, stands, cables on the floor.",
-            "points": [],
-            "footer": [
-              "Specify in advance weak points — slippery floors, damaged steps, suspended ceilings, low door frames.",
-              "If work is to take place at night or in a closed area — provide lighting and a power source if needed."
-            ]
-          },
-          {
-            "title": "Documents and Responsibilities:",
-            "intro": "For equipment — locate serial numbers, manuals, assembly/disassembly diagrams, if available.",
+            "title": "How to Prepare the Site for Moving Heavy and Valuable Items",
+            "intro": "A well-prepared site shortens the team's time, reduces risk, and usually lowers the offer price. There are several things entirely under your control.",
             "points": [
               {
-                "title": "Why Specialized Relocation Is NOT Just 'Carrying Heavy Things'",
-                "text": "Clarify who on your side will sign the handover protocols and who will confirm the final placement on site."
+                "title": "Access and Working Hours",
+                "text": "Specify in advance the loading/unloading time windows — especially for hospitals, banks, malls, and business buildings. Ensure reserved parking spaces for equipment and trucks — improvisation is often needed when space is lacking. Clarify if there is a permit system, access cards, or escort — this avoids 'traffic jams' at the entrance."
+              },
+              {
+                "title": "The route inside",
+                "text": "Clear corridors and stairs of boxes, furniture, stands, cables on the floor. Specify in advance weak points — slippery floors, damaged steps, suspended ceilings, low door frames. If work is to take place at night or in a closed area — provide lighting and a power source if needed."
+              },
+              {
+                "title": "Documents and Responsibilities",
+                "text": "For equipment — locate serial numbers, manuals, assembly/disassembly diagrams, if available. Clarify who on your side will sign the handover protocols and who will confirm the final placement on site. The clearer the picture before inspection, the more accurate and secure the offer — and the fewer surprises on moving day."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "Why Specialized Relocation Is NOT Just 'Carrying Heavy Things'",
+            "intro": "When we talk about safes, pianos, MRI machines, lathes, or modular servers, the word 'moving' is misleading. It's not just carrying heavy things; it's a controlled engineering operation with clear responsibility.",
+            "points": [
+              {
+                "title": "What you actually get with the service",
+                "text": "Engineering thinking, not just muscle — proper weight distribution, center of gravity, potential structural weaknesses, and route assessment. Risk management — what happens if the floor can't support the weight, a strap breaks, or the machine gets stuck on stairs? Professional companies have scenarios and solutions. Protection of image and business — a damaged piano or medical device is not just a material risk, but also reputational, and sometimes regulatory."
+              },
+              {
+                "title": "When it’s a mistake to skimp on specialized moving",
+                "text": "For weights of several hundred kilograms combined with narrow stairs, old buildings, or complex turns. For high-value or complex calibration equipment — medical, laboratory, CNC machines, safes with special mounts. For sites with limited access — banks, healthcare facilities, production facilities, where one wrong step can stop work for a day. Specialized Relocation costs more than 'ordinary unloading,' but the real alternative is not a cheaper company — it’s damaged property, halted operations, and lots of explanations about 'what went wrong.'"
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "Insurance, Protocols, and Real Responsibility in Specialized Relocation",
+            "intro": "For ordinary furniture moving, people rarely think about insurance. For safes, lathes, or devices worth tens of thousands of euros, this is essential.",
+            "points": [
+              {
+                "title": "What to Ask the Provider",
+                "text": "What type of insurance does the company have? — general liability, professional liability, transport insurance. What is the coverage limit per event? — it should match the actual value of the assets. Is there an option for an individual policy for a specific asset/operation for higher value or specific risk."
+              },
+              {
+                "title": "Role of Protocols",
+                "text": "Description and condition before moving — note visible defects, special features, accessories. Handover protocol for positioned objects — signed once the item is in its new location and the client has visually checked it. For more complex items — record if calibration, servicing, or manufacturer involvement is required after moving."
+              },
+              {
+                "title": "What Specialized Relocation Does NOT Cover",
+                "text": "Functional defects that appear due to prior damage or poor maintenance, which only become visible when powered on at the new location. Situations where the client changes the route or conditions at the last moment and insists on a 'compromise' solution outside the agreed plan."
               }
             ],
             "footer": [
-              "The clearer the picture before inspection, the more accurate and secure the offer — and the fewer surprises on moving day.",
-              "When we talk about safes, pianos, MRI machines, lathes, or modular servers, the word 'moving' is misleading. It's not just carrying heavy things; it's a controlled engineering operation with clear responsibility."
-            ]
-          },
-          {
-            "title": "What you actually get with the service:",
-            "intro": "Engineering thinking, not just muscle — proper weight distribution, center of gravity, potential structural weaknesses, and route assessment.",
-            "points": [],
-            "footer": [
-              "Risk management — what happens if the floor can't support the weight, a strap breaks, or the machine gets stuck on stairs? Professional companies have scenarios and solutions.",
-              "Protection of image and business — a damaged piano or medical device is not just a material risk, but also reputational, and sometimes regulatory."
-            ]
-          },
-          {
-            "title": "When it’s a mistake to skimp on specialized moving:",
-            "intro": "For weights of several hundred kilograms combined with narrow stairs, old buildings, or complex turns.",
-            "points": [
-              {
-                "title": "Insurance, Protocols, and Real Responsibility in Specialized Relocation",
-                "text": "For high-value or complex calibration equipment — medical, laboratory, CNC machines, safes with special mounts."
-              }
-            ],
-            "footer": [
-              "For sites with limited access — banks, healthcare facilities, production facilities, where one wrong step can stop work for a day.",
-              "Specialized Relocation costs more than 'ordinary unloading,' but the real alternative is not a cheaper company — it’s damaged property, halted operations, and lots of explanations about 'what went wrong.'",
-              "For ordinary furniture moving, people rarely think about insurance. For safes, lathes, or devices worth tens of thousands of euros, this is essential."
-            ]
-          },
-          {
-            "title": "What to Ask the Provider:",
-            "intro": "What type of insurance does the company have? — general liability, professional liability, transport insurance.",
-            "points": [],
-            "footer": [
-              "What is the coverage limit per event? — it should match the actual value of the assets.",
-              "Is there an option for an individual policy for a specific asset/operation for higher value or specific risk."
-            ]
-          },
-          {
-            "title": "Role of Protocols:",
-            "intro": "Description and condition before moving — note visible defects, special features, accessories.",
-            "points": [],
-            "footer": [
-              "Handover protocol for positioned objects — signed once the item is in its new location and the client has visually checked it.",
-              "For more complex items — record if calibration, servicing, or manufacturer involvement is required after moving."
-            ]
-          },
-          {
-            "title": "What Specialized Relocation Does NOT Cover:",
-            "intro": "Functional defects that appear due to prior damage or poor maintenance, which only become visible when powered on at the new location.",
-            "points": [],
-            "footer": [
-              "Situations where the client changes the route or conditions at the last moment and insists on a 'compromise' solution outside the agreed plan.",
               "Good practice is simple: clear contract, clear insurance, clear protocols. This way, both you and the moving team know exactly who is responsible for what — and your most valuable assets change address safely and with documented protection."
             ]
           }

@@ -85,6 +85,14 @@ export default function Header({ locale, phone }: { locale: string; phone: strin
                       aria-label={t(`servicesSubmenu.${group.groupKey}`)}
                     >
                       <ul className="nav-dropdown-subs">
+                        <li>
+                          <Link
+                            href={hrefFor(group.main)}
+                            className="nav-dropdown-sub-link-accent"
+                          >
+                            {t("seeAllFor", { title: t(`servicesSubmenu.${group.groupKey}`) })}
+                          </Link>
+                        </li>
                         {group.items.map((item) => {
                           const itemPath = `/${item.href.join("/")}`;
                           const iconSrc = getServiceIcon(itemPath);
@@ -96,8 +104,8 @@ export default function Header({ locale, phone }: { locale: string; phone: strin
                                   <Image
                                     src={iconSrc}
                                     alt=""
-                                    width={28}
-                                    height={28}
+                                    width={36}
+                                    height={36}
                                     className="nav-dropdown-sub-icon"
                                     aria-hidden
                                   />
@@ -107,11 +115,6 @@ export default function Header({ locale, phone }: { locale: string; phone: strin
                             </li>
                           );
                         })}
-                        <li>
-                          <Link href={hrefFor(group.main)}>
-                            {t("seeAll")}
-                          </Link>
-                        </li>
                       </ul>
                     </div>
                   </div>

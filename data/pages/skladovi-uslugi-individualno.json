@@ -41,7 +41,7 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Индивидуално складиране",
         "topics": [
           {
             "title": "Как протича процесът при индивидуално складиране – от вратата до стелажа",
@@ -165,7 +165,7 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Personal Storage",
         "topics": [
           {
             "title": "How the personal storage process works – from door to shelf",

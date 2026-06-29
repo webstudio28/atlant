@@ -21,19 +21,23 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Въздушен транспорт",
         "topics": [
           {
-            "title": "Кога въздушният транспорт има смисъл:",
-            "intro": "Спиране или риск от спиране на производствена линия, ако резервната част закъснее.",
+            "title": "Кога въздушният транспорт е оправдан разход",
+            "intro": "Въздушният транспорт е най-бързият, но и най-скъпият. Има ситуации, в които не е просто „лукс“, а чисто бизнес решение – особено когато изберете правилния тип въздушна услуга.",
             "points": [
+              {
+                "title": "Кога въздушният транспорт има смисъл",
+                "text": "Спиране или риск от спиране на производствена линия, ако резервната част закъснее."
+              },
               {
                 "title": "Спешни доставки",
                 "text": "Спешни медицински, технологични или договорно обвързани доставки."
               },
               {
-                "title": "Високостойностни и компактни стоки",
-                "text": "Електроника, компоненти, мостови доставки и критични консумативи, при които времето е по-важно от разликата в цената."
+                "title": "Високостойностни, леки и компактни стоки",
+                "text": "Високостойностни, леки и компактни стоки – електроника, компоненти, мостови доставки, критични консумативи."
               }
             ],
             "footer": [
@@ -41,11 +45,11 @@
             ]
           },
           {
-            "title": "Тегло срещу обем: защо при въздуха плащате „обемно тегло“",
-            "intro": "При въздушния транспорт ключов фактор е обемното тегло. Лек, но обемен товар заема ценен обем в самолета и се таксува по формула, която превръща кубиците в „килограми“.",
+            "title": "Тегло срещу обем: защо при въздуха плащате „обемно тегло“ – и как се отразява при различните услуги",
+            "intro": "При въздушния транспорт ключов фактор е обемното тегло. Лек, но обемен товар заема ценен обем в самолета и се таксува по формула, която превръща кубиците в „килограми“. Това важи както за general cargo, така и за belly cargo, но ефектът се усеща особено силно при малки, но обемни пратки.",
             "points": [
               {
-                "title": "General Cargo",
+                "title": "Какво да имате предвид: General Cargo",
                 "text": "При карго полети често се превозват палетизирани и по-големи пратки – оптимизираната палетизация и компактното подреждане могат да спестят сериозни разходи."
               },
               {
@@ -62,7 +66,7 @@
             ]
           },
           {
-            "title": "Как изглежда една въздушна пратка „от врата до врата“",
+            "title": "Как изглежда една въздушна пратка „от врата до врата“ – от избора на полет до доставката",
             "intro": "Въздушният транспорт не е просто полет от точка А до точка Б. Това е цяла логистична верига, в която Atlant Logistics & Relocations управлява всички етапи – включително избора дали да се ползва карго полет или belly cargo.",
             "points": [
               {
@@ -71,7 +75,7 @@
               },
               {
                 "title": "Избор на тип въздушен превоз",
-                "text": "На база обем, срок и специфики на товара се избира карго полет (General Cargo) при палетизирани, по-големи или специални стоки, или Belly Cargo при по-малки, спешни или високостойностни пратки с ограничен обем."
+                "text": "На база обем, срок и специфики на товара (фарма, техника, оборудване, мостри) се избира: карго полет (General Cargo) – при палетизирани, по-големи или специални стоки; Belly Cargo – при по-малки, спешни или високостойностни пратки с ограничен обем."
               },
               {
                 "title": "Обработка на карго терминал",
@@ -124,19 +128,23 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Air Transport",
         "topics": [
           {
-            "title": "When air transport makes sense:",
-            "intro": "Production line stoppage or risk of stoppage if a spare part is delayed.",
+            "title": "When air transport is a justified expense",
+            "intro": "Air transport is the fastest, but also the most expensive. There are situations where it is not a “luxury” but a pure business decision – especially when you choose the right type of air service.",
             "points": [
+              {
+                "title": "When air transport makes sense",
+                "text": "Production line stoppage or risk of stoppage if a spare part is delayed."
+              },
               {
                 "title": "Urgent deliveries",
                 "text": "Urgent medical, technological, or contract-bound deliveries."
               },
               {
-                "title": "High-value and compact goods",
-                "text": "Electronics, components, bridge shipments, and critical consumables where time matters more than the price difference."
+                "title": "High-value, light, and compact goods",
+                "text": "High-value, light, and compact goods – electronics, components, bridge shipments, critical consumables."
               }
             ],
             "footer": [
@@ -144,11 +152,11 @@
             ]
           },
           {
-            "title": "Weight vs volume: why you pay “volumetric weight” in air freight",
-            "intro": "In air transport, volumetric weight is a key factor. Light but bulky cargo occupies valuable aircraft space and is charged using a formula that converts cubic volume into “kilograms.”",
+            "title": "Weight vs volume: why you pay “volumetric weight” in air freight – and how it affects different services",
+            "intro": "In air transport, volumetric weight is a key factor. Light but bulky cargo occupies valuable aircraft space and is charged using a formula that converts cubic volume into “kilograms.” This applies to both general cargo and belly cargo, but is especially noticeable for small yet bulky shipments.",
             "points": [
               {
-                "title": "General Cargo",
+                "title": "What to keep in mind: General Cargo",
                 "text": "On cargo flights, palletized and larger shipments are often transported – optimized palletization and compact stacking can save significant costs."
               },
               {
@@ -165,7 +173,7 @@
             ]
           },
           {
-            "title": "What a door-to-door air shipment looks like",
+            "title": "What a door-to-door air shipment looks like – from flight selection to final delivery",
             "intro": "Air transport is not just a flight from point A to point B. It is a complete logistics chain managed by Atlant Logistics & Relocations – including the choice between cargo flight and belly cargo.",
             "points": [
               {
@@ -174,7 +182,7 @@
               },
               {
                 "title": "Selection of air transport type",
-                "text": "Based on volume, deadline, and cargo specifics, a cargo flight is selected for palletized, larger, or special goods, or Belly Cargo for smaller, urgent, or high-value shipments with limited volume."
+                "text": "Based on the volume, deadlines, and specifics of the cargo (pharmaceuticals, electronics, equipment, samples), the following is selected: Cargo flight (General Cargo) – for palletized, larger, or special goods; Belly Cargo – for smaller, urgent, or high-value shipments with limited volume."
               },
               {
                 "title": "Cargo terminal handling",

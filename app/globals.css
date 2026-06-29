@@ -381,10 +381,22 @@ body {
 }
 
 .nav-dropdown-sub-icon {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   flex-shrink: 0;
   object-fit: contain;
+}
+
+.nav-dropdown-sub-link-accent {
+  color: #F26A21 !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(242, 106, 33, 0.45);
+}
+
+.nav-dropdown-sub-link-accent:hover {
+  color: #F26A21 !important;
+  background: rgba(242, 106, 33, 0.06);
 }
 
 .header-phone-link {

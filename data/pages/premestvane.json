@@ -64,11 +64,11 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Всичко, което трябва да знаете при избора на фирма за преместване",
+        "heading": "Всичко, което трябва да знаете за Премествания",
         "topics": [
           {
-            "title": "Как да изберем правилната фирма за преместване",
-            "intro": "Правилният партньор се познава по опит, ясна оферта и поети отговорности:",
+            "title": "Как да изберем правилната фирма за преместване?",
+            "intro": "",
             "points": [
               {
                 "title": "Опит и специализация",
@@ -79,8 +79,12 @@
                 "text": "Оглед на място или видео-оглед, инвентарен списък и оферта с обем, етажност, достъп, опаковки, техника, срокове."
               },
               {
+                "title": "Договор и отговорник",
+                "text": "Писмен договор, един контактен отговорник, график и протоколи по етапи."
+              },
+              {
                 "title": "Застраховка и отговорности",
-                "text": "Договор и отговорник Писмен договор, един контактен отговорник, график и протоколи по етапи. Професионална отговорност/карго; описана процедура при щети и лимити на покритие."
+                "text": "Професионална отговорност/карго; описана процедура при щети и лимити на покритие."
               },
               {
                 "title": "Екип и техника",
@@ -89,130 +93,136 @@
               {
                 "title": "Прозрачно ценообразуване",
                 "text": "Включено/невключено: паркинг, носене на дълги разстояния, стълби/без асансьор, вечер/уикенд тарифи, опаковъчни материали."
-              }
-            ],
-            "footer": [
-              "Складиране и международна координация (ако трябват)",
-              "Протоколи, снимков контрол, етапни отчети/подписване.",
-              "Проследимост и отчетност",
-              "Протоколи, снимков контрол, отчетност по етапи."
-            ]
-          },
-          {
-            "title": "Какво получавате с професионално преместване",
-            "intro": "Единен процес от първия оглед до финалната подредба включва:",
-            "points": [
-              {
-                "title": "Един отговорник и ясен график – координация от първия оглед до финалната подредба.",
-                "text": "Защита на вещите – професионално опаковане, маркиране и контрол при товаро-разтоварни дейности."
               },
               {
-                "title": "Подходяща техника – бусове с падащ борд, камиони с кран, мотокари и екипи за прецизен ръчен труд.",
-                "text": "Временно складиране – сух режим, сигурност и бърз достъп при нужда."
+                "title": "Складиране и международна координация (ако трябват)",
+                "text": "Протоколи, снимков контрол, етапни отчети/подписване."
               },
               {
-                "title": "Международна логистика – координация на маршрути, документи и митническо съдействие.",
-                "text": "Проследимост и сигурност – отчетност по етапи, застраховка по избор."
-              },
-              {
-                "title": "Работим бързо, организирано и без загуба на време – от съседния квартал до друга държава.",
-                "text": ""
+                "title": "Проследимост и отчетност",
+                "text": "Протоколи, снимков контрол, отчетност по етапи."
               }
             ],
             "footer": []
           },
           {
-            "title": "Червени флагове и разликата спрямо самостоятелното преместване",
-            "intro": "Преди да изберете изпълнител, обърнете внимание на тези сигнали – и сравнете с реалната цена на „направи си сам“:",
-            "points": [
-              {
-                "title": "Само устни оферти",
-                "text": "Ако видите това в офертата или комуникацията, потърсете писмени условия, договор и ясни отговорности."
-              },
-              {
-                "title": "„Невъзможно ниска“ цена",
-                "text": "Ако видите това в офертата или комуникацията, потърсете писмени условия, договор и ясни отговорности."
-              },
-              {
-                "title": "Искане за аванс в брой без договор",
-                "text": "Ако видите това в офертата или комуникацията, потърсете писмени условия, договор и ясни отговорности."
-              },
-              {
-                "title": "Липса на адрес или застраховка",
-                "text": "Ако видите това в офертата или комуникацията, потърсете писмени условия, договор и ясни отговорности."
-              },
-              {
-                "title": "Общи обещания без конкретика",
-                "text": "Ако видите това в офертата или комуникацията, потърсете писмени условия, договор и ясни отговорности."
-              },
-              {
-                "title": "Скорост",
-                "text": "С професионален екип: Експедитивност и следване на план При самостоятелен вариант: Дълъг процес с неясен край"
-              },
-              {
-                "title": "Планиране и координация",
-                "text": "С професионален екип: Един координатор, детайлен график по етапи При самостоятелен вариант: Импровизация, чести връщания назад"
-              },
-              {
-                "title": "Сигурност",
-                "text": "С професионален екип: Обучен персонал, опит, застраховка При самостоятелен вариант: Риск от повреди и травми; отговорността е ваша"
-              },
-              {
-                "title": "Опаковане",
-                "text": "С професионален екип: Професионални материали и техники; маркиране „Чупливо“ При самостоятелен вариант: Случайни материали; слаб контрол и проследимост"
-              },
-              {
-                "title": "Техника и оборудване",
-                "text": "С професионален екип: Бусове/камиони с падащ борд, ремъци, колички, защитни покривала При самостоятелен вариант: Липса на техника или неподходящ наем"
-              },
-              {
-                "title": "Достъп и паркиране",
-                "text": "С професионален екип: Съдействие с разрешителни, резервация на асансьори При самостоятелен вариант: Губене на време, глоби/такси при грешки"
-              },
-              {
-                "title": "Отговорност и документи",
-                "text": "С професионален екип: Договор, приемо-предавателни протоколи При самостоятелен вариант: Обикновено липсват; спорни ситуации"
-              },
-              {
-                "title": "Проследимост и комуникация",
-                "text": "С професионален екип: Статус по етапи, един контакт При самостоятелен вариант: „Кой какво прави?“ – много канали, без отчетност"
-              },
-              {
-                "title": "Времеви прозорци",
-                "text": "С професионален екип: Работа вечер/уикенд за минимален престой При самостоятелен вариант: Само когато намерите хора и транспорт"
-              },
-              {
-                "title": "Междинно съхранение",
-                "text": "С професионален екип: Складови площи със сух режим, контрол на достъпа При самостоятелен вариант: Обикновено липсва решение"
-              },
-              {
-                "title": "Щети върху общи части",
-                "text": "С професионален екип: Защитни ъгли/покрития, чисто предаване При самостоятелен вариант: Възможни щети и такси"
-              },
-              {
-                "title": "Финален резултат",
-                "text": "С професионален екип: Готов за работа/живеене, подредено При самостоятелен вариант: Безредие, хаос, нужда от допълнителни дни"
-              },
-              {
-                "title": "Цена",
-                "text": "С професионален екип: Предвидима – фиксирана/почасова оферта При самостоятелен вариант: Скривани разходи (материали, гориво, пропуснати ползи)"
-              },
-              {
-                "title": "Стрес",
-                "text": "С професионален екип: Минимален При самостоятелен вариант: Висок"
-              },
-              {
-                "title": "Тежки/обемни предмети",
-                "text": "С професионален екип: Подходи за сейфове, пиана, уреди; екипи за ръчен труд При самостоятелен вариант: Висок риск от нараняване и щети"
-              },
-              {
-                "title": "Международно преместване",
-                "text": "С професионален екип: Съдействие с опаковъчни листи/митници, координация на транзит При самостоятелен вариант: Самостоятелно проучване; риск от забавяния"
-              }
-            ],
+            "title": "Какво получавате?",
+            "intro": "",
+            "points": [],
             "footer": [
-              "Професионалното преместване не е само транспорт – то е координация, защита и предвидим график. Самостоятелният вариант често изглежда по-евтин, докато не се появят скрити разходи, забавяния и риск."
+              "Един отговорник и ясен график – координация от първия оглед до финалната подредба.",
+              "Защита на вещите – професионално опаковане, маркиране и контрол при товаро-разтоварни дейности.",
+              "Подходяща техника – бусове с падащ борд, камиони с кран, мотокари и екипи за прецизен ръчен труд.",
+              "Временно складиране – сух режим, сигурност и бърз достъп при нужда.",
+              "Международна логистика – координация на маршрути, документи и митническо съдействие.",
+              "Проследимост и сигурност – отчетност по етапи, застраховка по избор.",
+              "Работим бързо, организирано и без загуба на време – от съседния квартал до друга държава.",
+              "Вие избирате — ние планираме, изпълняваме и отчитаме."
             ]
+          },
+          {
+            "title": "Червени флагове:",
+            "intro": "",
+            "points": [],
+            "footer": [
+              "Само устни оферти",
+              "„Невъзможно ниска“ цена",
+              "Искане за аванс в брой без договор",
+              "Липса на адрес или застраховка",
+              "Общи обещания без конкретика"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "comparison-table",
+        "label": "Сравнение",
+        "heading": "Разликата между самостоятелно преместване срещу професионална услуга",
+        "columns": [
+          "Критерий",
+          "С Atlant Relocations",
+          "Самостоятелно"
+        ],
+        "rows": [
+          {
+            "criterion": "Скорост",
+            "left": "Експедитивност и следване на план",
+            "right": "Дълъг процес с неясен край"
+          },
+          {
+            "criterion": "Планиране и координация",
+            "left": "Един координатор, детайлен график по етапи",
+            "right": "Импровизация, чести връщания назад"
+          },
+          {
+            "criterion": "Сигурност",
+            "left": "Обучен персонал, опит, застраховка",
+            "right": "Риск от повреди и травми; отговорността е ваша"
+          },
+          {
+            "criterion": "Опаковане",
+            "left": "Професионални материали и техники; маркиране „Чупливо“",
+            "right": "Случайни материали; слаб контрол и проследимост"
+          },
+          {
+            "criterion": "Техника и оборудване",
+            "left": "Бусове/камиони с падащ борд, ремъци, колички, защитни покривала",
+            "right": "Липса на техника или неподходящ наем"
+          },
+          {
+            "criterion": "Достъп и паркиране",
+            "left": "Съдействие с разрешителни, резервация на асансьори",
+            "right": "Губене на време, глоби/такси при грешки"
+          },
+          {
+            "criterion": "Отговорност и документи",
+            "left": "Договор, приемо-предавателни протоколи",
+            "right": "Обикновено липсват; спорни ситуации"
+          },
+          {
+            "criterion": "Проследимост и комуникация",
+            "left": "Статус по етапи, един контакт",
+            "right": "„Кой какво прави?“ – много канали, без отчетност"
+          },
+          {
+            "criterion": "Времеви прозорци",
+            "left": "Работа вечер/уикенд за минимален престой",
+            "right": "Само когато намерите хора и транспорт"
+          },
+          {
+            "criterion": "Междинно съхранение",
+            "left": "Складови площи със сух режим, контрол на достъпа",
+            "right": "Обикновено липсва решение"
+          },
+          {
+            "criterion": "Щети върху общи части",
+            "left": "Защитни ъгли/покрития, чисто предаване",
+            "right": "Възможни щети и такси"
+          },
+          {
+            "criterion": "Финален резултат",
+            "left": "Готов за работа/живеене, подредено",
+            "right": "Безредие, хаос, нужда от допълнителни дни"
+          },
+          {
+            "criterion": "Цена",
+            "left": "Предвидима – фиксирана/почасова оферта",
+            "right": "Скривани разходи (материали, гориво, пропуснати ползи)"
+          },
+          {
+            "criterion": "Стрес",
+            "left": "Минимален",
+            "right": "Висок"
+          },
+          {
+            "criterion": "Тежки/обемни предмети",
+            "left": "Подходи за сейфове, пиана, уреди; екипи за ръчен труд",
+            "right": "Висок риск от нараняване и щети"
+          },
+          {
+            "criterion": "Международно преместване",
+            "left": "Съдействие с опаковъчни листи/митници, координация на транзит",
+            "right": "Самостоятелно проучване; риск от забавяния"
           }
         ]
       }
@@ -283,11 +293,11 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Everything you need to know when choosing a moving company",
+        "heading": "Everything you need to know about Relocations",
         "topics": [
           {
-            "title": "How to choose the right moving company",
-            "intro": "The right partner stands out through experience, a clear offer, and assumed responsibilities:",
+            "title": "How to choose the right moving company?",
+            "intro": "",
             "points": [
               {
                 "title": "Experience and specialization",
@@ -298,8 +308,12 @@
                 "text": "On-site or video inspection, inventory list, and offer including volume, floors, access, packing, equipment, timelines."
               },
               {
+                "title": "Contract and responsible person",
+                "text": "Written contract, single contact person, schedule, and stage protocols."
+              },
+              {
                 "title": "Insurance and responsibilities",
-                "text": "Contract and responsible person Written contract, single contact person, schedule, and stage protocols. Professional liability/cargo; documented procedure for damages and coverage limits."
+                "text": "Professional liability/cargo; documented procedure for damages and coverage limits."
               },
               {
                 "title": "Team and equipment",
@@ -308,126 +322,136 @@
               {
                 "title": "Transparent pricing",
                 "text": "Included/excluded: parking, long-distance carrying, stairs/no elevator, evening/weekend rates, packing materials."
-              }
-            ],
-            "footer": [
-              "Storage and international coordination (if needed)",
-              "Protocols, photo checks, stage reports/signatures.",
-              "Traceability and reporting",
-              "Protocols, photo control, stage-by-stage reporting."
-            ]
-          },
-          {
-            "title": "What you get with professional relocation",
-            "intro": "A single process from the first inspection to final setup includes:",
-            "points": [
-              {
-                "title": "One point of contact and a clear schedule – coordination from the first inspection to final setup.",
-                "text": "Protection of belongings – professional packing, labeling, and control during loading/unloading activities."
               },
               {
-                "title": "Appropriate equipment – vans with tail lifts, trucks with cranes, forklifts, and teams for precise manual work.",
-                "text": "Temporary storage – dry conditions, security, and quick access if needed."
+                "title": "Storage and international coordination (if needed)",
+                "text": "Protocols, photo checks, stage reports/signatures."
               },
               {
-                "title": "International logistics – coordination of routes, documents, and customs support.",
-                "text": "Traceability and security – stage-by-stage reporting, optional insurance."
+                "title": "Traceability and reporting",
+                "text": "Protocols, photo control, stage-by-stage reporting."
               }
             ],
             "footer": []
           },
           {
-            "title": "Red flags and how DIY moving compares",
-            "intro": "Before you choose a provider, watch for these signals – and compare them with the real cost of DIY:",
-            "points": [
-              {
-                "title": "Only verbal offers",
-                "text": "If you see this in the offer or communication, insist on written terms, a contract, and clear accountability."
-              },
-              {
-                "title": "“Impossible low” price",
-                "text": "If you see this in the offer or communication, insist on written terms, a contract, and clear accountability."
-              },
-              {
-                "title": "Request for cash advance without contract",
-                "text": "If you see this in the offer or communication, insist on written terms, a contract, and clear accountability."
-              },
-              {
-                "title": "No address or insurance",
-                "text": "If you see this in the offer or communication, insist on written terms, a contract, and clear accountability."
-              },
-              {
-                "title": "General promises without specifics",
-                "text": "If you see this in the offer or communication, insist on written terms, a contract, and clear accountability."
-              },
-              {
-                "title": "Speed",
-                "text": "With a professional crew: Expediency and following the plan When doing it yourself: Long process with unclear end"
-              },
-              {
-                "title": "Planning and coordination",
-                "text": "With a professional crew: One coordinator, detailed stage-by-stage schedule When doing it yourself: Improvisation, frequent backtracking"
-              },
-              {
-                "title": "Security",
-                "text": "With a professional crew: Trained staff, experience, insurance When doing it yourself: Risk of damage and injury; responsibility is yours"
-              },
-              {
-                "title": "Packing",
-                "text": "With a professional crew: Professional materials and techniques; labeled 'Fragile' When doing it yourself: Random materials; weak control and traceability"
-              },
-              {
-                "title": "Equipment",
-                "text": "With a professional crew: Vans/trucks with tail lift, straps, trolleys, protective covers When doing it yourself: No equipment or unsuitable rental"
-              },
-              {
-                "title": "Access and parking",
-                "text": "With a professional crew: Assistance with permits, elevator reservation When doing it yourself: Time loss, fines/fees for mistakes"
-              },
-              {
-                "title": "Responsibility and documents",
-                "text": "With a professional crew: Contract, handover protocols When doing it yourself: Usually missing; disputed situations"
-              },
-              {
-                "title": "Traceability and communication",
-                "text": "With a professional crew: Status by stage, single contact When doing it yourself: ‘Who does what?’ – many channels, no accountability"
-              },
-              {
-                "title": "Time windows",
-                "text": "With a professional crew: Work evening/weekend for minimal downtime When doing it yourself: Only when you find people and transport"
-              },
-              {
-                "title": "Intermediate storage",
-                "text": "With a professional crew: Warehouse areas with dry conditions, access control When doing it yourself: Usually no solution"
-              },
-              {
-                "title": "Damage to common areas",
-                "text": "With a professional crew: Protective corners/covers, clean handover When doing it yourself: Possible damages and fees"
-              },
-              {
-                "title": "Final result",
-                "text": "With a professional crew: Ready to work/live, organized When doing it yourself: Disorder, chaos, need for extra days"
-              },
-              {
-                "title": "Price",
-                "text": "With a professional crew: Predictable – fixed/hourly offer When doing it yourself: Hidden costs (materials, fuel, lost benefits)"
-              },
-              {
-                "title": "Stress",
-                "text": "With a professional crew: Minimal When doing it yourself: High"
-              },
-              {
-                "title": "Heavy/bulky items",
-                "text": "With a professional crew: Approach for safes, pianos, appliances; teams for manual labor When doing it yourself: High risk of injury and damage"
-              },
-              {
-                "title": "International move",
-                "text": "With a professional crew: Assistance with packing lists/customs, transit coordination When doing it yourself: Self-research; risk of delays"
-              }
-            ],
+            "title": "What do you get?",
+            "intro": "",
+            "points": [],
             "footer": [
-              "Professional relocation is not just transport – it is coordination, protection, and a predictable schedule. DIY often looks cheaper until hidden costs, delays, and risk appear."
+              "One point of contact and a clear schedule – coordination from the first inspection to final setup.",
+              "Protection of belongings – professional packing, labeling, and control during loading/unloading activities.",
+              "Appropriate equipment – vans with tail lifts, trucks with cranes, forklifts, and teams for precise manual work.",
+              "Temporary storage – dry conditions, security, and quick access if needed.",
+              "International logistics – coordination of routes, documents, and customs support.",
+              "Traceability and security – stage-by-stage reporting, optional insurance.",
+              "We work quickly, organized, and without wasted time – from the neighboring district to another country.",
+              "You choose — we plan, execute, and report."
             ]
+          },
+          {
+            "title": "Red flags:",
+            "intro": "",
+            "points": [],
+            "footer": [
+              "Only verbal offers",
+              "“Impossible low” price",
+              "Request for cash advance without contract",
+              "No address or insurance",
+              "General promises without specifics"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "comparison-table",
+        "label": "Comparison",
+        "heading": "The difference between self-moving versus professional service",
+        "columns": [
+          "Criterion",
+          "With Atlant Relocations",
+          "Self-moving"
+        ],
+        "rows": [
+          {
+            "criterion": "Speed",
+            "left": "Expediency and following the plan",
+            "right": "Long process with unclear end"
+          },
+          {
+            "criterion": "Planning and coordination",
+            "left": "One coordinator, detailed stage-by-stage schedule",
+            "right": "Improvisation, frequent backtracking"
+          },
+          {
+            "criterion": "Security",
+            "left": "Trained staff, experience, insurance",
+            "right": "Risk of damage and injury; responsibility is yours"
+          },
+          {
+            "criterion": "Packing",
+            "left": "Professional materials and techniques; labeled 'Fragile'",
+            "right": "Random materials; weak control and traceability"
+          },
+          {
+            "criterion": "Equipment",
+            "left": "Vans/trucks with tail lift, straps, trolleys, protective covers",
+            "right": "No equipment or unsuitable rental"
+          },
+          {
+            "criterion": "Access and parking",
+            "left": "Assistance with permits, elevator reservation",
+            "right": "Time loss, fines/fees for mistakes"
+          },
+          {
+            "criterion": "Responsibility and documents",
+            "left": "Contract, handover protocols",
+            "right": "Usually missing; disputed situations"
+          },
+          {
+            "criterion": "Traceability and communication",
+            "left": "Status by stage, single contact",
+            "right": "‘Who does what?’ – many channels, no accountability"
+          },
+          {
+            "criterion": "Time windows",
+            "left": "Work evening/weekend for minimal downtime",
+            "right": "Only when you find people and transport"
+          },
+          {
+            "criterion": "Intermediate storage",
+            "left": "Warehouse areas with dry conditions, access control",
+            "right": "Usually no solution"
+          },
+          {
+            "criterion": "Damage to common areas",
+            "left": "Protective corners/covers, clean handover",
+            "right": "Possible damages and fees"
+          },
+          {
+            "criterion": "Final result",
+            "left": "Ready to work/live, organized",
+            "right": "Disorder, chaos, need for extra days"
+          },
+          {
+            "criterion": "Price",
+            "left": "Predictable – fixed/hourly offer",
+            "right": "Hidden costs (materials, fuel, lost benefits)"
+          },
+          {
+            "criterion": "Stress",
+            "left": "Minimal",
+            "right": "High"
+          },
+          {
+            "criterion": "Heavy/bulky items",
+            "left": "Approach for safes, pianos, appliances; teams for manual labor",
+            "right": "High risk of injury and damage"
+          },
+          {
+            "criterion": "International move",
+            "left": "Assistance with packing lists/customs, transit coordination",
+            "right": "Self-research; risk of delays"
           }
         ]
       }

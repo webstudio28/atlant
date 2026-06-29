@@ -37,26 +37,29 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Корпоративно складиране",
         "topics": [
           {
             "title": "Как изглежда „здравият“ корпоративен склад отвътре",
-            "intro": "Всяка палета, партида или кашон има своя „история“ – откъде идва, къде е позициониран, кога влиза и кога излиза. Това позволява бърза реакция при рекламации, изтегляния на партиди или проверки.",
+            "intro": "За много компании складът все още се възприема като разход – квадратни метри и персонал. В реалност добре организираното корпоративно складиране е информационен център, който поддържа целия бизнес в ритъм.",
             "points": [
               {
                 "title": "Пълна проследимост",
-                "text": "За храни, козметика, консумативи и чувствителни стоки е критично да се спазва логика на ротация. Добрата WMS система и ясните процеси гарантират, че складът не се превръща в „черна кутия“ със скрит риск от бракове."
+                "text": "Всяка палета, партида или кашон има своя „история“ – откъде идва, къде е позициониран, кога влиза и кога излиза. Това позволява бърза реакция при рекламации, изтегляния на партиди или проверки."
               },
               {
                 "title": "Работа с срокове и партиди (FIFO/FEFO)",
-                "text": "Отчетите от склада не са само инвентар – те дават информация за оборотност, залежали стоки, натоварване по сезони и ефективност на операциите. Това подпомага решения за покупки, маркетинг и дистрибуция."
+                "text": "За храни, козметика, консумативи и чувствителни стоки е критично да се спазва логика на ротация. Добрата WMS система и ясните процеси гарантират, че складът не се превръща в „черна кутия“ със скрит риск от бракове."
               },
               {
                 "title": "Реални данни за управлението",
-                "text": "При такъв подход корпоративното складиране не е просто място за „държане на палети“, а инструмент за управление на риска, разходите и клиентското обслужване."
+                "text": "Отчетите от склада не са само инвентар – те дават информация за оборотност, залежали стоки, натоварване по сезони и ефективност на операциите. Това подпомага решения за покупки, маркетинг и дистрибуция."
               }
             ],
-            "footer": []
+            "footer": [
+              "Какво означава това на практика:",
+              "При такъв подход корпоративното складиране не е просто място за „държане на палети“, а инструмент за управление на риска, разходите и клиентското обслужване."
+            ]
           },
           {
             "title": "Собствен срещу външен склад: кога е време да прехвърлите логистиката на партньор",
@@ -89,15 +92,15 @@
           },
           {
             "title": "Складът като „буфер“ в динамични вериги на доставки",
-            "intro": "В реалния бизнес поръчките, доставките и производството не се движат винаги в идеален синхрон. Корпоративното складиране може да играе ролята на буфер, който „обира“ тази динамика. Когато стоката пристига на големи партиди, а излиза към клиенти на по-малки доставки, складът поема разликата във време и обем, без да блокира пристанища, рампи или дворове.",
+            "intro": "В реалния бизнес поръчките, доставките и производството не се движат винаги в идеален синхрон. Корпоративното складиране може да играе ролята на буфер, който „обира“ тази динамика.",
             "points": [
               {
                 "title": "При внос и износ",
-                "text": "Суровини и компоненти могат да се складират предварително, за да не спира производството при забавяне на доставчици. Готовата продукция се задържа до удобен момент за дистрибуция."
+                "text": "Когато стоката пристига на големи партиди, а излиза към клиенти на по-малки доставки. Складът поема разликата във време и обем, без да блокира пристанища, рампи или дворове."
               },
               {
                 "title": "При производство с променливо натоварване",
-                "text": "Суровини и компоненти могат да се складират предварително, за да не спира производството при забавяне на доставчици."
+                "text": "Суровини и компоненти могат да се складират предварително, за да не спира производството при забавяне на доставчици. Готовата продукция се задържа до удобен момент за дистрибуция."
               },
               {
                 "title": "При сезонни пикове и промоции",
@@ -105,6 +108,7 @@
               }
             ],
             "footer": [
+              "Къде е критично този буфер да съществува:",
               "Когато този буфер е организиран в професионален склад с WMS и ясни процеси, компанията не живее „от камион до камион“, а управлява ритъма на своята верига на доставки.",
               { "type": "inquiry", "label": "Заяви Корпоративно Складиране" }
             ]
@@ -151,26 +155,29 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Corporate Warehousing and Storage",
         "topics": [
           {
             "title": "What a “healthy” corporate warehouse looks like from the inside",
-            "intro": "Each pallet, batch, or box has its own “history” — where it comes from, where it is positioned, when it enters and exits. This allows a quick response to complaints, batch recalls, or inspections.",
+            "intro": "For many companies, the warehouse is still perceived as a cost – square meters and staff. In reality, a well-organized corporate warehouse is an information center that keeps the entire business in rhythm.",
             "points": [
               {
                 "title": "Full traceability",
-                "text": "For food, cosmetics, consumables, and sensitive goods, it is critical to follow rotation logic. A good WMS system and clear processes ensure that the warehouse does not become a “black box” with hidden risk of defects."
+                "text": "Each pallet, batch, or box has its own “history” — where it comes from, where it is positioned, when it enters and exits. This allows a quick response to complaints, batch recalls, or inspections."
               },
               {
                 "title": "Working with expiry dates and batches (FIFO/FEFO)",
-                "text": "Warehouse reports are not just inventory — they provide information on turnover, stagnant goods, seasonal workload, and operational efficiency. This supports decisions for purchasing, marketing, and distribution."
+                "text": "For food, cosmetics, consumables, and sensitive goods, it is critical to follow rotation logic. A good WMS system and clear processes ensure that the warehouse does not become a “black box” with hidden risk of defects."
               },
               {
                 "title": "Real management data",
-                "text": "With this approach, corporate warehousing is not just a place to “hold pallets,” but a tool for managing risk, costs, and customer service."
+                "text": "Warehouse reports are not just inventory — they provide information on turnover, stagnant goods, seasonal workload, and operational efficiency. This supports decisions for purchasing, marketing, and distribution."
               }
             ],
-            "footer": []
+            "footer": [
+              "What does this mean in practice:",
+              "With this approach, corporate warehousing is not just a place to “hold pallets,” but a tool for managing risk, costs, and customer service."
+            ]
           },
           {
             "title": "Own vs. external warehouse: when it’s time to transfer logistics to a partner",
@@ -203,15 +210,15 @@
           },
           {
             "title": "The warehouse as a “buffer” in dynamic supply chains",
-            "intro": "In real business, orders, deliveries, and production do not always move in perfect sync. Corporate warehousing can act as a buffer that “absorbs” this dynamics. When goods arrive in large batches and leave to customers in smaller deliveries, the warehouse absorbs the difference in time and volume without blocking ports, ramps, or yards.",
+            "intro": "In real business, orders, deliveries, and production do not always move in perfect sync. Corporate warehousing can act as a buffer that “absorbs” this dynamics.",
             "points": [
               {
                 "title": "For imports and exports",
-                "text": "Raw materials and components can be stored in advance so that production is not stopped by delayed suppliers. Finished products are held until a convenient moment for distribution."
+                "text": "When goods arrive in large batches and leave to customers in smaller deliveries. The warehouse absorbs the difference in time and volume without blocking ports, ramps, or yards."
               },
               {
                 "title": "In production with variable workload",
-                "text": "Raw materials and components can be stored in advance so that production is not stopped by delayed suppliers."
+                "text": "Raw materials and components can be stored in advance so that production is not stopped by delayed suppliers. Finished products are held until a convenient moment for distribution."
               },
               {
                 "title": "During seasonal peaks and promotions",
@@ -219,6 +226,7 @@
               }
             ],
             "footer": [
+              "Where this buffer is critical:",
               "When this buffer is organized in a professional warehouse with WMS and clear processes, the company does not operate “from truck to truck,” but manages the rhythm of its supply chain.",
               { "type": "inquiry", "label": "Request Corporate Storage" }
             ]

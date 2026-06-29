@@ -23,91 +23,57 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Международно преместване",
         "topics": [
           {
-            "title": "Подгответе една или няколко кутии, които да останат до вас през целия транспорт (или да пристигнат първи):",
-            "intro": "Основни дрехи, лична хигиена, зарядни, мултипреходници",
+            "title": "Митници без изненади: как да подготвите личните си вещи за граница",
+            "intro": "При международно преместване митницата е първата „контролна точка“, през която минават не вещите, а документите ви. Колкото по-добре са подготвени, толкова по-малък риск от забавяния и допълнителни разходи.",
             "points": [
               {
-                "title": "Базови кухненски неща",
-                "text": "Базови кухненски неща (2–3 чаши, прибори, малка тенджера/тиган)"
+                "title": "Инвентарен списък, който митницата да разбере",
+                "text": "Описвайте вещите по групи („кухненски съдове“, „дрехи“, „книги“), а не по единични бройки. Отделете ясно електрониката и по-ценните предмети – митницата ги гледа с друг фокус. Ако има вещи с по-висока стойност (произведения на изкуството, специализирана техника), подгответе допълнителни документи – фактури, сертификати, оценка."
               },
               {
-                "title": "Лекарства и пари",
-                "text": "Лекарства, важни документи, малко кеш в местна валута"
+                "title": "Какво често създава проблеми",
+                "text": "Храни, алкохол, цигари, препарати – много държави имат лимити или забрана. Аерозоли, батерии, горива и други „невинни“ на пръв поглед вещи може да се водят опасен товар. Лекарства – за част от тях са нужни рецепти или медицински документи."
               },
               {
-                "title": "Минимум документи",
-                "text": "Минимум документи под ръка"
+                "title": "Полезен подход",
+                "text": "Изпратете предварително на спедитора/координатора ориентировъчен списък и снимки на по-специфичните вещи. Попитайте изрично какво е „червена зона“ за конкретната държава – по-добре да оставите нещо, отколкото да го конфискуват. Запазете копия на всички документи (инвентарен лист, декларации, договор, застраховка) и в електронен вариант."
               }
-            ]
+            ],
+            "footer": []
           },
           {
-            "title": "Документи, които е добре да са под ръка",
-            "intro": "При международно преместване част от документите може да ви потрябват още преди пристигането на целия багаж.",
+            "title": "Първите 30 дни в новата държава: логистичен чеклист за по-малко хаос",
+            "intro": "Международното преместване не свършва с разтоварването. Първият месец в новата държава е решаващ – колкото по-добре е планиран, толкова по-малко „пожари“ ще гасите.",
             "points": [
               {
-                "title": "Работа, обучение и жилище",
-                "text": "Договори за работа/обучение, наем или покупка на жилище"
+                "title": "„Кутията за първа нощ“",
+                "text": "Подгответе една или няколко кутии, които да останат до вас през целия транспорт (или да пристигнат първи). Основни дрехи, лична хигиена, зарядни, мултипреходници. Базови кухненски неща (2–3 чаши, прибори, малка тенджера/тиган). Лекарства, важни документи, малко кеш в местна валута."
               },
               {
-                "title": "Семейни документи",
-                "text": "Удостоверения за семейно положение и деца, ако предстои регистрация в местни институции"
+                "title": "Минимум документи под ръка",
+                "text": "Договори за работа/обучение, наем или покупка на жилище. Здравно осигуряване/полица, европейска здравна карта, ако е приложимо. Удостоверения за семейно положение и деца, ако предстои регистрация в местни институции."
+              },
+              {
+                "title": "Практични стъпки след пристигане",
+                "text": "Регистрация по адрес и местни изисквания (ако се изисква в първите дни). Откриване на банкова сметка и мобилен номер – без тях много други процеси се бавят. Проучване на най-близките ключови точки: болница/клиника, аптека, голям супермаркет, обществен транспорт."
+              },
+              {
+                "title": "Комуникация и време",
+                "text": "Разликите в часовите зони влияят на работа, училище, контакти с България. Планирайте часовете за комуникация с институции и партньори в две държави едновременно. При възможност фиксирайте „час за контакт“ с координатора по преместването – така всички въпроси минават канализирано, без разпиляване."
               }
-            ]
-          },
-          {
-            "title": "Практични стъпки след пристигане",
-            "intro": "Проучване на най-близките ключови точки: болница/клиника, аптека, голям супермаркет, обществен транспорт",
-            "points": [
-              {
-                "title": "Здравно осигуряване",
-                "text": "Здравно осигуряване/полица, европейска здравна карта, ако е приложимо"
-              },
-              {
-                "title": "Регистрация",
-                "text": "Регистрация по адрес и местни изисквания, ако се изисква в първите дни"
-              },
-              {
-                "title": "Банка и телефон",
-                "text": "Откриване на банкова сметка и мобилен номер – без тях много други процеси се бавят"
-              }
-            ]
-          },
-          {
-            "title": "Комуникация и време",
-            "intro": "Разликите в часовите зони влияят на работа, училище, контакти с България",
-            "points": [
-              {
-                "title": "Комуникация с институции",
-                "text": "Планирайте часовете за комуникация с институции и партньори в две държави едновременно"
-              },
-              {
-                "title": "Координатор по преместването",
-                "text": "При възможност фиксирайте „час за контакт“ с координатора по преместването – така всички въпроси минават канализирано, без разпиляване"
-              }
-            ]
+            ],
+            "footer": []
           },
           {
             "title": "Съвместимост на уреди и стандарти: дребното, което спестява големи ядове",
-            "intro": "Новата държава може да има други стандарти за уреди и размери.",
+            "intro": "",
             "points": [
               {
-                "title": "Волтаж и щепсели",
-                "text": "Проверете съвместимостта (напр. 230V/50Hz, типове щепсели); предвидете адаптери/трансформатор при нужда"
-              },
-              {
-                "title": "Размери на мебели/матраци",
-                "text": "Стандартите се различават (EU/UK/US) — измерете преди да превозите"
-              },
-              {
-                "title": "Интернет и рутери",
-                "text": "Често е по-бързо да вземете локален рутер/SIM; пазете кабели и монтажни части отделно"
-              },
-              {
-                "title": "Осветителни тела и крушки",
-                "text": "Различни фасунги/ватажи — дреболия, която спира влизането в ритъм"
+                "title": "Новата държава може да има други стандарти за уреди и размери",
+                "text": "Волтаж и щепсели: проверете съвместимостта (напр. 230V/50Hz, типове щепсели); предвидете адаптери/трансформатор при нужда. Размери на мебели/матраци: стандартите се различават (EU/UK/US) — измерете преди да превозите. Интернет и рутери: често е по-бързо да вземете локален рутер/SIM; пазете кабели и монтажни части отделно. Осветителни тела и крушки: различни фасунги/ватажи — дреболия, която спира влизането в ритъм."
               }
             ],
             "footer": [
@@ -143,91 +109,57 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about International Relocation",
         "topics": [
           {
-            "title": "Prepare one or several boxes to stay with you during the entire transport (or to arrive first):",
-            "intro": "Basic clothes, personal hygiene items, chargers, power adapters",
+            "title": "Customs without surprises: how to prepare your personal items for crossing",
+            "intro": "During international relocation, customs is the first “checkpoint” where documents, not items, pass. The better prepared they are, the lower the risk of delays and extra costs.",
             "points": [
               {
-                "title": "Basic kitchen items",
-                "text": "Basic kitchen items (2–3 cups, utensils, small pot/pan)"
+                "title": "Inventory list that customs can understand",
+                "text": "Describe items by groups (“kitchenware,” “clothes,” “books”) rather than individual pieces. Separate electronics and more valuable items clearly – customs will review them with extra attention. If items have higher value (artwork, specialized equipment), prepare additional documents – invoices, certificates, valuations."
               },
               {
-                "title": "Medication and cash",
-                "text": "Medications, important documents, some cash in local currency"
+                "title": "Common issues",
+                "text": "Food, alcohol, cigarettes, chemicals – many countries have limits or bans. Aerosols, batteries, fuels, and other seemingly harmless items may be classified as dangerous goods. Medications – some require prescriptions or medical documentation."
               },
               {
-                "title": "Minimum documents",
-                "text": "Minimum documents at hand"
+                "title": "Helpful approach",
+                "text": "Send the coordinator/shipper a preliminary list and photos of more specific items in advance. Ask explicitly what is a “red zone” for the specific country – better to leave something behind than have it confiscated. Keep copies of all documents (inventory list, declarations, contract, insurance) also in digital format."
               }
-            ]
+            ],
+            "footer": []
           },
           {
-            "title": "Documents to keep at hand",
-            "intro": "For an international relocation, some documents may be needed before the rest of your belongings arrive.",
+            "title": "First 30 days in the new country: logistical checklist for less chaos",
+            "intro": "International relocation doesn't end with unloading. The first month in the new country is crucial – the better it’s planned, the fewer “fires” you’ll have to put out.",
             "points": [
               {
-                "title": "Work, study, and housing",
-                "text": "Work/study contracts, rental or property purchase documents"
+                "title": "“First night box”",
+                "text": "Prepare one or several boxes to stay with you during the entire transport (or to arrive first). Basic clothes, personal hygiene items, chargers, power adapters. Basic kitchen items (2–3 cups, utensils, small pot/pan). Medications, important documents, some cash in local currency."
               },
               {
-                "title": "Family documents",
-                "text": "Certificates of marital status and children, if registration in local institutions is required"
+                "title": "Minimum documents at hand",
+                "text": "Work/study contracts, rental or property purchase documents. Health insurance/policy, European health card if applicable. Certificates of marital status and children, if registration in local institutions is required."
+              },
+              {
+                "title": "Practical steps after arrival",
+                "text": "Register at the address and fulfill local requirements (if needed in the first days). Open a bank account and mobile number – without them, many other processes are delayed. Check the nearest key points: hospital/clinic, pharmacy, large supermarket, public transport."
+              },
+              {
+                "title": "Communication and time",
+                "text": "Time zone differences affect work, school, and contacts with Bulgaria. Plan hours for communication with institutions and partners in both countries simultaneously. If possible, schedule a “contact hour” with the relocation coordinator – this way all questions are handled in an organized manner without scattering."
               }
-            ]
-          },
-          {
-            "title": "Practical steps after arrival",
-            "intro": "Check the nearest key points: hospital/clinic, pharmacy, large supermarket, public transport",
-            "points": [
-              {
-                "title": "Health insurance",
-                "text": "Health insurance/policy, European health card if applicable"
-              },
-              {
-                "title": "Address registration",
-                "text": "Register at the address and fulfill local requirements if needed in the first days"
-              },
-              {
-                "title": "Bank and mobile number",
-                "text": "Open a bank account and mobile number – without them, many other processes are delayed"
-              }
-            ]
-          },
-          {
-            "title": "Communication and time",
-            "intro": "Time zone differences affect work, school, and contacts with Bulgaria",
-            "points": [
-              {
-                "title": "Communication with institutions",
-                "text": "Plan hours for communication with institutions and partners in both countries simultaneously"
-              },
-              {
-                "title": "Relocation coordinator",
-                "text": "If possible, schedule a “contact hour” with the relocation coordinator – this way all questions are handled in an organized manner without scattering"
-              }
-            ]
+            ],
+            "footer": []
           },
           {
             "title": "Compatibility of appliances and standards: small things that save big headaches",
-            "intro": "The new country may have different standards for appliances and sizes.",
+            "intro": "",
             "points": [
               {
-                "title": "Voltage and plugs",
-                "text": "Check compatibility (e.g., 230V/50Hz, plug types); use adapters/transformers if needed"
-              },
-              {
-                "title": "Furniture and mattress sizes",
-                "text": "Standards vary (EU/UK/US) – measure before shipping"
-              },
-              {
-                "title": "Internet and routers",
-                "text": "Often faster to get a local router/SIM; keep cables and installation parts separate"
-              },
-              {
-                "title": "Lighting fixtures and bulbs",
-                "text": "Different sockets/wattage – a small detail that can disrupt settling in"
+                "title": "The new country may have different standards for appliances and sizes",
+                "text": "Voltage and plugs: check compatibility (e.g., 230V/50Hz, plug types); use adapters/transformers if needed. Furniture/mattress sizes: standards vary (EU/UK/US) – measure before shipping. Internet and routers: often faster to get a local router/SIM; keep cables and installation parts separate. Lighting fixtures and bulbs: different sockets/wattage – a small detail that can disrupt settling in."
               }
             ],
             "footer": [

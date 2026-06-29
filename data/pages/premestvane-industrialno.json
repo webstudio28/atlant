@@ -23,32 +23,57 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Индустриално преместване",
         "topics": [
           {
-            "title": "Важно е:",
-            "intro": "да има проследимост (етикети, локации, списъци);",
-            "points": [],
+            "title": "Как да минимизирате престоя при преместване на производство",
+            "intro": "При индустриално преместване най-скъпото перо не е кранът, а спрените машини. Затова основният въпрос не е „как да местим“, а „как да съкратим престоя“.",
+            "points": [
+              {
+                "title": "Планирайте по линии, не по помещение",
+                "text": "Вместо да мислите „местим цех 1, после цех 2“, планирайте по производствени линии или технологични вериги. Така можете временно да запазите критични операции на старото място, докато новото е в процес на довършване."
+              },
+              {
+                "title": "Работете в прозорци, не в хаос",
+                "text": "Нощни прозорци, уикенд-операции, поетапно спиране на машини – това са инструментите, с които се свива престоят. Критичните машини често се местят последни и се пускат първи на новото място."
+              },
+              {
+                "title": "Подгответе „буфер“ от продукция",
+                "text": "Когато е възможно, произведете буферни количества (междинни или готови изделия), които да покрият времето на релокация. Това дава въздух към клиентите и намалява риска от спешни, неефективни решения. При нужда този буфер може да бъде съхраняван в складовете и логистичните площи на Атлант, така че да не блокира вашите помещения и да имате спокойствие за самото преместване."
+              },
+              {
+                "title": "Разделете задачите: механика, електро, ИТ",
+                "text": "Демонтаж/монтаж, електрозахранване, въздух, газ, мрежи и софтуерни интеграции трябва да вървят по паралелни писти. Един координиращ екип и ясно разпределени роли между „Ваши“ и „Наши“ специалисти са решаващи. Крайната цел не е просто „да са преместени машините“, а да излезе първата качествена бройка възможно най-скоро."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "Ролята на склада при индустриално преместване: да не блокираме производствения хаос",
+            "intro": "Складът често е „тихият проблем“ при индустриално преместване. Всички гледат машините, а блокираният склад може да спре работата дори след като линиите са монтирани.",
+            "points": [
+              {
+                "title": "Инвентар преди движение",
+                "text": "разграничете „критични материали“ от бавни и излишни; почистете „музея“ – стари детайли, остарели материали, ненужни резервни части; решете какво реално има смисъл да „пътува“ към новия обект и какво е време да бъде отписано."
+              },
+              {
+                "title": "Временен склад (буфер)",
+                "text": "Често се налага междинно складиране – на вътрешен двор, външен склад или част от новата база."
+              },
+              {
+                "title": "Важно е",
+                "text": "да има проследимост (етикети, локации, списъци); да не се смесват суровини с отпадни материали и стари партиди; да е ясно кое е „работещ запас“ и кое е резерв/буфер."
+              },
+              {
+                "title": "Пуск в новия склад",
+                "text": "При пускане на новото място: изберете логични локации и адресиране (зони, редове, нива, позиции); синхронизирайте складовия софтуер / ERP с новия lay-out; осигурете обучение за персонала по новата схема, за да няма „всеки си подрежда по свой начин“."
+              }
+            ],
             "footer": [
-              "да не се смесват суровини с отпадни материали и стари партиди;",
-              "да е ясно кое е „работещ запас“ и кое е резерв/буфер.",
               "Когато на място просто „няма къде да се диша“, буферът не е задължително да стои при вас.",
               "Атлант разполага със собствени складове и логистични площи, където при нужда можем да поемем част от материалите или готовата продукция като временен буфер – с адресиране, системен контрол и достъп по договорен график.",
               "За по-дългосрочни и структурирани решения можете да използвате и нашата услуга „Корпоративно складиране“, където буферните количества се управляват като част от цялостната ви логистична схема.",
               "Така освобождаваме пространство за такелаж, монтаж и работа по линиите, без да блокирате собствения си обект.",
-              "Пуск в новия склад"
-            ]
-          },
-          {
-            "title": "При пускане на новото място:",
-            "intro": "изберете логични локации и адресиране (зони, редове, нива, позиции);",
-            "points": [
-              {
-                "title": "синхронизирайте складовия софтуер / ERP с новия lay-out;",
-                "text": "осигурете обучение за персонала по новата схема, за да няма „всеки си подрежда по свой начин“."
-              }
-            ],
-            "footer": [
               "Добре планираният склад прави така, че машините да не чакат материал, нито логистиката – документи, а преместването да мине през контролирани буфери, вместо през контролирани кризи."
             ]
           },
@@ -67,19 +92,13 @@
               {
                 "title": "Зоните за безопасност не са формалност",
                 "text": "По време на операции с повдигане трябва да има ясни забранени зони за персонала, маркирани маршрути и човек, отговарящ за сигналите и командите. „Всички гледат, всички помагат“ е рецепта за хаос."
+              },
+              {
+                "title": "Документи и застраховка",
+                "text": "При тежки и скъпи машини е разумно да има: застраховка по време на транспорт и манипулации; протоколи за предаване-приемане със снимков материал; ясно описание на състоянието „преди“ и „след“."
               }
             ],
             "footer": [
-              "Документи и застраховка"
-            ]
-          },
-          {
-            "title": "При тежки и скъпи машини е разумно да има:",
-            "intro": "застраховка по време на транспорт и манипулации;",
-            "points": [],
-            "footer": [
-              "протоколи за предаване-приемане със снимков материал;",
-              "ясно описание на състоянието „преди“ и „след“.",
               "Добрата новина е, че контролираният риск е управляем – стига да се подхожда инженерно, а не „по усещане“."
             ]
           }
@@ -111,33 +130,58 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Industrial Relocation",
         "topics": [
           {
-            "title": "It is important:",
-            "intro": "to have traceability (labels, locations, lists);",
-            "points": [],
+            "title": "How to minimize downtime during production relocation",
+            "intro": "In industrial relocation, the most expensive item is not the crane, but the stopped machines. Therefore, the main question is not 'how to move', but 'how to reduce downtime'.",
+            "points": [
+              {
+                "title": "Plan by lines, not by room",
+                "text": "Instead of thinking 'move workshop 1, then workshop 2', plan by production lines or technological chains. This allows you to temporarily maintain critical operations at the old site while the new one is being completed."
+              },
+              {
+                "title": "Work in windows, not chaos",
+                "text": "Night windows, weekend operations, phased machine shutdowns — these are the tools to reduce downtime. Critical machines are often moved last and started first at the new location."
+              },
+              {
+                "title": "Prepare a production 'buffer'",
+                "text": "When possible, produce buffer quantities (intermediate or finished products) to cover the relocation period. This gives breathing room to clients and reduces the risk of urgent, inefficient decisions. If needed, this buffer can be stored in Atlant's warehouses and logistics areas, so it does not block your premises and you have peace of mind for the move itself."
+              },
+              {
+                "title": "Separate tasks: mechanical, electrical, IT",
+                "text": "Dismantling/assembly, power supply, air, gas, networks, and software integrations should run in parallel tracks. One coordinating team and clearly assigned roles between 'Your' and 'Our' specialists are decisive. The ultimate goal is not just 'the machines are moved', but that the first quality unit comes out as soon as possible."
+              }
+            ],
+            "footer": []
+          },
+          {
+            "title": "The role of the warehouse in industrial relocation: do not block production chaos",
+            "intro": "The warehouse is often the 'silent problem' in industrial relocation. Everyone watches the machines, but a blocked warehouse can stop work even after the lines are assembled.",
+            "points": [
+              {
+                "title": "Inventory before moving",
+                "text": "Differentiate 'critical materials' from slow-moving and excess; clean the 'museum' — old parts, obsolete materials, unnecessary spare parts; decide what actually makes sense to 'travel' to the new site and what is time to be written off."
+              },
+              {
+                "title": "Temporary warehouse (buffer)",
+                "text": "Intermediate storage is often required — in the internal yard, external warehouse, or part of the new base."
+              },
+              {
+                "title": "It is important",
+                "text": "to have traceability (labels, locations, lists); not to mix raw materials with waste materials and old batches; to be clear what is 'working stock' and what is reserve/buffer."
+              },
+              {
+                "title": "Start in the new warehouse",
+                "text": "When starting at the new location: choose logical locations and addressing (zones, rows, levels, positions); synchronize warehouse software / ERP with the new layout; provide training for staff on the new scheme so that 'everyone arranges in their own way' does not happen."
+              }
+            ],
             "footer": [
-              "not to mix raw materials with waste materials and old batches;",
-              "to be clear what is 'working stock' and what is reserve/buffer.",
               "When there simply 'is no room to breathe' on-site, the buffer does not necessarily have to stay with you.",
               "Atlant has its own warehouses and logistics areas, where if needed we can take part of the materials or finished products as a temporary buffer — with addressing, systematic control, and access by agreed schedule.",
               "For longer-term and structured solutions, you can also use our service 'Corporate Warehousing', where buffer quantities are managed as part of your overall logistics scheme.",
               "This frees up space for rigging, assembly, and line work without blocking your own facility.",
-              "Start in the new warehouse"
-            ]
-          },
-          {
-            "title": "When starting at the new location:",
-            "intro": "choose logical locations and addressing (zones, rows, levels, positions);",
-            "points": [
-              {
-                "title": "synchronize warehouse software / ERP with the new layout;",
-                "text": "provide training for staff on the new scheme so that 'everyone arranges in their own way' does not happen."
-              }
-            ],
-            "footer": [
-              "A well-planned warehouse ensures that machines do not wait for material, nor logistics for documents, and the move passes through controlled buffers rather than controlled crises."
+              "A well-planned warehouse ensures that machines do not wait for material or logistics — documents — and the move passes through controlled buffers rather than controlled crises."
             ]
           },
           {
@@ -146,7 +190,7 @@
             "points": [
               {
                 "title": "Risk assessment before the first bolt",
-                "text": "The serious process starts with inspection and risk analysis: floor weaknesses, tight turns, ramps, pits, low beams, old slabs. Many incidents happen not during lifting, but during maneuvers in tight spaces."
+                "text": "The serious process starts with inspection and risk analysis: floor weaknesses, tight turns, ramps, pits, low beams, old plates. Many incidents happen not during lifting, but during maneuvers in tight spaces."
               },
               {
                 "title": "The right equipment for the right task",
@@ -155,19 +199,13 @@
               {
                 "title": "Safety zones are not a formality",
                 "text": "During lifting operations, there must be clear prohibited zones for staff, marked routes, and a person responsible for signals and commands. 'Everyone watches, everyone helps' is a recipe for chaos."
+              },
+              {
+                "title": "Documents and insurance",
+                "text": "For heavy and expensive machines, it is reasonable to have: insurance during transport and handling; handover protocols with photographic evidence; clear description of the condition 'before' and 'after'."
               }
             ],
             "footer": [
-              "Documents and insurance"
-            ]
-          },
-          {
-            "title": "For heavy and expensive machines, it is reasonable to have:",
-            "intro": "insurance during transport and handling;",
-            "points": [],
-            "footer": [
-              "handover protocols with photographic evidence;",
-              "clear description of the condition 'before' and 'after'.",
               "The good news is that controlled risk is manageable — as long as it is approached engineering-wise, not 'by feel'."
             ]
           }

@@ -6,6 +6,7 @@
     "contacts": "Contacts",
     "inquiry": "Get Quote",
     "seeAll": "See all",
+    "seeAllFor": "Everything about {title}",
     "servicesSubmenu": {
       "transport": "Transport Services",
       "warehouse": "Warehouse Services",
