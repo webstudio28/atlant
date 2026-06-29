@@ -1,20 +1,28 @@
-import { createClient } from "@libsql/client";
-import { drizzle } from "drizzle-orm/libsql";
+import { config } from "dotenv";
+import { sql } from "drizzle-orm";
+import { drizzle } from "drizzle-orm/mysql2";
+import mysql from "mysql2/promise";
 import bcrypt from "bcryptjs";
+import { getDbCredentials } from "./config";
 import { faqItems, services, serviceItems, siteSettings, users } from "./schema";
 import data from "./seed-data.json";
 
-const client = createClient({ url: process.env.DATABASE_URL ?? "file:atlant.db" });
-const db = drizzle(client);
+config({ path: ".env.local" });
+
+const pool = mysql.createPool(getDbCredentials());
+const db = drizzle(pool);
 
 async function seed() {
   console.log("Seeding database...");
 
   const passwordHash = await bcrypt.hash("admin123", 12);
-  await db.insert(users).values({ email: "admin@atlant.bg", passwordHash, name: "Admin", role: "admin" }).onConflictDoNothing();
+  await db
+    .insert(users)
+    .values({ email: "admin@atlant.bg", passwordHash, name: "Admin", role: "admin" })
+    .onDuplicateKeyUpdate({ set: { email: sql`email` } });
 
   for (const s of data.services) {
-    await db.insert(services).values(s).onConflictDoNothing();
+    await db.insert(services).values(s).onDuplicateKeyUpdate({ set: { slug: sql`slug` } });
   }
 
   const allServices = await db.select().from(services);
@@ -41,12 +49,17 @@ async function seed() {
     await db.insert(faqItems).values(faq);
   }
 
+  await db.delete(siteSettings);
+
   for (const s of data.settings) {
-    await db.insert(siteSettings).values(s).onConflictDoNothing();
+    await db.insert(siteSettings).values(s);
   }
 
   console.log("Database seeded successfully.");
-  await client.close();
+  await pool.end();
 }
 
-seed().catch((err) => { console.error(err); process.exit(1); });
+seed().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
