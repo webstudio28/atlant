@@ -53,32 +53,57 @@ export default function Services({
               const navGroup = NAV_SERVICE_LINKS[service.slug as keyof typeof NAV_SERVICE_LINKS];
               const mainHref = navGroup ? `/${locale}/${navGroup.main.join("/")}` : null;
 
+              const navItems = navGroup?.items ?? [];
+
               return (
                 <article
                   key={service.id}
                   id={`service-${service.slug}`}
                   className="service-card card-lift"
                 >
-                  <div className="service-card-img-wrap">
-                    <Image
-                      src={service.imagePath}
-                      alt={imageAlt}
-                      width={800}
-                      height={600}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
+                  {mainHref ? (
+                    <Link href={mainHref} className="service-card-img-wrap">
+                      <Image
+                        src={service.imagePath}
+                        alt={imageAlt}
+                        width={800}
+                        height={600}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </Link>
+                  ) : (
+                    <div className="service-card-img-wrap">
+                      <Image
+                        src={service.imagePath}
+                        alt={imageAlt}
+                        width={800}
+                        height={600}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
 
                   <div className="service-card-body">
-                    <h3>{title}</h3>
+                    <h3>
+                      {mainHref ? <Link href={mainHref}>{title}</Link> : title}
+                    </h3>
                     <p className="service-card-desc">{description}</p>
                     <ul className="service-subs">
-                      {service.items.map((item) => (
-                        <li key={item.id}>
-                          {isBg ? item.labelBg : item.labelEn}
-                        </li>
-                      ))}
+                      {service.items.map((item, index) => {
+                        const navItem = navItems[index];
+                        const itemHref = navItem
+                          ? `/${locale}/${navItem.href.join("/")}`
+                          : null;
+                        const label = isBg ? item.labelBg : item.labelEn;
+
+                        return (
+                          <li key={item.id}>
+                            {itemHref ? <Link href={itemHref}>{label}</Link> : label}
+                          </li>
+                        );
+                      })}
                     </ul>
                     {mainHref && (
                       <Link href={mainHref} className="service-card-see-all">

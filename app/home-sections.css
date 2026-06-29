@@ -240,6 +240,17 @@
   background: #E8E9E6;
   border-radius: 8px;
   flex-shrink: 0;
+  display: block;
+}
+
+.service-card-body h3 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.service-card-body h3 a:hover {
+  color: #F26A21;
 }
 
 .service-card-body {
