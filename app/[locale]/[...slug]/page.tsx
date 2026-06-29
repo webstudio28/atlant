@@ -14,6 +14,7 @@ import LegalPageContent from "@/components/pages/LegalPageContent";
 import { db } from "@/db";
 import { siteSettings } from "@/db/schema";
 import { DEFAULT_OG_IMAGE, defaultOpenGraph, defaultTwitter } from "@/lib/site-metadata";
+import { openGraphLocale, pickLocale } from "@/lib/i18n/locale-text";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -46,13 +47,17 @@ export async function generateMetadata({
       description: content.meta.description,
       alternates: {
         canonical: `/${locale}/${slug.join("/")}`,
-        languages: { bg: `/bg/${slug.join("/")}`, en: `/en/${slug.join("/")}` },
+        languages: {
+          bg: `/bg/${slug.join("/")}`,
+          en: `/en/${slug.join("/")}`,
+          ru: `/ru/${slug.join("/")}`,
+        },
       },
       openGraph: {
         ...defaultOpenGraph,
         title: content.meta.title,
         description: content.meta.description,
-        locale: locale === "bg" ? "bg_BG" : "en_US",
+        locale: openGraphLocale(locale),
         images: [DEFAULT_OG_IMAGE],
       },
       twitter: {
@@ -63,27 +68,55 @@ export async function generateMetadata({
     };
   }
 
-  const titles: Record<string, { bg: string; en: string }> = {
-    contact: { bg: "Контакти | Atlant Logistics", en: "Contacts | Atlant Logistics" },
-    faq: { bg: "ЧЗВ | Atlant Logistics", en: "FAQ | Atlant Logistics" },
-    "gallery-photo": { bg: "Галерия | Atlant Logistics", en: "Gallery | Atlant Logistics" },
-    "gallery-video": { bg: "Видео | Atlant Logistics", en: "Video | Atlant Logistics" },
-    "legal-privacy": { bg: "Политика за поверителност | Atlant Logistics", en: "Privacy Policy | Atlant Logistics" },
-    "legal-terms": { bg: "Условия за ползване | Atlant Logistics", en: "Terms of Use | Atlant Logistics" },
+  const titles: Record<string, { bg: string; en: string; ru: string }> = {
+    contact: {
+      bg: "Контакти | Atlant Logistics",
+      en: "Contacts | Atlant Logistics",
+      ru: "Контакты | Atlant Logistics",
+    },
+    faq: {
+      bg: "ЧЗВ | Atlant Logistics",
+      en: "FAQ | Atlant Logistics",
+      ru: "FAQ | Atlant Logistics",
+    },
+    "gallery-photo": {
+      bg: "Галерия | Atlant Logistics",
+      en: "Gallery | Atlant Logistics",
+      ru: "Галерея | Atlant Logistics",
+    },
+    "gallery-video": {
+      bg: "Видео | Atlant Logistics",
+      en: "Video | Atlant Logistics",
+      ru: "Видео | Atlant Logistics",
+    },
+    "legal-privacy": {
+      bg: "Политика за поверителност | Atlant Logistics",
+      en: "Privacy Policy | Atlant Logistics",
+      ru: "Политика конфиденциальности | Atlant Logistics",
+    },
+    "legal-terms": {
+      bg: "Условия за ползване | Atlant Logistics",
+      en: "Terms of Use | Atlant Logistics",
+      ru: "Условия использования | Atlant Logistics",
+    },
   };
 
   const t = titles[page.kind] ?? titles.contact;
-  const title = locale === "en" ? t.en : t.bg;
+  const title = pickLocale(locale, t);
   return {
     title,
     alternates: {
       canonical: `/${locale}/${slug.join("/")}`,
-      languages: { bg: `/bg/${slug.join("/")}`, en: `/en/${slug.join("/")}` },
+      languages: {
+        bg: `/bg/${slug.join("/")}`,
+        en: `/en/${slug.join("/")}`,
+        ru: `/ru/${slug.join("/")}`,
+      },
     },
     openGraph: {
       ...defaultOpenGraph,
       title,
-      locale: locale === "bg" ? "bg_BG" : "en_US",
+      locale: openGraphLocale(locale),
       images: [DEFAULT_OG_IMAGE],
     },
     twitter: {

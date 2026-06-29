@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { pickLocale } from "@/lib/i18n/locale-text";
 import PageHero from "./PageHero";
 import { ArticleSection, PageCtaSection } from "./sections/PageSections";
 
@@ -19,7 +20,11 @@ export default async function LegalPageContent({
       <PageHero label="Atlant Logistics" title={t("title")} />
       <ArticleSection heading={t("title")} paragraphs={paragraphs.slice(0, mid)} variant="white" />
       {paragraphs.length > mid && (
-        <ArticleSection heading={locale === "bg" ? "Допълнително" : "Additional"} paragraphs={paragraphs.slice(mid)} variant="muted" />
+        <ArticleSection
+          heading={pickLocale(locale, { bg: "Допълнително", en: "Additional", ru: "Дополнительно" })}
+          paragraphs={paragraphs.slice(mid)}
+          variant="muted"
+        />
       )}
       <PageCtaSection locale={locale} />
     </>

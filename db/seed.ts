@@ -15,11 +15,19 @@ const db = drizzle(pool);
 async function seed() {
   console.log("Seeding database...");
 
-  const passwordHash = await bcrypt.hash("admin123", 12);
+  const adminEmail = process.env.ADMIN_EMAIL ?? "admin@atlant.bg";
+  const adminPassword = process.env.ADMIN_PASSWORD ?? "admin123";
+  const passwordHash = await bcrypt.hash(adminPassword, 12);
   await db
     .insert(users)
-    .values({ email: "admin@atlant.bg", passwordHash, name: "Admin", role: "admin" })
-    .onDuplicateKeyUpdate({ set: { email: sql`email` } });
+    .values({ email: adminEmail, passwordHash, name: "Admin", role: "admin" })
+    .onDuplicateKeyUpdate({
+      set: {
+        passwordHash,
+        name: "Admin",
+        role: "admin",
+      },
+    });
 
   for (const s of data.services) {
     await db.insert(services).values(s).onDuplicateKeyUpdate({ set: { slug: sql`slug` } });

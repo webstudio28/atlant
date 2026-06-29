@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { pickLocale } from "@/lib/i18n/locale-text";
 import PageHero from "./PageHero";
 import { SectionLabel, SectionTitle, PageCtaSection } from "./sections/PageSections";
 
@@ -11,12 +12,18 @@ export default async function ContactPageContent({
 }) {
   const t = await getTranslations({ locale, namespace: "pages.contact" });
 
+  const labels = pickLocale(locale, {
+    bg: { phone: "Телефон", address: "Адрес", follow: "Последвайте ни", howToReach: "Как да ни намерите" },
+    en: { phone: "Phone", address: "Address", follow: "Follow us", howToReach: "How to reach us" },
+    ru: { phone: "Телефон", address: "Адрес", follow: "Подписывайтесь", howToReach: "Как нас найти" },
+  });
+
   const infoCards = [
-    settings.phone_display && { label: locale === "bg" ? "Телефон" : "Phone", value: settings.phone_display, href: `tel:${settings.phone_display.replace(/[\s/]/g, "")}` },
+    settings.phone_display && { label: labels.phone, value: settings.phone_display, href: `tel:${settings.phone_display.replace(/[\s/]/g, "")}` },
     settings.email && { label: "Email", value: settings.email, href: `mailto:${settings.email}` },
-    settings.address && { label: locale === "bg" ? "Адрес" : "Address", value: settings.address },
-    settings.facebook && { label: "Facebook", value: locale === "bg" ? "Последвайте ни" : "Follow us", href: settings.facebook, external: true },
-    settings.instagram && { label: "Instagram", value: locale === "bg" ? "Последвайте ни" : "Follow us", href: settings.instagram, external: true },
+    settings.address && { label: labels.address, value: settings.address },
+    settings.facebook && { label: "Facebook", value: labels.follow, href: settings.facebook, external: true },
+    settings.instagram && { label: "Instagram", value: labels.follow, href: settings.instagram, external: true },
   ].filter(Boolean) as { label: string; value: string; href?: string; external?: boolean }[];
 
   return (
@@ -25,7 +32,7 @@ export default async function ContactPageContent({
       <section className="py-20 bg-white">
         <div className="section-wrap">
           <SectionLabel>{t("infoTitle")}</SectionLabel>
-          <SectionTitle>{locale === "bg" ? "Как да ни намерите" : "How to reach us"}</SectionTitle>
+          <SectionTitle>{labels.howToReach}</SectionTitle>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 mb-12">
             {infoCards.map((card) => (
               <div key={card.label} className="bg-[#F4F4F2] rounded-xl border border-[rgba(82,89,93,0.1)] p-6 card-lift">

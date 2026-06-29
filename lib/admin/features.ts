@@ -2,4 +2,5 @@
 export const ADMIN_FEATURES = {
   services: false,
   faq: false,
+  settings: false,
 } as const;

@@ -6,8 +6,15 @@ import type { NextRequest } from "next/server";
 
 const intlMiddleware = createIntlMiddleware(routing);
 
+/** Root-level SEO files — must not receive a locale prefix. */
+const SEO_PATHS = new Set(["/robots.txt", "/sitemap.xml", "/sitemap", "/llms.txt"]);
+
 export default async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  if (SEO_PATHS.has(pathname)) {
+    return NextResponse.next();
+  }
 
   // ── Admin routes: require auth with admin role ─────────────────────────
   if (pathname.startsWith("/admin")) {
@@ -36,6 +43,6 @@ export const config = {
     // Admin routes
     "/admin/:path*",
     // All public routes (next-intl): skip static files and API
-    "/((?!api|_next/static|_next/image|favicon.ico|images|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js)).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|images|robots\\.txt|sitemap\\.xml|sitemap|llms\\.txt|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js)).*)",
   ],
 };

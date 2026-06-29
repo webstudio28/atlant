@@ -14,6 +14,7 @@ import Faq from "@/components/home/Faq";
 import PartnerLogoStrip from "@/components/home/PartnerLogoStrip";
 import InquiryModal from "@/components/InquiryModal";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import { openGraphLocale } from "@/lib/i18n/locale-text";
 import { DEFAULT_OG_IMAGE, defaultTwitter } from "@/lib/site-metadata";
 
 export async function generateMetadata({
@@ -32,12 +33,13 @@ export async function generateMetadata({
       languages: {
         bg: "/bg",
         en: "/en",
+        ru: "/ru",
       },
     },
     openGraph: {
       title: t("homeTitle"),
       description: t("homeDescription"),
-      locale: locale === "bg" ? "bg_BG" : "en_US",
+      locale: openGraphLocale(locale),
       type: "website",
       images: [DEFAULT_OG_IMAGE],
     },

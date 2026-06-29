@@ -1,5 +1,6 @@
 "use client";
 
+import { homeServiceText } from "@/lib/i18n/home-ru";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
@@ -25,8 +26,13 @@ export default function InquiryModal({ services, locale }: Props) {
   const [step, setStep] = useState<Step>("services");
   const [selectedService, setSelectedService] = useState<Service | null>(null);
   const [loading, setLoading] = useState(false);
-  const isBg = locale === "bg";
   const panelRef = useRef<HTMLDivElement>(null);
+
+  const serviceTitle = (service: Service) =>
+    homeServiceText(service.slug, locale, "title", {
+      bg: service.titleBg,
+      en: service.titleEn,
+    });
 
   // Listen for data-inquiry button clicks anywhere in the page
   useEffect(() => {
@@ -184,7 +190,7 @@ export default function InquiryModal({ services, locale }: Props) {
                     <div className="flex-shrink-0">
                       <Image
                         src={service.imagePath}
-                        alt={isBg ? service.titleBg : service.titleEn}
+                        alt={serviceTitle(service)}
                         width={56}
                         height={56}
                         className="w-14 h-14 object-cover rounded-xl"
@@ -192,7 +198,7 @@ export default function InquiryModal({ services, locale }: Props) {
                     </div>
                     <div>
                       <h3 className="font-['Sofia_Sans_Condensed',sans-serif] text-[17px] font-[800] tracking-[0.04em] uppercase text-[#52595D] mb-1 leading-[1.2]">
-                        {isBg ? service.titleBg : service.titleEn}
+                        {serviceTitle(service)}
                       </h3>
                     </div>
                   </button>
@@ -221,7 +227,7 @@ export default function InquiryModal({ services, locale }: Props) {
                   </label>
                   <div className="flex items-center gap-3 w-full p-3 font-['Sofia_Sans',sans-serif] text-[16px] text-[#1a1e21] bg-[#F4F4F2] border-[1.5px] border-[rgba(82,89,93,0.16)] rounded-[10px]">
                     <Image src={selectedService.imagePath} alt="" width={32} height={32} className="w-8 h-8 object-cover rounded-lg flex-shrink-0" />
-                    <span className="font-[500]">{isBg ? selectedService.titleBg : selectedService.titleEn}</span>
+                    <span className="font-[500]">{serviceTitle(selectedService)}</span>
                   </div>
                 </div>
 

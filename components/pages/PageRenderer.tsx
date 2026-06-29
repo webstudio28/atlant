@@ -1,4 +1,5 @@
 import type { PageContent, PageSection } from "@/lib/pages/types";
+import { pickLocale } from "@/lib/i18n/locale-text";
 import { getSiblingSubServicesSection, isServiceSubPage } from "@/lib/pages/sibling-nav";
 import {
   ArticleSection,
@@ -21,9 +22,11 @@ import { SubServicesSection } from "./sections/SubServicesSection";
 function serviceTopicsHeading(content: PageContent, locale: string, pageId?: string, fallback?: string) {
   if (!pageId || !isServiceSubPage(pageId)) return fallback ?? "";
   const name = content.hero.title;
-  return locale === "en"
-    ? `Everything you need to know about ${name}`
-    : `Всичко, което трябва да знаете за ${name}`;
+  return pickLocale(locale, {
+    bg: `Всичко, което трябва да знаете за ${name}`,
+    en: `Everything you need to know about ${name}`,
+    ru: `Всё, что нужно знать о ${name}`,
+  });
 }
 
 function renderSection(
@@ -63,7 +66,11 @@ function renderSection(
       const items =
         section.preset === "about-us-references"
           ? PARTNER_REFERENCES.map((partner) => ({
-              name: locale === "bg" ? partner.nameBg : partner.nameEn,
+              name: pickLocale(locale, {
+                bg: partner.nameBg,
+                en: partner.nameEn,
+                ru: partner.nameEn,
+              }),
               logo: partner.logo,
               document: partner.document,
             }))
@@ -74,9 +81,24 @@ function renderSection(
           key={index}
           heading={section.heading}
           items={items}
-          viewLabel={section.viewLabel ?? (locale === "bg" ? "Виж документа" : "View document")}
-          expandLabel={locale === "bg" ? "Виж всички партньори" : "View all partners"}
-          collapseLabel={locale === "bg" ? "Покажи по-малко" : "Show fewer"}
+          viewLabel={
+            section.viewLabel ??
+            pickLocale(locale, {
+              bg: "Виж документа",
+              en: "View document",
+              ru: "Смотреть документ",
+            })
+          }
+          expandLabel={pickLocale(locale, {
+            bg: "Виж всички партньори",
+            en: "View all partners",
+            ru: "Смотреть всех партнёров",
+          })}
+          collapseLabel={pickLocale(locale, {
+            bg: "Покажи по-малко",
+            en: "Show fewer",
+            ru: "Показать меньше",
+          })}
         />
       );
     }

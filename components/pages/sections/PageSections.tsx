@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { pickLocale } from "@/lib/i18n/locale-text";
 
 export function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -138,7 +139,11 @@ export function DirectionCardsSection({
                 </div>
                 {item.href && (
                   <span className="mt-4 text-[14px] font-['Sofia_Sans_Condensed',sans-serif] font-[700] tracking-[0.06em] uppercase text-[#52595D]/60 group-hover:text-[#F26A21]">
-                    {locale === "bg" ? "Виж повече →" : "Learn more →"}
+                    {pickLocale(locale, {
+                      bg: "Виж повече →",
+                      en: "Learn more →",
+                      ru: "Подробнее →",
+                    })}
                   </span>
                 )}
               </div>
@@ -466,7 +471,29 @@ export function RelatedServicesSection({
 }
 
 export function PageCtaSection({ locale }: { locale: string }) {
-  const isBg = locale === "bg";
+  const copy = pickLocale(locale, {
+    bg: {
+      ready: "Готови сте за ",
+      accent: "персонална оферта?",
+      sub: "Свържете се с нас за консултация или оферта.",
+      quote: "Поискай оферта",
+      contacts: "Контакти",
+    },
+    en: {
+      ready: "Ready for ",
+      accent: "a personalized quote?",
+      sub: "Contact us and we will respond within the working day.",
+      quote: "Request a Quote",
+      contacts: "Contacts",
+    },
+    ru: {
+      ready: "Готовы к ",
+      accent: "персональному предложению?",
+      sub: "Свяжитесь с нами для консультации или расчёта стоимости.",
+      quote: "Запросить предложение",
+      contacts: "Контакты",
+    },
+  });
   return (
     <section
       className="py-16"
@@ -477,11 +504,11 @@ export function PageCtaSection({ locale }: { locale: string }) {
       <div className="section-wrap flex flex-col items-center text-center md:flex-row md:items-center md:justify-between md:text-left gap-6">
         <div>
           <p className="font-['Sofia_Sans_Condensed',sans-serif] text-[clamp(24px,3vw,32px)] font-[800] text-white m-0 leading-[1.2]">
-            {isBg ? "Готови сте за " : "Ready for "}
-            <span className="text-[#F26A21]">{isBg ? "персонална оферта?" : "a personalized quote?"}</span>
+            {copy.ready}
+            <span className="text-[#F26A21]">{copy.accent}</span>
           </p>
           <p className="text-white/70 text-[17px] mt-2 mb-0 max-w-[480px] mx-auto md:mx-0">
-            {isBg ? "Свържете се с нас за консултация или оферта." : "Contact us and we will respond within the working day."}
+            {copy.sub}
           </p>
         </div>
         <div className="flex flex-wrap items-center justify-center md:justify-start gap-2.5 shrink-0">
@@ -490,13 +517,13 @@ export function PageCtaSection({ locale }: { locale: string }) {
             className="bg-[#F26A21] text-white font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-bold tracking-[0.06em] uppercase px-5 py-2.5 rounded-lg border-2 border-[#F26A21] transition-all hover:bg-[#d45a18] hover:border-[#d45a18] cursor-pointer js-inquiry-trigger"
             data-inquiry
           >
-            {isBg ? "Поискай оферта" : "Request a Quote"}
+            {copy.quote}
           </button>
           <Link
             href={`/${locale}/contacts`}
             className="inline-flex items-center bg-white/12 text-white font-['Sofia_Sans_Condensed',sans-serif] text-[14px] font-bold tracking-[0.06em] uppercase px-5 py-2.5 rounded-lg border-2 border-white/28 no-underline transition-all hover:bg-white/20"
           >
-            {isBg ? "Контакти" : "Contacts"}
+            {copy.contacts}
           </Link>
         </div>
       </div>

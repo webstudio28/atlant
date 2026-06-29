@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
+import { AI_CRAWLER_AGENTS, CRAWL_DISALLOW_PATHS } from "@/lib/seo/crawl-rules";
+import { SITE_URL } from "@/lib/site-metadata";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://atlant.bg";
+const disallow = [...CRAWL_DISALLOW_PATHS];
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -8,9 +10,15 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/admin/", "/api/"],
+        disallow,
       },
+      ...AI_CRAWLER_AGENTS.map((userAgent) => ({
+        userAgent,
+        allow: "/",
+        disallow,
+      })),
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap.xml`,
+    host: SITE_URL,
   };
 }

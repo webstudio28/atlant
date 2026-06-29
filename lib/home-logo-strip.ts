@@ -16,5 +16,6 @@ export const HOME_LOGO_STRIP: HomeLogoStripItem[] = PARTNER_REFERENCES.map(({ id
 }));
 
 export function homeLogoStripLabel(item: HomeLogoStripItem, locale: string) {
-  return locale === "bg" ? item.labelBg ?? item.labelEn ?? item.id : item.labelEn ?? item.labelBg ?? item.id;
+  if (locale === "bg") return item.labelBg ?? item.labelEn ?? item.id;
+  return item.labelEn ?? item.labelBg ?? item.id;
 }

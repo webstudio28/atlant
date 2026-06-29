@@ -1,5 +1,6 @@
 "use client";
 
+import { navServiceItemLabel } from "@/lib/i18n/nav-service-label";
 import { getServiceIcon } from "@/lib/pages/service-icons";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -22,7 +23,6 @@ interface Props {
 
 export default function MobileMenu({ open, onClose, locale, phone, navGroups }: Props) {
   const t = useTranslations("nav");
-  const isBg = locale === "bg";
   const [servicesOpen, setServicesOpen] = useState(false);
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
 
@@ -130,7 +130,7 @@ export default function MobileMenu({ open, onClose, locale, phone, navGroups }: 
                                     aria-hidden
                                   />
                                 )}
-                                <span>{isBg ? item.bg : item.en}</span>
+                                <span>{navServiceItemLabel(item, locale)}</span>
                               </Link>
                             </li>
                           );

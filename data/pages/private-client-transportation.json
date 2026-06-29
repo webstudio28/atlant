@@ -74,5 +74,43 @@
         ]
       }
     ]
+  },
+  "ru": {
+    "meta": {
+      "title": "Услуги для частных клиентов | Atlant Logistics",
+      "description": "Полный набор логистических услуг и услуг переезда для частных клиентов."
+    },
+    "hero": {
+      "label": "Частные клиенты",
+      "title": "Услуги для частных клиентов",
+      "subtitle": "Полный набор логистических услуг и услуг переезда для частных клиентов."
+    },
+    "sections": [
+      {
+        "type": "intro-split",
+        "paragraphs": [
+          "Полный набор логистических услуг и услуг переезда для частных клиентов."
+        ],
+        "image": "/images/pages/relocation.webp"
+      },
+      {
+        "type": "related-services",
+        "heading": "Услуги",
+        "items": [
+          {
+            "title": "Переезд дома",
+            "href": "/private-client-transportation/moving"
+          },
+          {
+            "title": "Специализированный",
+            "href": "/private-client-transportation/specialized-moving"
+          },
+          {
+            "title": "Подсобный персонал",
+            "href": "/private-client-transportation/support-staff"
+          }
+        ]
+      }
+    ]
   }
 }

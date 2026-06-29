@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { pickLocale } from "@/lib/i18n/locale-text";
 import { ABOUT_US_GALLERY_PHOTOS } from "@/lib/pages/about-us-gallery";
 
 const PRESETS = {
@@ -30,11 +31,35 @@ export function PhotoGallerySection({
   const thumbnailStripRef = useRef<HTMLDivElement>(null);
   const skipInitialThumbnailScroll = useRef(true);
 
-  const altBase = locale === "bg" ? "Работа на Атлант" : "Atlant at work";
-  const closeLabel = locale === "bg" ? "Затвори" : "Close";
-  const prevLabel = locale === "bg" ? "Предишна снимка" : "Previous photo";
-  const nextLabel = locale === "bg" ? "Следваща снимка" : "Next photo";
-  const viewLabel = locale === "bg" ? "Виж на цял екран" : "View fullscreen";
+  const labels = pickLocale(locale, {
+    bg: {
+      altBase: "Работа на Атлант",
+      close: "Затвори",
+      prev: "Предишна снимка",
+      next: "Следваща снимка",
+      view: "Виж на цял екран",
+    },
+    en: {
+      altBase: "Atlant at work",
+      close: "Close",
+      prev: "Previous photo",
+      next: "Next photo",
+      view: "View fullscreen",
+    },
+    ru: {
+      altBase: "Работа Atlant",
+      close: "Закрыть",
+      prev: "Предыдущее фото",
+      next: "Следующее фото",
+      view: "На весь экран",
+    },
+  });
+
+  const altBase = labels.altBase;
+  const closeLabel = labels.close;
+  const prevLabel = labels.prev;
+  const nextLabel = labels.next;
+  const viewLabel = labels.view;
 
   const goTo = useCallback(
     (index: number) => {

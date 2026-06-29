@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import { pickLocale } from "@/lib/i18n/locale-text";
 import PageHero from "./PageHero";
 import { GALLERY_PHOTOS } from "@/lib/pages/gallery";
 import { SectionLabel, SectionTitle } from "./sections/PageSections";
@@ -13,7 +14,13 @@ export default async function GalleryPhotoContent({ locale }: { locale: string }
       <section className="py-20 bg-[#F4F4F2]">
         <div className="section-wrap">
           <SectionLabel>{t("label")}</SectionLabel>
-          <SectionTitle>{locale === "bg" ? "Нашата работа в кадри" : "Our work in pictures"}</SectionTitle>
+          <SectionTitle>
+            {pickLocale(locale, {
+              bg: "Нашата работа в кадри",
+              en: "Our work in pictures",
+              ru: "Наша работа в кадрах",
+            })}
+          </SectionTitle>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
             {GALLERY_PHOTOS.map((src, i) => (
               <div

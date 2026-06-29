@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { NAV_SERVICE_LINKS } from "@/lib/pages/registry";
+import { homeServiceItemLabel, homeServiceText } from "@/lib/i18n/home-ru";
 
 interface ServiceItem {
   id: number;
@@ -33,7 +34,6 @@ export default function Services({
 }) {
   const t = useTranslations("services");
   const tNav = useTranslations("nav");
-  const isBg = locale === "bg";
 
   return (
     <section id="services">
@@ -47,9 +47,18 @@ export default function Services({
         <div className="services-scroll">
           <div className="services-grid">
             {services.map((service) => {
-              const title = isBg ? service.titleBg : service.titleEn;
-              const description = isBg ? service.descriptionBg : service.descriptionEn;
-              const imageAlt = isBg ? service.imageAltBg : service.imageAltEn;
+              const title = homeServiceText(service.slug, locale, "title", {
+                bg: service.titleBg,
+                en: service.titleEn,
+              });
+              const description = homeServiceText(service.slug, locale, "description", {
+                bg: service.descriptionBg,
+                en: service.descriptionEn,
+              });
+              const imageAlt = homeServiceText(service.slug, locale, "imageAlt", {
+                bg: service.imageAltBg,
+                en: service.imageAltEn,
+              });
               const navGroup = NAV_SERVICE_LINKS[service.slug as keyof typeof NAV_SERVICE_LINKS];
               const mainHref = navGroup ? `/${locale}/${navGroup.main.join("/")}` : null;
 
@@ -96,7 +105,12 @@ export default function Services({
                         const itemHref = navItem
                           ? `/${locale}/${navItem.href.join("/")}`
                           : null;
-                        const label = isBg ? item.labelBg : item.labelEn;
+                        const label = homeServiceItemLabel(
+                          service.slug,
+                          locale,
+                          item.labelBg,
+                          item.labelEn,
+                        );
 
                         return (
                           <li key={item.id}>

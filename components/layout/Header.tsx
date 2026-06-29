@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import MobileMenu from "./MobileMenu";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { NAV_SERVICE_LINKS } from "@/lib/pages/registry";
+import { navServiceItemLabel } from "@/lib/i18n/nav-service-label";
 import { getServiceIcon } from "@/lib/pages/service-icons";
 
 const NAV_GROUPS = [
@@ -26,7 +27,6 @@ function formatPhone(phone: string) {
 
 export default function Header({ locale, phone }: { locale: string; phone: string }) {
   const t = useTranslations("nav");
-  const isBg = locale === "bg";
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -110,7 +110,7 @@ export default function Header({ locale, phone }: { locale: string; phone: strin
                                     aria-hidden
                                   />
                                 )}
-                                <span>{isBg ? item.bg : item.en}</span>
+                                <span>{navServiceItemLabel(item, locale)}</span>
                               </Link>
                             </li>
                           );

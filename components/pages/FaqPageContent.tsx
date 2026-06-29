@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { pickLocale } from "@/lib/i18n/locale-text";
 import { db } from "@/db";
 import { faqItems } from "@/db/schema";
 import { asc } from "drizzle-orm";
@@ -15,7 +16,11 @@ export default async function FaqPageContent({ locale }: { locale: string }) {
       <PageHero
         label={t("label")}
         title={t("title")}
-        subtitle={locale === "bg" ? "Отговори на най-често задаваните въпроси" : "Answers to the most frequently asked questions"}
+        subtitle={pickLocale(locale, {
+          bg: "Отговори на най-често задаваните въпроси",
+          en: "Answers to the most frequently asked questions",
+          ru: "Ответы на наиболее частые вопросы",
+        })}
       />
       <div className="bg-[#F4F4F2]">
         <Faq items={items} locale={locale} />

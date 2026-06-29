@@ -2,6 +2,12 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 
+const INTERACTIVE_SELECTOR = "button, a, input, select, textarea, [role='button']";
+
+function isInteractiveTarget(target: EventTarget | null) {
+  return target instanceof Element && Boolean(target.closest(INTERACTIVE_SELECTOR));
+}
+
 export function useHorizontalDragScroll<T extends HTMLElement>() {
   const ref = useRef<T>(null);
   const dragState = useRef({ active: false, startX: 0, scrollLeft: 0, moved: false });
@@ -11,8 +17,15 @@ export function useHorizontalDragScroll<T extends HTMLElement>() {
     const element = ref.current;
     if (!element) return;
 
+    const mediaQuery = window.matchMedia("(max-width: 639px)");
+
     const onPointerDown = (event: PointerEvent) => {
       if (event.button !== 0) return;
+      if (!mediaQuery.matches) return;
+      if (isInteractiveTarget(event.target)) {
+        dragState.current.moved = false;
+        return;
+      }
       dragState.current.active = true;
       dragState.current.moved = false;
       dragState.current.startX = event.clientX;

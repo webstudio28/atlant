@@ -24,7 +24,7 @@ export default function LoginForm() {
     setLoading(false);
 
     if (result?.error) {
-      setError("Невалиден имейл или парола.");
+      setError("Невалиден потребител или парола.");
     } else {
       router.push("/admin/dashboard");
       router.refresh();
@@ -39,14 +39,14 @@ export default function LoginForm() {
           className="block font-['Sofia_Sans_Condensed',sans-serif] text-[13px] font-[700] tracking-[0.12em] uppercase mb-1.5"
           style={{ color: "#52595D" }}
         >
-          Имейл
+          Потребител
         </label>
         <input
-          type="email"
+          type="text"
           id="email"
           name="email"
           required
-          autoComplete="email"
+          autoComplete="username"
           className="w-full p-3 text-[16px] rounded-xl border-[1.5px] bg-[#F4F4F2] transition-all focus:outline-none"
           style={{
             borderColor: "rgba(82,89,93,0.16)",

@@ -1,5 +1,6 @@
 "use client";
 
+import { homeFaqText } from "@/lib/i18n/home-ru";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 
@@ -106,7 +107,6 @@ export default function Faq({
 }) {
   const t = useTranslations("faq");
   const [openId, setOpenId] = useState<number | null>(null);
-  const isBg = locale === "bg";
 
   const toggle = (id: number) => {
     setOpenId((prev) => (prev === id ? null : id));
@@ -124,8 +124,8 @@ export default function Faq({
           {items.map((item) => (
             <FaqAccordionItem
               key={item.id}
-              question={isBg ? item.questionBg : item.questionEn}
-              answer={isBg ? item.answerBg : item.answerEn}
+              question={homeFaqText(item, locale, "question")}
+              answer={homeFaqText(item, locale, "answer")}
               isOpen={openId === item.id}
               onToggle={() => toggle(item.id)}
             />

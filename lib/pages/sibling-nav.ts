@@ -11,23 +11,27 @@ const HUB_IDS = new Set([
 
 const SIBLING_HEADINGS: Record<
   string,
-  { bg: { label: string; heading: string }; en: { label: string; heading: string } }
+  { bg: { label: string; heading: string }; en: { label: string; heading: string }; ru: { label: string; heading: string } }
 > = {
   transport: {
     bg: { label: "Направления", heading: "Други транспортни решения" },
     en: { label: "Directions", heading: "Other transport solutions" },
+    ru: { label: "Направления", heading: "Другие транспортные решения" },
   },
   warehouse: {
     bg: { label: "Направления", heading: "Други складови решения" },
     en: { label: "Directions", heading: "Other warehouse solutions" },
+    ru: { label: "Направления", heading: "Другие складские решения" },
   },
   relocations: {
     bg: { label: "Направления", heading: "Други решения за преместване" },
     en: { label: "Directions", heading: "Other relocation solutions" },
+    ru: { label: "Направления", heading: "Другие решения для переезда" },
   },
   loading: {
     bg: { label: "Направления", heading: "Други товаро-разтоварни услуги" },
     en: { label: "Directions", heading: "Other loading & unloading services" },
+    ru: { label: "Направления", heading: "Другие погрузочно-разгрузочные услуги" },
   },
 };
 
@@ -62,7 +66,8 @@ export function getSiblingSubServicesSection(pageId: string, locale: string): Pa
   const items = hubSubSection.items.filter((item) => item.href !== selfHref);
   if (!items.length) return null;
 
-  const headings = SIBLING_HEADINGS[group][locale === "en" ? "en" : "bg"];
+  const headings =
+    SIBLING_HEADINGS[group][locale === "en" ? "en" : locale === "ru" ? "ru" : "bg"];
   return {
     type: "sub-services",
     variant: "minimal",
