@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/atlarrik/atlant28.atlantlogistics.com/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/rsync -av --exclude=".git" --exclude=".htaccess" ./ $DEPLOYPATH
