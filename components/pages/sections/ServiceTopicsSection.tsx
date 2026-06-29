@@ -14,7 +14,15 @@ function TopicFooter({ lines }: { lines?: ServiceTopicFooterItem[] }) {
   return (
     <div className="mt-6 flex flex-col gap-3 border-t border-[rgba(82,89,93,0.12)] pt-6">
       {lines.map((line, i) => {
-        if (typeof line === "object" && line.type === "inquiry") {
+        if (typeof line === "string") {
+          return (
+            <p key={i} className="m-0 text-[16px] leading-[1.65] text-[#52595D]/85">
+              {line}
+            </p>
+          );
+        }
+
+        if (line.type === "inquiry") {
           return (
             <button
               key={i}
@@ -27,11 +35,7 @@ function TopicFooter({ lines }: { lines?: ServiceTopicFooterItem[] }) {
           );
         }
 
-        return (
-          <p key={i} className="m-0 text-[16px] leading-[1.65] text-[#52595D]/85">
-            {line}
-          </p>
-        );
+        return null;
       })}
     </div>
   );

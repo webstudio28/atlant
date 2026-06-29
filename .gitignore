@@ -23,7 +23,13 @@
 # misc
 .DS_Store
 *.pem
-local_docs
+/local_docs/
+
+# local databases
+*.db
+
+# deployment artifacts
+app.zip
 
 # debug
 npm-debug.log*
