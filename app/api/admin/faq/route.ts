@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const body = await req.json();
-  const [created] = await db
+  const insertId = await db
     .insert(faqItems)
     .values({
       questionBg: body.questionBg,
@@ -26,7 +26,11 @@ export async function POST(req: NextRequest) {
       answerEn: body.answerEn,
       displayOrder: body.displayOrder ?? 0,
     })
-    .returning();
+    .$returningId();
+  const [created] = await db
+    .select()
+    .from(faqItems)
+    .where(eq(faqItems.id, Number(insertId)));
   return NextResponse.json(created);
 }
 
@@ -35,7 +39,7 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const body = await req.json();
-  const [updated] = await db
+  await db
     .update(faqItems)
     .set({
       questionBg: body.questionBg,
@@ -44,8 +48,11 @@ export async function PUT(req: NextRequest) {
       answerEn: body.answerEn,
       displayOrder: body.displayOrder,
     })
-    .where(eq(faqItems.id, body.id))
-    .returning();
+    .where(eq(faqItems.id, body.id));
+  const [updated] = await db
+    .select()
+    .from(faqItems)
+    .where(eq(faqItems.id, body.id));
   return NextResponse.json(updated);
 }
 

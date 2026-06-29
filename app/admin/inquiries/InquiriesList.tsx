@@ -14,7 +14,7 @@ interface Inquiry {
   desiredDate: string;
   message: string;
   status: "new" | "read" | "archived";
-  createdAt: string;
+  createdAt: string | Date;
 }
 
 const STATUS_LABELS: Record<string, string> = {
@@ -29,14 +29,15 @@ const STATUS_COLORS: Record<string, string> = {
   archived: "bg-[rgba(82,89,93,0.06)] text-[rgba(82,89,93,0.5)]",
 };
 
-function formatDate(dt: string) {
+function formatDate(dt: string | Date) {
   try {
-    return new Date(dt + "Z").toLocaleString("bg-BG", {
+    const date = dt instanceof Date ? dt : new Date(dt.includes("T") ? dt : `${dt}Z`);
+    return date.toLocaleString("bg-BG", {
       day: "2-digit", month: "2-digit", year: "numeric",
       hour: "2-digit", minute: "2-digit",
     });
   } catch {
-    return dt;
+    return String(dt);
   }
 }
 

@@ -17,7 +17,7 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const body = await req.json();
-  const [updated] = await db
+  await db
     .update(services)
     .set({
       titleBg: body.titleBg,
@@ -27,7 +27,10 @@ export async function PUT(req: NextRequest) {
       imagePath: body.imagePath,
       displayOrder: body.displayOrder,
     })
-    .where(eq(services.id, body.id))
-    .returning();
+    .where(eq(services.id, body.id));
+  const [updated] = await db
+    .select()
+    .from(services)
+    .where(eq(services.id, body.id));
   return NextResponse.json(updated);
 }

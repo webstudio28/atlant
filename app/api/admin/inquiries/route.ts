@@ -15,11 +15,14 @@ export async function PATCH(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const body = await req.json() as { id: number; status: "new" | "read" | "archived" };
-  const [updated] = await db
+  await db
     .update(inquiries)
     .set({ status: body.status })
-    .where(eq(inquiries.id, body.id))
-    .returning();
+    .where(eq(inquiries.id, body.id));
+  const [updated] = await db
+    .select()
+    .from(inquiries)
+    .where(eq(inquiries.id, body.id));
   return NextResponse.json(updated);
 }
 

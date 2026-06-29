@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    const [created] = await db
+    const insertId = await db
       .insert(inquiries)
       .values({
         serviceSlug: body.serviceSlug,
@@ -23,12 +23,12 @@ export async function POST(req: NextRequest) {
         message: body.message ?? "",
         status: "new",
       })
-      .returning();
+      .$returningId();
 
     // TODO: send email via Resend when API key is added
     // await sendInquiryEmail(created);
 
-    return NextResponse.json({ ok: true, id: created.id });
+    return NextResponse.json({ ok: true, id: Number(insertId) });
   } catch (err) {
     console.error("[inquiries] POST error:", err);
     return NextResponse.json({ error: "Server error" }, { status: 500 });
