@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/atlarrik/atlant28.atlantlogistics.com/
-    - /bin/rsync -av --exclude=".git" --exclude=".htaccess" ./ $DEPLOYPATH
+    - /bin/rsync -rltDvz --delete --exclude=".git" --exclude=".htaccess" ./ $DEPLOYPATH
+    - /bin/chmod 755 $DEPLOYPATH
+    - /bin/chmod 644 $DEPLOYPATH/.htaccess
