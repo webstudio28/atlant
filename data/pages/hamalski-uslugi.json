@@ -23,86 +23,64 @@
       {
         "type": "service-topics",
         "label": "Полезни съвети",
-        "heading": "Полезни съвети по темата",
+        "heading": "Всичко, което трябва да знаете за Хамалски услуги",
         "topics": [
           {
-            "title": "Кога е по-добре почасово:",
-            "intro": "Имате променлив обем или неясни детайли по място/достъп.",
-            "points": [],
-            "footer": [
-              "Очаквате вътрешни промени по време на работа (размествания, допълнителни задачи).",
-              "Нужен е екип „на разположение“ през деня."
-            ]
+            "title": "Почасово или „по задание“: кой модел е по-изгоден за вас",
+            "intro": "И двата варианта са налични. Изборът влияе пряко върху бюджета и темпото.",
+            "points": [
+              {
+                "title": "Кога е по-добре почасово:",
+                "text": "Имате променлив обем или неясни детайли по място/достъп. Очаквате вътрешни промени по време на работа (размествания, допълнителни задачи). Нужен е екип „на разположение“ през деня."
+              },
+              {
+                "title": "Кога е по-добре „по задание“ (фиксирано):",
+                "text": "Обемът е ясно измерим: брой палети/кубик, конкретен контейнер, определен списък операции. Имате краен срок/прозорец и искате предвидима крайна цена. Дейността е стандартизирана (напр. разтоварване на камион + вътрешно позициониране)."
+              },
+              {
+                "title": "Как да решите бързо:",
+                "text": "Ако можете да преброите задачата (палети/етажи/позиции) → фиксирано. Ако не можете да предвидите темпото/обема → почасово. При смесени случаи → комбиниран модел (фиксиран „гръбнак“ + часове за непредвидено)."
+              }
+            ],
+            "footer": []
           },
           {
-            "title": "Кога е по-добре „по задание“ (фиксирано):",
-            "intro": "Обемът е ясно измерим: брой палети/кубик, конкретен контейнер, определен списък операции.",
-            "points": [],
-            "footer": [
-              "Имате краен срок/прозорец и искате предвидима крайна цена.",
-              "Дейността е стандартизирана (напр. разтоварване на камион + вътрешно позициониране)."
-            ]
+            "title": "Какво носи екипът и какво е добре да осигурите вие",
+            "intro": "Работим с логистично мислене и идващата към него екипировка.",
+            "points": [
+              {
+                "title": "Ние осигуряваме (по задача):",
+                "text": "Защитни и пренасящи средства: ремъци, колички, ъглозащити, одеяла, стреч/аеропласт. При нужда и ако обектът позволява: палетни колички и мотокар с правоспособен оператор. Супервайзър на място, който разпределя ролите и води отчетността."
+              },
+              {
+                "title": "Добре е вие да предвидите:",
+                "text": "Ясни точки за позициониране (къде точно да се подрежда по етаж/зона). Дребни консумативи, ако са специфични за вашия стандарт (етикети, пломби, цветни маркери). Достъп до ток/осветление и информация за ограничения (ниски врати, узки завои, нестандартни отвори)."
+              },
+              {
+                "title": "Граници на услугата:",
+                "text": "Не поемаме опасни вещества, азбест, биологични/токсични отпадъци. По-мащабни демонтажи се изпълняват само по отделно задание и с нужните разрешителни."
+              }
+            ],
+            "footer": []
           },
           {
-            "title": "Как да решите бързо:",
-            "intro": "Ако можете да преброите задачата (палети/етажи/позиции) → фиксирано.",
-            "points": [],
-            "footer": [
-              "Ако не можете да предвидите темпото/обема → почасово.",
-              "При смесени случаи → комбиниран модел (фиксиран „гръбнак“ + часове за непредвидено).",
-              "Какво носи екипът и какво е добре да осигурите вие",
-              "Работим с логистично мислене и идващата към него екипировка."
-            ]
-          },
-          {
-            "title": "Ние осигуряваме (по задача):",
-            "intro": "Защитни и пренасящи средства: ремъци, колички, ъглозащити, одеяла, стреч/аеропласт.",
-            "points": [],
-            "footer": [
-              "При нужда и ако обектът позволява: палетни колички и мотокар с правоспособен оператор.",
-              "Супервайзър на място, който разпределя ролите и води отчетността."
-            ]
-          },
-          {
-            "title": "Добре е вие да предвидите:",
-            "intro": "Ясни точки за позициониране (къде точно да се подрежда по етаж/зона).",
-            "points": [],
-            "footer": [
-              "Дребни консумативи, ако са специфични за вашия стандарт (етикети, пломби, цветни маркери).",
-              "Достъп до ток/осветление и информация за ограничения (ниски врати, узки завои, нестандартни отвори)."
-            ]
-          },
-          {
-            "title": "Граници на услугата:",
-            "intro": "Не поемаме опасни вещества, азбест, биологични/токсични отпадъци.",
-            "points": [],
-            "footer": [
-              "По-мащабни демонтажи се изпълняват само по отделно задание и с нужните разрешителни.",
-              "Отпадъци и чисто предаване: как да спестите време и глоби",
-              "Чистото предаване е видимият завършек на добре свършената работа."
-            ]
-          },
-          {
-            "title": "Какво можем да поемем:",
-            "intro": "Изнасяне на опаковки и строителни отпадъци.",
-            "points": [],
-            "footer": [
-              "Организация на извозване до лицензирано депо (по заявка) и придружителни документи."
-            ]
-          },
-          {
-            "title": "Как да намалите разхода и риска:",
-            "intro": "Разделете потоците отпадък предварително: опаковки отделно от строителни материали.",
-            "points": [],
-            "footer": [
-              "Посочете точка за временно струпване (вътрешен „буфер“) – извозването става по-бързо.",
-              "Уточнете нуждата от контейнер навреме, за да избегнете престой и санкции от общината/сградата."
-            ]
-          },
-          {
-            "title": "Какво получавате на финал:",
-            "intro": "Обект, предаден чисто и документирано, без неясноти за следващи етапи (монтаж, експлоатация, инспекции).",
-            "points": []
+            "title": "Отпадъци и чисто предаване: как да спестите време и глоби",
+            "intro": "Чистото предаване е видимият завършек на добре свършената работа.",
+            "points": [
+              {
+                "title": "Какво можем да поемем:",
+                "text": "Изнасяне на опаковки и строителни отпадъци. Организация на извозване до лицензирано депо (по заявка) и придружителни документи."
+              },
+              {
+                "title": "Как да намалите разхода и риска:",
+                "text": "Разделете потоците отпадък предварително: опаковки отделно от строителни материали. Посочете точка за временно струпване (вътрешен „буфер“) – извозването става по-бързо. Уточнете нуждата от контейнер навреме, за да избегнете престой и санкции от общината/сградата."
+              },
+              {
+                "title": "Какво получавате на финал:",
+                "text": "Обект, предаден чисто и документирано, без неясноти за следващи етапи (монтаж, експлоатация, инспекции)."
+              }
+            ],
+            "footer": []
           }
         ]
       }
@@ -132,86 +110,64 @@
       {
         "type": "service-topics",
         "label": "Useful tips",
-        "heading": "Useful tips on the topic",
+        "heading": "Everything you need to know about Handling Crew",
         "topics": [
           {
-            "title": "When hourly is better:",
-            "intro": "You have variable volume or unclear site/access details.",
-            "points": [],
-            "footer": [
-              "You expect internal changes during work (rearrangements, additional tasks).",
-              "You need a 'standby' team during the day."
-            ]
+            "title": "Hourly or fixed-task: which model works better for you",
+            "intro": "Both options are available. The choice directly affects budget and pace.",
+            "points": [
+              {
+                "title": "When hourly is better:",
+                "text": "You have variable volume or unclear site/access details. You expect internal changes during work (rearrangements, additional tasks). You need a team on standby during the day."
+              },
+              {
+                "title": "When fixed-task is better:",
+                "text": "The volume is clearly measurable: number of pallets/cubic meters, a specific container, a defined list of operations. You have a deadline/window and want a predictable final price. The activity is standardized (e.g., unloading a truck + internal positioning)."
+              },
+              {
+                "title": "How to decide quickly:",
+                "text": "If you can count the task (pallets/floors/positions) → fixed. If you cannot predict the pace/volume → hourly. In mixed cases → combined model (fixed backbone + hours for unforeseen work)."
+              }
+            ],
+            "footer": []
           },
           {
-            "title": "When fixed-task is better:",
-            "intro": "The volume is clearly measurable: number of pallets/cubic, specific container, defined list of operations.",
-            "points": [],
-            "footer": [
-              "You have a deadline/window and want a predictable final price.",
-              "The activity is standardized (e.g., unloading a truck + internal positioning)."
-            ]
+            "title": "What the team brings and what you should provide",
+            "intro": "We work with logistical thinking and the equipment that comes with it.",
+            "points": [
+              {
+                "title": "We provide (per task):",
+                "text": "Protective and carrying equipment: straps, trolleys, corner protectors, blankets, stretch wrap/aeroplast. If needed and if the site allows: pallet trucks and forklift with licensed operator. On-site supervisor who assigns roles and keeps accountability."
+              },
+              {
+                "title": "You should provide:",
+                "text": "Clear positioning points (exactly where to place items by floor/zone). Small consumables if specific to your standard (labels, seals, colored markers). Access to power/lighting and information about restrictions (low doors, narrow turns, non-standard openings)."
+              },
+              {
+                "title": "Service boundaries:",
+                "text": "We do not handle hazardous substances, asbestos, biological/toxic waste. Larger demolitions are carried out only as a separate task with required permits."
+              }
+            ],
+            "footer": []
           },
           {
-            "title": "How to decide quickly:",
-            "intro": "If you can count the task (pallets/floors/positions) → fixed.",
-            "points": [],
-            "footer": [
-              "If you cannot predict the pace/volume → hourly.",
-              "In mixed cases → combined model (fixed 'backbone' + hours for unforeseen).",
-              "What the team provides and what you should provide",
-              "We work with logistical thinking and incoming equipment."
-            ]
-          },
-          {
-            "title": "We provide (per task):",
-            "intro": "Protective and carrying means: straps, trolleys, corner protectors, blankets, stretch/aeroplast.",
-            "points": [],
-            "footer": [
-              "If needed and if the site allows: pallet trucks and forklift with licensed operator.",
-              "On-site supervisor, who distributes roles and keeps accountability."
-            ]
-          },
-          {
-            "title": "You should provide:",
-            "intro": "Clear points for positioning (exactly where to place per floor/zone).",
-            "points": [],
-            "footer": [
-              "Small consumables if specific to your standard (labels, seals, colored markers).",
-              "Access to electricity/lighting and information about restrictions (low doors, narrow turns, non-standard openings)."
-            ]
-          },
-          {
-            "title": "Service boundaries:",
-            "intro": "We do not handle hazardous substances, asbestos, biological/toxic waste.",
-            "points": [],
-            "footer": [
-              "Larger demolitions are carried out only by separate task with required permits.",
-              "Waste and clean handover: how to save time and fines",
-              "Clean handover is the visible completion of a well-done job."
-            ]
-          },
-          {
-            "title": "What we can handle:",
-            "intro": "Removal of packaging and construction waste.",
-            "points": [],
-            "footer": [
-              "Organization of transport to a licensed depot (on request) with accompanying documents."
-            ]
-          },
-          {
-            "title": "How to reduce cost and risk:",
-            "intro": "Separate waste streams in advance: packaging separate from construction materials.",
-            "points": [],
-            "footer": [
-              "Specify temporary accumulation point (internal 'buffer') – transport becomes faster.",
-              "Specify container needs in time to avoid delays and fines from municipality/building."
-            ]
-          },
-          {
-            "title": "What you get at the end:",
-            "intro": "Site delivered cleanly and documented, with no ambiguities for next stages (assembly, operation, inspections).",
-            "points": []
+            "title": "Waste and clean handover: how to save time and fines",
+            "intro": "Clean handover is the visible finish of a job well done.",
+            "points": [
+              {
+                "title": "What we can handle:",
+                "text": "Removal of packaging and construction waste. Organization of transport to a licensed depot (on request) with accompanying documents."
+              },
+              {
+                "title": "How to reduce cost and risk:",
+                "text": "Separate waste streams in advance: packaging separate from construction materials. Specify a temporary accumulation point (internal buffer) – transport becomes faster. Specify container needs in time to avoid delays and fines from the municipality/building."
+              },
+              {
+                "title": "What you get at the end:",
+                "text": "A site delivered cleanly and documented, with no ambiguities for next stages (assembly, operation, inspections)."
+              }
+            ],
+            "footer": []
           }
         ]
       }

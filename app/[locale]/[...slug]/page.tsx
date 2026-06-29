@@ -13,6 +13,7 @@ import GalleryVideoContent from "@/components/pages/GalleryVideoContent";
 import LegalPageContent from "@/components/pages/LegalPageContent";
 import { db } from "@/db";
 import { siteSettings } from "@/db/schema";
+import { DEFAULT_OG_IMAGE, defaultOpenGraph, defaultTwitter } from "@/lib/site-metadata";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -47,6 +48,18 @@ export async function generateMetadata({
         canonical: `/${locale}/${slug.join("/")}`,
         languages: { bg: `/bg/${slug.join("/")}`, en: `/en/${slug.join("/")}` },
       },
+      openGraph: {
+        ...defaultOpenGraph,
+        title: content.meta.title,
+        description: content.meta.description,
+        locale: locale === "bg" ? "bg_BG" : "en_US",
+        images: [DEFAULT_OG_IMAGE],
+      },
+      twitter: {
+        ...defaultTwitter,
+        title: content.meta.title,
+        description: content.meta.description,
+      },
     };
   }
 
@@ -60,11 +73,22 @@ export async function generateMetadata({
   };
 
   const t = titles[page.kind] ?? titles.contact;
+  const title = locale === "en" ? t.en : t.bg;
   return {
-    title: locale === "en" ? t.en : t.bg,
+    title,
     alternates: {
       canonical: `/${locale}/${slug.join("/")}`,
       languages: { bg: `/bg/${slug.join("/")}`, en: `/en/${slug.join("/")}` },
+    },
+    openGraph: {
+      ...defaultOpenGraph,
+      title,
+      locale: locale === "bg" ? "bg_BG" : "en_US",
+      images: [DEFAULT_OG_IMAGE],
+    },
+    twitter: {
+      ...defaultTwitter,
+      title,
     },
   };
 }

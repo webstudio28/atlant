@@ -4,12 +4,15 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import CookieConsentShell from "@/components/cookie/CookieConsentShell";
+import { defaultOpenGraph, defaultTwitter } from "@/lib/site-metadata";
 import "../globals.css";
 import "../home-sections.css";
 
 export const metadata: Metadata = {
   title: "Atlant Logistics",
   description: "Reliable logistics partner",
+  openGraph: defaultOpenGraph,
+  twitter: defaultTwitter,
 };
 
 export default async function LocaleLayout({

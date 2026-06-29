@@ -352,10 +352,10 @@ body {
 .nav-dropdown-subs {
   list-style: none;
   margin: 0;
-  padding: 0 14px;
+  padding: 8px 14px 12px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 .nav-dropdown-subs a {
@@ -370,7 +370,7 @@ body {
   color: #52595D;
   text-decoration: none;
   text-transform: none;
-  padding: 6px 8px;
+  padding: 8px 8px;
   border-radius: 6px;
   transition: color 0.15s ease, background 0.15s ease;
 }

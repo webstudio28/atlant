@@ -22,7 +22,6 @@ interface Props {
 
 export default function MobileMenu({ open, onClose, locale, phone, navGroups }: Props) {
   const t = useTranslations("nav");
-  const tInquiry = useTranslations("inquiry");
   const isBg = locale === "bg";
   const [servicesOpen, setServicesOpen] = useState(false);
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
@@ -82,12 +81,15 @@ export default function MobileMenu({ open, onClose, locale, phone, navGroups }: 
               </svg>
             </button>
 
-            <div className="overflow-hidden transition-all duration-400" style={{ maxHeight: servicesOpen ? "800px" : "0px" }}>
-              <div className="pb-3">
+            <div className="overflow-hidden transition-all duration-400" style={{ maxHeight: servicesOpen ? "1400px" : "0px" }}>
+              <div className="pb-4 flex flex-col gap-2">
                 {navGroups.map((group) => (
-                  <div key={group.groupKey} className="border-t border-[rgba(82,89,93,0.1)]">
+                  <div
+                    key={group.groupKey}
+                    className={`border-t border-[rgba(82,89,93,0.1)] py-2 ${expandedGroups[group.groupKey] ? "pb-4" : ""}`}
+                  >
                     <button
-                      className="flex items-center justify-between gap-2 w-full py-3.5 border-none bg-none cursor-pointer font-['Sofia_Sans_Condensed',sans-serif] text-[20px] font-[800] tracking-[0.05em] uppercase text-[#52595D] text-left"
+                      className="flex items-center justify-between gap-2 w-full py-5 border-none bg-none cursor-pointer font-['Sofia_Sans_Condensed',sans-serif] text-[20px] font-[800] tracking-[0.05em] uppercase text-[#52595D] text-left"
                       onClick={() => setExpandedGroups((prev) => ({ ...prev, [group.groupKey]: !prev[group.groupKey] }))}
                       aria-expanded={!!expandedGroups[group.groupKey]}
                     >
@@ -96,8 +98,8 @@ export default function MobileMenu({ open, onClose, locale, phone, navGroups }: 
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
                       </svg>
                     </button>
-                    <div className="overflow-hidden transition-all duration-300" style={{ maxHeight: expandedGroups[group.groupKey] ? "480px" : "0px" }}>
-                      <ul className="list-none m-0 p-0 flex flex-col items-start gap-3 pb-3 pl-1">
+                    <div className="overflow-hidden transition-all duration-300" style={{ maxHeight: expandedGroups[group.groupKey] ? "560px" : "0px" }}>
+                      <ul className="list-none m-0 p-0 flex flex-col items-start gap-4 pt-2 pb-2 pl-1">
                         <li>
                           <Link
                             href={hrefFor(group.main)}
@@ -159,7 +161,7 @@ export default function MobileMenu({ open, onClose, locale, phone, navGroups }: 
             data-inquiry
             onClick={handleClose}
           >
-            {tInquiry("step1Title")}
+            {t("mobileInquiry")}
           </button>
         </div>
       </nav>

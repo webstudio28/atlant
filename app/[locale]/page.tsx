@@ -14,6 +14,7 @@ import Faq from "@/components/home/Faq";
 import PartnerLogoStrip from "@/components/home/PartnerLogoStrip";
 import InquiryModal from "@/components/InquiryModal";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import { DEFAULT_OG_IMAGE, defaultTwitter } from "@/lib/site-metadata";
 
 export async function generateMetadata({
   params,
@@ -38,7 +39,12 @@ export async function generateMetadata({
       description: t("homeDescription"),
       locale: locale === "bg" ? "bg_BG" : "en_US",
       type: "website",
-      images: [{ url: "/images/hero.webp", width: 1920, height: 1080, alt: "Atlant Logistics" }],
+      images: [DEFAULT_OG_IMAGE],
+    },
+    twitter: {
+      ...defaultTwitter,
+      title: t("homeTitle"),
+      description: t("homeDescription"),
     },
   };
 }
